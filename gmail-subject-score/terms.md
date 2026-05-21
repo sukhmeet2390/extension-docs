@@ -48,7 +48,7 @@ AI-generated suggestions are clearly labeled in the interface per EU AI Act tran
 ### Refund policy
 - **30-day no-questions-asked refund** for first-time subscribers
 - After 30 days: pro-rated refund at our discretion
-- Request refunds via: sukhsingh+gmail-subject-score@gmail.com
+- Request refunds via: sukhmeet.work+gmail-subject-score@gmail.com
 
 ### Cancellation
 - Cancel anytime via the subscription management portal
@@ -94,7 +94,7 @@ We may terminate your access if you violate these Terms. You may terminate by un
 
 ## 14. Contact
 
-For questions about these Terms: sukhsingh+gmail-subject-score@gmail.com
+For questions about these Terms: sukhmeet.work+gmail-subject-score@gmail.com
 
 ## 15. Governing Law
 

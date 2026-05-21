@@ -6,7 +6,7 @@
 ## 1. Who We Are
 
 EmailSubjectScore Pro is operated by Sukhmeet Singh, based in Canada.
-Contact: sukhsingh+gmail-subject-score@gmail.com
+Contact: sukhmeet.work+gmail-subject-score@gmail.com
 
 ## 2. What This Extension Does
 
@@ -58,14 +58,14 @@ We do **NOT** sell, share, or rent your data to advertisers or data brokers.
 - Right to access, rectify, erase, restrict, or port your data
 - Right to object to processing
 - Right to lodge a complaint with your supervisory authority
-- Request via: sukhsingh+gmail-subject-score@gmail.com
+- Request via: sukhmeet.work+gmail-subject-score@gmail.com
 
 ### CCPA / CPRA (California users)
 - Right to know what we collect
 - Right to delete
 - Right to opt out of "sale" or "sharing" — we do not sell or share your data
 - Right to non-discrimination
-- Request via: sukhsingh+gmail-subject-score@gmail.com
+- Request via: sukhmeet.work+gmail-subject-score@gmail.com
 
 When you exercise the right to opt out, we will display visible confirmation that your request was processed.
 
@@ -75,7 +75,7 @@ When you exercise the right to opt out, we will display visible confirmation tha
 - Right to challenge the accuracy of your information
 - Right to withdraw consent at any time
 - We adhere to the 10 fair information principles under PIPEDA
-- Privacy officer contact: sukhsingh+gmail-subject-score@gmail.com
+- Privacy officer contact: sukhmeet.work+gmail-subject-score@gmail.com
 
 ### CASL (Canadian recipients)
 - We send commercial electronic messages only with express or implied consent
@@ -122,4 +122,4 @@ We may update this policy. We will notify users via:
 
 ## 12. Contact
 
-For any privacy questions or rights requests: sukhsingh+gmail-subject-score@gmail.com
+For any privacy questions or rights requests: sukhmeet.work+gmail-subject-score@gmail.com
