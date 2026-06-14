@@ -106,6 +106,13 @@ This extension is not intended for users under 13 (COPPA) or under 16 in the EU 
 - We do not store payment card data (handled by payment processor)
 - No API keys or secrets in the extension code
 
+### Data Breach Notification
+
+In the event of a data breach that affects your information, we will:
+- Notify affected users via email (if available) or in-extension banner within 72 hours of discovery, as required by GDPR and PIPEDA
+- Report to the Office of the Privacy Commissioner of Canada and relevant supervisory authorities where required
+- Describe the nature of the breach, categories of data affected, and measures taken to address it
+
 ## 10. AI Disclosure (EU AI Act)
 
 This extension uses AI (GPT-4.1-mini via Azure OpenAI) to:
