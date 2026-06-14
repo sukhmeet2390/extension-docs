@@ -1,11 +1,11 @@
 # Privacy Policy — EmailSubjectScore Pro
 
 **Effective Date**: 2026-05-18
-**Last Updated**: 2026-05-18
+**Last Updated**: 2026-06-13
 
 ## 1. Who We Are
 
-EmailSubjectScore Pro is operated by Sukhmeet Singh, based in Canada.
+EmailSubjectScore Pro is operated by GoldenLeaf Apps, based in Canada.
 Contact: sukhmeet.work+gmail-subject-score@gmail.com
 
 ## 2. What This Extension Does
@@ -108,7 +108,7 @@ This extension is not intended for users under 13 (COPPA) or under 16 in the EU 
 
 ## 10. AI Disclosure (EU AI Act)
 
-This extension uses AI (GPT-4.1-nano via Azure OpenAI) to:
+This extension uses AI (GPT-4.1-mini via Azure OpenAI) to:
 - Score subject lines on spam, clarity, and urgency dimensions
 - Generate alternative subject line suggestions
 
