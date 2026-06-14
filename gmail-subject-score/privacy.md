@@ -18,9 +18,9 @@ We collect ONLY the following data:
 
 | Category | What | Why | Retention |
 |---|---|---|---|
-| Anonymous device ID | A random UUID generated on install | Rate-limit and free-tier cap enforcement | 24 months from last activity, then auto-purged server-side |
-| Aggregated usage events | Counts of feature uses (scores requested, rewrites used) | Improve the product | 24 months |
-| Error logs | JS error stack traces (no user content) | Bug fixing | 90 days |
+| Anonymous device ID | A random UUID generated on install | Rate-limit and free-tier cap enforcement | Retained while active; deleted upon request |
+| Aggregated usage events | Counts of feature uses (scores requested, rewrites used) | Improve the product | Up to 24 months |
+| Error logs | JS error stack traces (no user content) | Bug fixing | Up to 90 days |
 
 We do **NOT** collect:
 - Email message bodies or recipients
@@ -67,7 +67,7 @@ We do **NOT** sell, share, or rent your data to advertisers or data brokers.
 - Right to non-discrimination
 - Request via: sukhmeet.work+gmail-subject-score@gmail.com
 
-When you exercise the right to opt out, we will display visible confirmation that your request was processed.
+When you exercise the right to opt out, we will acknowledge your request via email.
 
 ### PIPEDA (Canadian users)
 - Right to know what personal information we hold and how it is used
@@ -78,9 +78,8 @@ When you exercise the right to opt out, we will display visible confirmation tha
 - Privacy officer contact: sukhmeet.work+gmail-subject-score@gmail.com
 
 ### CASL (Canadian recipients)
-- We send commercial electronic messages only with express or implied consent
-- Every message includes sender identification and a working unsubscribe mechanism
-- We retain proof of consent for audit purposes
+- If we send commercial electronic messages, we will do so only with express or implied consent
+- Any such messages will include sender identification and a working unsubscribe mechanism
 
 ### Device-ID classification disclaimer
 
@@ -88,11 +87,11 @@ We treat the anonymous device-ID as non-personal data for analytics purposes. So
 
 ## 7. Data Retention & Deletion
 
-- Anonymous device ID: 24 months from last activity, then auto-purged
-- Usage events: 24 months, then auto-purged
-- Error logs: 90 days
+- Anonymous device ID: retained while your account is active, deleted upon request
+- Usage events: retained for up to 24 months, then deleted
+- Error logs: up to 90 days
 - Account data (if you create one for Pro): until you request deletion
-- Backups: 30 days after deletion
+- We make reasonable efforts to delete data within the timeframes above, but exact timing may vary
 
 ## 8. Children's Privacy
 
@@ -109,8 +108,8 @@ This extension is not intended for users under 13 (COPPA) or under 16 in the EU 
 ### Data Breach Notification
 
 In the event of a data breach that affects your information, we will:
-- Notify affected users via email (if available) or in-extension banner within 72 hours of discovery, as required by GDPR and PIPEDA
-- Report to the Office of the Privacy Commissioner of Canada and relevant supervisory authorities where required
+- Notify affected users as soon as feasible via email (if available) or in-extension banner, and within timeframes required by applicable law
+- Report to relevant supervisory authorities where required by law
 - Describe the nature of the breach, categories of data affected, and measures taken to address it
 
 ## 10. AI Disclosure (EU AI Act)
@@ -123,9 +122,11 @@ All AI-generated content is clearly labeled as "AI-generated" in the extension i
 
 ## 11. Changes to This Policy
 
-We may update this policy. We will notify users via:
-- An in-extension banner for material changes
+We may update this policy at any time. We will make reasonable efforts to notify users of material changes via:
+- An in-extension banner for significant changes
 - Updating the "Last Updated" date above
+
+Continued use after changes are posted constitutes acceptance.
 
 ## 12. Contact
 

@@ -16,7 +16,7 @@ EmailSubjectScore Pro is a Chrome extension that scores email subject lines on s
 - **Free tier**: 50 subject scores per month (10 per day). No account required.
 - **Pro tier**: Unlimited scores, AI rewrite suggestions with tone control. Requires Google sign-in and paid subscription.
 
-We reserve the right to modify tier limits with 30 days notice.
+We reserve the right to modify tier limits at any time.
 
 ## 4. Acceptable Use
 
@@ -50,8 +50,7 @@ AI-generated suggestions are clearly labeled in the interface per EU AI Act tran
 - Prices are in USD
 
 ### Refund policy
-- **30-day no-questions-asked refund** for first-time subscribers
-- After 30 days: pro-rated refund at our discretion
+- Refunds are handled on a case-by-case basis at our sole discretion
 - Request refunds via: sukhmeet.work+gmail-subject-score@gmail.com
 
 ### Cancellation
@@ -61,7 +60,7 @@ AI-generated suggestions are clearly labeled in the interface per EU AI Act tran
 
 ### Auto-renewal disclosure (California BPC 17602)
 - Subscriptions auto-renew at the same rate unless canceled
-- You will receive email notice before renewal
+- We will make reasonable efforts to notify you before renewal
 - Cancel anytime; no penalty
 
 ## 8. Privacy
@@ -94,7 +93,7 @@ For EU users: this clause does not affect your statutory rights under EU consume
 
 ## 12. Changes to These Terms
 
-We may update these Terms with 30 days notice via in-extension banner. Continued use after the notice period constitutes acceptance.
+We may update these Terms at any time. Changes take effect when posted. We will make reasonable efforts to notify users of material changes via in-extension banner or updated "Last Updated" date. Continued use after changes are posted constitutes acceptance. If you disagree with updated Terms, uninstall the Extension.
 
 ## 13. Termination
 
