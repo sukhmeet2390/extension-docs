@@ -3,9 +3,8 @@
 **Effective Date**: 2026-06-17
 **Last Updated**: 2026-06-17
 
-Amrita Accessibility (“the App”) is a Shopify app operated by **Amrita Labs**, a sole
-proprietorship of Sukhmeet Singh, based in Ontario, Canada (“we”, “us”).
-Contact: sukhmeet.work+amrita-accessibility@gmail.com
+Amrita Accessibility (“the App”) is a Shopify app operated by **Amrita Labs** (“we”, “us”).
+For questions, please use the support email shown on our Shopify App Store listing.
 
 ## 1. Agreement
 
@@ -67,8 +66,7 @@ access if you breach these Terms or as needed to comply with law or platform pol
 
 ## 11. Governing law
 
-These Terms are governed by the laws of the Province of Ontario and the federal laws of Canada
-applicable there, without regard to conflict-of-laws rules.
+These Terms are governed by the laws of Canada, without regard to conflict-of-laws rules.
 
 ## 12. Changes
 
@@ -77,4 +75,4 @@ it in the App listing. Continued use means you accept the changes.
 
 ## 13. Contact
 
-sukhmeet.work+amrita-accessibility@gmail.com — Amrita Labs, Ontario, Canada.
+Amrita Labs — please use the support email shown on our Shopify App Store listing.

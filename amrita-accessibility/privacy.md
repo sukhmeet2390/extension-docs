@@ -3,9 +3,8 @@
 **Effective Date**: 2026-06-17
 **Last Updated**: 2026-06-17
 
-Amrita Accessibility (“the App”) is a Shopify app operated by **Amrita Labs**, a sole
-proprietorship of Sukhmeet Singh, based in Ontario, Canada (“we”, “us”).
-Contact: sukhmeet.work+amrita-accessibility@gmail.com
+Amrita Accessibility (“the App”) is a Shopify app operated by **Amrita Labs** (“we”, “us”).
+For privacy questions, contact us using the support email shown on our Shopify App Store listing.
 
 ## Summary
 
@@ -30,6 +29,10 @@ never sent to or stored by us, and is not linked to any identity.
 **c. What we do NOT collect.** We do not collect, store, sell, rent, or share the personal data
 of merchants or their customers. We do not set advertising/tracking cookies and do not run
 third-party analytics in the storefront widget.
+
+**d. If you contact us.** If you email our support, we receive your email address and the
+contents of your message and use them only to respond to and resolve your inquiry. We don't
+store this in a database or use it for anything else.
 
 ## 2. How we use information
 
@@ -62,8 +65,8 @@ access-controlled hosting). No method of storage or transmission is completely s
 
 ## 6. International users
 
-We and our providers may process data in Canada and other regions where our infrastructure
-operates. By using the App you understand data may be processed there.
+We and our infrastructure providers may process data in the regions where they operate. By
+using the App you understand data may be processed there.
 
 ## 7. Children
 
@@ -83,4 +86,4 @@ changes, note it in the App listing.
 
 ## 10. Contact
 
-sukhmeet.work+amrita-accessibility@gmail.com — Amrita Labs, Ontario, Canada.
+Amrita Labs — please use the support email shown on our Shopify App Store listing.
