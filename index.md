@@ -6,3 +6,5 @@
 - [Amrita Accessibility - Terms of Service](amrita-accessibility/terms)
 - [Cookie Consent - Privacy Policy](amrita-cookie-consent/privacy)
 - [Cookie Consent - Terms of Service](amrita-cookie-consent/terms)
+- [Chat Widget - Privacy Policy](amrita-chat-widget/privacy)
+- [Chat Widget - Terms of Service](amrita-chat-widget/terms)
