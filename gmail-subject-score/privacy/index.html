@@ -1,0 +1,134 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>privacy - Amrita Labs</title><style>body{font-family:Inter,system-ui,sans-serif;max-width:800px;margin:0 auto;padding:40px 20px;color:#e2e8f0;background:#0a0a0f;line-height:1.7}h1,h2,h3{color:#fff;margin-top:2em}h1{font-size:1.8em}h2{font-size:1.3em}a{color:#60a5fa}table{border-collapse:collapse;width:100%;margin:1em 0}th,td{border:1px solid #333;padding:8px;text-align:left}th{background:#1e293b}ul,ol{padding-left:1.5em}code{background:#1e293b;padding:2px 6px;border-radius:4px}</style></head><body><p><h1>Privacy Policy — EmailSubjectScore Pro</h1>
+
+<strong>Effective Date</strong>: 2026-05-18
+<strong>Last Updated</strong>: 2026-06-13
+
+<h2>1. Who We Are</h2>
+
+EmailSubjectScore Pro is operated by GoldenLeaf Apps, based in Canada.
+Contact: sukhmeet.work+gmail-subject-score@gmail.com
+
+<h2>2. What This Extension Does</h2>
+
+EmailSubjectScore Pro scores email subject lines as you type in Gmail compose, providing spam, clarity, and urgency ratings with AI-powered rewrite suggestions.
+
+<h2>3. Data We Collect</h2>
+
+We collect ONLY the following data:
+
+| Category | What | Why | Retention |
+|---|---|---|---|
+| Anonymous device ID | A random UUID generated on install | Rate-limit and free-tier cap enforcement | Retained while active; deleted upon request |
+| Aggregated usage events | Counts of feature uses (scores requested, rewrites used) | Improve the product | Up to 24 months |
+| Error logs | JS error stack traces (no user content) | Bug fixing | Up to 90 days |
+
+We do <strong>NOT</strong> collect:
+<li>Email message bodies or recipients</li>
+<li>Page contents beyond the subject line you choose to score</li>
+<li>Browsing history</li>
+<li>Any personally identifiable information without your explicit account creation</li>
+
+<h2>4. What Leaves Your Browser</h2>
+
+The extension sends the following to our backend when you trigger a score:
+<li>Anonymous device ID (no name, no email)</li>
+<li>The subject line text you choose to score (ephemeral — processed and immediately discarded, never stored on our servers)</li>
+<li>Diagnostic metadata (extension version, browser version)</li>
+
+All transmission is encrypted via HTTPS / TLS 1.3.
+
+<strong>Important</strong>: Subject line text is sent to Azure OpenAI (Microsoft) for AI scoring. The text is processed ephemerally and is not stored by us or used for model training. See Microsoft's <a href="https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy">data privacy commitments</a>.
+
+<h2>5. Third-Party Services</h2>
+
+We share data with the following services strictly to provide the product:
+
+| Service | Data shared | Purpose | Their privacy policy |
+|---|---|---|---|
+| Microsoft Azure OpenAI | Subject line text (ephemeral, when you trigger scoring) | AI inference for scoring + rewrite | https://privacy.microsoft.com/ |
+| Microsoft Azure | Encrypted request relay | Backend hosting | https://privacy.microsoft.com/ |
+| PostHog | Anonymous usage events (no content) | Product analytics | https://posthog.com/privacy |
+| Sentry | Error logs (no user content) | Bug tracking | https://sentry.io/privacy/ |
+
+We do <strong>NOT</strong> sell, share, or rent your data to advertisers or data brokers.
+
+<h2>6. Your Rights</h2>
+
+<h3>GDPR (EU users)</h3>
+<li>Right to access, rectify, erase, restrict, or port your data</li>
+<li>Right to object to processing</li>
+<li>Right to lodge a complaint with your supervisory authority</li>
+<li>Request via: sukhmeet.work+gmail-subject-score@gmail.com</li>
+
+<h3>CCPA / CPRA (California users)</h3>
+<li>Right to know what we collect</li>
+<li>Right to delete</li>
+<li>Right to opt out of "sale" or "sharing" — we do not sell or share your data</li>
+<li>Right to non-discrimination</li>
+<li>Request via: sukhmeet.work+gmail-subject-score@gmail.com</li>
+
+When you exercise the right to opt out, we will acknowledge your request via email.
+
+<h3>PIPEDA (Canadian users)</h3>
+<li>Right to know what personal information we hold and how it is used</li>
+<li>Right to access your personal information</li>
+<li>Right to challenge the accuracy of your information</li>
+<li>Right to withdraw consent at any time</li>
+<li>We adhere to the 10 fair information principles under PIPEDA</li>
+<li>Privacy officer contact: sukhmeet.work+gmail-subject-score@gmail.com</li>
+
+<h3>CASL (Canadian recipients)</h3>
+<li>If we send commercial electronic messages, we will do so only with express or implied consent</li>
+<li>Any such messages will include sender identification and a working unsubscribe mechanism</li>
+
+<h3>Device-ID classification disclaimer</h3>
+
+We treat the anonymous device-ID as non-personal data for analytics purposes. Some privacy regulators (notably EDPB under GDPR) have ruled in specific cases that persistent identifiers can constitute personal data even without traditional PII attached. We monitor regulatory guidance and will reclassify or implement explicit opt-out flows if the legal posture shifts.
+
+<h2>7. Data Retention & Deletion</h2>
+
+<li>Anonymous device ID: retained while your account is active, deleted upon request</li>
+<li>Usage events: retained for up to 24 months, then deleted</li>
+<li>Error logs: up to 90 days</li>
+<li>Account data (if you create one for Pro): until you request deletion</li>
+<li>We make reasonable efforts to delete data within the timeframes above, but exact timing may vary</li>
+
+<h2>8. Children's Privacy</h2>
+
+This extension is not intended for users under 13 (COPPA) or under 16 in the EU (GDPR). We do not knowingly collect data from children.
+
+<h2>9. Security</h2>
+
+<li>All data in transit: HTTPS / TLS 1.3</li>
+<li>Backend secrets: Azure Key Vault (never hardcoded)</li>
+<li>Per-user daily spend caps prevent abuse</li>
+<li>We do not store payment card data (handled by payment processor)</li>
+<li>No API keys or secrets in the extension code</li>
+
+<h3>Data Breach Notification</h3>
+
+In the event of a data breach that affects your information, we will:
+<li>Notify affected users as soon as feasible via email (if available) or in-extension banner, and within timeframes required by applicable law</li>
+<li>Report to relevant supervisory authorities where required by law</li>
+<li>Describe the nature of the breach, categories of data affected, and measures taken to address it</li>
+
+<h2>10. AI Disclosure (EU AI Act)</h2>
+
+This extension uses AI (GPT-4.1-mini via Azure OpenAI) to:
+<li>Score subject lines on spam, clarity, and urgency dimensions</li>
+<li>Generate alternative subject line suggestions</li>
+
+All AI-generated content is clearly labeled as "AI-generated" in the extension interface. This product is classified as low-risk under the EU AI Act (not in Annex III).
+
+<h2>11. Changes to This Policy</h2>
+
+We may update this policy at any time. We will make reasonable efforts to notify users of material changes via:
+<li>An in-extension banner for significant changes</li>
+<li>Updating the "Last Updated" date above</li>
+
+Continued use after changes are posted constitutes acceptance.
+
+<h2>12. Contact</h2>
+
+For any privacy questions or rights requests: sukhmeet.work+gmail-subject-score@gmail.com
+</p><p></p></body></html>
