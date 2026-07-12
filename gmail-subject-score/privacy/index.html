@@ -16,11 +16,7 @@ EmailSubjectScore Pro scores email subject lines as you type in Gmail compose, p
 
 We collect ONLY the following data:
 
-| Category | What | Why | Retention |
-|---|---|---|---|
-| Anonymous device ID | A random UUID generated on install | Rate-limit and free-tier cap enforcement | Retained while active; deleted upon request |
-| Aggregated usage events | Counts of feature uses (scores requested, rewrites used) | Improve the product | Up to 24 months |
-| Error logs | JS error stack traces (no user content) | Bug fixing | Up to 90 days |
+<table><tr><th>Category</th><th>What</th><th>Why</th><th>Retention</th></tr><tr><td>Anonymous device ID</td><td>A random UUID generated on install</td><td>Rate-limit and free-tier cap enforcement</td><td>Retained while active; deleted upon request</td></tr><tr><td>Aggregated usage events</td><td>Counts of feature uses (scores requested, rewrites used)</td><td>Improve the product</td><td>Up to 24 months</td></tr><tr><td>Error logs</td><td>JS error stack traces (no user content)</td><td>Bug fixing</td><td>Up to 90 days</td></tr></table>
 
 We do <strong>NOT</strong> collect:
 <li>Email message bodies or recipients</li>
@@ -43,12 +39,7 @@ All transmission is encrypted via HTTPS / TLS 1.3.
 
 We share data with the following services strictly to provide the product:
 
-| Service | Data shared | Purpose | Their privacy policy |
-|---|---|---|---|
-| Microsoft Azure OpenAI | Subject line text (ephemeral, when you trigger scoring) | AI inference for scoring + rewrite | https://privacy.microsoft.com/ |
-| Microsoft Azure | Encrypted request relay | Backend hosting | https://privacy.microsoft.com/ |
-| PostHog | Anonymous usage events (no content) | Product analytics | https://posthog.com/privacy |
-| Sentry | Error logs (no user content) | Bug tracking | https://sentry.io/privacy/ |
+<table><tr><th>Service</th><th>Data shared</th><th>Purpose</th><th>Their privacy policy</th></tr><tr><td>Microsoft Azure OpenAI</td><td>Subject line text (ephemeral, when you trigger scoring)</td><td>AI inference for scoring + rewrite</td><td>https://privacy.microsoft.com/</td></tr><tr><td>Microsoft Azure</td><td>Encrypted request relay</td><td>Backend hosting</td><td>https://privacy.microsoft.com/</td></tr><tr><td>PostHog</td><td>Anonymous usage events (no content)</td><td>Product analytics</td><td>https://posthog.com/privacy</td></tr><tr><td>Sentry</td><td>Error logs (no user content)</td><td>Bug tracking</td><td>https://sentry.io/privacy/</td></tr></table>
 
 We do <strong>NOT</strong> sell, share, or rent your data to advertisers or data brokers.
 
@@ -132,3 +123,4 @@ Continued use after changes are posted constitutes acceptance.
 
 For any privacy questions or rights requests: sukhmeet.work+gmail-subject-score@gmail.com
 </p><p></p></body></html>
+
