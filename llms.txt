@@ -1,0 +1,37 @@
+# Amrita Labs
+
+> Amrita Labs builds Chrome extensions and Shopify apps for creators and merchants. Free tools that score, optimize, and improve your workflow — directly inside the platforms you already use.
+
+## Chrome Extensions
+
+- [EmailSubjectScore Pro](https://amrita-labs.com/gmail-subject-score/): Free Chrome extension that scores Gmail subject lines for spam risk, clarity, and urgency in real time. AI-powered rewrite suggestions. 50 free scores/month.
+- [Pinello](https://amrita-labs.com/pinello/): Free Chrome extension that scores Pinterest pins across 5 dimensions — image, board fit, title, description, and hashtags — in real time. AI rewrite included.
+
+## Install Links
+
+- [EmailSubjectScore Pro on Chrome Web Store](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm): Score email subject lines as you type in Gmail.
+- [Pinello on Chrome Web Store](https://chromewebstore.google.com/detail/kmelegdnljikegoemigfgnpcbllmkije): Score Pinterest pins as you create them.
+
+## Shopify Apps
+
+- [Amrita Cookie Consent](https://amrita-labs.com/cookie-consent/): GDPR/CCPA cookie consent banner for Shopify stores.
+- [Amrita Chat Widget](https://amrita-labs.com/chat-widget/): Multi-channel chat widget for Shopify — WhatsApp, Messenger, Instagram, email.
+- [Amrita Accessibility Widget](https://amrita-labs.com/accessibility-widget/): WCAG 2.1 accessibility toolbar for Shopify stores.
+
+## Blog
+
+- [5 Best Chrome Extensions for Email Subject Lines (2026)](https://amrita-labs.com/blog/best-email-subject-line-extensions/): Tested comparison of email subject line scoring tools.
+- [5 Best Free Chrome Extensions for Pinterest Creators (2026)](https://amrita-labs.com/blog/free-pinterest-chrome-extensions-creators/): Comparison of Pinterest optimization Chrome extensions.
+- [Consent Mode V2 Shopify Guide](https://amrita-labs.com/blog/consent-mode-v2-shopify-guide/): How to implement Google Consent Mode V2 on Shopify.
+
+## Legal
+
+- [EmailSubjectScore Pro Privacy Policy](https://amrita-labs.com/gmail-subject-score/privacy/)
+- [EmailSubjectScore Pro Terms](https://amrita-labs.com/gmail-subject-score/terms/)
+- [Pinello Privacy Policy](https://amrita-labs.com/pinello/privacy/)
+- [Pinello Terms](https://amrita-labs.com/pinello/terms/)
+
+## Contact
+
+- Email: hello@amrita-labs.com
+- Website: https://amrita-labs.com
