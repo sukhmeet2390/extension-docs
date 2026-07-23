@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>We're sorry to see you go - Amrita Labs</title>
+<meta name="description" content="Help us improve with your feedback." />
+<meta name="robots" content="noindex" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:Inter,"Segoe UI",system-ui,sans-serif;color:#333;background:#f5f5f5}</style>
+</head>
+<body>
+
+  <main class="feedback-page">
+    <div class="feedback-card">
+      <div class="icon">💬</div>
+      <h1 id="heading">We're sorry to see you go</h1>
+      <p id="subheading" class="sub">Your feedback helps us improve. Takes 30 seconds.</p>
+
+      <form id="feedback-form">
+        <input type="hidden" name="ext" id="field-ext" value="" />
+        <input type="hidden" name="lang" id="field-lang" value="en" />
+
+        <fieldset>
+          <legend id="legend-reason">Why did you uninstall?</legend>
+          <label><input type="radio" name="reason" value="not-working" /><span data-i18n="reason-not-working">It didn't work on my version</span></label>
+          <label><input type="radio" name="reason" value="too-expensive" /><span data-i18n="reason-too-expensive">Too expensive</span></label>
+          <label><input type="radio" name="reason" value="confusing" /><span data-i18n="reason-confusing">Confusing to use</span></label>
+          <label><input type="radio" name="reason" value="found-alternative" /><span data-i18n="reason-found-alternative">Found a better alternative</span></label>
+          <label><input type="radio" name="reason" value="just-testing" /><span data-i18n="reason-just-testing">Just testing, not needed</span></label>
+          <label><input type="radio" name="reason" value="other" /><span data-i18n="reason-other">Other</span></label>
+        </fieldset>
+
+        <div class="textarea-wrap">
+          <label for="feedback-text" id="label-feedback" data-i18n="label-feedback">What would bring you back? (optional)</label>
+          <textarea id="feedback-text" name="feedback" rows="3" placeholder=""></textarea>
+        </div>
+
+        <div class="email-wrap">
+          <label for="feedback-email" id="label-email" data-i18n="label-email">Email for follow-up (optional)</label>
+          <input type="email" id="feedback-email" name="email" placeholder="" />
+        </div>
+
+        <button type="submit" id="btn-submit">Send Feedback</button>
+      </form>
+
+      <div id="thank-you" class="thank-you hidden">
+        <div class="check">✓</div>
+        <h2 id="ty-heading">Thank you!</h2>
+        <p id="ty-sub">Your feedback helps us build a better product.</p>
+      </div>
+    </div>
+  </main>
+
+
+<style>
+  .feedback-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background: linear-gradient(135deg, #f8f4ff 0%, #eef0fb 50%, #f0f7f4 100%);
+    font-family: Inter, "Segoe UI", system-ui, sans-serif;
+  }
+  .feedback-card {
+    width: 100%;
+    max-width: 480px;
+    background: #fff;
+    border-radius: 20px;
+    padding: 3rem 2.5rem;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.08);
+    text-align: center;
+  }
+  .icon { font-size: 48px; margin-bottom: 1rem; }
+  h1 { font-size: 1.6rem; font-weight: 800; color: #1a1a2e; margin-bottom: 0.5rem; }
+  .sub { color: #666; font-size: 0.95rem; margin-bottom: 2rem; }
+  fieldset {
+    border: none; text-align: left; margin-bottom: 1.5rem;
+  }
+  legend {
+    font-size: 0.9rem; font-weight: 700; color: #333;
+    margin-bottom: 0.75rem;
+  }
+  fieldset label {
+    display: flex; align-items: center; gap: 0.6rem;
+    padding: 0.6rem 0.8rem; margin-bottom: 0.4rem;
+    border-radius: 10px; cursor: pointer;
+    transition: background 0.15s;
+    font-size: 0.9rem; color: #444;
+  }
+  fieldset label:hover { background: #f5f3ff; }
+  fieldset input[type="radio"] {
+    width: 16px; height: 16px; accent-color: #6264A7;
+  }
+  .textarea-wrap { text-align: left; margin-bottom: 1.5rem; }
+  .textarea-wrap label {
+    display: block; font-size: 0.85rem; font-weight: 600;
+    color: #555; margin-bottom: 0.4rem;
+  }
+  .email-wrap { text-align: left; margin-bottom: 1.5rem; }
+  .email-wrap label {
+    display: block; font-size: 0.85rem; font-weight: 600;
+    color: #555; margin-bottom: 0.4rem;
+  }
+  .email-wrap input[type="email"] {
+    width: 100%; border: 1px solid #e0e0e0; border-radius: 10px;
+    padding: 0.75rem; font-size: 0.9rem;
+    font-family: inherit; transition: border-color 0.2s;
+    color: #333 !important; background-color: #fff !important;
+  }
+  .email-wrap input[type="email"]:focus { outline: none; border-color: #6264A7; }
+  textarea {
+    width: 100%; border: 1px solid #e0e0e0; border-radius: 10px;
+    padding: 0.75rem; font-size: 0.9rem; resize: vertical;
+    font-family: inherit; transition: border-color 0.2s;
+    color: #333 !important; background-color: #fff !important;
+  }
+  textarea:focus { outline: none; border-color: #6264A7; }
+  button[type="submit"] {
+    width: 100%; padding: 0.85rem; border: none;
+    border-radius: 12px; font-size: 1rem; font-weight: 700;
+    color: #fff; background: linear-gradient(135deg, #6264A7, #8C8FD3);
+    cursor: pointer; transition: transform 0.1s, box-shadow 0.2s;
+    box-shadow: 0 4px 16px rgba(98,100,167,0.3);
+  }
+  button[type="submit"]:hover { transform: translateY(-1px); box-shadow: 0 6px 20px rgba(98,100,167,0.4); }
+  button[type="submit"]:active { transform: translateY(0); }
+  .thank-you { padding: 2rem 0; }
+  .thank-you .check {
+    width: 56px; height: 56px; margin: 0 auto 1rem;
+    border-radius: 50%; background: #e8f5e9;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 24px; color: #2e7d32;
+  }
+  .thank-you h2 { font-size: 1.4rem; color: #1a1a2e; margin-bottom: 0.5rem; }
+  .thank-you p { color: #666; font-size: 0.9rem; }
+  .hidden { display: none; }
+</style>
+
+<script>
+  // i18n translations (21 locales)
+  const i18n = {
+    en: { heading: "We're sorry to see you go", subheading: "Your feedback helps us improve. Takes 30 seconds.", legend: "Why did you uninstall?", "reason-not-working": "It didn't work on my version", "reason-too-expensive": "Too expensive", "reason-confusing": "Confusing to use", "reason-found-alternative": "Found a better alternative", "reason-just-testing": "Just testing, not needed", "reason-other": "Other", "label-feedback": "What would bring you back? (optional)", "label-email": "Email for follow-up (optional)", submit: "Send Feedback", "ty-heading": "Thank you!", "ty-sub": "Your feedback helps us build a better product." },
+    es: { heading: "Lamentamos que te vayas", subheading: "Tu opinión nos ayuda a mejorar. Solo 30 segundos.", legend: "¿Por qué desinstalaste?", "reason-not-working": "No funcionó en mi versión", "reason-too-expensive": "Demasiado caro", "reason-confusing": "Difícil de usar", "reason-found-alternative": "Encontré una mejor alternativa", "reason-just-testing": "Solo estaba probando", "reason-other": "Otro", "label-feedback": "¿Qué te haría volver? (opcional)", "label-email": "Email para seguimiento (opcional)", submit: "Enviar", "ty-heading": "¡Gracias!", "ty-sub": "Tu opinión nos ayuda a mejorar." },
+    fr: { heading: "Nous sommes désolés de vous voir partir", subheading: "Votre avis nous aide à nous améliorer. 30 secondes.", legend: "Pourquoi avez-vous désinstallé ?", "reason-not-working": "Ça ne fonctionnait pas", "reason-too-expensive": "Trop cher", "reason-confusing": "Difficile à utiliser", "reason-found-alternative": "J'ai trouvé une meilleure alternative", "reason-just-testing": "Simple test", "reason-other": "Autre", "label-feedback": "Qu'est-ce qui vous ferait revenir ? (facultatif)", "label-email": "Email pour suivi (facultatif)", submit: "Envoyer", "ty-heading": "Merci !", "ty-sub": "Votre avis nous aide à créer un meilleur produit." },
+    de: { heading: "Schade, dass Sie gehen", subheading: "Ihr Feedback hilft uns, besser zu werden. Nur 30 Sekunden.", legend: "Warum haben Sie deinstalliert?", "reason-not-working": "Hat bei mir nicht funktioniert", "reason-too-expensive": "Zu teuer", "reason-confusing": "Verwirrend zu benutzen", "reason-found-alternative": "Bessere Alternative gefunden", "reason-just-testing": "Nur getestet", "reason-other": "Sonstiges", "label-feedback": "Was würde Sie zurückbringen? (optional)", "label-email": "E-Mail für Rückfragen (optional)", submit: "Absenden", "ty-heading": "Vielen Dank!", "ty-sub": "Ihr Feedback hilft uns, ein besseres Produkt zu bauen." },
+    ja: { heading: "アンインストールされたのですね", subheading: "フィードバックをいただけると改善に役立ちます。30秒で完了します。", legend: "アンインストールの理由は？", "reason-not-working": "動作しなかった", "reason-too-expensive": "高すぎる", "reason-confusing": "使い方が分かりにくい", "reason-found-alternative": "より良い代替品を見つけた", "reason-just-testing": "テストしただけ", "reason-other": "その他", "label-feedback": "何があれば戻りますか？（任意）", "label-email": "フォローアップ用メール（任意）", submit: "送信", "ty-heading": "ありがとうございます！", "ty-sub": "より良い製品作りに役立てます。" },
+    ko: { heading: "떠나시다니 아쉽습니다", subheading: "피드백은 개선에 도움이 됩니다. 30초면 충분합니다.", legend: "삭제 이유가 무엇인가요?", "reason-not-working": "제 버전에서 작동하지 않았음", "reason-too-expensive": "너무 비쌈", "reason-confusing": "사용하기 혼란스러움", "reason-found-alternative": "더 나은 대안을 찾음", "reason-just-testing": "테스트용이었음", "reason-other": "기타", "label-feedback": "다시 돌아오게 하려면? (선택)", "label-email": "후속 연락 이메일 (선택)", submit: "보내기", "ty-heading": "감사합니다!", "ty-sub": "더 나은 제품을 만드는 데 도움이 됩니다." },
+    zh_CN: { heading: "很遗憾您选择离开", subheading: "您的反馈帮助我们改进。只需30秒。", legend: "为什么卸载？", "reason-not-working": "在我的版本上不起作用", "reason-too-expensive": "太贵了", "reason-confusing": "使用起来很困惑", "reason-found-alternative": "找到了更好的替代品", "reason-just-testing": "只是测试", "reason-other": "其他", "label-feedback": "什么会让您回来？（可选）", "label-email": "后续联系邮箱（可选）", submit: "提交", "ty-heading": "谢谢！", "ty-sub": "您的反馈帮助我们打造更好的产品。" },
+    zh_TW: { heading: "很遺憾您選擇離開", subheading: "您的回饋幫助我們改進。只需30秒。", legend: "為什麼解除安裝？", "reason-not-working": "在我的版本上無法運作", "reason-too-expensive": "太貴了", "reason-confusing": "使用起來很困惑", "reason-found-alternative": "找到了更好的替代品", "reason-just-testing": "只是測試", "reason-other": "其他", "label-feedback": "什麼會讓您回來？（選填）", "label-email": "後續聯繫信箱（選填）", submit: "提交", "ty-heading": "謝謝！", "ty-sub": "您的回饋幫助我們打造更好的產品。" },
+    pt_BR: { heading: "Sentimos que você está indo embora", subheading: "Seu feedback nos ajuda a melhorar. Leva 30 segundos.", legend: "Por que desinstalou?", "reason-not-working": "Não funcionou na minha versão", "reason-too-expensive": "Muito caro", "reason-confusing": "Confuso de usar", "reason-found-alternative": "Encontrei uma alternativa melhor", "reason-just-testing": "Estava apenas testando", "reason-other": "Outro", "label-feedback": "O que faria você voltar? (opcional)", "label-email": "Email para contato (opcional)", submit: "Enviar", "ty-heading": "Obrigado!", "ty-sub": "Seu feedback nos ajuda a construir um produto melhor." },
+    it: { heading: "Ci dispiace vederti andare", subheading: "Il tuo feedback ci aiuta a migliorare. Solo 30 secondi.", legend: "Perché hai disinstallato?", "reason-not-working": "Non funzionava", "reason-too-expensive": "Troppo caro", "reason-confusing": "Difficile da usare", "reason-found-alternative": "Ho trovato un'alternativa migliore", "reason-just-testing": "Stavo solo provando", "reason-other": "Altro", "label-feedback": "Cosa ti farebbe tornare? (facoltativo)", "label-email": "Email per follow-up (facoltativo)", submit: "Invia", "ty-heading": "Grazie!", "ty-sub": "Il tuo feedback ci aiuta a migliorare." },
+    ru: { heading: "Жаль, что вы уходите", subheading: "Ваш отзыв поможет нам стать лучше. Займёт 30 секунд.", legend: "Почему удалили?", "reason-not-working": "Не работало в моей версии", "reason-too-expensive": "Слишком дорого", "reason-confusing": "Сложно разобраться", "reason-found-alternative": "Нашёл лучшую альтернативу", "reason-just-testing": "Просто тестировал", "reason-other": "Другое", "label-feedback": "Что бы вас вернуло? (необязательно)", "label-email": "Email для связи (необязательно)", submit: "Отправить", "ty-heading": "Спасибо!", "ty-sub": "Ваш отзыв помогает нам создавать лучший продукт." },
+    ar: { heading: "نأسف لرؤيتك تغادر", subheading: "ملاحظاتك تساعدنا على التحسين. 30 ثانية فقط.", legend: "لماذا قمت بإلغاء التثبيت؟", "reason-not-working": "لم يعمل على إصداري", "reason-too-expensive": "غالي جداً", "reason-confusing": "مربك في الاستخدام", "reason-found-alternative": "وجدت بديلاً أفضل", "reason-just-testing": "كنت أختبر فقط", "reason-other": "أخرى", "label-feedback": "ما الذي سيعيدك؟ (اختياري)", "label-email": "بريد إلكتروني للمتابعة (اختياري)", submit: "إرسال", "ty-heading": "شكراً!", "ty-sub": "ملاحظاتك تساعدنا في بناء منتج أفضل." },
+    hi: { heading: "आपको जाते देख दुख हुआ", subheading: "आपकी प्रतिक्रिया हमें बेहतर बनने में मदद करती है। बस 30 सेकंड।", legend: "अनइंस्टॉल क्यों किया?", "reason-not-working": "मेरे वर्शन पर काम नहीं किया", "reason-too-expensive": "बहुत महंगा", "reason-confusing": "उपयोग करना भ्रमित करने वाला", "reason-found-alternative": "बेहतर विकल्प मिला", "reason-just-testing": "बस टेस्ट कर रहा था", "reason-other": "अन्य", "label-feedback": "आपको वापस लाने के लिए क्या करें? (वैकल्पिक)", "label-email": "फॉलो-अप के लिए ईमेल (वैकल्पिक)", submit: "भेजें", "ty-heading": "धन्यवाद!", "ty-sub": "आपकी प्रतिक्रिया बेहतर उत्पाद बनाने में मदद करती है।" },
+    nl: { heading: "Jammer dat je weggaat", subheading: "Je feedback helpt ons verbeteren. Duurt 30 seconden.", legend: "Waarom heb je het verwijderd?", "reason-not-working": "Werkte niet bij mij", "reason-too-expensive": "Te duur", "reason-confusing": "Verwarrend in gebruik", "reason-found-alternative": "Beter alternatief gevonden", "reason-just-testing": "Was alleen aan het testen", "reason-other": "Anders", "label-feedback": "Wat zou je terugbrengen? (optioneel)", "label-email": "E-mail voor opvolging (optioneel)", submit: "Verzenden", "ty-heading": "Bedankt!", "ty-sub": "Je feedback helpt ons een beter product te bouwen." },
+    pl: { heading: "Szkoda, że odchodzisz", subheading: "Twoja opinia pomoże nam się poprawić. Zajmie 30 sekund.", legend: "Dlaczego odinstalowałeś?", "reason-not-working": "Nie działało w mojej wersji", "reason-too-expensive": "Za drogie", "reason-confusing": "Trudne w użyciu", "reason-found-alternative": "Znalazłem lepszą alternatywę", "reason-just-testing": "Tylko testowałem", "reason-other": "Inne", "label-feedback": "Co by cię przekonało do powrotu? (opcjonalnie)", "label-email": "Email do kontaktu (opcjonalnie)", submit: "Wyślij", "ty-heading": "Dziękujemy!", "ty-sub": "Twoja opinia pomaga nam tworzyć lepszy produkt." },
+    tr: { heading: "Gittiğinizi görmek üzücü", subheading: "Geri bildiriminiz gelişmemize yardımcı olur. 30 saniye sürer.", legend: "Neden kaldırdınız?", "reason-not-working": "Benim sürümümde çalışmadı", "reason-too-expensive": "Çok pahalı", "reason-confusing": "Kullanımı kafa karıştırıcı", "reason-found-alternative": "Daha iyi bir alternatif buldum", "reason-just-testing": "Sadece test ediyordum", "reason-other": "Diğer", "label-feedback": "Sizi geri getirecek ne olurdu? (isteğe bağlı)", "label-email": "Takip için e-posta (isteğe bağlı)", submit: "Gönder", "ty-heading": "Teşekkürler!", "ty-sub": "Geri bildiriminiz daha iyi bir ürün oluşturmamıza yardımcı olur." },
+    vi: { heading: "Rất tiếc khi bạn rời đi", subheading: "Phản hồi của bạn giúp chúng tôi cải thiện. Chỉ 30 giây.", legend: "Tại sao bạn gỡ cài đặt?", "reason-not-working": "Không hoạt động trên phiên bản của tôi", "reason-too-expensive": "Quá đắt", "reason-confusing": "Khó sử dụng", "reason-found-alternative": "Tìm được giải pháp tốt hơn", "reason-just-testing": "Chỉ đang thử", "reason-other": "Khác", "label-feedback": "Điều gì sẽ khiến bạn quay lại? (tùy chọn)", "label-email": "Email để liên hệ (tùy chọn)", submit: "Gửi", "ty-heading": "Cảm ơn!", "ty-sub": "Phản hồi của bạn giúp chúng tôi xây dựng sản phẩm tốt hơn." },
+    th: { heading: "เสียใจที่คุณจากไป", subheading: "ความคิดเห็นของคุณช่วยเราปรับปรุง ใช้เวลา 30 วินาที", legend: "ทำไมถึงถอนการติดตั้ง?", "reason-not-working": "ใช้ไม่ได้กับเวอร์ชันของฉัน", "reason-too-expensive": "แพงเกินไป", "reason-confusing": "ใช้งานสับสน", "reason-found-alternative": "เจอทางเลือกที่ดีกว่า", "reason-just-testing": "แค่ทดสอบ", "reason-other": "อื่นๆ", "label-feedback": "อะไรจะทำให้คุณกลับมา? (ไม่บังคับ)", "label-email": "อีเมลสำหรับติดตาม (ไม่บังคับ)", submit: "ส่ง", "ty-heading": "ขอบคุณ!", "ty-sub": "ความคิดเห็นของคุณช่วยเราสร้างผลิตภัณฑ์ที่ดีขึ้น" },
+    id: { heading: "Sayang sekali Anda pergi", subheading: "Masukan Anda membantu kami menjadi lebih baik. Hanya 30 detik.", legend: "Mengapa Anda menghapus?", "reason-not-working": "Tidak berfungsi di versi saya", "reason-too-expensive": "Terlalu mahal", "reason-confusing": "Membingungkan", "reason-found-alternative": "Menemukan alternatif yang lebih baik", "reason-just-testing": "Hanya mencoba", "reason-other": "Lainnya", "label-feedback": "Apa yang akan membuat Anda kembali? (opsional)", "label-email": "Email untuk tindak lanjut (opsional)", submit: "Kirim", "ty-heading": "Terima kasih!", "ty-sub": "Masukan Anda membantu kami membangun produk yang lebih baik." },
+    ms: { heading: "Kami kesal anda pergi", subheading: "Maklum balas anda membantu kami memperbaiki. 30 saat sahaja.", legend: "Kenapa anda nyahpasang?", "reason-not-working": "Tidak berfungsi pada versi saya", "reason-too-expensive": "Terlalu mahal", "reason-confusing": "Mengelirukan", "reason-found-alternative": "Jumpa alternatif lebih baik", "reason-just-testing": "Sekadar mencuba", "reason-other": "Lain-lain", "label-feedback": "Apa yang akan membuatkan anda kembali? (pilihan)", "label-email": "Emel untuk susulan (pilihan)", submit: "Hantar", "ty-heading": "Terima kasih!", "ty-sub": "Maklum balas anda membantu kami membina produk yang lebih baik." },
+    uk: { heading: "Шкода, що ви йдете", subheading: "Ваш відгук допоможе нам стати кращими. Займе 30 секунд.", legend: "Чому видалили?", "reason-not-working": "Не працювало в моїй версії", "reason-too-expensive": "Занадто дорого", "reason-confusing": "Складно розібратися", "reason-found-alternative": "Знайшов кращу альтернативу", "reason-just-testing": "Просто тестував", "reason-other": "Інше", "label-feedback": "Що б вас повернуло? (необов'язково)", "label-email": "Email для зв'язку (необов'язково)", submit: "Надіслати", "ty-heading": "Дякуємо!", "ty-sub": "Ваш відгук допомагає нам створювати кращий продукт." },
+  };
+
+  // Extension display names
+  const extNames = {
+    'privacy-blur-slack': 'Privacy Blur for Slack',
+    'privacy-blur-whatsapp': 'Privacy Blur for WhatsApp',
+    'privacy-blur-discord': 'Privacy Blur for Discord',
+    'privacy-blur-teams': 'Privacy Blur for Teams',
+    'gmail-subject-score': 'SubjectScore Pro for Gmail',
+    'pinello': 'Pinello — Pinterest Pin Scorer',
+  };
+
+  // Read URL params
+  const params = new URLSearchParams(window.location.search);
+  const ext = params.get('ext') || '';
+  const lang = (params.get('lang') || 'en').replace('-', '_');
+
+  // Set hidden fields
+  document.getElementById('field-ext').value = ext;
+  document.getElementById('field-lang').value = lang;
+
+  // Find best locale match
+  const t = i18n[lang] || i18n[lang.split('_')[0]] || i18n.en;
+
+  // Apply translations
+  document.getElementById('heading').textContent = t.heading;
+  document.getElementById('subheading').textContent = t.subheading;
+  document.querySelector('legend').textContent = t.legend;
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.getAttribute('data-i18n');
+    if (t[key]) el.textContent = t[key];
+  });
+  document.getElementById('label-feedback').textContent = t['label-feedback'];
+  document.getElementById('label-email').textContent = t['label-email'];
+  document.getElementById('btn-submit').textContent = t.submit;
+  document.getElementById('ty-heading').textContent = t['ty-heading'];
+  document.getElementById('ty-sub').textContent = t['ty-sub'];
+
+  // Show extension name in subheading if available
+  if (ext && extNames[ext]) {
+    document.getElementById('subheading').textContent =
+      extNames[ext] + ' — ' + t.subheading;
+  }
+
+  // Google Apps Script endpoint
+  const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwYdSpggzYv3dhrDIl8AxSeH8Mha_8h0dd3jfdAsLD8lC1wC1eBb_PGjH95xpRIpg1Y/exec';
+
+  // Form submission
+  document.getElementById('feedback-form').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const form = e.target;
+    const reason = form.querySelector('input[name="reason"]:checked')?.value || '';
+    const feedback = document.getElementById('feedback-text').value;
+    const email = document.getElementById('feedback-email').value;
+
+    if (!reason) {
+      form.querySelector('legend').style.color = '#d32f2f';
+      return;
+    }
+
+    const btn = document.getElementById('btn-submit');
+    btn.disabled = true;
+    btn.textContent = '...';
+
+    try {
+      await fetch(SCRIPT_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          ext,
+          lang,
+          reason,
+          feedback,
+          email,
+          timestamp: new Date().toISOString(),
+        }),
+        mode: 'no-cors',
+      });
+    } catch { /* fire-and-forget */ }
+
+    form.classList.add('hidden');
+    document.querySelector('.icon').classList.add('hidden');
+    document.getElementById('heading').classList.add('hidden');
+    document.getElementById('subheading').classList.add('hidden');
+    document.getElementById('thank-you').classList.remove('hidden');
+  });
+</script>
+
+</body>
+</html>
