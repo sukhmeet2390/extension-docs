@@ -1,0 +1,116 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  canonical?: string;
+  schema?: object;
+  ogImage?: string;
+  theme?: 'dark' | 'light';
+}
+
+const { title, description, canonical, schema, ogImage, theme = 'dark' } = Astro.props;
+const siteUrl = 'https://amrita-labs.com';
+const fullTitle = title === 'Amrita Labs' ? 'Amrita Labs — Chrome Extensions & Shopify Apps for Creators and Merchants' : `${title} — Amrita Labs`;
+const isDark = theme === 'dark';
+---
+
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <title>{fullTitle}</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Canonical -->
+    {canonical && <link rel="canonical" href={canonical} />}
+
+    <!-- Open Graph -->
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical || siteUrl} />
+    {ogImage && <meta property="og:image" content={ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`} />}
+    {ogImage && <meta name="twitter:card" content="summary_large_image" />}
+    {ogImage && <meta name="twitter:image" content={ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`} />}
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- Animations (pure CSS, no JS) -->
+    <style>
+      /* Fade up on scroll — uses native CSS scroll-driven animations */
+      @keyframes fadeUp {
+        from { opacity: 0; transform: translateY(24px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      .animate-in {
+        animation: fadeUp 0.5s ease-out both;
+        animation-timeline: view();
+        animation-range: entry 0% entry 30%;
+      }
+      /* Respect reduced motion */
+      @media (prefers-reduced-motion: reduce) {
+        .animate-in { animation: none; opacity: 1; transform: none; }
+      }
+    </style>
+
+    <!-- Schema.org -->
+    {schema && (
+      <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+    )}
+  </head>
+  <body class:list={[
+    'font-sans antialiased',
+    isDark ? 'bg-surface-950 text-gray-100' : 'bg-white text-gray-900'
+  ]}>
+    <!-- Nav -->
+    <nav class:list={[
+      'fixed top-0 w-full backdrop-blur-md border-b z-50',
+      isDark ? 'bg-surface-950/80 border-white/5' : 'bg-white/80 border-gray-200'
+    ]}>
+      <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+        <a href="/" class:list={[
+          'text-lg font-bold transition-colors',
+          isDark ? 'text-white hover:text-brand-400' : 'text-gray-900 hover:text-brand-600'
+        ]}>
+          Amrita Labs
+        </a>
+        <div class:list={[
+          'hidden sm:flex items-center gap-6 text-sm font-medium',
+          isDark ? 'text-gray-400' : 'text-gray-500'
+        ]}>
+          <a href="/#products" class:list={['hover:transition-colors', isDark ? 'hover:text-white' : 'hover:text-gray-900']}>Products</a>
+          <a href="/blog/" class:list={['hover:transition-colors', isDark ? 'hover:text-white' : 'hover:text-gray-900']}>Blog</a>
+          <a href="mailto:hello@amrita-labs.com" class:list={['hover:transition-colors', isDark ? 'hover:text-white' : 'hover:text-gray-900']}>Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Content -->
+    <main class="pt-16">
+      <slot />
+    </main>
+
+    <!-- Footer -->
+    <footer class:list={['border-t mt-24', isDark ? 'border-white/5' : 'border-gray-200']}>
+      <div class="max-w-6xl mx-auto px-6 py-12">
+        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6">
+          <div>
+            <p class:list={['font-bold', isDark ? 'text-white' : 'text-gray-900']}>Amrita Labs</p>
+            <p class:list={['text-sm mt-1', isDark ? 'text-gray-400' : 'text-gray-500']}>Productivity tools for creators & merchants. Based in Canada.</p>
+          </div>
+          <div class:list={['flex gap-6 text-sm', isDark ? 'text-gray-400' : 'text-gray-500']}>
+            <a href="mailto:hello@amrita-labs.com" class="hover:text-brand-400 transition-colors">hello@amrita-labs.com</a>
+          </div>
+        </div>
+        <p class:list={['text-xs mt-8', isDark ? 'text-gray-400' : 'text-gray-500']}>&copy; {new Date().getFullYear()} Amrita Labs. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

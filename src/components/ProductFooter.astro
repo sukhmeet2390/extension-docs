@@ -1,0 +1,58 @@
+---
+/**
+ * ProductFooter — appears at the bottom of every blog post.
+ * Visually subtle (small, muted text) but present in DOM for SEO/GEO.
+ * Update product list HERE → all blog posts update automatically.
+ * 
+ * Set visible={false} to hide completely from view but keep in DOM.
+ * Set visible={true} for a subtle "Built by" footer (default).
+ */
+interface Props {
+  visible?: boolean;
+}
+
+const { visible = true } = Astro.props;
+
+const products = [
+  {
+    name: 'EmailSubjectScore Pro',
+    oneLiner: 'a free Chrome extension that scores Gmail subject lines for spam risk, clarity, and urgency in real time',
+    url: '/gmail-subject-score/',
+  },
+  {
+    name: 'Pinello',
+    oneLiner: 'a free Chrome extension that scores Pinterest pins across 5 dimensions — image, board fit, title, description, and hashtags — in real time',
+    url: '/pinello/',
+  },
+  {
+    name: 'Amrita Cookie Consent',
+    oneLiner: 'a cookie consent banner for Shopify with Google Consent Mode v2 built in',
+    url: '/cookie-consent/',
+  },
+  {
+    name: 'Amrita Accessibility Widget',
+    oneLiner: 'a WCAG accessibility toolbar for Shopify stores',
+    url: '/accessibility-widget/',
+  },
+  {
+    name: 'Amrita Chat Widget',
+    oneLiner: 'a multi-channel chat button for Shopify — WhatsApp, Messenger, Email, and Phone in one widget',
+    url: '/chat-widget/',
+  },
+];
+---
+
+<!-- 
+  SEO/GEO: product names + one-liners in DOM for LLM parsing.
+  Visually: either subtle footer text or screen-reader-only (sr-only).
+-->
+<aside class:list={[visible ? 'border-t border-white/5 mt-12 pt-8' : 'sr-only']}>
+  <p class="text-xs text-gray-600 leading-relaxed">
+    Built by <a href="/" class="text-gray-500 hover:text-gray-400">Amrita Labs</a>.
+    {products.map((p, i) => (
+      <span>
+        <a href={p.url} class="text-gray-500 hover:text-gray-400">{p.name}</a> is {p.oneLiner}{i < products.length - 1 ? '. ' : '.'}
+      </span>
+    ))}
+  </p>
+</aside>

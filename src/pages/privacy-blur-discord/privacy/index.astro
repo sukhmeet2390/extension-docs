@@ -1,0 +1,75 @@
+---
+import Base from '../../../layouts/Base.astro';
+---
+
+<Base
+  title="Privacy Policy — Privacy Blur for Discord"
+  description="Privacy policy for Privacy Blur for Discord Chrome extension. Learn what data we collect, what stays local, and how we protect your privacy."
+  canonical="https://amrita-labs.com/privacy-blur-discord/privacy/"
+>
+  <article class="max-w-3xl mx-auto px-6 py-24 prose prose-invert prose-sm">
+    <h1 class="text-3xl font-bold text-white">Privacy Policy — Privacy Blur for Discord</h1>
+    <p class="text-sm text-gray-400"><strong>Effective Date</strong>: 2026-07-22 · <strong>Last Updated</strong>: 2026-07-22</p>
+
+    <h2 class="text-xl font-semibold text-white mt-10">Summary</h2>
+    <p class="text-gray-300">Privacy Blur for Discord does <strong>not</strong> collect, store, or transmit any of your Discord messages, contacts, files, or personal data. The extension runs entirely in your browser on <code>discord.com</code>. No Discord content leaves your device.</p>
+
+    <h2 class="text-xl font-semibold text-white mt-10">Data We Do NOT Collect</h2>
+    <ul class="text-gray-300">
+      <li>Message content, usernames, or server names</li>
+      <li>Files, images, videos, or media shared in Discord</li>
+      <li>Your Discord credentials or account details</li>
+      <li>Browsing history or activity outside of <code>discord.com</code></li>
+      <li>Any personally identifiable information (PII)</li>
+    </ul>
+
+    <h2 class="text-xl font-semibold text-white mt-10">Data We Store Locally</h2>
+    <p class="text-gray-300">The following is stored in <code>chrome.storage.sync</code> (synced across your Chrome browsers, never sent to our servers):</p>
+    <ul class="text-gray-300">
+      <li>Your blur zone preferences (which zones are enabled or disabled)</li>
+      <li>Blur intensity settings</li>
+      <li>Panel position (stored in localStorage)</li>
+      <li>Trial start timestamp</li>
+    </ul>
+
+    <h2 class="text-xl font-semibold text-white mt-10">Analytics</h2>
+    <p class="text-gray-300">We collect minimal, anonymous usage events (for example, “extension installed” and “zone toggled”) via PostHog to understand which features are used. These events contain:</p>
+    <ul class="text-gray-300">
+      <li>A random anonymous ID (not linked to your identity)</li>
+      <li>Event name and basic properties (for example, which zone was toggled)</li>
+      <li>Extension version</li>
+    </ul>
+    <p class="text-gray-300 mt-4">We do <strong>not</strong> collect any Discord content, URLs, usernames, or anything that could identify you or your contacts.</p>
+
+    <h2 class="text-xl font-semibold text-white mt-10">Payments</h2>
+    <p class="text-gray-300">Premium features are processed by <a href="https://extensionpay.com" target="_blank" rel="noreferrer" class="text-[#8ea1ff] hover:underline">ExtensionPay</a> (powered by Stripe). We never see or store your payment card details. Stripe handles payment data under its own <a href="https://stripe.com/privacy" target="_blank" rel="noreferrer" class="text-[#8ea1ff] hover:underline">privacy policy</a>.</p>
+
+    <h2 class="text-xl font-semibold text-white mt-10">Permissions</h2>
+    <ul class="text-gray-300">
+      <li><strong>storage</strong>: Save your blur preferences across sessions</li>
+      <li><strong>host_permissions (discord.com)</strong>: Inject the blur overlay on Discord only</li>
+    </ul>
+
+    <h2 class="text-xl font-semibold text-white mt-10">Third-Party Services</h2>
+    <ul class="text-gray-300">
+      <li><strong>PostHog</strong> (analytics) — <a href="https://posthog.com/privacy" target="_blank" rel="noreferrer" class="text-[#8ea1ff] hover:underline">Privacy Policy</a></li>
+      <li><strong>ExtensionPay / Stripe</strong> (payments) — <a href="https://stripe.com/privacy" target="_blank" rel="noreferrer" class="text-[#8ea1ff] hover:underline">Privacy Policy</a></li>
+    </ul>
+
+    <h2 class="text-xl font-semibold text-white mt-10">Retention</h2>
+    <p class="text-gray-300">Local preferences are stored until you uninstall the extension or clear browser data. Anonymous analytics events are retained for 12 months and then deleted.</p>
+
+    <h2 class="text-xl font-semibold text-white mt-10">Rights</h2>
+    <p class="text-gray-300">You can delete all local data by uninstalling the extension. To request deletion of analytics data, contact us at <a href="mailto:hello@amrita-labs.com" class="text-[#8ea1ff] hover:underline">hello@amrita-labs.com</a>.</p>
+
+    <h2 class="text-xl font-semibold text-white mt-10">Changes</h2>
+    <p class="text-gray-300">We may update this policy. Changes will be posted at this URL. Continued use after changes constitutes acceptance.</p>
+
+    <h2 class="text-xl font-semibold text-white mt-10">Contact</h2>
+    <p class="text-gray-300">Amrita Labs<br />Email: <a href="mailto:hello@amrita-labs.com" class="text-[#8ea1ff] hover:underline">hello@amrita-labs.com</a><br />Website: <a href="https://amrita-labs.com/privacy-blur-discord/" target="_blank" rel="noreferrer" class="text-[#8ea1ff] hover:underline">amrita-labs.com/privacy-blur-discord</a></p>
+  </article>
+
+  <div class="max-w-3xl mx-auto px-6 pb-12 flex gap-6 text-xs text-gray-500">
+    <a href="/privacy-blur-discord/" class="hover:text-gray-400">← Back to Privacy Blur for Discord</a>
+  </div>
+</Base>

@@ -1,0 +1,172 @@
+---
+import Base from '../../layouts/Base.astro';
+import FeatureCard from '../../components/FeatureCard.astro';
+import FaqItem from '../../components/FaqItem.astro';
+
+const cwsLink = 'https://chromewebstore.google.com/detail/emailsubjectscore-pro-sub/dleffnbdjohkmmkbojehdpkgkmpofmgm';
+
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "EmailSubjectScore Pro",
+      "description": "EmailSubjectScore Pro is a free Chrome extension that scores Gmail subject lines for spam risk, clarity, and urgency in real time.",
+      "applicationCategory": "BrowserExtension",
+      "operatingSystem": "Chrome",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "url": "https://amrita-labs.com/gmail-subject-score/",
+      "installUrl": cwsLink,
+      "author": { "@type": "Organization", "name": "Amrita Labs", "url": "https://amrita-labs.com" }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Is EmailSubjectScore Pro free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. 50 AI scores per month, no signup, no credit card. Structural scoring (spam trigger detection) is always unlimited." }},
+        { "@type": "Question", "name": "What data does it collect?", "acceptedAnswer": { "@type": "Answer", "text": "Only anonymous device ID for rate limiting. Subject line text is sent to Azure OpenAI for scoring but processed ephemerally — never stored. Image and page content never leave your browser." }},
+        { "@type": "Question", "name": "Does it work with Google Workspace?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Works with personal Gmail and Google Workspace accounts. The extension activates in any Gmail compose window." }},
+        { "@type": "Question", "name": "Does it auto-modify my emails?", "acceptedAnswer": { "@type": "Answer", "text": "Never. AI rewrite suggestions are copy-to-clipboard only. You paste what you want. The extension never changes your email content." }},
+        { "@type": "Question", "name": "How is it different from SendCheckIt or CoSchedule?", "acceptedAnswer": { "@type": "Answer", "text": "EmailSubjectScore Pro scores inside Gmail as you type — no tab-switching or copy-pasting into external tools. It also provides AI rewrite suggestions, not just a score." }}
+      ]
+    }
+  ]
+};
+---
+
+<Base
+  title="EmailSubjectScore Pro — Free Gmail Subject Line Scorer"
+  description="EmailSubjectScore Pro is a free Chrome extension that scores Gmail subject lines for spam risk, clarity, and urgency in real time."
+  canonical="https://amrita-labs.com/gmail-subject-score/"
+  schema={schema}
+>
+  <!-- Hero -->
+  <section class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-b from-brand-600/5 via-transparent to-transparent"></div>
+    <div class="max-w-6xl mx-auto px-6 pt-24 pb-16 sm:pt-32 relative">
+      <div class="max-w-2xl">
+        <span class="inline-block text-xs font-semibold text-brand-400 bg-brand-950/50 px-3 py-1.5 rounded-full border border-brand-500/20 uppercase tracking-wider">Chrome Extension</span>
+        <h1 class="text-4xl sm:text-5xl font-extrabold text-white mt-6 leading-tight tracking-tight">
+          Stop sending emails<br />nobody opens.
+        </h1>
+        <p class="text-lg text-gray-400 mt-6 leading-relaxed">
+          EmailSubjectScore Pro is a free Chrome extension that scores Gmail subject lines for spam risk, clarity, and urgency in real time. AI-powered rewrite suggestions when your score is weak.
+        </p>
+        <div class="flex flex-wrap gap-3 mt-8">
+          <a href={cwsLink} class="inline-flex items-center gap-2 bg-brand-600 text-white px-6 py-3 rounded-full font-semibold text-sm hover:bg-brand-500 transition-colors shadow-lg shadow-brand-600/25">
+            Install Free — Chrome Web Store
+          </a>
+        </div>
+        <p class="text-xs text-gray-500 mt-3">Free · 50 scores/month · No signup</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hero Screenshot -->
+  <section class="max-w-6xl mx-auto px-6 pb-16">
+    <div class="rounded-2xl overflow-hidden border border-white/10 shadow-2xl shadow-black/30">
+      <img src="/assets/screenshots/gmail/hero.png" alt="EmailSubjectScore Pro scoring a subject line in Gmail" class="w-full h-auto" loading="lazy" />
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="max-w-6xl mx-auto px-6 pb-20">
+    <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-8">How it works</h2>
+    <div class="grid sm:grid-cols-3 gap-6 animate-in">
+      <div class="flex gap-4">
+        <span class="flex-shrink-0 w-8 h-8 bg-brand-600 text-white font-bold rounded-full flex items-center justify-content text-sm flex items-center justify-center">1</span>
+        <div>
+          <h3 class="font-semibold text-white">Open Gmail compose</h3>
+          <p class="text-sm text-gray-400 mt-1">Start writing an email as normal. The scoring panel appears automatically.</p>
+        </div>
+      </div>
+      <div class="flex gap-4">
+        <span class="flex-shrink-0 w-8 h-8 bg-brand-600 text-white font-bold rounded-full flex items-center justify-center text-sm">2</span>
+        <div>
+          <h3 class="font-semibold text-white">See your scores</h3>
+          <p class="text-sm text-gray-400 mt-1">Spam risk, clarity, and urgency update live as you type your subject line.</p>
+        </div>
+      </div>
+      <div class="flex gap-4">
+        <span class="flex-shrink-0 w-8 h-8 bg-brand-600 text-white font-bold rounded-full flex items-center justify-center text-sm">3</span>
+        <div>
+          <h3 class="font-semibold text-white">Rewrite if needed</h3>
+          <p class="text-sm text-gray-400 mt-1">Click "Suggest rewrite" for AI-optimized alternatives. Copy to clipboard — you decide what to use.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="bg-surface-900 border-t border-white/5">
+    <div class="max-w-6xl mx-auto px-6 py-20">
+      <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-8">Features</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 animate-in">
+        <FeatureCard
+          icon="🛑"
+          title="Spam Detection"
+          description="Flags trigger words and patterns that send your email to spam or promotions tab."
+        />
+        <FeatureCard
+          icon="🔍"
+          title="Clarity Score"
+          description="Evaluates whether your subject line makes a specific, actionable promise."
+        />
+        <FeatureCard
+          icon="⚡"
+          title="Urgency Rating"
+          description="Balances urgency cues without being spammy. Too much urgency = spam filter."
+        />
+        <FeatureCard
+          icon="✨"
+          title="AI Rewrite"
+          description="One-click AI-optimized alternatives. Copy to clipboard — never auto-modifies your email."
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="max-w-6xl mx-auto px-6 py-20">
+    <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-8">Frequently asked questions</h2>
+    <div class="max-w-2xl">
+      <FaqItem
+        question="Is EmailSubjectScore Pro free?"
+        answer="Yes. 50 AI scores per month, no signup, no credit card. Structural scoring (spam trigger detection) is always unlimited."
+      />
+      <FaqItem
+        question="What data does it collect?"
+        answer="Only anonymous device ID for rate limiting. Subject line text is sent to Azure OpenAI for scoring but processed ephemerally — never stored. Image and page content never leave your browser."
+      />
+      <FaqItem
+        question="Does it work with Google Workspace?"
+        answer="Yes. Works with personal Gmail and Google Workspace accounts. The extension activates in any Gmail compose window."
+      />
+      <FaqItem
+        question="Does it auto-modify my emails?"
+        answer="Never. AI rewrite suggestions are copy-to-clipboard only. You paste what you want. The extension never changes your email content."
+      />
+      <FaqItem
+        question="How is it different from SendCheckIt or CoSchedule?"
+        answer="EmailSubjectScore Pro scores inside Gmail as you type — no tab-switching or copy-pasting into external tools. It also provides AI rewrite suggestions, not just a score."
+      />
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="border-t border-white/5 bg-surface-800">
+    <div class="max-w-6xl mx-auto px-6 py-16 text-center">
+      <h2 class="text-2xl sm:text-3xl font-bold text-white">Score your next subject line.</h2>
+      <p class="text-gray-400 mt-3 text-lg">Free to install. Takes 2 seconds. No signup needed.</p>
+      <a href={cwsLink} class="inline-flex items-center gap-2 bg-brand-600 text-white px-8 py-3 rounded-full font-semibold text-sm mt-8 hover:bg-brand-500 transition-colors shadow-lg shadow-brand-600/25">
+        Install Free — Chrome Web Store
+      </a>
+    </div>
+  </section>
+
+  <!-- Legal links (hidden from nav, accessible via direct URL) -->
+  <div class="max-w-6xl mx-auto px-6 py-8 flex gap-6 text-xs text-gray-500">
+    <a href="/gmail-subject-score/privacy" class="hover:text-gray-400">Privacy Policy</a>
+    <a href="/gmail-subject-score/terms" class="hover:text-gray-400">Terms of Service</a>
+    <a href="/" class="hover:text-gray-400">← Back to Amrita Labs</a>
+  </div>
+</Base>

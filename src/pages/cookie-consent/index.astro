@@ -1,0 +1,93 @@
+---
+import Base from '../../layouts/Base.astro';
+import FeatureCard from '../../components/FeatureCard.astro';
+import FaqItem from '../../components/FaqItem.astro';
+
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "Amrita Cookie Consent",
+      "description": "GDPR & Consent Mode v2 Cookie consent banner with Google Consent Mode v2 built in. Auto-detects visitor region and adapts to GDPR, CCPA requirements.",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "url": "https://amrita-labs.com/cookie-consent/",
+      "author": { "@type": "Organization", "name": "Amrita Labs", "url": "https://amrita-labs.com" }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Is Amrita Cookie Consent free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The core cookie consent banner is free. Handles GDPR, CCPA, and Google Consent Mode v2 out of the box." }},
+        { "@type": "Question", "name": "Does it support Google Consent Mode v2?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Automatically sends consent signals to Google Analytics 4 and Google Ads. No manual tag configuration needed." }},
+        { "@type": "Question", "name": "Does it auto-detect visitor location?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Detects EU/EEA visitors and shows the full consent banner. Non-EU visitors see a simplified notice or no banner, depending on your settings." }}
+      ]
+    }
+  ]
+};
+---
+
+<Base
+  title="Amrita Cookie Consent — Free GDPR Cookie Banner for Shopify"
+  description="GDPR & Consent Mode v2 Cookie consent banner with Google Consent Mode v2 built in. Auto-detects visitor region and adapts to GDPR, CCPA requirements."
+  canonical="https://amrita-labs.com/cookie-consent/"
+  schema={schema}
+>
+  <section class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-b from-brand-600/5 via-transparent to-transparent"></div>
+    <div class="max-w-6xl mx-auto px-6 pt-24 pb-16 sm:pt-32 relative">
+      <div class="max-w-2xl">
+        <span class="inline-block text-xs font-semibold text-green-400 bg-green-950/50 px-3 py-1.5 rounded-full border border-green-500/20 uppercase tracking-wider">Shopify App</span>
+        <h1 class="text-4xl sm:text-5xl font-extrabold text-white mt-6 leading-tight tracking-tight">
+          Cookie consent that<br />keeps your tracking working.
+        </h1>
+        <p class="text-lg text-gray-400 mt-6 leading-relaxed">
+          GDPR & Consent Mode v2 Cookie consent banner with Google Consent Mode v2 built in. Auto-detects visitor region and adapts to GDPR, CCPA requirements. No coding needed.
+        </p>
+        <p class="text-xs text-gray-400 mt-6">Free · Installs in 1 click · No code changes</p>
+        <div class="flex flex-wrap gap-3 mt-6">
+          <a href="https://apps.shopify.com/cookie-consent-8" class="inline-flex items-center gap-2 bg-[#008060] text-white px-6 py-3 rounded-full font-semibold text-sm hover:bg-[#006e52] transition-colors shadow-lg shadow-[#008060]/25">
+            Install on Shopify
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hero Screenshot -->
+  <section class="max-w-6xl mx-auto px-6 pb-16">
+    <div class="rounded-2xl overflow-hidden border border-white/10 shadow-2xl shadow-black/30">
+      <img src="/assets/screenshots/cookie/hero.png" alt="Amrita Cookie Consent banner on a Shopify store" class="w-full h-auto" loading="lazy" />
+    </div>
+  </section>
+
+  <section class="bg-surface-900 border-t border-white/5">
+    <div class="max-w-6xl mx-auto px-6 py-20">
+      <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-8">Features</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 animate-in">
+        <FeatureCard icon="🇪🇺" title="GDPR-Ready" description="Full consent management for EU/EEA visitors. Granular cookie categories." />
+        <FeatureCard icon="📊" title="Consent Mode v2" description="Sends consent signals to GA4 and Google Ads automatically. No manual tag setup." />
+        <FeatureCard icon="🌍" title="Auto Geo-Detection" description="Shows full banner to EU visitors, simplified notice to others. Region-aware." />
+        <FeatureCard icon="🎨" title="Customizable Design" description="Match your store's brand. Colors, position, text — all configurable." />
+        <FeatureCard icon="⚡" title="Zero Performance Impact" description="Lightweight script. No page speed penalty. Loads asynchronously." />
+        <FeatureCard icon="🔒" title="Privacy-First" description="No data collection by the app itself. Your visitors' consent data stays on your store." />
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-6xl mx-auto px-6 py-20">
+    <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-8">Frequently asked questions</h2>
+    <div class="max-w-2xl">
+      <FaqItem question="Is Amrita Cookie Consent free?" answer="Yes. The core cookie consent banner is free. Handles GDPR, CCPA, and Google Consent Mode v2 out of the box." />
+      <FaqItem question="Does it support Google Consent Mode v2?" answer="Yes. Automatically sends consent signals to Google Analytics 4 and Google Ads. No manual tag configuration needed." />
+      <FaqItem question="Does it auto-detect visitor location?" answer="Yes. Detects EU/EEA visitors and shows the full consent banner. Non-EU visitors see a simplified notice or no banner, depending on your settings." />
+    </div>
+  </section>
+
+  <div class="max-w-6xl mx-auto px-6 py-8 flex gap-6 text-xs text-gray-500">
+    <a href="/cookie-consent/privacy/" class="hover:text-gray-400">Privacy Policy</a>
+    <a href="/cookie-consent/terms/" class="hover:text-gray-400">Terms of Service</a>
+    <a href="/" class="hover:text-gray-400">← Back to Amrita Labs</a>
+  </div>
+</Base>

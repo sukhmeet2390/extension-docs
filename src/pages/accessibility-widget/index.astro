@@ -1,0 +1,93 @@
+---
+import Base from '../../layouts/Base.astro';
+import FeatureCard from '../../components/FeatureCard.astro';
+import FaqItem from '../../components/FaqItem.astro';
+
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "Amrita Accessibility Widget",
+      "description": "WCAG accessibility toolbar for Shopify stores. One-click font scaling, contrast modes, reading guide, and more.",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "url": "https://amrita-labs.com/accessibility-widget/",
+      "author": { "@type": "Organization", "name": "Amrita Labs", "url": "https://amrita-labs.com" }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Does this make my store fully WCAG compliant?", "acceptedAnswer": { "@type": "Answer", "text": "The widget adds an accessibility toolbar for visitors to customize their experience. Full WCAG compliance requires additional code-level fixes, but the widget covers the most common usability barriers." }},
+        { "@type": "Question", "name": "Will it slow down my store?", "acceptedAnswer": { "@type": "Answer", "text": "No. The widget loads asynchronously and is under 20KB. Zero impact on Core Web Vitals." }},
+        { "@type": "Question", "name": "Is it free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The core accessibility toolbar is free. Install from the Shopify App Store." }}
+      ]
+    }
+  ]
+};
+---
+
+<Base
+  title="Amrita Accessibility Widget — WCAG Toolbar for Shopify"
+  description="WCAG accessibility toolbar for Shopify stores. One-click font scaling, contrast modes, reading guide, and more."
+  canonical="https://amrita-labs.com/accessibility-widget/"
+  schema={schema}
+>
+  <section class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-b from-brand-600/5 via-transparent to-transparent"></div>
+    <div class="max-w-6xl mx-auto px-6 pt-24 pb-16 sm:pt-32 relative">
+      <div class="max-w-2xl">
+        <span class="inline-block text-xs font-semibold text-green-400 bg-green-950/50 px-3 py-1.5 rounded-full border border-green-500/20 uppercase tracking-wider">Shopify App</span>
+        <h1 class="text-4xl sm:text-5xl font-extrabold text-white mt-6 leading-tight tracking-tight">
+          Make your store<br />accessible to everyone.
+        </h1>
+        <p class="text-lg text-gray-400 mt-6 leading-relaxed">
+          WCAG accessibility toolbar for Shopify stores. One-click font scaling, contrast modes, reading guide, and more. No coding required.
+        </p>
+        <p class="text-xs text-gray-400 mt-6">Free · Installs in 1 click · No code changes</p>
+        <div class="flex flex-wrap gap-3 mt-6">
+          <a href="https://apps.shopify.com/accessibility-widget" class="inline-flex items-center gap-2 bg-[#008060] text-white px-6 py-3 rounded-full font-semibold text-sm hover:bg-[#006e52] transition-colors shadow-lg shadow-[#008060]/25">
+            Install on Shopify
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hero Screenshot -->
+  <section class="max-w-6xl mx-auto px-6 pb-16">
+    <div class="rounded-2xl overflow-hidden border border-white/10 shadow-2xl shadow-black/30">
+      <img src="/assets/screenshots/accessibility/hero.png" alt="Amrita Accessibility Widget toolbar on a Shopify store" class="w-full h-auto" loading="lazy" />
+    </div>
+  </section>
+
+  <section class="bg-surface-900 border-t border-white/5">
+    <div class="max-w-6xl mx-auto px-6 py-20">
+      <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-8">Features</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 animate-in">
+        <FeatureCard icon="🔤" title="Font Scaling" description="Visitors can increase/decrease text size without breaking your layout." />
+        <FeatureCard icon="🌗" title="Contrast Modes" description="High contrast, inverted colors, grayscale — all one-click toggles." />
+        <FeatureCard icon="📏" title="Reading Guide" description="Horizontal line follows the cursor to help readers track lines of text." />
+        <FeatureCard icon="🔗" title="Link Highlighting" description="Makes all links visually distinct for easier navigation." />
+        <FeatureCard icon="⚡" title="Lightweight" description="Under 20KB. Loads async. Zero impact on page speed or Core Web Vitals." />
+        <FeatureCard icon="🎨" title="Customizable" description="Position, colors, and which tools to show — all configurable from your Shopify admin." />
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-6xl mx-auto px-6 py-20">
+    <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-8">Frequently asked questions</h2>
+    <div class="max-w-2xl">
+      <FaqItem question="Does this make my store fully WCAG compliant?" answer="The widget adds an accessibility toolbar for visitors to customize their experience. Full WCAG compliance requires additional code-level fixes, but the widget covers the most common usability barriers." />
+      <FaqItem question="Will it slow down my store?" answer="No. The widget loads asynchronously and is under 20KB. Zero impact on Core Web Vitals." />
+      <FaqItem question="Is it free?" answer="Yes. The core accessibility toolbar is free. Install from the Shopify App Store." />
+    </div>
+  </section>
+
+  <div class="max-w-6xl mx-auto px-6 py-8 flex gap-6 text-xs text-gray-500">
+    <a href="/accessibility-widget/privacy/" class="hover:text-gray-400">Privacy Policy</a>
+    <a href="/accessibility-widget/terms/" class="hover:text-gray-400">Terms of Service</a>
+    <a href="/" class="hover:text-gray-400">← Back to Amrita Labs</a>
+  </div>
+</Base>
