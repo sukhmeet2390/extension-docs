@@ -1,1 +1,1463 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Amrita Labs Blog</title><description>Chrome extensions, Shopify apps, and indie maker insights from Amrita Labs.</description><link>https://amrita-labs.com/</link><language>en-us</language><item><title>5 Best Chrome Extensions for Screen Sharing Privacy (2026)</title><link>https://amrita-labs.com/blog/best-chrome-extensions-screen-sharing-privacy/</link><guid isPermaLink="true">https://amrita-labs.com/blog/best-chrome-extensions-screen-sharing-privacy/</guid><description>The best Chrome extensions for screen sharing privacy, compared for remote workers, managers, and teams who need to hide sensitive information before meetings.</description><pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate></item><item><title>7 Best Gmail Chrome Extensions for Productivity (2026)</title><link>https://amrita-labs.com/blog/best-gmail-chrome-extensions-productivity/</link><guid isPermaLink="true">https://amrita-labs.com/blog/best-gmail-chrome-extensions-productivity/</guid><description>The best Gmail Chrome extensions for productivity in 2026, compared for writing, scheduling, tracking, templates, CRM, and focus.</description><pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate></item><item><title>How to Write Email Subject Lines That Get Replies</title><link>https://amrita-labs.com/blog/email-subject-line-tips-reply-rate/</link><guid isPermaLink="true">https://amrita-labs.com/blog/email-subject-line-tips-reply-rate/</guid><description>A practical, data-backed guide to writing better email subject lines for cold outreach, client pitches, follow-ups, and job search emails.</description><pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate></item><item><title>How to Hide Slack Messages During Screen Sharing: 6 Practical Options</title><link>https://amrita-labs.com/blog/hide-slack-messages-screen-sharing/</link><guid isPermaLink="true">https://amrita-labs.com/blog/hide-slack-messages-screen-sharing/</guid><description>Need to hide Slack messages during screen sharing? Here are 6 practical ways to protect private chats, channel names, and notifications in Zoom, Meet, or Teams.</description><pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate></item><item><title>Pinterest Pin SEO Checklist Before Publishing: 10 Checks That Get More Saves</title><link>https://amrita-labs.com/blog/pinterest-pin-seo-checklist-before-publishing/</link><guid isPermaLink="true">https://amrita-labs.com/blog/pinterest-pin-seo-checklist-before-publishing/</guid><description>Use this Pinterest pin SEO checklist before publishing to improve titles, descriptions, board fit, and click-throughs without guessing.</description><pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate></item><item><title>5 Best Free Chrome Extensions for Pinterest Creators (2026)</title><link>https://amrita-labs.com/blog/free-pinterest-chrome-extensions-creators/</link><guid isPermaLink="true">https://amrita-labs.com/blog/free-pinterest-chrome-extensions-creators/</guid><description>Boost your Pinterest SEO and pin performance with these 5 free Chrome extensions. From real-time pin scoring to keyword research and analytics.</description><pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate></item><item><title>How to Add Google Consent Mode v2 to Shopify (2026 Guide)</title><link>https://amrita-labs.com/blog/consent-mode-v2-shopify-guide/</link><guid isPermaLink="true">https://amrita-labs.com/blog/consent-mode-v2-shopify-guide/</guid><description>When visitors reject cookies, your Google Analytics data disappears. Consent Mode v2 sends cookieless pings so Google can model the conversions you missed. Here&apos;s how to set it up on Shopify.</description><pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate></item><item><title>5 Best Chrome Extensions for Email Subject Lines (2026)</title><link>https://amrita-labs.com/blog/best-email-subject-line-extensions/</link><guid isPermaLink="true">https://amrita-labs.com/blog/best-email-subject-line-extensions/</guid><description>Tested and compared: the 5 best tools for scoring and improving your email subject lines — from in-Gmail extensions to web-based analyzers.</description><pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate></item><item><title>Chrome Web Store Submission: The Gotchas Nobody Warns You About</title><link>https://amrita-labs.com/blog/cws-submission-gotchas/</link><guid isPermaLink="true">https://amrita-labs.com/blog/cws-submission-gotchas/</guid><description>Every gotcha I hit submitting Chrome extensions to CWS — manifest limits, keyword spam, hidden directories, permission justifications, and more.</description><pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate></item></channel></rss>
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Amrita Labs Blog</title><description>Chrome extensions, Shopify apps, and indie maker insights from Amrita Labs.</description><link>https://amrita-labs.com/</link><language>en-us</language><item><title>5 Best Chrome Extensions for Screen Sharing Privacy (2026)</title><link>https://amrita-labs.com/blog/best-chrome-extensions-screen-sharing-privacy/</link><guid isPermaLink="true">https://amrita-labs.com/blog/best-chrome-extensions-screen-sharing-privacy/</guid><description>The best Chrome extensions for screen sharing privacy, compared for remote workers, managers, and teams who need to hide sensitive information before meetings.</description><pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate><content:encoded>Accidentally sharing the wrong thing on a call is one of those mistakes that feels small for one second and huge the next. Maybe it is a Slack DM, a private channel name, a salary note, a customer account balance, or an internal tab you forgot was still open. The more remote work becomes normal, the more this happens to managers, sales teams, recruiters, customer success reps, founders, and anyone else who lives in browser tabs all day.
+
+That is why screen-sharing privacy extensions are so useful. They let you hide sensitive information before the meeting starts instead of relying on last-second tab juggling. Some are built for a specific app. Others work on almost any website. The best one for you depends on where your privacy risk actually shows up.
+
+In this guide, I compared the best Chrome extensions for screen sharing privacy for everyday work use, not technical edge cases. If you mostly share Slack, one tool clearly stands out. If you jump between lots of sites, a generic blur tool may fit better.
+
+---
+
+## What to Look for in a Screen-Sharing Privacy Extension
+
+Before you install the first blur tool you see, focus on five practical criteria:
+
+- **App-specific vs. generic:** A Slack-specific tool can feel much faster inside Slack, while a generic tool is better if you present from many different sites.
+- **Ease of use:** In a real meeting, you want one click or one shortcut, not a complicated setup flow.
+- **Hover-to-reveal:** This is underrated. It lets you keep information hidden from your audience while still quickly checking something yourself.
+- **Persistence:** If you share the same tools repeatedly, saved blur rules can save a lot of time.
+- **Price:** Free is great, but paid can still be worth it if you screen share constantly and need repeatable protection.
+
+A good rule of thumb: choose the most specific tool that matches your daily workflow. If most of your screen-sharing mistakes happen in Slack, a generic extension can feel slower than something built exactly for Slack. But if you move between dashboards, spreadsheets, admin panels, and web apps all week, flexibility matters more.
+
+---
+
+## 1. Privacy Blur for Slack
+
+**[Install from Chrome Web Store](https://chromewebstore.google.com/detail/privacy-blur-for-slack/cejmffebfhdnhbjkhiobaecdohheimkj)** — Free forever, with Pro at $3/month
+
+![Privacy Blur for Slack — messages blurred during screen sharing](/assets/blog/privacy-blur-slack-panel.png)
+
+Privacy Blur for Slack is the best choice if Slack is where your risky screen-sharing moments usually happen. It is built around the parts of Slack people expose by accident: messages, names, channels, media, shortcuts, and persistence rules. That app-specific focus makes it faster than a generic blur tool when you are moving quickly in a meeting.
+
+Its biggest strength is control without making Slack unusable. You get six independent blur zones, so you can hide exactly what matters and leave the rest of Slack readable. Hover-to-reveal is especially helpful during live calls because you can briefly inspect hidden content without turning privacy off for everyone watching. There is also an **Alt+Shift+B** shortcut for fast toggling and a floating draggable panel for changing settings on the fly.
+
+Another important plus: it runs **100% client-side**, which is exactly what you want when the content includes internal conversations, customer data, or sensitive team discussions.
+
+The free version covers the core workflow. Pro adds persistence, keyword rules, and sender rules for people who want the same protections to re-apply automatically.
+
+The real limitation is scope. This is a **Slack Web-only** tool. If your privacy problem happens across Gmail, dashboards, and random websites as often as it happens in Slack, one of the generic options below may be a better fit.
+
+**Best for:** Teams and individuals who spend a large part of the workday screen sharing Slack.
+
+**Price:** Free forever. Pro: $3/month.
+
+---
+
+## 2. Page Blur — Hide Sensitive Info for Screen Sharing
+
+**[Chrome Web Store](https://chromewebstore.google.com/detail/page-blur-hide-sensitive/mekiecmbbmjhakpahnijnhgbpkiifnop)** — Free
+
+![Page Blur Chrome extension for hiding sensitive info during screen sharing](/assets/blog/page-blur-cws.png)
+
+Page Blur is the best generic option on this list because it covers the core privacy jobs most people need without overcomplicating the experience. You can blur any element on a page, hide tab names, keep blur states persistent, adjust blur intensity, and use keyboard shortcuts. Because it works on any website, it fits people who jump between CRMs, email tools, internal dashboards, and browser tabs all day.
+
+Its flexibility is the main reason to choose it over an app-specific product. If you need to hide a customer name on one page, a balance figure on another, and the tab title itself while sharing your whole screen, Page Blur can handle that.
+
+The trade-off is that it stays manual. It is not optimized around one app, so it does not automatically know what is sensitive. You usually need to select the elements yourself every time, which is fine for planned presentations but adds friction when a meeting starts unexpectedly or you need to share your screen quickly without preparation time.
+
+**Best for:** Remote workers who need one free privacy extension across many websites.
+
+**Price:** Free.
+
+---
+
+## 3. Privacy Blur: Screen Privacy Tool
+
+**[Chrome Web Store](https://chromewebstore.google.com/detail/privacy-blur-screen-priva/hdndfcdhmndogkbfeomfpeeafpndhgff)** — Free download, optional premium
+
+![Safe Screen Share extension on Chrome Web Store](/assets/blog/safe-screen-share-cws.png)
+
+Privacy Blur: Screen Privacy Tool is the most feature-rich option in this roundup. Instead of focusing on one way to hide content, it gives you **Focus Mode**, **Full Blur**, **Word Masking**, **Area Blur**, **Decoy Mode**, and **Smart Financial Mode**. If you present lots of different kinds of content and want more than click-to-blur, that variety is a real advantage.
+
+The biggest appeal here is range. Full Blur and Focus Mode are useful when you want to keep attention on one safe part of the screen. Word Masking helps when the same names or terms appear repeatedly. Area Blur is good for quick temporary protection, and Decoy Mode is useful for demos where you want something safer than your live page visible.
+
+It also emphasizes local processing. But it is still a generic tool, not something tailored to one app or one workflow. The six different modes can feel overwhelming when you just want to jump on a call — you may spend more time choosing which mode to use than actually protecting content. Some advanced features are also premium-only.
+
+**Best for:** People who want the broadest set of privacy modes in one extension.
+
+**Price:** Free download with optional premium features.
+
+---
+
+## 4. BlurWeb
+
+**[blurweb.app](https://www.blurweb.app/)** — Paid premium after trial/refund window
+![Blur-Web](/assets/blog/blur-app.png)
+
+BlurWeb is a strong choice for people who create tutorials, onboarding videos, demos, or livestreams on a repeat basis. It lets you blur any element, draw blur over custom areas, persist blur between sessions, and adjust intensity. That combination makes it useful when you need to clean up the same product walkthrough more than once.
+
+The standout feature is repeatability. If you regularly record the same pages or demo flows, persistent blur saves time because you do not have to rebuild your privacy setup every session. The draw-blur option also helps when what you want to hide is awkwardly placed and does not map neatly to one clickable element.
+
+The main drawback is price and setup complexity. BlurWeb is not the best fit for someone who only occasionally presents in meetings — the manual element selection and configuration take time upfront. It makes more sense when polished recordings or repeat demos are part of your job. Like Page Blur, it is also a general tool, so you still decide manually what to hide before every session.
+
+**Best for:** Trainers, tutorial creators, sales demo teams, and livestreamers.
+
+**Price:** Paid premium after the trial/refund window.
+
+---
+
+## 5. Obscuro
+
+**[GitHub](https://github.com/intezer/obscuro)** — Free and open source (MIT)
+![Obscuro](/assets/blog/obscuro.png)
+
+Obscuro is the best option for developers and security-focused teams because it is built around rules, not just manual clicking. It can use **CSS selectors** and **regex pattern matching** to detect sensitive data such as emails, card numbers, and other text patterns, then either **blur** or **scramble** that content. It is also open source under the MIT license, which matters for teams that want transparency and control.
+
+For the right user, Obscuro can be more powerful than a generic blur extension. If your internal dashboards, test environments, or admin tools surface the same types of sensitive values again and again, rule-based hiding can be more reliable than manually selecting elements before every call.
+
+The catch is usability. This is not the easiest tool for non-technical users — configuring CSS selectors and regex patterns requires developer knowledge. The real value comes from setting up rules once and reusing them, but most people who just need quick meeting privacy will find this approach confusing compared to a toggle-based tool.
+
+**Best for:** Developers, security teams, and technical internal demo environments.
+
+**Price:** Free and open source.
+
+---
+
+## Comparison Table
+
+| Extension | Best for | Price | App-specific? | Hover-reveal? |
+|---|---|---|---|---|
+| [Privacy Blur for Slack](https://chromewebstore.google.com/detail/privacy-blur-for-slack/cejmffebfhdnhbjkhiobaecdohheimkj) | Slack users who screen share often | Free forever; Pro $3/mo | Yes — Slack Web only | Yes |
+| [Page Blur](https://chromewebstore.google.com/detail/page-blur-hide-sensitive/mekiecmbbmjhakpahnijnhgbpkiifnop) | Free privacy across many websites | Free | No | No |
+| [Privacy Blur: Screen Privacy Tool](https://chromewebstore.google.com/detail/privacy-blur-screen-priva/hdndfcdhmndogkbfeomfpeeafpndhgff) | Users who want many blur modes | Free + optional premium | No | No |
+| [BlurWeb](https://www.blurweb.app/) | Tutorials, recordings, livestreams | Paid premium | No | No |
+| [Obscuro](https://github.com/intezer/obscuro) | Developers and security teams | Free | No | No |
+
+---
+
+## How to Choose the Right One
+
+Use this simple decision flow:
+
+- **If most of your screen sharing happens in Slack:** choose **Privacy Blur for Slack**.
+- **If you need one free tool that works across many websites:** choose **Page Blur**.
+- **If you want advanced modes like full-screen blur, word masking, or decoy views:** choose **Privacy Blur: Screen Privacy Tool**.
+- **If you record tutorials or demos repeatedly and want persistent visual cleanup:** choose **BlurWeb**.
+- **If your team wants programmable, open-source privacy rules:** choose **Obscuro**.
+
+The biggest mistake is choosing the tool with the most features instead of the one that matches your actual workday. In practice, the best screen-sharing privacy extension is the one you can turn on in seconds before a meeting starts.
+
+---
+
+## Final Take
+
+If Slack is where your private messages, channel names, and internal chatter usually leak into meetings, **Privacy Blur for Slack** is the strongest fit because it solves that exact problem without making Slack hard to use.
+
+If your screen-sharing risk is spread across lots of sites, **Page Blur** is the best free all-purpose choice.
+
+Ready to make Slack safer before your next call? **[Install Privacy Blur for Slack](https://chromewebstore.google.com/detail/privacy-blur-for-slack/cejmffebfhdnhbjkhiobaecdohheimkj)** and keep sensitive Slack content hidden while you share.</content:encoded></item><item><title>7 Best Gmail Chrome Extensions for Productivity (2026)</title><link>https://amrita-labs.com/blog/best-gmail-chrome-extensions-productivity/</link><guid isPermaLink="true">https://amrita-labs.com/blog/best-gmail-chrome-extensions-productivity/</guid><description>The best Gmail Chrome extensions for productivity in 2026, compared for writing, scheduling, tracking, templates, CRM, and focus.</description><pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate><content:encoded>Gmail is powerful, but the default compose experience is still pretty basic. You can write, attach files, and hit send — but that does not solve the real problems most people deal with every day: weak subject lines, missed follow-ups, repetitive replies, cluttered inboxes, and no easy way to tell what happened after an email went out.
+
+That is why the right Chrome extension can make Gmail feel like a real productivity tool instead of just an inbox. For this list, I focused on extensions that help professionals, freelancers, sales reps, recruiters, and operators move faster without turning Gmail into a mess.
+
+## What Makes a Great Gmail Extension?
+
+- It works naturally inside Gmail or right alongside it
+- It removes steps instead of adding more tab switching
+- It has a free tier you can actually test in real work
+- It is useful without demanding a complex setup
+- It solves a recurring daily problem: writing, follow-up, tracking, templates, CRM, or focus
+
+---
+
+## 1. EmailSubjectScore Pro
+
+**What it does:** EmailSubjectScore Pro scores your Gmail subject line in real time as you type. It checks spam risk, clarity, and urgency directly inside the compose window, then offers AI rewrite suggestions when your line is weak. There is no copy-paste step and no need to open a separate subject line testing site.
+
+That is why it takes the top spot. Most Gmail tools help you send faster or track better, but this one improves the very first thing a recipient sees. If the subject line does not earn the open, the rest of the email barely matters. The free plan includes 50 scores per month, which is enough for most freelancers, sales reps, founders, and job seekers writing important emails every week.
+
+**Best feature:** Real-time subject line scoring *inside* Gmail compose.
+
+**Limitation:** It is focused on subject lines, not full-body writing, CRM, or follow-up automation.
+
+**Price:** Free for 50 scores/month.
+
+**Best for:** Anyone who sends important emails from Gmail and wants better open-worthy subject lines without changing their workflow.
+
+![EmailSubjectScore Pro on Chrome Web Store](/assets/blog/emailsubjectscore-cws.png)
+
+[Install EmailSubjectScore Pro](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm)
+
+---
+
+## 2. Boomerang for Gmail
+
+**What it does:** Boomerang helps you schedule emails, set follow-up reminders, and pause your inbox so you can work without constant interruptions. It is one of the most established Gmail productivity tools for a reason: it handles the practical parts of email that people usually try to manage from memory.
+
+![Boomerang for Gmail on Chrome Web Store](/assets/blog/boomerang-cws.png)
+
+If you routinely draft client replies late at night, Boomerang lets you write now and send tomorrow morning. If you are waiting on a proposal, invoice, or intro, you can ask Boomerang to remind you when nobody replies. Inbox Pause is also genuinely useful for people who need focused work blocks instead of reacting to every new message all day.
+
+**Best feature:** Send later and follow-up reminders in the same workflow.
+
+**Limitation:** It does not help with writing quality or subject line optimization. A perfectly timed email still underperforms if the subject line gets ignored. The free plan is also quite limited at 10 credits/month — most active emailers hit that cap within the first few days.
+
+**Price:** Free for 10 credits/month. Paid plans run about $4.98-$14.98/month.
+
+**Best for:** Scheduling, follow-up automation, and anyone who wants more control over when email gets sent and seen.
+
+---
+
+## 3. Mailtrack
+
+**What it does:** Mailtrack adds read tracking to Gmail so you can see when recipients open your emails. For sales reps, recruiters, freelancers, and founders doing outreach, that can be useful context. If someone opened your message three times but never replied, that tells a different story than someone who never opened it at all.
+
+![Mailtrack on Chrome Web Store](/assets/blog/mailtrack-cws.png)
+
+The biggest reason people keep using Mailtrack is simplicity. The free version gives you unlimited tracking, and setup is quick. That makes it one of the easiest extensions to add if your main question after sending is, &quot;Did they even read it?&quot; Just keep expectations realistic: open tracking is not perfect anymore, especially after Apple Mail Privacy Protection changed how reliably open data can be interpreted.
+
+**Best feature:** Free, easy read receipts inside Gmail.
+
+**Limitation:** Open tracking is directionally useful but increasingly unreliable — Apple Mail users always show as &quot;opened&quot; regardless. It also does nothing to improve your actual email quality, so knowing someone opened a weak email does not help you get a reply.
+
+**Price:** Free with Mailtrack branding, or paid from about $5/month to remove branding and unlock extras.
+
+**Best for:** People who care more about post-send visibility than writing assistance.
+
+---
+
+## 4. Grammarly
+
+**What it does:** Grammarly gives you real-time spelling, grammar, and tone suggestions while you write. Even though it is not Gmail-specific, it is still one of the most useful Chrome extensions for anyone who spends a big part of the day in email. It catches the small mistakes that make fast replies feel sloppy and the tone issues that can make short emails sound harsher than intended.
+
+![Grammarly on Chrome Web Store](/assets/blog/grammarly-cws.png)
+
+For busy professionals, Grammarly is less about perfect grammar and more about shipping cleaner communication faster. If you write proposals, client updates, introductions, support replies, or cold outreach, it helps reduce the friction between &quot;good enough draft&quot; and &quot;ready to send.&quot; Because it works beyond Gmail, it also carries over into docs, LinkedIn, and web forms.
+
+**Best feature:** Real-time writing improvement everywhere, including Gmail.
+
+**Limitation:** It does not score subject lines specifically — it helps the body but ignores the most important line in the email. It is also not a workflow tool for scheduling, CRM, or templates. The premium tier at $12/month is steep for people who mostly need help with short email messages rather than long documents.
+
+**Price:** Free basic plan. Premium starts around $12/month.
+
+**Best for:** Overall writing quality and people who want cleaner emails without slowing down.
+
+---
+
+## 5. Text Blaze
+
+![Text Blaze on Chrome Web Store](/assets/blog/textblaze-cws.png)
+
+**What it does:** Text Blaze turns short keyboard shortcuts into full email snippets, templates, and repeatable responses. If you answer the same kinds of questions all week — pricing, onboarding steps, calendar links, proposal follow-ups, support answers, intro replies — it can save an enormous amount of time.
+
+What makes Text Blaze especially good in Gmail is that it stays out of the way until you need it. You type a shortcut, your text expands, and you keep moving. On paid plans, dynamic fields make templates more flexible, so one snippet can adapt to names, dates, links, and other variables. That is useful for support teams, agencies, recruiters, and anyone doing semi-personalized email at volume.
+
+**Best feature:** Fast snippet expansion for repetitive replies.
+
+**Limitation:** Templates save time on repetitive replies, but they do not automatically make your emails more persuasive, clearer, or more likely to be opened. You still need good subject lines and good writing — snippets just make the mechanical parts faster.
+
+**Price:** Free with unlimited snippets. Pro starts around $2.99/month for dynamic fields and extra features.
+
+**Best for:** Repetitive replies, support workflows, and anyone tired of rewriting the same email every day.
+
+---
+
+## 6. HubSpot Sales
+
+**What it does:** HubSpot Sales brings CRM features into Gmail, including email tracking, template support, contact records, and meeting scheduling. If your inbox is tightly connected to pipeline management, this kind of extension can save a lot of tab-switching.
+
+The value here is not just convenience. It is context. When you open an email, seeing the contact history, company details, or prior interactions can help you respond faster and more intelligently. For sales teams, account managers, and founders running outreach from a CRM-backed workflow, that matters. You spend less time hunting for context and more time moving the conversation forward.
+
+**Best feature:** CRM context inside Gmail for sales and relationship management.
+
+**Limitation:** It can feel like too much tool for solo freelancers or people who just want a lighter, faster Gmail setup. The setup is also heavier than simpler extensions — you&apos;re adding a full CRM layer on top of Gmail, which some people find slows down their workflow rather than speeding it up.
+
+**Price:** Free CRM and extension available. Paid plans typically start at $20+/month depending on features.
+
+**Best for:** Sales teams and operators who already live in a CRM-driven workflow.
+
+---
+
+## 7. Simplify Gmail
+
+**What it does:** Simplify Gmail cleans up the Gmail interface by hiding distractions like side panels, ads, and extra UI elements you may never use. It is the least flashy tool on this list, but for people who feel mentally crowded by Gmail, it can have an immediate effect.
+
+A cleaner inbox means fewer visual interruptions and less temptation to bounce between chat, sidebars, and secondary panels when you are trying to process mail or send focused replies. That makes Simplify Gmail especially appealing for people chasing inbox zero or anyone who wants Gmail to feel calmer and more deliberate. It will not improve your writing or automate follow-ups, but it can make the whole environment more usable.
+
+**Best feature:** A cleaner, more distraction-free Gmail workspace.
+
+**Limitation:** It is mainly an interface upgrade, not a writing, tracking, or automation tool. It will not help your emails land better or get more replies — it just makes the inbox itself less visually cluttered.
+
+**Price:** Free trial, then about $3/month or $36/year.
+
+**Best for:** Focus, cleaner workflows, and people who want Gmail to feel less noisy.
+
+---
+
+## Comparison Table
+
+| Extension | Category | Price | Works in compose? |
+|---|---|---|---|
+| EmailSubjectScore Pro | Subject line scoring | Free (50 scores/month) | Yes |
+| Boomerang for Gmail | Scheduling and follow-ups | Free plan, paid from $4.98-$14.98/mo | Yes |
+| Mailtrack | Email tracking | Free, paid from $5+/mo | Yes |
+| Grammarly | Writing quality | Free, Premium from $12/mo | Yes |
+| Text Blaze | Templates and snippets | Free, Pro from $2.99/mo | Yes |
+| HubSpot Sales | CRM and sales workflow | Free CRM, paid from $20+/mo | Yes |
+| Simplify Gmail | Interface cleanup and focus | Free trial, then $3/mo or $36/yr | No |
+
+---
+
+## How to Stack These Tools
+
+You do not need all seven. In fact, most people are better off with a small stack that covers one writing tool, one workflow tool, and maybe one visibility tool.
+
+- **Freelancers and consultants:** EmailSubjectScore Pro + Boomerang + Text Blaze
+- **Sales reps:** EmailSubjectScore Pro + HubSpot Sales + Mailtrack
+- **Client-facing professionals:** Grammarly + Boomerang + Simplify Gmail
+
+If you want the simplest high-ROI setup, start with EmailSubjectScore Pro for better subject lines and Boomerang for follow-ups. That combination improves both the front end of the email (getting opened) and the back end (remembering to follow up).
+
+---
+
+## The Best Gmail Productivity Extension for Most People
+
+If your goal is to spend less time in Gmail while getting better results from the emails you already send, the best place to start is the compose box itself. That is where subject lines get written, where weak first impressions happen, and where a small improvement can pay off every single day.
+
+Try **EmailSubjectScore Pro** if you want real-time feedback on spam risk, clarity, and urgency without leaving Gmail. The free plan gives you 50 scores per month, which is enough for most people to feel the difference quickly.
+
+[Install EmailSubjectScore Pro on the Chrome Web Store](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm)</content:encoded></item><item><title>How to Write Email Subject Lines That Get Replies</title><link>https://amrita-labs.com/blog/email-subject-line-tips-reply-rate/</link><guid isPermaLink="true">https://amrita-labs.com/blog/email-subject-line-tips-reply-rate/</guid><description>A practical, data-backed guide to writing better email subject lines for cold outreach, client pitches, follow-ups, and job search emails.</description><pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate><content:encoded>Your email lives or dies in about 2-3 seconds. Before anyone reads your pitch, proposal, follow-up, or intro, they scan the subject line and make a snap decision: open, ignore, or delete.
+
+That tiny line carries more weight than most people realize. Cleanlist reports that 47% of recipients open an email based on the subject line alone, while 69% report emails as spam based on the subject line alone (Cleanlist 2026). And because average cold email reply rates sit around 3-5% across 53M+ emails analyzed, small subject-line improvements matter a lot more than they look on paper (Saleshandy 2026).
+
+If you write outreach from Gmail, tools like [EmailSubjectScore Pro](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm) make this easier by scoring your subject line for spam risk, clarity, and urgency in real time — right inside the compose window, with no copy-paste to external tools.
+
+Most people obsess over the email body. Smart senders know the subject line decides whether the body gets a chance.
+
+## Why reply rate matters more than open rate
+
+Apple Mail Privacy Protection made open tracking much less reliable in 2021 by preloading email pixels, so opens are no longer the cleanest signal of real interest. Reply rate is harder to fake, which makes it the better metric for judging whether your subject line attracted the right person enough to respond.
+
+## 7 data-backed tips for subject lines that get replies
+
+### 1. Keep it short
+
+The best-performing subject lines are usually **3-7 words and under 45 characters**. That length works because it is easy to scan on both desktop and mobile, and it forces you to cut filler.
+
+**Example:** `Quick question about onboarding`
+
+**Why it works:** It sounds human, specific, and easy to process in one glance. Compare it to something bloated like `Following up regarding a possible opportunity to improve your onboarding experience`, which feels heavier before the email is even opened.
+
+**Actionable advice:**
+
+- Cut throat-clearing words like &quot;following up,&quot; &quot;touching base,&quot; and &quot;wanted to reach out&quot;
+- Remove anything the recipient can learn in the first sentence of the email instead
+- Read your subject line out loud; if it feels long, it is long
+- Aim for a focused idea, not a full summary
+
+A short subject line does not mean vague. It means tight.
+
+### 2. Personalize with something real
+
+**Personalized subject lines can lift open rates by 26-50%**, which is still useful directional evidence even if open rate is no longer the main scoreboard. More important: personalization signals that this email is for *them*, not for a list.
+
+**Example:** `Idea for Acme&apos;s demo flow`
+
+**Why it works:** It uses a company name and hints at a relevant topic. That feels more credible than a generic line like `Growth idea for your business`, which could have been sent to anyone.
+
+**Actionable advice:**
+
+- Personalize with a company name, role, recent launch, or obvious pain point
+- Keep the personalized detail near the front
+- Use a strong detail, not several weak ones
+- Make sure the body matches the promise of the subject line
+
+Good personalization is specific and earned. Bad personalization feels stitched in.
+
+### 3. Ask a question
+
+**Question-based subject lines can generate 10-21% higher opens.** They work because they create a small curiosity gap and feel more conversational than a statement.
+
+**Example:** `Still hiring SDRs?`
+
+**Why it works:** A real question invites a mental response. The reader can instantly tell whether it is relevant, and if it is, they are more likely to open because the email feels like a direct conversation rather than a broadcast.
+
+**Actionable advice:**
+
+- Ask simple yes/no or short-answer questions
+- Keep the question tied to a real business or personal outcome
+- Avoid vague questions like `Can I help?`
+- Use question marks sparingly; one is enough
+
+Question subjects work especially well for sales outreach, freelancer pitches, recruiting emails, and job search follow-ups.
+
+### 4. Avoid spam triggers
+
+This is the easiest win and the most overlooked. If **69% of people report spam based on the subject line alone**, you cannot afford to sound like a promotion even when your offer is legitimate (Cleanlist 2026).
+
+**Bad examples:**
+
+- `FREE OFFER INSIDE!!!`
+- `Last chance to 10x revenue`
+- `Urgent response needed`
+
+**Better examples:**
+
+- `Question about your Q3 pipeline`
+- `Idea for reducing no-shows`
+- `Intro from a fellow founder`
+
+**Actionable advice:**
+
+- Avoid all caps, excessive punctuation, and hype language
+- Be careful with words like &quot;free,&quot; &quot;guaranteed,&quot; and &quot;urgent&quot; unless they are absolutely necessary
+- Skip clickbait phrasing that overpromises
+- Write like one person contacting another person
+
+Remember the upside and downside together: 47% open based on subject line alone, but 69% may flag spam based on that same line. The subject line is both your first impression and your first filter.
+
+### 5. Create urgency without sounding pushy
+
+The goal is not pressure. The goal is relevance *now*. Since **58% of replies come from the first email**, your opening subject line should give the recipient a reason to care today instead of &quot;later,&quot; which usually means never.
+
+**Example:** `Before next week&apos;s rollout`
+
+**Why it works:** It introduces a timeframe without fake drama. It suggests the email is timely, but it does not scream for attention.
+
+**Actionable advice:**
+
+- Tie urgency to a real event: launch, hiring push, renewal, campaign, deadline
+- Use calm phrasing like `before`, `for`, `ahead of`, or `this week`
+- Avoid manipulative pressure like `final notice` or `act now`
+- Make sure the body quickly explains why the timing matters
+
+Strong urgency feels helpful. Weak urgency feels salesy.
+
+### 6. A/B test every campaign
+
+Average cold email reply rates are only **3-5%**, while the best campaigns break **10%+ reply rate**. That gap is your reminder not to fall in love with the first subject line you write.
+
+**Example test:**
+
+- A: `Idea for Acme&apos;s onboarding`
+- B: `Quick question about onboarding`
+
+Both are short. Both are clear. But they frame the email differently. One leads with value, the other with conversation. You will not know which angle fits your audience until you test it.
+
+**Actionable advice:**
+
+- Test one variable at a time: personalization, question vs statement, or urgency angle
+- Keep the email body roughly the same when comparing subject lines
+- Use reply rate as the main score, not opens alone
+- Save winners and turn them into reusable patterns
+
+A/B testing does not need to be fancy. It just needs to be consistent.
+
+### 7. Time it right
+
+Even a strong subject line can flop if it lands at the wrong moment. **Tuesday and Wednesday mornings** are consistently strong send windows for cold outreach according to Snov.io&apos;s 2026 guidance.
+
+**Example:** Instead of sending `Quick question about your hiring funnel` late Friday afternoon, schedule it for Tuesday morning when inboxes are active but not yet buried in end-of-week cleanup.
+
+**Actionable advice:**
+
+- Start with Tuesday or Wednesday morning in the recipient&apos;s time zone
+- Avoid late Friday, weekend, and late-night sends for first-touch cold emails
+- Keep timing notes alongside your subject-line test results
+- Re-test timing when you change audience segments
+
+Timing will not rescue a bad subject line. But good timing gives a good subject line a fair shot.
+
+![EmailSubjectScore Pro on Chrome Web Store — real-time subject line scoring for Gmail](/assets/blog/emailsubjectscore-cws.png)
+
+## How to check your subject lines before sending
+
+If you send important emails from Gmail, the fastest habit upgrade is to check the subject line *before* you hit send, not after a campaign underperforms.
+
+That is where [EmailSubjectScore Pro](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm) fits naturally into the workflow. It works directly inside the Gmail compose window and scores your subject line in real time across three practical dimensions:
+
+- **Spam risk** — does this sound promotional, manipulative, or filter-friendly in the wrong way?
+- **Clarity** — will the recipient immediately understand what the email is about?
+- **Urgency** — is there a believable reason to open now?
+
+If your score is weak, the tool gives AI rewrite suggestions right there in Gmail, so you can improve the line without opening another tab or pasting your text into an external analyzer. That matters because convenience drives usage — web-based tools like CoSchedule or SubjectLine.com require you to leave Gmail, copy-paste your subject, and mentally carry the feedback back. By the time you switch tabs, you&apos;ve lost momentum. An in-Gmail scorer removes that friction entirely.
+
+Free users get **50 scores per month**, which is enough for many freelancers, job seekers, consultants, and light outreach workflows. **Pro gives you unlimited scoring**, so if you are sending a lot of outbound email, you never have to ration checks.
+
+## 10 high-performing subject line templates
+
+Use these as starting points, not copy-and-paste magic bullets. Fill in the bracketed part with something real and relevant.
+
+1. `Quick question about [topic]`
+2. `Idea for [company]`
+3. `[Company] + [pain point]`
+4. `Still working on [goal]?`
+5. `Before [event or deadline]`
+6. `Question about your [process]`
+7. `For your [team or role]`
+8. `Worth trying for [company]?`
+9. `Regarding [specific initiative]`
+10. `[Name], quick thought on [topic]`
+
+A few notes on using templates well:
+
+- Favor plain language over cleverness
+- Choose the template based on the relationship: cold outreach, follow-up, job search, or client work
+- Make the body deliver exactly what the template hints at
+- If a template starts feeling generic, rewrite it in your own natural voice
+
+Templates save time, but relevance gets replies.
+
+## FAQ
+
+### What is a good reply rate for cold email?
+
+A solid benchmark is **3-5% average reply rate**, according to Saleshandy&apos;s 2026 analysis of 53M+ cold emails. The strongest campaigns can reach **10%+**, which is why improving your subject lines, targeting, and offer is worth the effort.
+
+### Should I optimize for opens or replies?
+
+Optimize for **replies first**. Opens can still help with rough comparisons, but Apple Mail Privacy Protection made them less trustworthy, while a reply is a real signal that your message connected.
+
+### How many subject lines should I test?
+
+Start with a small set of clear variations for any meaningful outreach campaign. That gives you enough contrast to learn what works without creating unnecessary complexity.
+
+## Final takeaway
+
+If your subject line is too long, too generic, too pushy, or too spammy, the rest of your email never gets a fair chance. A better subject line will not fix a weak offer, but it will help good emails earn more of the replies they deserve.
+
+If you want an easy way to check subject lines as you write them, install **[EmailSubjectScore Pro](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm)**. It works directly inside Gmail, scores spam risk, clarity, and urgency in real time, includes AI rewrite suggestions, and gives you **50 free scores per month** before you ever need Pro.</content:encoded></item><item><title>How to Hide Slack Messages During Screen Sharing: 6 Practical Options</title><link>https://amrita-labs.com/blog/hide-slack-messages-screen-sharing/</link><guid isPermaLink="true">https://amrita-labs.com/blog/hide-slack-messages-screen-sharing/</guid><description>Need to hide Slack messages during screen sharing? Here are 6 practical ways to protect private chats, channel names, and notifications in Zoom, Meet, or Teams.</description><pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate><content:encoded>You&apos;ve probably had this moment: you&apos;re sharing your screen, talking through a project update, and then you notice Slack sitting there with a private message preview, a sensitive channel name, or a thread you definitely didn&apos;t mean to show the whole room.
+
+If you need a fix fast, **[Privacy Blur for Slack](https://chromewebstore.google.com/detail/privacy-blur-for-slack/cejmffebfhdnhbjkhiobaecdohheimkj)** is the most practical option because it lets you keep Slack open while hiding the parts you don&apos;t want coworkers or clients to see. But it&apos;s not the only way to reduce the risk.
+
+This guide walks through the best ways to hide Slack messages during screen sharing, ranked by how well they protect your privacy without slowing down your meeting. Some methods are perfect if Slack needs to stay visible. Others work better if you just want the safest possible setup before you click Share.
+
+## Why Slack doesn&apos;t have a built-in solution
+
+Slack gives you lots of control over notifications, status, and window layout, but it still doesn&apos;t offer a true presenter mode that hides message content while you share your screen. That means there is no native Slack setting that blurs existing chats, masks channel names, or hides media previews in the main interface.
+
+Slack&apos;s own Do Not Disturb tools help with **new** interruptions, not **existing** content already visible on your screen. So if your sidebar includes confidential channels, your DMs contain employee information, or a thread has customer details in plain view, you need a workaround before the meeting starts.
+
+The good news: you don&apos;t need to overhaul your workflow. In most cases, one of the six options below is enough.
+
+## 1. Privacy Blur for Slack — Best if Slack needs to stay on screen
+
+**[Install Privacy Blur for Slack](https://chromewebstore.google.com/detail/privacy-blur-for-slack/cejmffebfhdnhbjkhiobaecdohheimkj)**
+
+![Privacy Blur for Slack — messages blurred during screen sharing](/assets/blog/privacy-blur-slack-panel.png)
+
+If Slack actually needs to be visible during the meeting, this is the best option because it solves the real problem instead of working around it. Privacy Blur for Slack works on **app.slack.com in Chrome** and lets you blur the parts of Slack that usually cause embarrassment during screen sharing: messages, names, channels, and media.
+
+The big advantage is control. Instead of blurring the entire page, you can choose from **9 independent blur zones** and keep the rest of Slack usable. Need to glance at a message without turning protection off completely? You can **hover to reveal** specific content when you need it. There&apos;s also an **Alt+Shift+B** shortcut for quick toggling before a call starts.
+
+It runs **100% client-side with no data collection**, so your Slack data stays in your browser, and the free plan is enough for most people. The **Pro plan ($3/month)** adds persistence and rules if you want your preferred blur setup to stick automatically.
+
+**How to use it:**
+1. Install the extension from the Chrome Web Store.
+2. Open Slack Web in Chrome.
+3. Turn on the blur zones you want before your meeting starts.
+4. Hover to reveal only what you need while sharing.
+
+This is the most complete choice for managers, recruiters, founders, support teams, and anyone who has to keep Slack open during live calls.
+
+## 2. Share only the specific window or tab you&apos;re presenting
+
+If you don&apos;t actually need Slack on screen, the safest method is simply not to share it. Zoom, Google Meet, and Microsoft Teams all let you share a **specific window** instead of your full desktop, and Meet also lets you share a single browser tab.
+
+That means you can present your slide deck, browser tab, design file, or spreadsheet while Slack stays on another part of your computer that viewers never see. For many people, this is the easiest zero-install fix.
+
+**How to use it:**
+1. Open only the file, browser tab, or app you plan to present.
+2. Click **Share** or **Present** in your meeting tool.
+3. Choose **Window** or **Tab** instead of **Entire Screen**.
+4. Double-check the preview before confirming.
+
+This works especially well for status updates, demos, and training sessions where Slack is not part of the presentation. The limitation is obvious: if you need to switch into Slack mid-meeting, you&apos;ll either need to stop sharing, reshare a different window, or risk showing it anyway. Great safety, less flexibility.
+
+## 3. Turn on Slack Do Not Disturb or pause notifications
+
+If your main fear is surprise popups, Slack&apos;s built-in **Do Not Disturb** feature is worth using every time you present. It pauses desktop alerts, mobile notifications, and other interruptions for a set amount of time, which immediately lowers the odds of a private message flashing onto your screen at the worst moment.
+
+**How to use it:**
+1. In Slack, click your profile picture.
+2. Open **Notifications**.
+3. Choose a pause length such as 30 minutes, 1 hour, or a custom time.
+4. Start your meeting once the snooze icon appears.
+
+This is quick, official, and free. It also helps if you&apos;re presenting in front of clients, leadership, or a large internal meeting where even a harmless DM preview would feel distracting.
+
+The downside: Do Not Disturb does **not** hide existing conversations already open in Slack. Your channel list, message history, names, and media are still visible if Slack itself is on screen. Think of this as a backup layer, not a complete privacy solution. It&apos;s best paired with window-only sharing or a blur tool.
+
+## 4. Put Slack on a second virtual desktop
+
+Virtual desktops are a simple middle ground between &quot;close Slack completely&quot; and &quot;leave Slack exposed.&quot; On Windows, press **Win+Tab** to create another desktop. On Mac, you can use **Mission Control** to add a separate desktop space. Then keep Slack on one desktop and your presentation materials on another.
+
+**How to use it:**
+1. Create a second virtual desktop before the meeting.
+2. Move Slack to that desktop.
+3. Keep your slides, browser, or demo on the desktop you&apos;ll share.
+4. Switch carefully only when you need to check messages privately.
+
+This method is helpful if you want Slack available without cluttering the workspace you&apos;re showing to everyone else. It can also reduce the mental load of constantly minimizing and reopening apps.
+
+The tradeoff is that it depends on your own discipline. If you accidentally switch desktops while sharing your entire screen, Slack can still appear. It&apos;s safer than leaving Slack front and center, but not as foolproof as blurring or sharing a single window. Best for people who multitask heavily and already use multiple desktops every day.
+
+## 5. Close or minimize Slack before the meeting starts
+
+This is the least fancy option, but it&apos;s still one of the most reliable. If Slack does not need to play any role in the meeting, closing it removes the problem completely. No visible messages, no sidebar, no unread threads, no accidental channel-name reveal.
+
+**How to use it:**
+1. Finish any urgent Slack replies before the call.
+2. Quit the Slack desktop app, close the Slack browser tab, or at least minimize the window.
+3. Start screen sharing only after confirming Slack is gone from view.
+
+This works best for short presentations, interviews, webinars, and client walkthroughs where your attention should already be on the call. It&apos;s also a good habit when you&apos;re tired or rushed and don&apos;t want one more thing to remember.
+
+The downside is convenience. You lose instant access to chats during the meeting, and you may miss something time-sensitive until the presentation ends. Still, for pure risk reduction, &quot;just close Slack&quot; remains surprisingly effective.
+
+## 6. Use a generic blur extension like Page Blur or BlurWeb
+
+If you want one privacy tool that works across many websites, a generic blur extension can help. Tools like **Page Blur** and **BlurWeb** are designed to blur elements or selected areas on web pages, which means you can use them on Slack, dashboards, CRMs, docs, and other browser-based tools.
+
+![Page Blur extension on Chrome Web Store — generic blur for any website](/assets/blog/page-blur-cws.png)
+
+That flexibility is the main appeal. If your workday jumps between many tabs with sensitive information, a general-purpose blur tool may fit better than a site-specific extension.
+
+**How to use it:**
+1. Install the extension you prefer.
+2. Open Slack Web or another site with sensitive content.
+3. Blur the visible areas manually before you present.
+4. Test the page once to make sure the blur stays where you expect.
+
+The tradeoff is precision and speed. Generic tools are not built specifically for Slack&apos;s layout, so they require manual element selection every single time — there&apos;s no &quot;toggle Messages on&quot; shortcut. If Slack&apos;s interface changes or you switch channels, you&apos;ll need to redo the blur setup from scratch. They also cannot automatically detect new messages that arrive mid-call, so content that loads after your initial blur setup may still appear unblurred. For people who screen share Slack often, a Slack-specific tool is usually faster and less error-prone.
+
+## Quick comparison
+
+| Method | Hides existing Slack messages? | Stops new popups? | Keeps Slack usable during sharing? | Best for |
+|---|---|---|---|---|
+| **Privacy Blur for Slack** | Yes | No — pair it with DND | Yes | Daily Slack users who still need Slack open |
+| **Share specific window/tab** | Yes, by keeping Slack off screen | Usually, if Slack stays off the shared surface | No | Presentations where Slack isn&apos;t needed |
+| **Slack Do Not Disturb** | No | Yes | Yes | Preventing surprise notifications |
+| **Virtual desktop** | Partly | No | Yes, privately | Multitaskers who want Slack nearby |
+| **Close or minimize Slack** | Yes | Yes | No | Short meetings and lowest-risk setup |
+| **Generic blur extensions** | Yes | No | Usually | People who need privacy across many websites |
+
+## FAQ
+
+### Does Privacy Blur for Slack work in the Slack desktop app?
+
+No. Privacy Blur for Slack works on **app.slack.com in Chrome**. If you mainly use the desktop app, you can switch to Slack Web before a meeting or use one of the non-extension methods in this guide.
+
+### Is Slack Do Not Disturb enough on its own?
+
+Usually no. Do Not Disturb is great for stopping new notification popups, but it does not hide the Slack content that&apos;s already sitting on your screen. If Slack will remain visible during the meeting, pair DND with either Privacy Blur for Slack or a window-sharing strategy.
+
+### What&apos;s the best setup for people who screen share every day?
+
+If Slack needs to stay open, the most practical setup is **Privacy Blur for Slack + Slack Do Not Disturb**. That combination protects visible content and reduces the chance of a surprise popup at the same time.
+
+## The simplest way to avoid an awkward Slack moment
+
+If you screen share often and still need Slack open, use the tool built for that exact problem. **[Install Privacy Blur for Slack](https://chromewebstore.google.com/detail/privacy-blur-for-slack/cejmffebfhdnhbjkhiobaecdohheimkj)** and blur messages, names, channels, and media before your next call. It&apos;s free forever, works entirely client-side, and takes less than a minute to set up.</content:encoded></item><item><title>Pinterest Pin SEO Checklist Before Publishing: 10 Checks That Get More Saves</title><link>https://amrita-labs.com/blog/pinterest-pin-seo-checklist-before-publishing/</link><guid isPermaLink="true">https://amrita-labs.com/blog/pinterest-pin-seo-checklist-before-publishing/</guid><description>Use this Pinterest pin SEO checklist before publishing to improve titles, descriptions, board fit, and click-throughs without guessing.</description><pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate><content:encoded>Most Pinterest creators do not need to publish more pins. They need to publish better ones.
+
+That is the real 80/20 of Pinterest: one optimized pin can outperform 10 rushed ones. On a platform with 500M+ monthly active users, tiny pre-publish details matter because Pinterest is both a visual platform and a search engine. If your image, title, description, board, and link are aligned, your pin has a much better chance of earning saves and clicks over time.
+
+That is exactly why tools like **Pinello** are useful. Instead of guessing whether your pin is ready, Pinello scores it in real time inside Pinterest&apos;s pin creation modal across image quality, board fit, title SEO, description optimization, and keyword density — with AI rewrite suggestions when something is weak.
+
+If you are a food blogger, craft seller, lifestyle creator, or niche publisher, use this **Pinterest pin SEO checklist before publishing** every time. It takes a few extra minutes, but it can save you from posting pins that look nice and still go nowhere.
+
+---
+
+![Pinello Chrome extension scoring pins in real-time on Pinterest](/assets/blog/pinello-cws.png)
+
+## The 10-point pre-publish checklist
+
+### 1. ✅ Use a vertical image in the 2:3 ratio
+
+Pinterest favors vertical visuals, and **1000 x 1500 px** remains the safest default size for standard pins. That 2:3 ratio fills space nicely in the feed without getting awkwardly cropped.
+
+Before you publish, check:
+
+- Is the image vertical, not square or horizontal?
+- Does it still look sharp on mobile?
+- Is the subject clear even at a smaller size?
+
+If you are posting recipes, show the finished dish first. If you sell crafts, show the final product clearly before any close-up details. Lead with the outcome.
+
+### 2. ✅ Add a clear text overlay that is easy to read on mobile
+
+A beautiful image is not always a clear image. Pinterest users scroll fast, and your pin often gets judged in seconds.
+
+Your text overlay should tell people what they are getting right away:
+
+- &quot;5 Easy Fall Charcuterie Board Ideas&quot;
+- &quot;DIY Budget Closet Makeover&quot;
+- &quot;Beginner Sourdough Checklist&quot;
+
+Keep fonts large, high-contrast, and uncluttered. If the text disappears into a busy background, simplify it. Mobile readability matters more than desktop perfection.
+
+### 3. ✅ Write a keyword-rich title with the main keyword first
+
+Your pin title should be specific, natural, and front-loaded with the search term you want to rank for. A good rule of thumb is to stay **under 100 characters** and place the main keyword near the beginning.
+
+Weak title:
+- &quot;A Few Ideas I Loved This Week&quot;
+
+Better title:
+- &quot;Small Balcony Garden Ideas for Apartments&quot;
+
+Notice the difference: the second one instantly tells Pinterest and the reader what the content is about.
+
+If you have to choose between clever and clear, choose clear every time.
+
+### 4. ✅ Put keywords in the first sentence of the description
+
+This is one of the easiest wins in Pinterest SEO.
+
+Pinterest allows up to **500 characters** in a pin description, but longer is not automatically better. Descriptions in the **100-200 character** range tend to be the sweet spot for engagement and can drive **25-30% more engagement than max-length descriptions**. Only the **first 30-60 characters** are typically visible in the feed preview, so your opening line does the heavy lifting.
+
+Put the main keyword in the first sentence, naturally.
+
+Weak description:
+- &quot;This is one of my favorite things I made lately.&quot;
+
+Better description:
+- &quot;These easy meal prep breakfast ideas help busy moms plan quick, high-protein mornings.&quot;
+
+Be direct. Be descriptive. Do not waste the first sentence on filler.
+
+![Pinello Chrome extension scoring pins in real-time on Pinterest](/assets/blog/pinello-tips.png)
+### 5. ✅ Include a simple CTA in the description
+
+Pinterest is not just about getting seen. It is about getting the next action.
+
+A soft call to action tells people what to do next:
+
+- &quot;Save for later&quot;
+- &quot;Click for the full tutorial&quot;
+- &quot;Read the full step-by-step guide&quot;
+- &quot;Shop the full collection&quot;
+
+You do not need hypey copy. You just need a clear next step. Pairing keywords with a simple CTA makes the description feel complete instead of unfinished.
+
+### 6. ✅ Verify the destination URL before publishing
+
+This sounds obvious, but broken links quietly kill pin performance.
+
+Before you publish, click through and check:
+
+- Does the URL load correctly?
+- Does it match the promise of the pin?
+- Does it work on mobile?
+- Is the page fast enough to keep visitors from bouncing?
+
+If your pin says &quot;full tutorial,&quot; the page should open directly to that tutorial. If your pin promises a printable, recipe, or shopping page, the visitor should land there without confusion.
+
+### 7. ✅ Choose the most specific relevant board
+
+Board placement is context. A strong pin placed on a vague board can underperform.
+
+If you have a choice between:
+
+- &quot;Recipes&quot;
+- &quot;Healthy Recipes&quot;
+- &quot;High-Protein Breakfast Recipes&quot;
+
+choose the most specific relevant board.
+
+That specificity helps Pinterest better understand where your content belongs. It also helps your ideal audience find it in the right environment. Broad boards feel safe, but specific boards usually send a stronger signal.
+
+### 8. ✅ Fill in alt text
+
+Alt text is easy to skip, but it is worth filling out. It improves clarity, supports accessibility, and gives you one more place to describe the image accurately.
+
+Keep it simple and literal. Describe what is actually in the pin image, not a list of random keywords.
+
+Example:
+- &quot;Vertical pin showing a white farmhouse kitchen shelf with labeled pantry jars and neutral decor&quot;
+
+Helpful, readable, and relevant beats robotic every time.
+
+### 9. ✅ Keep branding consistent
+
+The highest-performing creators often look recognizable before users even read the account name.
+
+Consistency builds that recognition:
+
+- Similar colors across pins
+- Repeating font choices
+- A small logo or brand mark
+- A familiar layout style
+
+This does not mean every pin should look identical. It means they should feel like they came from the same creator. Over time, that familiarity can increase trust and make your content more memorable in crowded feeds.
+
+### 10. ✅ Publish fresh content, not the exact same image + URL again
+
+Pinterest rewards freshness. Republishing the exact same image with the exact same destination URL is usually weaker than creating a fresh variation.
+
+Fresh can mean:
+
+- A new pin design for the same blog post
+- A different headline angle
+- A new cover image
+- A different crop or text overlay
+
+For example, one recipe post could become multiple fresh pins:
+
+- &quot;Easy Weeknight Pasta Dinner&quot;
+- &quot;20-Minute Creamy Pasta Recipe&quot;
+- &quot;Budget-Friendly Family Pasta Meal&quot;
+
+Same destination, new creative angle.
+
+---
+
+## Why hashtags no longer work on Pinterest
+
+If you learned Pinterest marketing a few years ago, you were probably told to stuff a few hashtags at the end of every description.
+
+That advice is outdated.
+
+**Pinterest deprecated hashtags in 2023**, which means they no longer function as a meaningful discovery tool on the platform. So if you are still adding hashtag bundles to your descriptions, you are using space that could be doing better work.
+
+What to do instead:
+
+- Put your primary keyword in the first sentence
+- Add 1-2 closely related phrases naturally in the description
+- Match the keyword theme across the image, title, description, board, and landing page
+- Write for humans first, search clarity second
+
+In short: stop thinking in hashtags and start thinking in keyword alignment.
+
+---
+
+![Pinello scoring panel showing real-time pin analysis inside Pinterest](/assets/blog/pinterest-chrome-extensions-pinello.png)
+
+## How to automate this checklist with Pinello
+
+The problem with checklists is not knowing what to do. It is remembering to do it every single time.
+
+That is where **Pinello — Live Pin Score &amp; SEO for Pinterest Creators** fits naturally into the workflow. Inside Pinterest&apos;s own pin creation modal, it scores your draft in real time across five dimensions:
+
+- Image quality
+- Board fit
+- Title SEO
+- Description optimization
+- Keyword density
+
+If something is weak, you see it before you publish. If your copy needs help, Pinello can suggest rewrites. If your image is off-spec or your keyword use is thin, you catch it while the pin is still a draft.
+
+That matters when you are publishing at volume. Food bloggers, Etsy sellers, and lifestyle creators do not want a separate manual audit every time. They want a quick green-light check inside the workflow they already use.
+
+Pinello works on **pinterest.com and all country variants**, offers **50 AI scores per month for free**, and keeps **structural scoring unlimited**. Its image analysis also runs **100% locally**, which is especially useful if you work with original product photography or unpublished content.
+
+---
+
+## Before vs. after: a quick optimization example
+
+Here is what a weak pin draft can look like before optimization.
+
+**Before**
+
+- **Title:** &quot;Cute idea&quot;
+- **Description:** &quot;Love this so much!! #decor #home #farmhouse&quot;
+- **Board:** &quot;Home&quot;
+- **Image:** Beautiful, but no text overlay
+- **URL:** Homepage instead of the actual tutorial
+
+Why it underperforms:
+
+- The title says nothing searchable
+- The description wastes the first sentence
+- Hashtags do not help discovery anymore
+- The board is too broad
+- The destination is not specific
+
+**After**
+
+- **Title:** &quot;Farmhouse Pantry Organization Ideas for Small Kitchens&quot;
+- **Description:** &quot;Farmhouse pantry organization ideas for small kitchens with labeled jars, shelf styling tips, and budget-friendly storage inspiration. Save for later.&quot;
+- **Board:** &quot;Small Kitchen Organization&quot;
+- **Image:** Vertical 1000x1500 design with a bold text overlay
+- **URL:** Direct link to the pantry organization blog post
+
+Same creator. Same topic. Much stronger search signal.
+
+That is the goal of this checklist: not making your pins sound robotic, but making them unmistakably clear.
+
+---
+
+## FAQ
+
+**Do I need to use all 500 characters in my Pinterest description?**
+
+No. Pinterest allows up to 500 characters, but that does not mean you should force it. For most creators, 100-200 characters is the better target because it stays focused and puts the important keywords up front.
+
+**Should I put keywords in both the title and description?**
+
+Yes. Use the main keyword in the title and again in the first sentence of the description, then support it with a related phrase or two. Think natural repetition, not keyword stuffing.
+
+**Can I publish multiple pins to the same blog post or product page?**
+
+Yes — and you should, as long as the pins are fresh variations. Change the image, headline angle, or design so each pin gives Pinterest a new creative asset to evaluate.
+
+---
+
+## Final pre-publish rule: score before you post
+
+Most Pinterest underperformance happens before a pin ever goes live. The image is the wrong shape. The title is vague. The first sentence is wasted. The board is too broad. The link is sloppy.
+
+That is fixable.
+
+Before you publish your next pin, run this checklist once — or make it even faster by using a live scoring tool inside Pinterest itself.
+
+**Install [Pinello](https://chromewebstore.google.com/detail/pinello/kmelegdnljikegoemigfgnpcbllmkije)** and check every pin for image quality, board fit, title SEO, description optimization, and keyword density before you hit publish.</content:encoded></item><item><title>5 Best Free Chrome Extensions for Pinterest Creators (2026)</title><link>https://amrita-labs.com/blog/free-pinterest-chrome-extensions-creators/</link><guid isPermaLink="true">https://amrita-labs.com/blog/free-pinterest-chrome-extensions-creators/</guid><description>Boost your Pinterest SEO and pin performance with these 5 free Chrome extensions. From real-time pin scoring to keyword research and analytics.</description><pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate><content:encoded>Pinterest rewards consistency, quality, and optimization. But manually checking image ratios, crafting keyword-rich descriptions, and analyzing which pins actually perform — across dozens of boards — eats hours every week.
+
+These 5 Chrome extensions handle the tedious parts so you can focus on creating content that drives traffic.
+
+Pinello is a free Chrome extension that scores Pinterest pins across 5 dimensions — image, board fit, title, description, and hashtags — in real time.
+
+![5 Best Free Chrome Extensions for Pinterest Creators — comparison of Pinello, Tailwind, Save to Pinterest, PinRadar, and Keywords Everywhere](/assets/blog/pinterest-chrome-extensions-hero.png)
+
+---
+
+## 1. Pinello — Real-Time Pin Scorer &amp; SEO Checker
+
+**What it does:** Scores your pin across 5 dimensions (image quality, board fit, title SEO, description optimization, and hashtags) as you create it — directly inside the Pinterest pin-creation modal.
+
+**Why creators love it:**
+
+- See a green/yellow/red score for each dimension *before* you publish
+- AI-powered rewrite suggestions for titles and descriptions (one click, copy to clipboard)
+- Image analysis runs 100% locally in your browser — your photos never leave your device
+- Works on pinterest.com and all country variants (ca.pinterest.com, uk.pinterest.com, etc.)
+- Free tier: 50 AI scores per month, structural scoring always unlimited
+
+**Best for:** Creators who want to optimize every pin before publishing. Think of it as a quality-check step — one high-scoring pin outperforms 10 unoptimized ones.
+
+**Price:** Free (50 AI scores/month). Structural scoring (image ratio, hashtag count, keyword overlap) is always free and unlimited.
+
+🔗 [Install Pinello on Chrome Web Store](https://chromewebstore.google.com/detail/pinello/kmelegdnljikegoemigfgnpcbllmkije)
+
+![Pinello scoring panel showing real-time pin analysis inside Pinterest&apos;s create modal](/assets/blog/pinterest-chrome-extensions-pinello.png)
+
+---
+
+## 2. Tailwind — Pin Scheduling &amp; SmartSchedule
+
+**What it does:** Schedule pins from any webpage with a click. Tailwind&apos;s SmartSchedule algorithm posts at optimal times based on when your audience is most active.
+
+**Why creators love it:**
+
+- Bulk image selection — schedule an entire blog post&apos;s images as pins in seconds
+- SmartSchedule picks the best posting times automatically
+- Tailwind Communities let you share content in niche groups for organic reach
+- AI Pin Designer generates pin templates from your content
+- Analytics dashboard shows which pins drive the most traffic
+
+**Best for:** Creators who batch-create content and want hands-off scheduling. Tailwind handles the *when* and *where* — you handle the *what*.
+
+**Price:** Free plan includes 5 posts/month. Pro plan starts at $14.99/month (or $9.99/month billed annually) for 100+ posts.
+
+🔗 [Install Tailwind on Chrome Web Store](https://chromewebstore.google.com/detail/tailwind-pinterest-market/gkbhgdhhefdphpikedbinecandoigdel)
+
+![Tailwind Pinterest scheduling extension](/assets/blog/tailwind-pinterest-scheduling.png)
+
+---
+
+## 3. Save to Pinterest — Official Pin Saver
+
+**What it does:** Pinterest&apos;s own extension. Right-click any image on any website and save it directly to one of your boards.
+
+**Why creators love it:**
+
+- Fastest way to curate content from across the web
+- Hover over any image → Pinterest save button appears
+- Works on every website, not just Pinterest
+- Lightweight (tiny file size, no slowdown)
+- Built and maintained by Pinterest — always compatible with the latest platform updates
+
+**Best for:** Curators and researchers who collect inspiration, competitor analysis, or reference images from around the web. Zero learning curve.
+
+**Price:** Completely free. No paid tier.
+
+🔗 [Install Save to Pinterest on Chrome Web Store](https://chromewebstore.google.com/detail/save-to-pinterest/gpdjojdkbbmdfjfahjcgigfpmkopogic)
+
+![Save to Pinterest official Chrome extension](/assets/blog/save-to-pinterest-official.png)
+
+---
+
+## 4. PinRadar — Hidden Pin Analytics &amp; Viral Score
+
+**What it does:** Reveals engagement stats that Pinterest hides by default — saves, repins, reactions, and a calculated &quot;viral score&quot; badge on every pin in your feed.
+
+**Why creators love it:**
+
+- See saves, repins, and viral scores directly on pins as you scroll
+- Sort any board&apos;s pins by performance (saves, date, viral score)
+- Hover popups with deep analytics on any pin
+- CSV export for external analysis and content planning
+- Batch download pin images/videos in HD
+- Runs 100% locally — no data sent to external servers
+- Free license key at pinradar.io unlocks all features
+
+**Best for:** Creators who want to reverse-engineer what&apos;s working. Find viral content in your niche, understand what competitors&apos; top-performing pins have in common, then replicate that formula.
+
+**Price:** Free (sign up at pinradar.io for a free license key that unlocks all features).
+
+🔗 [Install PinRadar on Chrome Web Store](https://chromewebstore.google.com/detail/pinradario-viral-pins-h/ncoiefcflgojejmljlcnomjgecbnocok)
+
+![PinRadar Pinterest analytics and viral score extension](/assets/blog/pinradar-pinterest-analytics.png)
+
+---
+
+## 5. Keywords Everywhere — Pinterest Keyword Research
+
+**What it does:** Shows search volume, trend data, and related keywords as you browse Pinterest. Type a search term and instantly see how popular it is and what related terms people search for.
+
+**Why creators love it:**
+
+- Real-time keyword metrics appear in Pinterest search as you type
+- Hashtag generator for Pinterest (and Instagram)
+- Trend tracking shows keyword popularity over time
+- Works across 20+ platforms (Google, YouTube, Amazon, Pinterest, and more)
+- Free tier includes Pinterest engagement metrics and hashtag suggestions — no API key needed
+
+**Best for:** Creators who want data-backed keyword choices for pin titles, descriptions, and board names. Pair with Pinello for keyword research → optimized pin creation.
+
+**Price:** Free tier includes Pinterest metrics and hashtag generator. Paid plans start at $2/month for detailed search volume and CPC data.
+
+🔗 [Install Keywords Everywhere on Chrome Web Store](https://chromewebstore.google.com/detail/keywords-everywhere-keywo/hbapdpeemoojbophdfndmlgdhppljgmp)
+
+![Keywords Everywhere showing Pinterest keyword data](/assets/blog/keywords-everywhere-pinterest.png)
+
+---
+
+## Quick Comparison Table
+
+| Extension | Pin scoring | Scheduling | SEO keywords | Works on pinterest.com | Price |
+|-----------|:-----------:|:----------:|:------------:|:---------------------:|-------|
+| **Pinello** | ✅ 5 dimensions | ❌ | ✅ Built-in | ✅ | Free (50 AI/month) |
+| **Tailwind** | ❌ | ✅ SmartSchedule | ❌ | Partial (saves from anywhere) | Free plan + $14.99/mo |
+| **Save to Pinterest** | ❌ | ❌ | ❌ | ❌ (saves TO Pinterest) | Free |
+| **PinRadar** | ❌ (analytics, not scoring) | ❌ | ❌ | ✅ | Free |
+| **Keywords Everywhere** | ❌ | ❌ | ✅ | ✅ | Free + $2/mo for volume |
+
+---
+
+## How to Build a Free Pinterest SEO Stack
+
+You don&apos;t need to use all 5. Here&apos;s the 3-tool stack that covers the full Pinterest workflow for $0/month:
+
+1. **Research** → Keywords Everywhere (find high-volume keywords for your niche)
+2. **Optimize** → Pinello (score your pin against those keywords before publishing)
+3. **Analyze** → PinRadar (see which pins went viral, reverse-engineer the pattern)
+
+Add Tailwind ($14.99/mo) only when you&apos;re posting 5+ pins per day and need scheduling.
+
+---
+
+## Frequently Asked Questions
+
+**Do these extensions slow down Pinterest?**
+
+No. All 5 are lightweight. Pinello and PinRadar run analytics locally in your browser — no external requests while you browse. Save to Pinterest is built by Pinterest themselves and weighs almost nothing.
+
+**Can I use multiple Pinterest extensions at once?**
+
+Yes. They don&apos;t conflict. A common setup is Pinello + PinRadar + Keywords Everywhere running simultaneously — each serves a different purpose.
+
+**Do any of these read my Pinterest password?**
+
+None of these extensions require your Pinterest login credentials. They work by reading the publicly visible page content (pin text, images, stats).
+
+**What about Pin Inspector ($67)?**
+
+Pin Inspector is a solid keyword research tool, but it&apos;s a one-time $67 purchase and primarily a desktop app. If you only need keyword suggestions while browsing Pinterest, Keywords Everywhere (free) covers most of the same ground. Pin Inspector is worth it if you do deep competitive research or need batch keyword exports.
+
+---
+
+## Start With Scoring
+
+The highest-ROI optimization for Pinterest is pre-publish scoring. A single pin that scores green across all 5 dimensions — good image, relevant board, keyword-rich title, optimized description, proper hashtags — outperforms 10 pins posted without any optimization.
+
+Most creators spend hours on design but seconds on the title and description. That&apos;s backwards. Pinterest&apos;s search algorithm weights text just as heavily as the image.
+
+Score your next pin before you publish → [Install Pinello (Free)](https://chromewebstore.google.com/detail/pinello/kmelegdnljikegoemigfgnpcbllmkije)</content:encoded></item><item><title>How to Add Google Consent Mode v2 to Shopify (2026 Guide)</title><link>https://amrita-labs.com/blog/consent-mode-v2-shopify-guide/</link><guid isPermaLink="true">https://amrita-labs.com/blog/consent-mode-v2-shopify-guide/</guid><description>When visitors reject cookies, your Google Analytics data disappears. Consent Mode v2 sends cookieless pings so Google can model the conversions you missed. Here&apos;s how to set it up on Shopify.</description><pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate><content:encoded>Amrita Cookie Consent is a free Shopify app with a GDPR cookie banner and Google Consent Mode v2 built in.
+
+If you use Google measurement or advertising features for visitors in the EEA, UK, or Switzerland, you&apos;ve probably noticed your Google Analytics data getting worse. Fewer conversions tracked, lower reported traffic, less effective ad optimization. Here&apos;s why — and how to fix it.
+
+![Google Consent Mode v2 explained — comparison of what happens when visitors reject cookies with and without Consent Mode](/assets/blog/consent-mode-v2-hero.png)
+
+## The problem
+
+When a visitor rejects cookies on your Shopify store:
+1. Your Google Analytics tag never fires
+2. Google Ads never sees the conversion
+3. Your ad optimization gets starved of data
+4. Your reported traffic can drop significantly (the impact varies by traffic volume, consent rate, and advertising setup)
+
+This isn&apos;t a bug — it&apos;s consent working correctly. But it limits the data you can act on.
+
+If you&apos;re running Google Ads targeting EU customers, you&apos;re likely paying for clicks but can&apos;t see which ones convert. Your cost-per-acquisition looks inflated, your ROAS looks worse than reality, and Smart Bidding doesn&apos;t have enough signal to optimize. The problem compounds: incomplete data leads to less effective bid decisions, which leads to wasted ad spend.
+
+## What Google Consent Mode v2 does
+
+Instead of &quot;tag fires&quot; or &quot;tag doesn&apos;t fire,&quot; GCM v2 adds a third option:
+
+| Consent state | What happens |
+|---|---|
+| **Granted** | Full tracking (cookies, personal data, everything) |
+| **Denied** | Tag is blocked entirely — no data at all |
+| **Denied + GCM v2** | No advertising or analytics cookies are stored. Google receives limited cookieless measurements under the denied consent state, and uses statistical modeling to estimate conversions. |
+
+With GCM v2, even when visitors reject cookies, Google still gets a signal. It uses **conversion modeling** to fill in the gaps.
+
+### What changed from v1 to v2
+
+The original Consent Mode had two signals: `analytics_storage` and `ad_storage`. Version 2 added two more:
+
+| Signal | Controls | Required in v2? |
+|---|---|---|
+| `analytics_storage` | Whether Google Analytics can store cookies | Yes |
+| `ad_storage` | Whether Google Ads can store cookies | Yes |
+| `ad_user_data` | Whether user data can be sent to Google for advertising | **New in v2** |
+| `ad_personalization` | Whether personalized ads can be shown | **New in v2** |
+
+If your consent setup only sends the original two signals, Google treats it as v1. A complete Consent Mode v2 setup sends all four signals. Modeling availability also depends on implementation quality, traffic volume, and Google&apos;s eligibility thresholds.
+
+## How it works technically
+
+When consent is denied, GCM v2 sends &quot;consent-aware pings&quot; to Google:
+- No advertising or analytics cookies are stored
+- No user-level identification
+- Google receives limited cookieless measurements: page URL, timestamp, user agent, referrer, and ad-click indicators
+
+Google then uses machine learning across its entire dataset to model what a conversion rate probably looks like for your traffic — even without individual-level data. Google calls this &quot;conversion modeling&quot; and it fills gaps in your reports with statistical estimates based on patterns from similar consented traffic.
+
+Google includes eligible modeled conversions in the regular Conversions column. Check the Diagnostics tab in Google Ads to see whether Consent Mode is implemented and whether modeling is active.
+
+## Setting it up on Shopify
+
+There are two approaches:
+
+![Consent flow diagram — visitor arrives, banner shown with defaults denied, then accept leads to full tracking or reject leads to cookieless pings via Consent Mode v2](/assets/blog/consent-mode-v2-flow.png)
+
+### Option A: Manual (Google Tag Manager)
+
+1. Set up a GTM container with consent-aware tags
+2. Configure consent defaults as `denied` for all EU visitors
+3. Connect your consent banner to GTM&apos;s consent API
+4. When visitor accepts → update consent state → tags fire normally
+5. When visitor rejects → consent stays `denied`, and compatible Google tags send cookieless pings
+6. Make sure all four consent signals are included (`analytics_storage`, `ad_storage`, `ad_user_data`, `ad_personalization`)
+
+This works but requires GTM knowledge and ongoing maintenance. You also need to keep the consent defaults in sync with your banner — if they get out of sync, incorrect ordering can cause data collection before the visitor chooses and may create privacy-compliance risk, or you could be losing data unnecessarily by blocking pings after consent.
+
+### Option B: Use a consent app with GCM v2 built in
+
+Several Shopify consent apps include GCM v2 integration natively:
+- Pandectes GDPR Compliance ($9-49/mo — GCM v2 on paid plans)
+- Consentmo ($9-29/mo)
+- **Amrita Cookie Consent** (free — GCM v2 included on the free plan)
+
+With these apps, the consent-to-Google signal mapping is handled for you:
+1. Install the app
+2. Enable the consent banner
+3. Banner sets consent defaults to `denied` via Shopify&apos;s Customer Privacy API
+4. On accept → consent `update` with `granted` for all four signals
+5. On reject → consent stays `denied`, and compatible Google tags receive the denied state
+6. Google receives the signal either way
+
+Amrita sends all four Consent Mode v2 signals to compatible Google tags already installed on your store. Verify the setup with Tag Assistant after installation.
+
+![Amrita Cookie Consent banner on a Shopify store showing Customize, Reject all, and Accept all buttons](/assets/blog/consent-mode-v2-banner.png)
+
+## What about Meta Pixel and Facebook Ads?
+
+GCM v2 is a Google-specific protocol. Meta has its own approach: the Conversions API (CAPI). If you&apos;re running Facebook or Instagram ads alongside Google Ads, you&apos;ll need both:
+
+- **Google Ads**: Consent Mode v2 handles the consent-denied case
+- **Meta Ads**: Server-side Conversions API can send events without cookies, but you still need consent for personal data under GDPR
+
+Most Shopify consent apps handle the Google side. For Meta, check whether your app also integrates with Meta&apos;s Conversions API or if you need a separate setup.
+
+## Verifying it works
+
+After setting up, check with Google Tag Assistant (Chrome extension):
+
+1. Visit your store in an incognito window
+2. **Accept cookies** → verify GA4 + Ads tags fire normally in Tag Assistant
+3. Close incognito, open a new one
+4. **Reject cookies** → verify you see `consent_default` with `analytics_storage: denied` AND that cookieless pings still fire
+5. Check that all four consent signals appear in the Tag Assistant consent tab
+6. In Google Ads, check the Diagnostics tab to see whether Consent Mode is implemented and whether modeling is active.
+
+If the Diagnostics tab doesn&apos;t show Consent Mode as active after a week of traffic, double-check that your Google tag loads in consent-aware mode (not fully blocked on denial).
+
+You can also verify in Google Analytics: go to Admin → Data Streams → your stream → Consent Settings. It should show &quot;Consent Mode active&quot; if everything is configured correctly.
+
+## Common mistakes
+
+1. **Blocking ALL scripts on rejection** — if your consent solution kills every script when consent is denied, GCM v2 pings can&apos;t fire either. The Google tag needs to load in &quot;consent-aware&quot; mode, not be blocked entirely.
+
+2. **Not setting consent defaults** — Consent defaults should be set before measurement tags run. If you don&apos;t explicitly set defaults to `denied` before the consent decision, Google assumes consent is granted and sets cookies immediately. Incorrect ordering can cause data collection before the visitor chooses and may create privacy-compliance risk.
+
+3. **Using enhanced conversions as a replacement** — Enhanced Conversions enhance an existing conversion event. If the base tag never fires (because consent was denied), there&apos;s nothing to enhance. GCM v2 is the layer that handles the denial case.
+
+4. **Only sending two consent signals instead of four** — If your setup only sends `analytics_storage` and `ad_storage` (the v1 signals), you don&apos;t have a complete v2 implementation. A complete Consent Mode v2 setup sends all four signals, including the new `ad_user_data` and `ad_personalization`.
+
+5. **Not testing in incognito** — Your browser likely has existing cookies and consent state cached. Always test consent flows in incognito windows to simulate a first-time visitor experience.
+
+## FAQ
+
+**Does GCM v2 replace the need for a cookie banner?**
+No. GCM v2 works alongside your consent banner, not instead of it. You still need to ask for consent. GCM v2 just makes sure Google gets useful (non-personal) data even when the answer is &quot;no.&quot;
+
+**Will this affect my Google Ads billing?**
+No. GCM v2 affects reporting and optimization, not billing. You still pay per click. But with better conversion data, Smart Bidding can optimize more effectively — which should improve your return on ad spend over time.
+
+**How long until I see modeled conversions?**
+Google needs enough consented traffic to build a model. Modeling availability depends on implementation quality, traffic volume, and Google&apos;s eligibility thresholds. Smaller stores may not qualify for modeling.
+
+---
+
+## Summary
+
+| What | Status |
+|---|---|
+| GCM v2 helps recover lost measurement data | Yes — the impact varies by traffic, consent rate, and advertising setup |
+| Important if using Google measurement for EEA/UK visitors | Yes — it communicates consent choices to Google |
+| Free options exist on Shopify | Yes |
+| Replaces proper consent | No — it works alongside consent, not instead of it |
+
+The bottom line: if you use Google measurement or advertising features for visitors in the EEA, UK, or Switzerland, Consent Mode v2 is an important way to communicate their choices to Google. Without it, you&apos;re missing useful measurement signal.
+
+---
+
+*Consent requirements vary by business and jurisdiction. This guide provides technical information, not legal advice, and no consent app by itself guarantees compliance.*
+
+---
+
+*We built [Amrita Cookie Consent](https://apps.shopify.com/cookie-consent-8) specifically because we couldn&apos;t find a free app with GCM v2 included. Questions? Reach us at [hello@amrita-labs.com](mailto:hello@amrita-labs.com).*</content:encoded></item><item><title>5 Best Chrome Extensions for Email Subject Lines (2026)</title><link>https://amrita-labs.com/blog/best-email-subject-line-extensions/</link><guid isPermaLink="true">https://amrita-labs.com/blog/best-email-subject-line-extensions/</guid><description>Tested and compared: the 5 best tools for scoring and improving your email subject lines — from in-Gmail extensions to web-based analyzers.</description><pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate><content:encoded>Your subject line is the single biggest factor in whether your email gets read or ignored. The average cold email reply rate is just 3-5% — and most of that filtering happens at the subject line. If it sounds generic, triggers spam keywords, or lacks any reason to open now, your email dies before the body gets a chance.
+
+The problem: you can&apos;t tell how good a subject line is just by looking at it. What sounds clever to you might trigger spam filters. What feels urgent might come across as pushy. You need scoring — objective feedback before you hit send.
+
+EmailSubjectScore Pro is a free Chrome extension that scores Gmail subject lines for spam risk, clarity, and urgency in real time.
+
+Below are the 5 best tools for testing and improving your email subject lines in 2026 — ranging from in-Gmail Chrome extensions to web-based analyzers. I&apos;ve tested each one and noted what they&apos;re actually good at (and where they fall short).
+
+![Comparison of email subject line tools — EmailSubjectScore Pro scores in real time inside Gmail while others require copy-pasting to external websites](/assets/blog/best-email-subject-line-extensions-hero.png)
+
+---
+
+## 1. EmailSubjectScore Pro
+
+**[Install from Chrome Web Store](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm)** — Free (50 scores/month)
+
+EmailSubjectScore Pro is the only subject line tool that works directly inside Gmail&apos;s compose window. As you type your subject line, a score appears in real time — no copy-pasting to external tabs, no workflow interruption.
+
+**What it scores:**
+- **Spam Risk** — flags trigger words, ALL CAPS, excessive punctuation, and patterns that Gmail/Outlook filters catch
+- **Clarity** — measures whether the recipient can tell what your email is about from the subject alone
+- **Urgency** — evaluates whether there&apos;s a reason to open now vs. later (later = never)
+
+**Standout features:**
+- Real-time scoring inside Gmail compose — score updates as you type
+- AI-powered rewrite suggestions when your score is low
+- Works on every email you write, not just campaigns
+- No signup required to start — install and go
+
+**Limitations:**
+- Gmail only (no Outlook or other clients)
+- Free tier is 50 scores/month (sufficient for most people who aren&apos;t doing mass outreach)
+
+**Best for:** Anyone who sends important emails from Gmail — cold outreach, freelancer pitches, job applications, sales emails. The real-time feedback builds a habit of writing better subject lines over time, not just checking them once.
+
+![EmailSubjectScore Pro showing real-time subject line scoring inside Gmail compose window](/assets/blog/best-email-subject-line-extensions-hero.png)
+
+---
+
+## 2. SendCheckIt
+
+**[sendcheckit.com/email-subject-line-tester](https://sendcheckit.com/email-subject-line-tester/)** — Free, unlimited
+
+SendCheckIt gives you a single score out of 100 for any subject line you paste in. It checks character count, word count, spam words, capitalization, and emoji usage, then gives a simple pass/fail breakdown.
+
+**What it does well:**
+- Fast — paste a subject line, get an instant score
+- Clear pass/fail indicators for each dimension
+- Unlimited free checks (no account needed)
+- Also offers an email deliverability testing tool
+
+**Limitations:**
+- Web-based only — you have to leave Gmail, copy your subject line, paste it, and come back
+- No AI rewrites — tells you what&apos;s wrong but not how to fix it
+- Single composite score (less granular than multi-dimension scoring)
+- No real-time feedback while composing
+
+**Best for:** Batch checking a list of subject line variations before a campaign. If you&apos;re comparing 5 options, paste each one and pick the highest scorer.
+
+![SendCheckIt email subject line tester — paste your subject line and get a score out of 100](/assets/blog/sendcheckit-subject-line-tester.png)
+
+---
+
+## 3. CoSchedule Headline Analyzer
+
+**[coschedule.com/headline-analyzer](https://coschedule.com/headline-analyzer)** — Free with account
+
+CoSchedule&apos;s tool was originally built for blog post headlines, but works well for email subject lines too. It scores based on word balance — analyzing the mix of common, uncommon, emotional, and power words in your headline.
+
+**What it does well:**
+- Deep word-type analysis (emotional words drive opens, power words drive clicks)
+- Historical database of headline performance
+- Suggestions for improving word balance
+- SEO score (useful if your email subject doubles as a blog title)
+
+**Limitations:**
+- Requires creating a free account
+- Web-based — no Gmail integration
+- Designed for headlines, not specifically email (misses spam-filter analysis)
+- Limited free checks per day (paid plans for more)
+
+**Best for:** Content marketers who write both blog headlines and email subject lines. The word balance framework teaches you to think about emotional impact, which transfers to all writing.
+
+![CoSchedule Headline Analyzer — word balance scoring for headlines and email subject lines](/assets/blog/coschedule-headline-analyzer.png)
+
+---
+
+## 4. Mailmeteor Subject Line Tester
+
+**[mailmeteor.com/email-subject-line-tester](https://mailmeteor.com/email-subject-line-tester)** — Free, unlimited
+
+Mailmeteor is primarily a Gmail mail merge tool, but their subject line tester is a solid free standalone feature. It checks length, word count, spam triggers, and now includes AI-generated alternative suggestions.
+
+**What it does well:**
+- Spam word detection with specific flagged words highlighted
+- AI-generated alternative subject lines (unique among free tools)
+- Character and word count with mobile preview length indicator
+- Clean, fast interface — no account needed
+
+**Limitations:**
+- Web-based — not in Gmail (though their mail merge extension does integrate with Gmail)
+- AI suggestions are generic and may not match your tone
+- Less depth on the &quot;why&quot; behind scores
+
+**Best for:** People who want quick AI suggestions for rewrites. Paste your subject line, get 3-4 alternatives instantly. Pick the best one and move on.
+
+![Mailmeteor email subject line tester with AI-powered alternative suggestions](/assets/blog/mailmeteor-subject-line-tester.png)
+
+---
+
+## 5. SubjectLine.com
+
+**[subjectline.com](https://www.subjectline.com/)** — Free, unlimited
+
+SubjectLine.com has been around the longest and claims to check over 800 unique criteria across filtering, deliverability, and marketing effectiveness. Their scoring is based on analysis of over 3 billion emails.
+
+**What it does well:**
+- Deepest criteria set (800+ factors)
+- Deliverability-focused — specifically checks whether inbox providers will flag your email
+- Free, no account required (account optional for saving history)
+- Provides category-specific scoring (marketing vs. transactional)
+
+**Limitations:**
+- Web-based only — no browser extension
+- Interface is dated
+- No AI rewrites — diagnosis only
+- Some scoring criteria feel opaque (doesn&apos;t always explain *why* something scored low)
+
+**Best for:** Email marketers who want the most thorough deliverability check. If you&apos;re sending to 10,000+ recipients and inbox placement is critical, SubjectLine.com catches things other tools miss.
+
+![SubjectLine.com — the longest-running free subject line tester with 800+ scoring criteria](/assets/blog/subjectline-com.png)
+
+---
+
+## Comparison: Which Tool Should You Use?
+
+| Tool | In Gmail? | Real-time? | Free tier | AI rewrites? | Best for |
+|---|---|---|---|---|---|
+| [EmailSubjectScore Pro](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm) | ✅ | ✅ | 50/month | ✅ | Daily email writing |
+| [SendCheckIt](https://sendcheckit.com/email-subject-line-tester/) | ❌ | ❌ | Unlimited | ❌ | Batch comparisons |
+| [CoSchedule](https://coschedule.com/headline-analyzer) | ❌ | ❌ | Limited | ❌ | Word balance learning |
+| [Mailmeteor](https://mailmeteor.com/email-subject-line-tester) | ❌ | ❌ | Unlimited | ✅ | Quick AI alternatives |
+| [SubjectLine.com](https://www.subjectline.com/) | ❌ | ❌ | Unlimited | ❌ | Deliverability depth |
+
+The biggest difference: **workflow integration**. Tools 2-5 all require leaving Gmail, copying your subject line, pasting it into another tab, reading the result, then going back to Gmail to make changes. EmailSubjectScore Pro is the only one that scores in place — which means you&apos;ll actually use it on every email, not just when you remember to check.
+
+---
+
+## How I&apos;d Use These Together
+
+If I were doing serious cold outreach (50+ emails/week):
+
+1. **Draft in Gmail** with EmailSubjectScore Pro giving real-time feedback as I type
+2. **Before a big campaign**, paste my top 3 subject line variations into SubjectLine.com for deliverability validation
+3. **Once a month**, run a few subject lines through CoSchedule to check my word balance habits aren&apos;t getting stale
+
+For most people sending 5-20 important emails per day (pitches, follow-ups, client emails), EmailSubjectScore Pro alone covers it — the real-time scoring builds the habit without adding steps to your workflow.
+
+---
+
+## The Bottom Line
+
+A subject line scorer won&apos;t turn a bad email into a good one. But it catches the obvious mistakes — spam trigger words you didn&apos;t notice, vague phrasing that gives no reason to open, missing urgency. Those fixes alone can meaningfully improve your reply rates over time.
+
+The best tool is the one you&apos;ll actually use every day. If it requires extra steps, you&apos;ll skip it when you&apos;re busy — which is exactly when you write your worst subject lines.
+
+[Install EmailSubjectScore Pro (Free — 50 scores/month)](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm) — scores appear as you type in Gmail, no tab switching needed.</content:encoded></item><item><title>Chrome Web Store Submission: The Gotchas Nobody Warns You About</title><link>https://amrita-labs.com/blog/cws-submission-gotchas/</link><guid isPermaLink="true">https://amrita-labs.com/blog/cws-submission-gotchas/</guid><description>Every gotcha I hit submitting Chrome extensions to CWS — manifest limits, keyword spam, hidden directories, permission justifications, and more.</description><pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate><content:encoded>I just submitted my second Chrome extension to the Chrome Web Store. The first time took 3 attempts. The second time I got rejected in 12 hours for something completely avoidable.
+
+Here&apos;s every gotcha I hit — so you don&apos;t have to.
+
+## 1. Manifest description has a 132-character hard limit
+
+Not documented prominently anywhere. You&apos;ll get a cryptic upload error: &quot;The description field in manifest is too long.&quot; Your `package.json` description or `wxt.config.ts` description gets baked into manifest.json — check it BEFORE you zip.
+
+**Fix**: Count characters. 132 max. Put the detailed description in the CWS form, not the manifest.
+
+## 2. Don&apos;t put a &quot;Keywords:&quot; line in your description
+
+I literally had:
+
+```
+Keywords: pinterest seo, pin score, pin quality, pinterest optimizer...
+```
+
+Rejected within 12 hours for &quot;Keyword Spam.&quot; CWS explicitly bans keyword lists in descriptions — even if they&apos;re relevant. Your keywords should be *woven naturally* into prose.
+
+**Fix**: Write human sentences that include your keywords. &quot;Score your Pinterest pin quality before publishing&quot; contains 3 keywords naturally.
+
+## 3. `upload-artifact@v4` silently skips hidden directories
+
+If your build tool outputs to `.output/` (like WXT does), GitHub Actions&apos; `upload-artifact` won&apos;t find it. The glob `path: .output/*.zip` returns nothing because `.output` starts with a dot.
+
+**Fix**: Add `include-hidden-files: true` to your upload-artifact step.
+
+```yaml
+- uses: actions/upload-artifact@v4
+  with:
+    path: .output/*.zip
+    include-hidden-files: true
+```
+
+## 4. `optional_permissions` need justification too
+
+I added `sidePanel` as an optional permission (reserved for a future feature). CWS asked me to justify it. Optional doesn&apos;t mean invisible to reviewers.
+
+**Fix**: Add a justification for EVERY permission — required AND optional. Explain what it&apos;ll do and why it&apos;s optional.
+
+## 5. &quot;Support URL&quot; is not your email address
+
+The form has separate fields:
+- **Support email**: your email
+- **Support URL**: a webpage (landing page, FAQ, etc.)
+
+I pasted my email in the URL field. Got a &quot;URL not reachable&quot; error. Obvious in hindsight.
+
+## 6. Host permissions trigger &quot;in-depth review&quot;
+
+If your extension needs `https://*.somesite.com/*`, expect 3-7 days review instead of 1-3 days. Not a rejection — just a longer queue. Your permission justifications become critical here.
+
+## 7. Data usage: &quot;Website content&quot; if you read ANY DOM
+
+If your content script reads anything from the page (text fields, images, metadata), check &quot;Website content&quot; in the Data Usage section. Not checking it when you should = rejection on privacy grounds.
+
+---
+
+## What I wish existed
+
+A single checklist that covers ALL form fields — not just the text ones. Remote code? Data usage checkboxes? Test instructions? Payment settings? Category subcategory?
+
+I ended up building one for myself. Next extension took 5 minutes to fill out the form instead of 45 minutes of guessing.
+
+---
+
+*If you&apos;re shipping to CWS for the first time, I hope this saves you a few rejection cycles.*</content:encoded></item></channel></rss>
