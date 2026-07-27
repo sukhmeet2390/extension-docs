@@ -13,4 +13,18 @@ const blog = defineCollection({
   }),
 });
 
-export const collections = { blog };
+const comparisons = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/comparisons' }),
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    date: z.string(),
+    product: z.string(),
+    competitor: z.string(),
+    competitorUrl: z.string(),
+    competitorStatus: z.enum(['active', 'dead']),
+    tags: z.array(z.string()).optional(),
+  }),
+});
+
+export const collections = { blog, comparisons };

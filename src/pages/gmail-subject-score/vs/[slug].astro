@@ -1,0 +1,94 @@
+---
+import Base from '../../../layouts/Base.astro';
+import ProductFooter from '../../../components/ProductFooter.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const comparisons = await getCollection('comparisons');
+  return comparisons
+    .filter((c) => c.data.product === 'gmail-subject-score')
+    .map((comparison) => ({
+      params: { slug: comparison.id },
+      props: { comparison },
+    }));
+}
+
+const { comparison } = Astro.props;
+const { Content } = await render(comparison);
+
+const cwsLink = 'https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm';
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": comparison.data.title,
+  "description": comparison.data.description,
+  "datePublished": comparison.data.date,
+  "author": { "@type": "Organization", "name": "Amrita Labs", "url": "https://amrita-labs.com" },
+  "publisher": { "@type": "Organization", "name": "Amrita Labs", "url": "https://amrita-labs.com" }
+};
+---
+
+<Base
+  title={comparison.data.title}
+  description={comparison.data.description}
+  canonical={`https://amrita-labs.com/gmail-subject-score/vs/${comparison.id}/`}
+  schema={schema}
+  theme="light"
+>
+  <article class="max-w-3xl mx-auto px-6 pt-24 pb-16 sm:pt-32">
+    <!-- Breadcrumb -->
+    <nav class="text-sm text-gray-400 mb-8">
+      <a href="/gmail-subject-score/" class="hover:text-brand-600 transition-colors">EmailSubjectScore Pro</a>
+      <span class="mx-2">›</span>
+      <span>vs {comparison.data.competitor}</span>
+    </nav>
+
+    <!-- Header -->
+    <h1 class="text-3xl sm:text-4xl font-extrabold text-gray-900 leading-tight tracking-tight">
+      {comparison.data.title}
+    </h1>
+    <p class="text-lg text-gray-500 mt-4 leading-relaxed">{comparison.data.description}</p>
+
+    {comparison.data.competitorStatus === 'dead' && (
+      <div class="mt-6 bg-amber-50 border border-amber-200 rounded-lg px-4 py-3 text-sm text-amber-800">
+        ⚠️ <strong>{comparison.data.competitor}</strong> is no longer available. This page compares what it used to offer and suggests alternatives.
+      </div>
+    )}
+
+    <!-- Article content -->
+    <div class="mt-10 prose prose-gray max-w-none
+      prose-headings:text-gray-900 prose-headings:font-bold prose-headings:tracking-tight
+      prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4
+      prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3
+      prose-p:text-gray-700 prose-p:leading-relaxed
+      prose-a:text-brand-600 prose-a:no-underline hover:prose-a:underline
+      prose-strong:text-gray-900
+      prose-li:text-gray-700
+      prose-blockquote:border-brand-500 prose-blockquote:text-gray-500
+      prose-hr:border-gray-200
+      prose-table:text-sm
+      prose-th:text-left prose-th:font-semibold prose-th:text-gray-900
+      prose-td:text-gray-700">
+      <Content />
+    </div>
+
+    <!-- CTA -->
+    <div class="mt-12 bg-gray-50 border border-gray-200 rounded-xl p-6 text-center">
+      <p class="text-lg font-semibold text-gray-900">Ready to try EmailSubjectScore Pro?</p>
+      <p class="text-sm text-gray-500 mt-1">Free · 50 scores/month · No signup required</p>
+      <a href={cwsLink} class="inline-flex items-center gap-2 bg-brand-600 text-white px-6 py-3 rounded-full font-semibold text-sm hover:bg-brand-500 transition-colors shadow-lg shadow-brand-600/25 mt-4">
+        Install Free — Chrome Web Store
+      </a>
+    </div>
+
+    <ProductFooter visible={false} />
+  </article>
+
+  <!-- Footer -->
+  <section class="border-t border-gray-200 bg-gray-50">
+    <div class="max-w-3xl mx-auto px-6 py-12 text-center">
+      <p class="text-sm text-gray-400">More from <a href="/" class="text-gray-500 hover:text-brand-600">Amrita Labs</a></p>
+    </div>
+  </section>
+</Base>
