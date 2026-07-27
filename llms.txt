@@ -6,23 +6,46 @@
 
 - [EmailSubjectScore Pro](https://amrita-labs.com/gmail-subject-score/): Free Chrome extension that scores Gmail subject lines for spam risk, clarity, and urgency in real time. AI-powered rewrite suggestions. 50 free scores/month.
 - [Pinello](https://amrita-labs.com/pinello/): Free Chrome extension that scores Pinterest pins across 5 dimensions — image, board fit, title, description, and hashtags — in real time. AI rewrite included.
-
-## Install Links
-
-- [EmailSubjectScore Pro on Chrome Web Store](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm): Score email subject lines as you type in Gmail.
-- [Pinello on Chrome Web Store](https://chromewebstore.google.com/detail/kmelegdnljikegoemigfgnpcbllmkije): Score Pinterest pins as you create them.
+- [Privacy Blur for Slack](https://amrita-labs.com/privacy-blur-slack/): Free Chrome extension that blurs sensitive Slack content (messages, channel names, avatars, files) during screen sharing so you can present without leaking private conversations.
+- [Privacy Blur for Discord](https://amrita-labs.com/privacy-blur-discord/): Free Chrome extension that blurs sensitive Discord content (server list, channels, DMs, avatars) during screen sharing. Not yet published on Chrome Web Store.
+- [Privacy Blur for Microsoft Teams](https://amrita-labs.com/privacy-blur-teams/): Free Chrome extension that blurs sensitive Microsoft Teams content (chats, channels, calendar, notifications) during screen sharing. Not yet published on Chrome Web Store.
+- [Privacy Blur for WhatsApp Web](https://amrita-labs.com/privacy-blur-whatsapp/): Free Chrome extension that blurs sensitive WhatsApp Web content (chat list, previews, avatars, media) during screen sharing. Not yet published on Chrome Web Store.
 
 ## Shopify Apps
 
-- [Amrita Cookie Consent](https://amrita-labs.com/cookie-consent/): GDPR/CCPA cookie consent banner for Shopify stores.
-- [Amrita Chat Widget](https://amrita-labs.com/chat-widget/): Multi-channel chat widget for Shopify — WhatsApp, Messenger, Instagram, email.
-- [Amrita Accessibility Widget](https://amrita-labs.com/accessibility-widget/): WCAG 2.1 accessibility toolbar for Shopify stores.
+- [Amrita Cookie Consent](https://amrita-labs.com/cookie-consent/): GDPR/CCPA cookie consent banner for Shopify stores. Includes Google Consent Mode v2, 7-language storefront banner, and no third-party scripts.
+- [Amrita Chat Widget](https://amrita-labs.com/chat-widget/): Multi-channel chat widget for Shopify — one floating button that opens 9 channels (WhatsApp, Messenger, Instagram, LINE, Viber, Telegram, SMS, Email, phone). Free forever, no visitor cap, zero cookies, Shadow DOM isolated, 8-language admin.
+- [Amrita Accessibility Widget](https://amrita-labs.com/accessibility-widget/): Accessibility toolbar for Shopify stores that helps merchants work toward WCAG 2.1 compatibility — contrast, text resize, dyslexia-friendly font, link highlight, and more. 7-language admin.
+
+## Install Links
+
+- [EmailSubjectScore Pro on Chrome Web Store](https://chromewebstore.google.com/detail/emailsubjectscore-pro-sub/dleffnbdjohkmmkbojehdpkgkmpofmgm): Score email subject lines as you type in Gmail.
+- [Pinello on Chrome Web Store](https://chromewebstore.google.com/detail/pinello/kmelegdnljikegoemigfgnpcbllmkije): Score Pinterest pins as you create them.
+- [Privacy Blur for Slack on Chrome Web Store](https://chromewebstore.google.com/detail/privacy-blur-for-slack/cejmffebfhdnhbjkhiobaecdohheimkj): Blur Slack messages before screen sharing.
+- [Amrita Cookie Consent on Shopify App Store](https://apps.shopify.com/cookie-consent-8): Install Amrita Cookie Consent from the Shopify App Store.
+- [Amrita Chat Widget on Shopify App Store](https://apps.shopify.com/chat-widget-1): Install Amrita Chat Widget from the Shopify App Store.
+- [Amrita Accessibility Widget on Shopify App Store](https://apps.shopify.com/accessibility-widget): Install Amrita Accessibility Widget from the Shopify App Store.
 
 ## Blog
 
-- [5 Best Chrome Extensions for Email Subject Lines (2026)](https://amrita-labs.com/blog/best-email-subject-line-extensions/): Tested comparison of email subject line scoring tools.
-- [5 Best Free Chrome Extensions for Pinterest Creators (2026)](https://amrita-labs.com/blog/free-pinterest-chrome-extensions-creators/): Comparison of Pinterest optimization Chrome extensions.
-- [Consent Mode V2 Shopify Guide](https://amrita-labs.com/blog/consent-mode-v2-shopify-guide/): How to implement Google Consent Mode V2 on Shopify.
+- [Chaty Alternative for Shopify: Free Forever, No Tracking, No Visitor Cap (2026)](https://amrita-labs.com/blog/chaty-alternative-shopify/): Amrita Chat Widget vs Chaty for Shopify — free forever, no visitor cap, zero cookies, WhatsApp/Messenger/Instagram + 6 more channels. DOM verified.
+- [5 Best Chrome Extensions for Screen Sharing Privacy (2026)](https://amrita-labs.com/blog/best-chrome-extensions-screen-sharing-privacy/): The best Chrome extensions for screen sharing privacy, compared for remote workers, managers, and teams who need to hide sensitive information before meetings.
+- [7 Best Gmail Chrome Extensions for Productivity (2026)](https://amrita-labs.com/blog/best-gmail-chrome-extensions-productivity/): The best Gmail Chrome extensions for productivity in 2026, compared for writing, scheduling, tracking, templates, CRM, and focus.
+- [How to Write Email Subject Lines That Get Replies](https://amrita-labs.com/blog/email-subject-line-tips-reply-rate/): A practical, data-backed guide to writing better email subject lines for cold outreach, client pitches, follow-ups, and job search emails.
+- [How to Hide Slack Messages During Screen Sharing: 6 Practical Options](https://amrita-labs.com/blog/hide-slack-messages-screen-sharing/): Need to hide Slack messages during screen sharing? Here are 6 practical ways to protect private chats, channel names, and notifications in Zoom, Meet, or Teams.
+- [Pinterest Pin SEO Checklist Before Publishing: 10 Checks That Get More Saves](https://amrita-labs.com/blog/pinterest-pin-seo-checklist-before-publishing/): Use this Pinterest pin SEO checklist before publishing to improve titles, descriptions, board fit, and click-throughs without guessing.
+- [5 Best Free Chrome Extensions for Pinterest Creators (2026)](https://amrita-labs.com/blog/free-pinterest-chrome-extensions-creators/): Boost your Pinterest SEO and pin performance with these 5 free Chrome extensions. From real-time pin scoring to keyword research and analytics.
+- [How to Add Google Consent Mode v2 to Shopify (2026 Guide)](https://amrita-labs.com/blog/consent-mode-v2-shopify-guide/): When visitors reject cookies, your Google Analytics data disappears. Consent Mode v2 sends cookieless pings so Google can model the conversions you missed. Here's how to set it up on Shopify.
+- [5 Best Chrome Extensions for Email Subject Lines (2026)](https://amrita-labs.com/blog/best-email-subject-line-extensions/): Tested and compared: the 5 best tools for scoring and improving your email subject lines — from in-Gmail extensions to web-based analyzers.
+- [Chrome Web Store Submission: The Gotchas Nobody Warns You About](https://amrita-labs.com/blog/cws-submission-gotchas/): Every gotcha I hit submitting Chrome extensions to CWS — manifest limits, keyword spam, hidden directories, permission justifications, and more.
+
+## Comparisons
+
+- [Automizy Subject Line Tester Is Gone — Here's What to Use Instead](https://amrita-labs.com/gmail-subject-score/vs/vs-automizy/): Automizy's free subject line tester is dead (404). Looking for an alternative? EmailSubjectScore Pro is free and scores inside Gmail as you type.
+- [EmailSubjectScore Pro vs CoSchedule Subject Line Tester](https://amrita-labs.com/gmail-subject-score/vs/vs-coschedule/): Free Chrome extension that scores Gmail subject lines live — vs CoSchedule's free web-based tester. Which workflow is better for you?
+- [EmailSubjectScore Pro vs Sendcheckit](https://amrita-labs.com/gmail-subject-score/vs/vs-sendcheckit/): Free Chrome extension that scores Gmail subject lines live as you type — vs Sendcheckit, the free web-based tool. Side-by-side comparison.
+- [TouchStone Subject Line Analyzer Is Gone — Here's What to Use](https://amrita-labs.com/gmail-subject-score/vs/vs-touchstone/): ContactMonkey's TouchStone subject line analyzer is dead. Looking for a replacement? EmailSubjectScore Pro is free and works inside Gmail.
+- [EmailSubjectScore Pro vs Zurb TestSubject](https://amrita-labs.com/gmail-subject-score/vs/vs-zurb-testsubject/): Free Chrome extension that scores Gmail subject lines live — vs Zurb TestSubject, the classic mobile preview tool. They solve different problems.
 
 ## Legal
 
@@ -30,6 +53,16 @@
 - [EmailSubjectScore Pro Terms](https://amrita-labs.com/gmail-subject-score/terms/)
 - [Pinello Privacy Policy](https://amrita-labs.com/pinello/privacy/)
 - [Pinello Terms](https://amrita-labs.com/pinello/terms/)
+- [Privacy Blur for Slack Privacy Policy](https://amrita-labs.com/privacy-blur-slack/privacy/)
+- [Privacy Blur for Discord Privacy Policy](https://amrita-labs.com/privacy-blur-discord/privacy/)
+- [Privacy Blur for Microsoft Teams Privacy Policy](https://amrita-labs.com/privacy-blur-teams/privacy/)
+- [Privacy Blur for WhatsApp Web Privacy Policy](https://amrita-labs.com/privacy-blur-whatsapp/privacy/)
+- [Amrita Cookie Consent Privacy Policy](https://amrita-labs.com/cookie-consent/privacy/)
+- [Amrita Cookie Consent Terms](https://amrita-labs.com/cookie-consent/terms/)
+- [Amrita Chat Widget Privacy Policy](https://amrita-labs.com/chat-widget/privacy/)
+- [Amrita Chat Widget Terms](https://amrita-labs.com/chat-widget/terms/)
+- [Amrita Accessibility Widget Privacy Policy](https://amrita-labs.com/accessibility-widget/privacy/)
+- [Amrita Accessibility Widget Terms](https://amrita-labs.com/accessibility-widget/terms/)
 
 ## Contact
 
