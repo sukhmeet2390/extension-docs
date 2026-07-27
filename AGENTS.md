@@ -19,7 +19,7 @@
 - **Blog posts** — `src/content/blog/*.md` (rendered by `src/pages/blog/[slug].astro`)
 - **Comparisons** — `src/content/comparisons/*.md` (currently gmail-subject-score only; rendered by `src/pages/gmail-subject-score/vs/[slug].astro`)
 - **Legal + assets** — `public/`, `src/pages/*/privacy.astro`, `src/pages/*/terms.astro`
-- **AEO plumbing** — `src/pages/llms.txt.ts`, `public/robots.txt`, auto-generated `sitemap-index.xml`
+- **AEO plumbing** — `src/pages/llms.txt.ts`, `src/pages/brand.json.ts`, `public/robots.txt`, auto-generated `sitemap-index.xml`
 
 ---
 
@@ -32,6 +32,7 @@ Every blog post, product page, or comparison ships as a markdown/astro file. Dis
 | `sitemap-index.xml` + `sitemap-*.xml` | ✅ AUTO via `@astrojs/sitemap` | Every `npm run build` | None |
 | `rss.xml` | ✅ AUTO via `src/pages/rss.xml.ts` (glob `blog` collection) | Every `npm run build` | None — dev.to auto-imports drafts from this feed |
 | `llms.txt` | ✅ AUTO via `src/pages/llms.txt.ts` (glob `blog` + `comparisons` collections + hardcoded product/legal/install sections) | Every `npm run build` | None — regenerates on every deploy |
+| `brand.json` | ✅ AUTO via `src/pages/brand.json.ts` — canonical brand tokens (colors, fonts, screenshot-frame CSS var mapping). Downstream consumers (shopify-apps `_brand/`) fetch + verify. | Every `npm run build` | **Edit `tailwind.config.mjs` AND `src/pages/brand.json.ts` together.** Downstream `verify.mjs` fails CI on drift. |
 | `robots.txt` | ✅ STATIC (rare edit) | Manual | Only edit when adding sitemap URLs or disallowing paths |
 | `<link rel="canonical">` on blog | ✅ AUTO — `src/pages/blog/[slug].astro` sets `canonical={post.data.canonical || \`https://amrita-labs.com/blog/${post.id}/\`}` | Build | Optional `canonical:` override in frontmatter |
 | Schema.org JSON-LD Article | ✅ AUTO — `src/pages/blog/[slug].astro` inlines `<script type="application/ld+json">` | Build | None |
