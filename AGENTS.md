@@ -19,7 +19,7 @@
 - **Blog posts** — `src/content/blog/*.md` (rendered by `src/pages/blog/[slug].astro`)
 - **Comparisons** — `src/content/comparisons/*.md` (currently gmail-subject-score only; rendered by `src/pages/gmail-subject-score/vs/[slug].astro`)
 - **Legal + assets** — `public/`, `src/pages/*/privacy.astro`, `src/pages/*/terms.astro`
-- **AEO plumbing** — `public/llms.txt` (soon: `src/pages/llms.txt.ts`), `public/robots.txt`, auto-generated `sitemap-index.xml`
+- **AEO plumbing** — `src/pages/llms.txt.ts`, `public/robots.txt`, auto-generated `sitemap-index.xml`
 
 ---
 
@@ -31,7 +31,7 @@ Every blog post, product page, or comparison ships as a markdown/astro file. Dis
 |---|---|---|---|
 | `sitemap-index.xml` + `sitemap-*.xml` | ✅ AUTO via `@astrojs/sitemap` | Every `npm run build` | None |
 | `rss.xml` | ✅ AUTO via `src/pages/rss.xml.ts` (glob `blog` collection) | Every `npm run build` | None — dev.to auto-imports drafts from this feed |
-| `llms.txt` | ⚠️ MANUAL until `src/pages/llms.txt.ts` ships | On demand | Currently: edit `public/llms.txt` per new post. **Automation TODO** — mirror the `rss.xml.ts` pattern: iterate `blog` + product collections, emit markdown |
+| `llms.txt` | ✅ AUTO via `src/pages/llms.txt.ts` (glob `blog` + `comparisons` collections + hardcoded product/legal/install sections) | Every `npm run build` | None — regenerates on every deploy |
 | `robots.txt` | ✅ STATIC (rare edit) | Manual | Only edit when adding sitemap URLs or disallowing paths |
 | `<link rel="canonical">` on blog | ✅ AUTO — `src/pages/blog/[slug].astro` sets `canonical={post.data.canonical || \`https://amrita-labs.com/blog/${post.id}/\`}` | Build | Optional `canonical:` override in frontmatter |
 | Schema.org JSON-LD Article | ✅ AUTO — `src/pages/blog/[slug].astro` inlines `<script type="application/ld+json">` | Build | None |
@@ -48,7 +48,7 @@ Every blog post, product page, or comparison ships as a markdown/astro file. Dis
      { title, description, date (YYYY-MM-DD), tags?, canonical?, image? }
 2. git commit + git push origin master
 3. GitHub Pages deploy runs (~22s). Verify at https://amrita-labs.com/blog/<slug>/
-4. Sitemap, RSS, llms.txt (once automated), OG, JSON-LD all regenerate automatically.
+4. Sitemap, RSS, llms.txt, OG, JSON-LD all regenerate automatically.
 5. Dev.to auto-imports as draft via RSS in ~1 hr — publish manually there, canonical → hub-site.
 6. Medium cross-post third with same canonical.
 ```
@@ -62,7 +62,7 @@ Every blog post, product page, or comparison ships as a markdown/astro file. Dis
 - **blog** — `{ title, description, date (str), tags?: string[], canonical?: string, image?: string }`
 - **comparisons** — `{ title, description, date, product, competitor, competitorUrl, competitorStatus: 'active'|'dead', tags? }`
 
-Adding a new collection? Update `src/content.config.ts` schema + create a `[slug].astro` router + update `AGENTS.md`'s "What lives here" table + update `rss.xml.ts` and `llms.txt.ts` (once it exists) to include the new collection.
+Adding a new collection? Update `src/content.config.ts` schema + create a `[slug].astro` router + update `AGENTS.md`'s "What lives here" table + update `rss.xml.ts` and `llms.txt.ts` to include the new collection.
 
 ---
 
