@@ -1,7 +1,8 @@
 ---
 import Base from '../../layouts/Base.astro';
 
-const cwsLink = 'https://chromewebstore.google.com/search/privacy%20blur%20for%20whatsapp';
+const cwsLink = 'https://chromewebstore.google.com/detail/privacy-blur-for-whatsapp/akficmlcinjihflahiekkkheikceblfc';
+const heroImage = '/assets/screenshots/privacy-blur-whatsapp/hero.png';
 
 const schema = {
   "@context": "https://schema.org",
@@ -14,8 +15,7 @@ const schema = {
       "operatingSystem": "Chrome",
       "offers": [
         { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Free tier with core blur zones and hover-to-reveal" },
-        { "@type": "Offer", "price": "3", "priceCurrency": "USD", "description": "Pro monthly — persistence, shortcuts, keyword rules, sender rules" },
-        { "@type": "Offer", "price": "29", "priceCurrency": "USD", "description": "Pro yearly — same features, billed annually" }
+        { "@type": "Offer", "price": "5", "priceCurrency": "USD", "description": "Pro lifetime after a 7-day trial — persistence, shortcuts, keyword rules, and sender rules" }
       ],
       "url": "https://amrita-labs.com/privacy-blur-whatsapp/",
       "installUrl": cwsLink,
@@ -40,6 +40,7 @@ const schema = {
   description="Chrome extension that blurs private WhatsApp messages, contact names, previews, and media during screen sharing or recordings. Hover to reveal only for your eyes."
   canonical="https://amrita-labs.com/privacy-blur-whatsapp/"
   schema={schema}
+  ogImage={heroImage}
 >
   <section class="relative overflow-hidden">
     <div class="absolute inset-0 bg-gradient-to-b from-[#25D366]/10 via-transparent to-transparent"></div>
@@ -64,7 +65,7 @@ const schema = {
 
   <section class="max-w-6xl mx-auto px-6 pb-16">
     <div class="rounded-2xl overflow-hidden border border-white/10 shadow-2xl shadow-black/30">
-      <img src="/assets/screenshots/privacy-blur-whatsapp/hero.png" alt="Privacy Blur for WhatsApp hiding chats during screen sharing" class="w-full h-auto" loading="lazy" />
+      <img src={heroImage} alt="Privacy Blur for WhatsApp hiding chats during screen sharing" class="w-full h-auto" loading="lazy" />
     </div>
   </section>
 
@@ -151,7 +152,7 @@ const schema = {
 
   <div class="max-w-6xl mx-auto px-6 py-8 flex gap-6 text-xs text-gray-500">
     <a href="/privacy-blur-whatsapp/privacy" class="hover:text-gray-400">Privacy Policy</a>
+    <a href="mailto:hello@amrita-labs.com" class="hover:text-gray-400">hello@amrita-labs.com</a>
     <a href="/" class="hover:text-gray-400">← Back to Amrita Labs</a>
   </div>
 </Base>
-

@@ -3,13 +3,15 @@ import Base from '../../layouts/Base.astro';
 import FeatureCard from '../../components/FeatureCard.astro';
 import FaqItem from '../../components/FaqItem.astro';
 
+const heroImage = '/assets/screenshots/chat/hero.png';
+
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "SoftwareApplication",
       "name": "Amrita Chat Widget",
-      "description": "Multi-channel chat button widget for Shopify stores. No account required — messages go straight to your email.",
+      "description": "Multi-channel chat button widget for Shopify stores. Connect nine customer contact channels without a separate chat account.",
       "applicationCategory": "BusinessApplication",
       "operatingSystem": "Web",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
@@ -19,7 +21,7 @@ const schema = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Do I need to create an account?", "acceptedAnswer": { "@type": "Answer", "text": "No. Messages from visitors go directly to your email. No dashboard to log into, no separate account to manage." }},
+        { "@type": "Question", "name": "Do I need to create an account?", "acceptedAnswer": { "@type": "Answer", "text": "No separate chat account is required. Configure the channels you already use, and visitors open them directly from your storefront." }},
         { "@type": "Question", "name": "Is it free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The core chat widget is free. Install from the Shopify App Store." }},
         { "@type": "Question", "name": "Will it slow down my store?", "acceptedAnswer": { "@type": "Answer", "text": "No. The widget is under 15KB and loads asynchronously. Zero impact on page speed." }}
       ]
@@ -30,9 +32,10 @@ const schema = {
 
 <Base
   title="Amrita Chat Widget — Multi-channel chat button for Shopify"
-  description="Multi-channel chat button widget for Shopify stores. No account required — messages go straight to your email."
+  description="Multi-channel chat button widget for Shopify stores. Connect nine customer contact channels without a separate chat account."
   canonical="https://amrita-labs.com/chat-widget/"
   schema={schema}
+  ogImage={heroImage}
 >
   <section class="relative overflow-hidden">
     <div class="absolute inset-0 bg-gradient-to-b from-brand-600/5 via-transparent to-transparent"></div>
@@ -43,9 +46,9 @@ const schema = {
           Every channel.<br />One button.
         </h1>
         <p class="text-lg text-gray-400 mt-6 leading-relaxed">
-          Multi-channel chat button for Shopify stores. WhatsApp, Messenger, Email, and Phone in one widget. No account required.
+          Multi-channel chat button for Shopify stores. WhatsApp, Messenger, Instagram, Telegram, LINE, Viber, SMS, Email, and Phone in one widget.
         </p>
-        <p class="text-xs text-gray-400 mt-6">Free · WhatsApp · Messenger · Email · Phone</p>
+        <p class="text-xs text-gray-400 mt-6">Free · 9 channels · No separate chat account</p>
         <div class="flex flex-wrap gap-3 mt-6">
           <a href="https://apps.shopify.com/chat-widget-1" class="inline-flex items-center gap-2 bg-[#008060] text-white px-6 py-3 rounded-full font-semibold text-sm hover:bg-[#006e52] transition-colors shadow-lg shadow-[#008060]/25">
             Install on Shopify
@@ -58,7 +61,7 @@ const schema = {
   <!-- Hero Screenshot -->
   <section class="max-w-6xl mx-auto px-6 pb-16">
     <div class="rounded-2xl overflow-hidden border border-white/10 shadow-2xl shadow-black/30">
-      <img src="/assets/screenshots/chat/hero.png" alt="Amrita Chat Widget on a Shopify store" class="w-full h-auto" loading="lazy" />
+      <img src={heroImage} alt="Amrita Chat Widget on a Shopify store" class="w-full h-auto" loading="lazy" />
     </div>
   </section>
 
@@ -68,10 +71,12 @@ const schema = {
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 animate-in">
         <FeatureCard icon="💬" title="WhatsApp" description="Customers tap to open a WhatsApp conversation with your business number." />
         <FeatureCard icon="📱" title="Messenger" description="Connect your Facebook page. One tap opens Messenger chat." />
+        <FeatureCard icon="📸" title="Instagram" description="Send visitors directly to your Instagram profile." />
+        <FeatureCard icon="✈️" title="Telegram" description="Open a Telegram conversation with your business." />
+        <FeatureCard icon="💭" title="LINE & Viber" description="Offer popular messaging channels alongside your other contact options." />
+        <FeatureCard icon="💬" title="SMS" description="Open the visitor's messaging app with your number pre-filled." />
         <FeatureCard icon="📧" title="Email" description="Opens customer's email client with your address pre-filled." />
         <FeatureCard icon="📞" title="Phone" description="Click-to-call button. Works on mobile and desktop." />
-        <FeatureCard icon="🎨" title="Customizable" description="Match your brand. Colors, position, channels shown — all configurable from Shopify admin." />
-        <FeatureCard icon="⚡" title="Lightweight" description="Under 15KB. Loads async. Zero impact on store speed or Core Web Vitals." />
       </div>
     </div>
   </section>
@@ -79,7 +84,7 @@ const schema = {
   <section class="max-w-6xl mx-auto px-6 py-20">
     <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-8">Frequently asked questions</h2>
     <div class="max-w-2xl">
-      <FaqItem question="Do I need to create an account?" answer="No. Messages from visitors go directly to your email. No dashboard to log into, no separate account to manage." />
+      <FaqItem question="Do I need to create an account?" answer="No separate chat account is required. Configure the channels you already use, and visitors open them directly from your storefront." />
       <FaqItem question="Is it free?" answer="Yes. The core chat widget is free. Install from the Shopify App Store." />
       <FaqItem question="Will it slow down my store?" answer="No. The widget is under 15KB and loads asynchronously. Zero impact on page speed." />
     </div>

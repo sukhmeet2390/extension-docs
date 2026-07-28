@@ -4,6 +4,7 @@ import FeatureCard from '../../components/FeatureCard.astro';
 import FaqItem from '../../components/FaqItem.astro';
 
 const cwsLink = 'https://chromewebstore.google.com/detail/emailsubjectscore-pro-sub/dleffnbdjohkmmkbojehdpkgkmpofmgm';
+const heroImage = '/assets/screenshots/gmail/hero.png';
 
 const schema = {
   "@context": "https://schema.org",
@@ -38,6 +39,7 @@ const schema = {
   description="EmailSubjectScore Pro is a free Chrome extension that scores Gmail subject lines for spam risk, clarity, and urgency in real time."
   canonical="https://amrita-labs.com/gmail-subject-score/"
   schema={schema}
+  ogImage={heroImage}
 >
   <!-- Hero -->
   <section class="relative overflow-hidden">
@@ -64,7 +66,7 @@ const schema = {
   <!-- Hero Screenshot -->
   <section class="max-w-6xl mx-auto px-6 pb-16">
     <div class="rounded-2xl overflow-hidden border border-white/10 shadow-2xl shadow-black/30">
-      <img src="/assets/screenshots/gmail/hero.png" alt="EmailSubjectScore Pro scoring a subject line in Gmail" class="w-full h-auto" loading="lazy" />
+      <img src={heroImage} alt="EmailSubjectScore Pro scoring a subject line in Gmail" class="w-full h-auto" loading="lazy" />
     </div>
   </section>
 

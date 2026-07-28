@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 
-const cwsLink = 'https://chromewebstore.google.com/detail/privacy-blur-for-teams/EXTENSION_ID';
+const cwsLink = 'https://chromewebstore.google.com/detail/privacy-blur-for-teams-%E2%80%94/goghfejahaadidgoloolbphebacikalp';
 const heroImage = '/assets/screenshots/privacy-blur-teams/hero.png';
 const iconPath = '/assets/icons/privacy-blur-teams.png';
 
@@ -18,7 +18,8 @@ const schema = {
       "screenshot": heroImage,
       "offers": [
         { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Free install with core Teams blur zones and hover-to-reveal" },
-        { "@type": "Offer", "price": "5", "priceCurrency": "USD", "description": "Pro lifetime — 8 blur zones, keyword rules, shortcuts, and persistent settings" }
+        { "@type": "Offer", "price": "3", "priceCurrency": "USD", "description": "Pro monthly — 8 blur zones, keyword rules, shortcuts, and persistent settings" },
+        { "@type": "Offer", "price": "29", "priceCurrency": "USD", "description": "Pro yearly — 8 blur zones, keyword rules, shortcuts, and persistent settings" }
       ],
       "url": "https://amrita-labs.com/privacy-blur-teams/",
       "installUrl": cwsLink,
@@ -63,11 +64,8 @@ const schema = {
           <a href={cwsLink} class="inline-flex items-center gap-2 bg-[#6264A7] text-white px-6 py-3 rounded-full font-semibold text-sm hover:bg-[#7477bf] transition-colors shadow-lg shadow-[#6264A7]/25">
             View on Chrome Web Store
           </a>
-          <a href="/privacy-blur-teams/privacy/" class="inline-flex items-center gap-2 border border-white/10 text-gray-200 px-6 py-3 rounded-full font-semibold text-sm hover:border-[#6264A7]/40 hover:text-white transition-colors">
-            Read Privacy Policy
-          </a>
         </div>
-        <p class="text-xs text-gray-400 mt-3">Free install · Pro is $5 lifetime · One-time payment, no subscription</p>
+        <p class="text-xs text-gray-400 mt-3">Free install · Pro from $3/month or $29/year</p>
       </div>
     </div>
   </section>
@@ -129,10 +127,10 @@ const schema = {
         <li class="flex gap-3"><span class="text-[#aab0ff]">✓</span> Alt+Shift+B global toggle plus Alt+Shift+1 through 8 per-zone shortcuts</li>
         <li class="flex gap-3"><span class="text-[#aab0ff]">✓</span> Custom keyword rules for terms like “salary”, “OTP”, “invoice”, or “confidential”</li>
         <li class="flex gap-3"><span class="text-[#aab0ff]">✓</span> Hover reveal to privately inspect a single message without exposing the rest of the thread</li>
-        <li class="flex gap-3"><span class="text-[#aab0ff]">✓</span> One payment, lifetime access — $5 once, never a monthly subscription</li>
+        <li class="flex gap-3"><span class="text-[#aab0ff]">✓</span> Flexible monthly or annual plans — $3/month or $29/year</li>
         <li class="flex gap-3"><span class="text-[#aab0ff]">✓</span> Priority support at <a href="mailto:hello@amrita-labs.com" class="text-[#aab0ff] hover:underline">hello@amrita-labs.com</a></li>
       </ul>
-      <p class="text-sm text-gray-500 mt-6">Install free · Upgrade any time · $5 lifetime</p>
+      <p class="text-sm text-gray-500 mt-6">Install free · Upgrade any time · $3/month or $29/year</p>
     </div>
   </section>
 

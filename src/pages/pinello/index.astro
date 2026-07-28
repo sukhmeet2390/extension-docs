@@ -4,6 +4,7 @@ import FeatureCard from '../../components/FeatureCard.astro';
 import FaqItem from '../../components/FaqItem.astro';
 
 const cwsLink = 'https://chromewebstore.google.com/detail/pinello/kmelegdnljikegoemigfgnpcbllmkije';
+const heroImage = '/assets/screenshots/pinello/hero.png';
 
 const schema = {
   "@context": "https://schema.org",
@@ -38,6 +39,7 @@ const schema = {
   description="Pinello is a free Chrome extension that scores Pinterest pins across 5 dimensions — image, board fit, title, description, and hashtags — in real time."
   canonical="https://amrita-labs.com/pinello/"
   schema={schema}
+  ogImage={heroImage}
 >
   <!-- Hero -->
   <section class="relative overflow-hidden">
@@ -64,7 +66,7 @@ const schema = {
   <!-- Hero Screenshot -->
   <section class="max-w-6xl mx-auto px-6 pb-16">
     <div class="rounded-2xl overflow-hidden border border-white/10 shadow-2xl shadow-black/30">
-      <img src="/assets/screenshots/pinello/hero.png" alt="Pinello scoring a Pinterest pin in real time" class="w-full h-auto" loading="lazy" />
+      <img src={heroImage} alt="Pinello scoring a Pinterest pin in real time" class="w-full h-auto" loading="lazy" />
     </div>
   </section>
 
