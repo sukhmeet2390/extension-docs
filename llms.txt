@@ -7,14 +7,14 @@
 - [EmailSubjectScore Pro](https://amrita-labs.com/gmail-subject-score/): Free Chrome extension that scores Gmail subject lines for spam risk, clarity, and urgency in real time. AI-powered rewrite suggestions. 50 free scores/month.
 - [Pinello](https://amrita-labs.com/pinello/): Free Chrome extension that scores Pinterest pins across 5 dimensions — image, board fit, title, description, and hashtags — in real time. AI rewrite included.
 - [Privacy Blur for Slack](https://amrita-labs.com/privacy-blur-slack/): Free Chrome extension that blurs sensitive Slack content (messages, channel names, avatars, files) during screen sharing so you can present without leaking private conversations.
-- [Privacy Blur for Discord](https://amrita-labs.com/privacy-blur-discord/): Free Chrome extension that blurs sensitive Discord content (server list, channels, DMs, avatars) during screen sharing. Not yet published on Chrome Web Store.
-- [Privacy Blur for Microsoft Teams](https://amrita-labs.com/privacy-blur-teams/): Free Chrome extension that blurs sensitive Microsoft Teams content (chats, channels, calendar, notifications) during screen sharing. Not yet published on Chrome Web Store.
-- [Privacy Blur for WhatsApp Web](https://amrita-labs.com/privacy-blur-whatsapp/): Free Chrome extension that blurs sensitive WhatsApp Web content (chat list, previews, avatars, media) during screen sharing. Not yet published on Chrome Web Store.
+- [Privacy Blur for Discord](https://amrita-labs.com/privacy-blur-discord/): Free Chrome extension that blurs sensitive Discord content (server list, channels, DMs, avatars) during screen sharing.
+- [Privacy Blur for Microsoft Teams](https://amrita-labs.com/privacy-blur-teams/): Free Chrome extension that blurs sensitive Microsoft Teams content (chats, channels, calendar, notifications) during screen sharing.
+- [Privacy Blur for WhatsApp Web](https://amrita-labs.com/privacy-blur-whatsapp/): Free Chrome extension that blurs sensitive WhatsApp Web content (chat list, previews, avatars, media) during screen sharing.
 
 ## Shopify Apps
 
 - [Amrita Cookie Consent](https://amrita-labs.com/cookie-consent/): GDPR/CCPA cookie consent banner for Shopify stores. Includes Google Consent Mode v2, 7-language storefront banner, and no third-party scripts.
-- [Amrita Chat Widget](https://amrita-labs.com/chat-widget/): Multi-channel chat widget for Shopify — one floating button that opens 9 channels (WhatsApp, Messenger, Instagram, LINE, Viber, Telegram, SMS, Email, phone). Free forever, no visitor cap, zero cookies, Shadow DOM isolated, 8-language admin.
+- [Amrita Chat Widget](https://amrita-labs.com/chat-widget/): Multi-channel chat widget for Shopify — one floating button that opens 9 channels (WhatsApp, Messenger, Instagram, LINE, Viber, Telegram, SMS, Email, phone). Free forever, no visitor cap, zero cookies, Shadow DOM isolated, 9-language admin.
 - [Amrita Accessibility Widget](https://amrita-labs.com/accessibility-widget/): Accessibility toolbar for Shopify stores that helps merchants work toward WCAG 2.1 compatibility — contrast, text resize, dyslexia-friendly font, link highlight, and more. 7-language admin.
 
 ## Install Links
@@ -22,6 +22,9 @@
 - [EmailSubjectScore Pro on Chrome Web Store](https://chromewebstore.google.com/detail/emailsubjectscore-pro-sub/dleffnbdjohkmmkbojehdpkgkmpofmgm): Score email subject lines as you type in Gmail.
 - [Pinello on Chrome Web Store](https://chromewebstore.google.com/detail/pinello/kmelegdnljikegoemigfgnpcbllmkije): Score Pinterest pins as you create them.
 - [Privacy Blur for Slack on Chrome Web Store](https://chromewebstore.google.com/detail/privacy-blur-for-slack/cejmffebfhdnhbjkhiobaecdohheimkj): Blur Slack messages before screen sharing.
+- [Privacy Blur for Discord on Chrome Web Store](https://chromewebstore.google.com/detail/privacy-blur-for-discord/jjgfgplekjnhopfgmhgdogodmbkkcgnb): Blur Discord messages and channels before screen sharing.
+- [Privacy Blur for Microsoft Teams on Chrome Web Store](https://chromewebstore.google.com/detail/privacy-blur-for-teams-%E2%80%94/goghfejahaadidgoloolbphebacikalp): Blur Microsoft Teams chats before screen sharing.
+- [Privacy Blur for WhatsApp Web on Chrome Web Store](https://chromewebstore.google.com/detail/privacy-blur-for-whatsapp/akficmlcinjihflahiekkkheikceblfc): Blur WhatsApp Web chats before screen sharing.
 - [Amrita Cookie Consent on Shopify App Store](https://apps.shopify.com/cookie-consent-8): Install Amrita Cookie Consent from the Shopify App Store.
 - [Amrita Chat Widget on Shopify App Store](https://apps.shopify.com/chat-widget-1): Install Amrita Chat Widget from the Shopify App Store.
 - [Amrita Accessibility Widget on Shopify App Store](https://apps.shopify.com/accessibility-widget): Install Amrita Accessibility Widget from the Shopify App Store.
