@@ -28,7 +28,7 @@ export default {
         },
       },
       fontFamily: {
-        sans: ['Inter', 'SF Pro Display', 'system-ui', 'sans-serif'],
+        sans: ['IBM Plex Sans', 'SF Pro Display', 'system-ui', 'sans-serif'],
       },
     },
   },

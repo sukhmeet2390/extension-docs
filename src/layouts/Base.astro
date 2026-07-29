@@ -1,4 +1,6 @@
 ---
+import BrandLogo from '../components/BrandLogo.astro';
+
 interface Props {
   title: string;
   description: string;
@@ -40,7 +42,7 @@ const isDark = theme === 'dark';
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
     <!-- Animations (pure CSS, no JS) -->
     <style>
@@ -76,10 +78,10 @@ const isDark = theme === 'dark';
     ]}>
       <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         <a href="/" class:list={[
-          'text-lg font-bold transition-colors',
+          'transition-colors',
           isDark ? 'text-white hover:text-brand-400' : 'text-gray-900 hover:text-brand-600'
         ]}>
-          Amrita Labs
+          <BrandLogo />
         </a>
         <div class:list={[
           'hidden sm:flex items-center gap-6 text-sm font-medium',
@@ -102,7 +104,7 @@ const isDark = theme === 'dark';
       <div class="max-w-6xl mx-auto px-6 py-12">
         <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6">
           <div>
-            <p class:list={['font-bold', isDark ? 'text-white' : 'text-gray-900']}>Amrita Labs</p>
+            <BrandLogo />
             <p class:list={['text-sm mt-1', isDark ? 'text-gray-400' : 'text-gray-500']}>Productivity tools for creators & merchants. Based in Canada.</p>
           </div>
           <div class:list={['flex gap-6 text-sm', isDark ? 'text-gray-400' : 'text-gray-500']}>

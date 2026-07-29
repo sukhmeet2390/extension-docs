@@ -41,7 +41,7 @@ const BRAND = {
     },
   },
   fonts: {
-    sans: ['Inter', 'SF Pro Display', 'system-ui', 'sans-serif'],
+    sans: ['IBM Plex Sans', 'SF Pro Display', 'system-ui', 'sans-serif'],
   },
   assets: {
     favicon: `${SITE}/favicon.png`,
