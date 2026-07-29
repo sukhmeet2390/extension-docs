@@ -1,4 +1,62 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Amrita Labs Blog</title><description>Chrome extensions, Shopify apps, and indie maker insights from Amrita Labs.</description><link>https://amrita-labs.com/</link><language>en-us</language><item><title>Chaty Alternative for Shopify: Free Forever, No Tracking, No Visitor Cap (2026)</title><link>https://amrita-labs.com/blog/chaty-alternative-shopify/</link><guid isPermaLink="true">https://amrita-labs.com/blog/chaty-alternative-shopify/</guid><description>Amrita Chat Widget vs Chaty for Shopify — free forever, no visitor cap, zero cookies, WhatsApp/Messenger/Instagram + 6 more channels. DOM verified.</description><pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate><content:encoded>[Amrita Chat Widget](https://apps.shopify.com/chat-widget-1) is a free Shopify chat button that competes directly with Chaty. This is a technical comparison of both apps, published by the team that ships Amrita Chat Widget — bias disclosed up front. Each claim is a fair comparison and where Chaty is stronger, or [Amrita Chat Widget](https://apps.shopify.com/chat-widget-1) we say so.
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Amrita Labs Blog</title><description>Chrome extensions, Shopify apps, and indie maker insights from Amrita Labs.</description><link>https://amrita-labs.com/</link><language>en-us</language><item><title>I Built a Chrome Extension That Scores Your Gmail Subject Lines — Here&apos;s What I Learned</title><link>https://amrita-labs.com/blog/gmail-subject-scorer-launch/</link><guid isPermaLink="true">https://amrita-labs.com/blog/gmail-subject-scorer-launch/</guid><description>After watching my cold emails die in spam folders, I built a tool that scores subject lines in real time. Here&apos;s what actually makes email subjects work.</description><pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate><content:encoded>A few months ago I was sending cold emails for a side project. Personalized openers, clear asks, short paragraphs — I thought the emails were good. But my reply rate was garbage. Like, 1-2% garbage.
+
+I started digging into why. Turns out most of my emails weren&apos;t even being opened. They were landing in spam or getting ignored at the subject line.
+
+The frustrating part? I&apos;d spend 20 minutes writing a thoughtful email body, then slap on a subject line in 5 seconds. &quot;Quick question.&quot; &quot;Following up.&quot; &quot;Hey!&quot; Basically handing Gmail&apos;s spam filter a reason to bury me.
+
+So I did what any engineer would do when annoyed enough — I built something.
+
+## What I actually built
+
+[EmailSubjectScore Pro](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm) is a Chrome extension that sits inside Gmail&apos;s compose window. As you type a subject line, it scores it on three things:
+
+- **Spam risk** — are you triggering filters without realizing it?
+- **Clarity** — does the recipient know what this email is about?
+- **Urgency** — is there a reason to open it now vs. never?
+
+If your subject scores poorly, you hit &quot;Suggest rewrite&quot; and the AI proposes alternatives. You pick one, it drops into the subject field. Done.
+
+No external tabs. No copy-pasting. It just... sits there in Gmail and tells you when your subject line sucks.
+
+![EmailSubjectScore Pro scoring a subject line inside Gmail compose — green score means ready to send](/assets/blog/emailsubjectscore-cws.png)
+
+## The three things I learned about subject lines
+
+Building the scoring engine forced me to study what actually works. Most subject line advice online is recycled fluff. But three patterns kept showing up in the data:
+
+**Spam triggers are sneakier than you think.** Everyone knows to avoid &quot;FREE&quot; and &quot;ACT NOW.&quot; But &quot;just checking in&quot; and &quot;quick question&quot; are also flagged now — they&apos;ve been so overused by sales automation that Gmail treats them as spam signals. The extension catches these in real time, which is something I didn&apos;t expect to be so useful for myself.
+
+**Specific beats clever, every time.** &quot;Thought you&apos;d find this interesting&quot; tells the recipient nothing. &quot;Your onboarding flow has a 60% drop-off at step 3&quot; tells them exactly why they should care. The best subject lines make a promise so specific that the person can decide in 2 seconds whether it&apos;s worth opening. No mystery, no games.
+
+**Front-load or die.** On a phone lock screen, you see maybe 30-35 characters of a subject line. If your important words come after &quot;Hey [Name], I just wanted to reach out because...&quot; — nobody will ever see them. The extension penalizes subjects where the keywords are buried past character 40. Sounds obvious, but I was doing it constantly before I had a score staring me in the face.
+
+## Before and after
+
+Some real examples from my own emails:
+
+| Before | After |
+|---|---|
+| &quot;Quick question&quot; | &quot;Can you review these 3 vendor proposals by Friday?&quot; |
+| &quot;Following up&quot; | &quot;The pricing expires June 30 — here&apos;s the breakdown&quot; |
+| &quot;Hey!&quot; | &quot;Your AWS bill is 3x higher than similar companies&quot; |
+
+The befores aren&apos;t terrible emails written by terrible people. They&apos;re what happens when you&apos;re in a rush and don&apos;t think about it. The afters are what happens when something nudges you for 5 seconds.
+
+![EmailSubjectScore Pro showing rewrite suggestions for a weak subject line](/assets/blog/best-email-subject-line-extensions-hero.png)
+
+## Where it&apos;s at
+
+100 + installs within a month so far, organic CWS traffic. It&apos;s early but also tells me that it is a common problem.
+
+The free tier gives you 50 AI scores per month and 10 per day. Enough to cover a normal person&apos;s important emails without hitting a wall.
+
+If you try it and something feels off — a score that doesn&apos;t make sense, a rewrite that sounds weird, a bug where it doesn&apos;t show up in compose — genuinely tell us. We&apos;re building this for people who send emails that matter, and the best feedback comes from people actually using it.
+
+**→ [Install EmailSubjectScore Pro (free)](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm)**
+
+---
+
+*Written by the team at Amrita Labs. We build browser tools for people who send important emails.*</content:encoded></item><item><title>Chaty Alternative for Shopify: Free Forever, No Tracking, No Visitor Cap (2026)</title><link>https://amrita-labs.com/blog/chaty-alternative-shopify/</link><guid isPermaLink="true">https://amrita-labs.com/blog/chaty-alternative-shopify/</guid><description>Amrita Chat Widget vs Chaty for Shopify — free forever, no visitor cap, zero cookies, WhatsApp/Messenger/Instagram + 6 more channels. DOM verified.</description><pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate><content:encoded>[Amrita Chat Widget](https://apps.shopify.com/chat-widget-1) is a free Shopify chat button that competes directly with Chaty. This is a technical comparison of both apps, published by the team that ships Amrita Chat Widget — bias disclosed up front. Each claim is a fair comparison and where Chaty is stronger, or [Amrita Chat Widget](https://apps.shopify.com/chat-widget-1) we say so.
 
 ![Amrita Chat Widget for Shopify — one button, 9 messaging channels (WhatsApp, Messenger, Instagram, SMS, Email, LINE, Viber, Telegram, phone)](https://cdn.shopify.com/app-store/listing_images/e8017261bb2b89a90cafbd5fdf1abc08/promotional_image/CJiDvY-c5ZUDEAE=.png)
 
@@ -187,7 +245,159 @@ Both apps solve the same top-level problem through different engineering trade-o
 
 ---
 
-*Amrita Chat Widget is built and maintained by [Amrita Labs](https://amrita-labs.com), an independent studio building focused Shopify apps. [Install Amrita Chat Widget on the Shopify App Store](https://apps.shopify.com/chat-widget-1) — free forever, under five minutes to set up.*</content:encoded></item><item><title>5 Best Chrome Extensions for Screen Sharing Privacy (2026)</title><link>https://amrita-labs.com/blog/best-chrome-extensions-screen-sharing-privacy/</link><guid isPermaLink="true">https://amrita-labs.com/blog/best-chrome-extensions-screen-sharing-privacy/</guid><description>The best Chrome extensions for screen sharing privacy, compared for remote workers, managers, and teams who need to hide sensitive information before meetings.</description><pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate><content:encoded>Accidentally sharing the wrong thing on a call is one of those mistakes that feels small for one second and huge the next. Maybe it is a Slack DM, a private channel name, a salary note, a customer account balance, or an internal tab you forgot was still open. The more remote work becomes normal, the more this happens to managers, sales teams, recruiters, customer success reps, founders, and anyone else who lives in browser tabs all day.
+*Amrita Chat Widget is built and maintained by [Amrita Labs](https://amrita-labs.com), an independent studio building focused Shopify apps. [Install Amrita Chat Widget on the Shopify App Store](https://apps.shopify.com/chat-widget-1) — free forever, under five minutes to set up.*</content:encoded></item><item><title>Pinterest SEO Checklist: Score Your Pins Before Posting</title><link>https://amrita-labs.com/blog/pinterest-seo-checklist-score-pins/</link><guid isPermaLink="true">https://amrita-labs.com/blog/pinterest-seo-checklist-score-pins/</guid><description>Pinterest behaves more like a search engine than a social app. This is the practical checklist we use to score pins for discoverability before posting.</description><pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate><content:encoded>The easiest way to get disappointed on Pinterest is to treat it like Instagram.
+
+You make a pretty graphic, post it, wait for engagement, and then wonder why the pin dies with 12 impressions. I did that too at first. The annoying part is that the pin itself may be fine. It is just not packaged in a way Pinterest understands.
+
+Pinterest is much closer to a search engine than a traditional social platform. A pin is a search result. A board is context. The title and description are metadata. Once that clicks, the whole platform makes more sense.
+
+And the payoff is different too. A decent Instagram post disappears quickly. A well-optimized Pinterest pin can keep surfacing for months. Some of the pins we have posted keep getting impressions long after we stopped thinking about them.
+
+[Pinello](https://chromewebstore.google.com/detail/kmelegdnljikegoemigfgnpcbllmkije) is a free Chrome extension that scores Pinterest pins across 5 dimensions — image, board fit, title, description, and keywords — in real time.
+
+![Pinterest pin scoring checklist — 5 dimensions to check before posting](/assets/blog/pinterest-chrome-extensions-pinello.png)
+
+This is the checklist I keep coming back to before I post anything important.
+
+## Why Pinterest SEO matters more than followers
+
+One thing I like about Pinterest is that it gives smaller creators a better shot than most platforms do.
+
+A lot of Pinterest searches are unbranded. People search for things like &quot;minimalist living room ideas&quot; or &quot;easy meal prep recipes,&quot; not specific creator handles. That means a small account can still win if the pin lines up with what people are actually searching for.
+
+That is also why SEO matters so much here. If the board, title, description, and image all reinforce the same topic, Pinterest has a much easier time deciding where your pin belongs.
+
+## The 5 parts of a Pinterest SEO checklist
+
+### 1. Start with the image, because Pinterest does
+
+Pinterest is visual first. If the image does not stop the scroll, the rest of the optimization does not get much of a chance.
+
+I stick to the boring best practice here: **2:3 ratio, usually 1000×1500px**. It gives you good feed presence without awkward cropping.
+
+A few image habits that help:
+
+- keep text overlay short enough to read on a phone
+- use contrast that survives thumbnail size
+- avoid clutter when one focal point will do
+- make sure the image actually signals the topic fast
+
+If I have to squint at the thumbnail to understand the pin, I assume everyone else will keep scrolling too.
+
+### 2. The board tells Pinterest what kind of pin this is
+
+This one gets missed constantly.
+
+A strong board name gives Pinterest topic context. &quot;Healthy Dinner Recipes&quot; is useful context. &quot;Yum Yum&quot; is not. Same pin, different board, very different signal.
+
+I try to keep boards boring in the best possible way:
+
+- board title uses a searchable phrase
+- board description includes a few related keyword variations
+- board already has enough on-topic pins to feel coherent
+- the new pin genuinely belongs there
+
+If I would be embarrassed to explain why a pin lives on a certain board, I take that as a sign the board choice is wrong.
+
+### 3. The title needs to front-load the keyword
+
+Pinterest gives you room for a long title, but users do not see all of it. On mobile, the useful part is often whatever appears in the first 30-40 characters.
+
+So I try to get the main phrase in early.
+
+Good titles tend to be specific:
+
+- &quot;Minimalist Bedroom Ideas for Small Spaces&quot;
+- &quot;15 Easy Meal Prep Recipes for Beginners&quot;
+- &quot;2026 Wedding Color Trends&quot;
+
+Weak titles tend to sound like placeholders:
+
+- &quot;Check This Out!&quot;
+- &quot;Bathroom Inspo&quot;
+- &quot;Cute Ideas&quot;
+
+The difference is not subtle. One helps Pinterest categorize the pin. The other just fills space.
+
+### 4. The description is where a lot of pins quietly lose
+
+A lot of people leave the description blank or write one lazy sentence. That is usually wasted opportunity.
+
+I do not try to turn pin descriptions into essays. I just want 2-3 natural sentences that give Pinterest more context and give the reader one reason to care.
+
+The sweet spot for me is usually **100-300 characters**.
+
+A useful rhythm is:
+
+- first sentence: primary keyword + what the pin gives them
+- second sentence: related keyword variation + who it helps
+- third sentence: light CTA if it fits
+
+Example:
+
+&gt; &quot;Easy 30-minute chicken stir fry recipe with vegetables. Great for busy weeknights when you want something healthier than takeout. Save this for your next meal prep day.&quot;
+
+That reads like a person wrote it, but it still gives Pinterest plenty of relevant context.
+
+### 5. Keywords still matter, but they need to sound natural
+
+The best Pinterest SEO advice is usually less glamorous than people want.
+
+Hashtags are not doing the job they used to on Pinterest. I do not treat them as meaningful SEO anymore. What matters more is whether your title, board, and description all reinforce the same search intent without sounding stuffed.
+
+When I need ideas, I usually look in three places:
+
+- Pinterest search suggestions
+- Pinterest Trends for seasonality
+- the titles and descriptions of pins already ranking for the term
+
+If the keyword strategy makes the description sound robotic, I back off. Pinterest still needs text signals, but readers do too.
+
+## My quick Pinterest SEO checklist before posting
+
+![Pinello scoring a Pinterest pin — showing image, board fit, title, description, and keyword scores](/assets/blog/pinello-cws.png)
+
+Before posting any pin, I run through this table:
+
+| Dimension | ✅ Good (post it) | ❌ Bad (fix first) |
+|---|---|---|
+| Image | 2:3 ratio, bright, text readable on mobile | Square/landscape, dark, tiny text |
+| Board | Keyword title, 10+ pins, topically matched | Creative name, empty, random mix |
+| Title | Keyword in first 40 chars, specific | Vague, too short, clickbait |
+| Description | 100-300 chars, 2-3 keywords, CTA | Empty, one sentence, hashtag spam |
+| Keywords | Natural phrases in description + title | Hashtags only, or none |
+
+If one row looks weak, I usually fix it before posting. That five-minute cleanup is cheaper than guessing later why the pin stalled.
+
+## When manual scoring stops being fun
+
+If you only post occasionally, this checklist is manageable.
+
+If you are batch-creating pins for a business, it gets tedious fast. That is where automation helps. Pinello scores those same five dimensions directly on pinterest.com, which is mostly useful because it catches the boring mistakes I miss when I am rushing.
+
+![Pinello scoring a Pinterest pin — showing image, board fit, title, description, and keyword scores](/assets/blog/pinello-tips.png)
+
+The practical benefit is not &quot;AI magic.&quot; It is just fewer avoidable misses: wrong board, weak title, empty description, off-ratio image.
+
+## The 80/20 changes that move the needle fastest
+
+If this all feels like a lot, these are the three adjustments I would make first:
+
+1. **Use 2:3 images consistently.** Feed presence matters more than people think.
+2. **Write real descriptions.** Two thoughtful sentences beats an empty field every time.
+3. **Rename vague boards.** Searchable board titles help every future pin on that board.
+
+Those three changes are not flashy, but they do more for Pinterest SEO than most hacks people chase.
+
+## Start scoring before posting
+
+Your next pin might quietly compound traffic for months, or it might disappear before anyone really sees it. The difference is often a few minutes of optimization before you hit publish.
+
+[Install Pinello from the Chrome Web Store](https://chromewebstore.google.com/detail/kmelegdnljikegoemigfgnpcbllmkije) — it&apos;s free, works directly on pinterest.com, and scores your pins across all 5 dimensions before you post. No signup needed.
+
+---
+
+*Written by the team at Amrita Labs. We build browser tools that help creators optimize before publishing.*</content:encoded></item><item><title>5 Best Chrome Extensions for Screen Sharing Privacy (2026)</title><link>https://amrita-labs.com/blog/best-chrome-extensions-screen-sharing-privacy/</link><guid isPermaLink="true">https://amrita-labs.com/blog/best-chrome-extensions-screen-sharing-privacy/</guid><description>The best Chrome extensions for screen sharing privacy, compared for remote workers, managers, and teams who need to hide sensitive information before meetings.</description><pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate><content:encoded>Accidentally sharing the wrong thing on a call is one of those mistakes that feels small for one second and huge the next. Maybe it is a Slack DM, a private channel name, a salary note, a customer account balance, or an internal tab you forgot was still open. The more remote work becomes normal, the more this happens to managers, sales teams, recruiters, customer success reps, founders, and anyone else who lives in browser tabs all day.
 
 That is why screen-sharing privacy extensions are so useful. They let you hide sensitive information before the meeting starts instead of relying on last-second tab juggling. Some are built for a specific app. Others work on almost any website. The best one for you depends on where your privacy risk actually shows up.
 
