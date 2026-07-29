@@ -13,6 +13,14 @@
 
 ---
 
+## Public attribution and privacy
+
+Publish all website content, structured data, metadata, legal contact details, and product
+information under **Amrita Labs**. Do not surface the builder's name, location, employment,
+or other personal information on this public site.
+
+---
+
 ## What lives here
 
 - **Product pages** — `src/pages/<product>/index.astro`, `<product>/privacy.astro`, `<product>/terms.astro`
