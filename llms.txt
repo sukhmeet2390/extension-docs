@@ -31,6 +31,7 @@
 
 ## Blog
 
+- [Azure Functions ESM Imports: The Silent Bug That Deploys Fine and Registers 0 Endpoints](https://amrita-labs.com/blog/esm-azure-functions-silent-killer/): If your Azure Functions v4 deploy succeeds but no endpoints show up, a missing .js extension in an ESM import can crash cold start without obvious deploy errors.
 - [I Built a Chrome Extension That Scores Your Gmail Subject Lines — Here's What I Learned](https://amrita-labs.com/blog/gmail-subject-scorer-launch/): After watching my cold emails die in spam folders, I built a tool that scores subject lines in real time. Here's what actually makes email subjects work.
 - [How I Set Up PostHog in a Chrome Extension (MV3, Content Script + Background Worker)](https://amrita-labs.com/blog/posthog-chrome-extension-setup/): A practical PostHog setup for Manifest V3 Chrome extensions: where to initialize it, how to handle anonymous IDs, and which events are actually worth tracking.
 - [Chaty Alternative for Shopify: Free Forever, No Tracking, No Visitor Cap (2026)](https://amrita-labs.com/blog/chaty-alternative-shopify/): Amrita Chat Widget vs Chaty for Shopify — free forever, no visitor cap, zero cookies, WhatsApp/Messenger/Instagram + 6 more channels. DOM verified.
