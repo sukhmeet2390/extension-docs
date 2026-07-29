@@ -30,7 +30,7 @@
   },
   "fonts": {
     "sans": [
-      "Inter",
+      "IBM Plex Sans",
       "SF Pro Display",
       "system-ui",
       "sans-serif"
