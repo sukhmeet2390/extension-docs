@@ -1,14 +1,15 @@
 # amrita-labs.com Website Backlog
 
-## Status: Live (GitHub Pages)
+## Status: Live — measurement and distribution phase
 
 Covers both Chrome extensions and Shopify apps product pages.
 
 ---
 
-## Website Differentiation (active — refreshed 2026-07-29)
+## Website Differentiation (foundation complete — refreshed 2026-07-29)
 
-The core visual batch is shipped: IBM Plex Sans, an Amrita Labs SVG mark, and distinct product accents. The next work should improve catalog discovery and conversion without inventing social proof.
+The core visual, catalog, legal, and icon batches are shipped. Do not add social proof or conversion
+features based on assumptions; the remaining work is gated by verified traffic, installs, and reviews.
 
 ### Priority tasks
 
@@ -26,6 +27,7 @@ The core visual batch is shipped: IBM Plex Sans, an Amrita Labs SVG mark, and di
 | W10 | Review homepage positioning for the current multi-product portfolio | ✅ Done | HIGH | Reframed the homepage for the broader creator, team, and merchant portfolio |
 | W11 | Add Terms of Service pages for all Privacy Blur products | ✅ Done | HIGH | Added matching linked Terms for Slack, Discord, Teams, and WhatsApp Web |
 | W12 | Audit website product icons against shipped source assets | ✅ Done | MEDIUM | Replaced stale Slack, Discord, and Teams icons; all other product icons match their canonical artwork |
+| W13 | Revisit Chrome catalog discovery | Deferred | MEDIUM | At 6+ Chrome products, add filters or a dedicated catalog page; do not use a slider |
 
 ### What competitors do well
 
@@ -39,12 +41,18 @@ The core visual batch is shipped: IBM Plex Sans, an Amrita Labs SVG mark, and di
 - ✅ Proper meta/OG tags
 - ✅ Fast load (static site, no JS framework bloat)
 - ✅ FAQ sections with structured data
-- ✅ Clean layout (just generic-looking)
+- ✅ Product-specific accents and source-matched icons
 
 ### Deferred-work triggers
 
 - Start W2 and W5 when products have meaningful, live-verified ratings and genuine reviews.
-- Start W7 after its scope is agreed.
+- Start W7 only when Gmail-page traffic justifies the investment; do not expose the production scorer.
+- Start W13 only when the Chrome catalog reaches six or more products.
+
+### Current next step
+
+Prioritize distribution and monitor product-page visits, installs, ratings, and reviews. There is no
+immediate website feature work planned until those signals meet a deferred-work trigger.
 
 ---
 
