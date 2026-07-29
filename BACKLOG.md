@@ -6,22 +6,25 @@ Covers both Chrome extensions and Shopify apps product pages.
 
 ---
 
-## Website Differentiation (parked — audit 2026-07-26)
+## Website Differentiation (active — refreshed 2026-07-29)
 
-Current site uses generic AI-template patterns: Inter font, dark gradient blobs, identical page structure, no social proof. Needs differentiation from thousands of similar Tailwind/Astro sites.
+The core visual batch is shipped: IBM Plex Sans, an Amrita Labs SVG mark, and distinct product accents. The next work should improve catalog discovery and conversion without inventing social proof.
 
 ### Priority tasks
 
 | # | Task | Effort | Impact | Notes |
 |---|------|--------|--------|-------|
-| W1 | Add extension screenshots/GIFs to product page heroes | 2 hr | HIGH | Proves product is real. Use actual CWS screenshots or screen recordings |
-| W2 | CWS rating badge + install count on each product page | 30 min | HIGH | Instant social proof. Can be static initially, dynamic later |
-| W3 | Simple SVG logo (text + icon mark) | 1 hr | MEDIUM | Replace text-only "Amrita Labs" in nav/footer |
-| W4 | Switch font from Inter to distinctive alternative | 30 min | MEDIUM | Options: IBM Plex Sans, Satoshi, Cabinet Grotesk, General Sans |
-| W5 | Testimonial quotes per product (from CWS reviews) | 30 min/product | HIGH | Wait until products have reviews. BlurWeb uses AppSumo reviews effectively |
-| W6 | Product-specific brand colors per page | 1 hr | MEDIUM | Replace generic purple gradient blobs. Each product gets its own accent |
-| W7 | Interactive demo on Gmail page (live subject line scorer) | 4-6 hr | HIGH | Conversion killer. SendCheckIt's main differentiation is their input-on-homepage |
+| W1 | Add extension screenshots/GIFs to product page heroes | ✅ Done | HIGH | Product pages use real hero media; WhatsApp uses its CWS listing screenshot |
+| W2 | CWS rating badge + install count on each product page | Deferred | HIGH | Do not add until ratings/install data is meaningful and live-verified |
+| W3 | Simple SVG logo (text + icon mark) | ✅ Done | MEDIUM | Shared nav/footer now use the Amrita Labs SVG mark |
+| W4 | Switch font from Inter to distinctive alternative | ✅ Done | MEDIUM | IBM Plex Sans is the canonical site and brand-endpoint font |
+| W5 | Testimonial quotes per product (from CWS reviews) | Deferred | HIGH | Wait for genuine reviews |
+| W6 | Product-specific brand colors per page | ✅ Done | MEDIUM | Gmail, Pinello, Cookie Consent, Accessibility, Chat, and Slack now have distinct accents |
+| W7 | Interactive demo on Gmail page (live subject line scorer) | Deferred | HIGH | Reassess after W9-W11 and meaningful page traffic; do not expose the production scorer yet |
 | W8 | About/founder section | 30 min | MEDIUM | Human photo + one paragraph. Trust signal for indie products |
+| W9 | Add Privacy Blur for Slack and WhatsApp Web to the product catalog | 30 min | HIGH | Add only these two Privacy Blur products for now |
+| W10 | Review homepage positioning for the current multi-product portfolio | 1 hr | HIGH | Validate the headline and product-category framing before rewriting copy |
+| W11 | Add Terms of Service pages for all Privacy Blur products | 1 hr | HIGH | Slack, Discord, Teams, and WhatsApp Web need matching linked terms pages |
 
 ### What competitors do well
 
@@ -37,12 +40,10 @@ Current site uses generic AI-template patterns: Inter font, dark gradient blobs,
 - ✅ FAQ sections with structured data
 - ✅ Clean layout (just generic-looking)
 
-### Trigger to start
+### Deferred-work triggers
 
-Pick up when:
-- At least 2 products have CWS reviews (for W5)
-- Or when organic traffic plateaus and conversion rate becomes the bottleneck
-- Or when you have a free weekend to batch W1-W4 (4 hrs total)
+- Start W2 and W5 when products have meaningful, live-verified ratings and genuine reviews.
+- Start W7 after its scope is agreed.
 
 ---
 

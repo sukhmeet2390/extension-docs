@@ -7,7 +7,7 @@ const schema = {
   "@type": "Organization",
   "name": "Amrita Labs",
   "url": "https://amrita-labs.com",
-  "description": "Productivity tools for email marketers, Pinterest creators, and Shopify merchants.",
+  "description": "Privacy-first browser extensions and Shopify apps for creators, teams, and merchants.",
   "foundingDate": "2026",
   "contactPoint": {
     "@type": "ContactPoint",
@@ -19,7 +19,7 @@ const schema = {
 
 <Base
   title="Amrita Labs"
-  description="Productivity tools for email marketers, Pinterest creators, and Shopify merchants. Privacy-first. Free to start."
+  description="Privacy-first Chrome extensions and Shopify apps for creators, teams, and merchants. Free to start."
   canonical="https://amrita-labs.com"
   schema={schema}
 >
@@ -31,14 +31,14 @@ const schema = {
       <div class="max-w-2xl">
         <div class="inline-flex items-center gap-2 text-xs font-medium text-gray-400 bg-white/5 px-3 py-1.5 rounded-full border border-white/10 mb-6">
           <span class="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse"></span>
-          Privacy-first · Free to start
+          Privacy-first tools · Free to start
         </div>
         <h1 class="text-4xl sm:text-6xl font-extrabold text-white leading-[1.05] tracking-tight">
-          Publish with<br />confidence,<br />
-          <span class="text-brand-400">every time.</span>
+          Work with<br />confidence,<br />
+          <span class="text-brand-400">wherever you create.</span>
         </h1>
         <p class="text-lg text-gray-400 mt-6 leading-relaxed max-w-lg">
-          Chrome extensions and Shopify apps that score your content in real time — so you know it's ready before you hit send.
+          Privacy-first Chrome extensions and Shopify apps for creators, teams, and merchants — helping you write, share, and sell with less friction.
         </p>
         <a href="#products" class="inline-flex items-center gap-2 text-sm font-semibold text-brand-400 mt-8 hover:text-brand-300 transition-colors">
           See all products ↓
@@ -76,6 +76,30 @@ const schema = {
         href="/pinello/"
         cta="Learn more"
         ctaHref="/pinello/"
+        platform="chrome"
+        featured={true}
+      />
+      <ProductCard
+        name="Privacy Blur for Slack"
+        tagline="Screen share, not your secrets"
+        description="Blur Slack messages, names, channels, and media before a screen share. Hover to reveal only for your eyes."
+        iconSrc="/assets/icons/privacy-blur-slack.png"
+        screenshotSrc="/assets/screenshots/privacy-blur-slack/hero.png"
+        href="/privacy-blur-slack/"
+        cta="Learn more"
+        ctaHref="/privacy-blur-slack/"
+        platform="chrome"
+        featured={true}
+      />
+      <ProductCard
+        name="Privacy Blur for WhatsApp"
+        tagline="Hide private chats before you share"
+        description="Blur WhatsApp Web chats, names, previews, and media during screen sharing, recordings, and live demos."
+        iconSrc="/assets/icons/privacy-blur-whatsapp.png"
+        screenshotSrc="/assets/screenshots/privacy-blur-whatsapp/hero.png"
+        href="/privacy-blur-whatsapp/"
+        cta="Learn more"
+        ctaHref="/privacy-blur-whatsapp/"
         platform="chrome"
         featured={true}
       />

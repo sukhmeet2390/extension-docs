@@ -1,0 +1,64 @@
+---
+interface Props {
+  productName: string;
+  productSlug: string;
+  webExperience: string;
+}
+
+const { productName, productSlug, webExperience } = Astro.props;
+---
+
+<article class="max-w-3xl mx-auto px-6 py-24 prose prose-invert prose-sm">
+  <h1 class="text-3xl font-bold text-white">Terms of Service - {productName}</h1>
+  <p class="text-sm text-gray-400"><strong>Effective Date</strong>: 2026-07-29 · <strong>Last Updated</strong>: 2026-07-29</p>
+
+  <h2 class="text-xl font-semibold text-white mt-10">1. Acceptance</h2>
+  <p class="text-gray-300">By installing or using {productName} ("the Extension"), you agree to these Terms of Service. If you do not agree, do not use the Extension.</p>
+
+  <h2 class="text-xl font-semibold text-white mt-10">2. Description of Service</h2>
+  <p class="text-gray-300">{productName} is a Chrome extension that helps you visually blur selected content in {webExperience} while using Chrome. It is a visual privacy aid, not a guarantee that information will remain private or that your screen sharing will be error-free.</p>
+
+  <h2 class="text-xl font-semibold text-white mt-10">3. License and Acceptable Use</h2>
+  <p class="text-gray-300">We grant you a limited, non-exclusive, non-transferable, revocable license to use the Extension. You agree not to bypass usage limits or paid-feature controls, reverse engineer the Extension except where law permits, resell access to it, or use it unlawfully.</p>
+
+  <h2 class="text-xl font-semibold text-white mt-10">4. Your Responsibilities</h2>
+  <p class="text-gray-300">You are responsible for reviewing your screen before sharing it and for deciding what information to display. Do not rely on the Extension as your only privacy or security control. You are responsible for complying with the policies that apply to your workplace, customers, and the services you access.</p>
+
+  <h2 class="text-xl font-semibold text-white mt-10">5. Third-Party Services</h2>
+  <p class="text-gray-300">The Extension works with third-party websites and browsers that we do not control. Their interfaces, policies, and availability can change at any time. We do not guarantee compatibility with future changes to {webExperience}, Chrome, or other third-party services.</p>
+
+  <h2 class="text-xl font-semibold text-white mt-10">6. Paid Features</h2>
+  <p class="text-gray-300">Some versions of the Extension may offer paid features. If you purchase them, the price, billing period, renewal terms, and any refund terms shown at checkout apply to that purchase. We may change future pricing or feature availability.</p>
+
+  <h2 class="text-xl font-semibold text-white mt-10">7. Intellectual Property</h2>
+  <p class="text-gray-300">The Extension, its code, design, and branding are owned by Amrita Labs. You retain ownership of your content; we claim no ownership of the content displayed in the services you use.</p>
+
+  <h2 class="text-xl font-semibold text-white mt-10">8. Disclaimers</h2>
+  <p class="text-gray-300">THE EXTENSION IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND. We do not guarantee uninterrupted operation, accuracy, compatibility, privacy outcomes, or that the Extension will prevent disclosure of information.</p>
+
+  <h2 class="text-xl font-semibold text-white mt-10">9. Limitation of Liability</h2>
+  <p class="text-gray-300">TO THE MAXIMUM EXTENT PERMITTED BY LAW, OUR TOTAL LIABILITY FOR ANY CLAIM ARISING FROM THE EXTENSION WILL NOT EXCEED THE GREATER OF THE AMOUNT YOU PAID US FOR THE EXTENSION IN THE 12 MONTHS BEFORE THE CLAIM OR USD $50. WE ARE NOT LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR EXEMPLARY DAMAGES.</p>
+
+  <h2 class="text-xl font-semibold text-white mt-10">10. Indemnity</h2>
+  <p class="text-gray-300">You agree to indemnify and hold Amrita Labs harmless from claims arising from your misuse of the Extension or violation of these Terms or applicable law.</p>
+
+  <h2 class="text-xl font-semibold text-white mt-10">11. Termination</h2>
+  <p class="text-gray-300">You may stop using the Extension at any time by uninstalling it. We may suspend or terminate access if you violate these Terms or if necessary to comply with law or platform requirements.</p>
+
+  <h2 class="text-xl font-semibold text-white mt-10">12. Governing Law</h2>
+  <p class="text-gray-300">These Terms are governed by the laws of Ontario, Canada, without regard to conflict-of-laws rules.</p>
+
+  <h2 class="text-xl font-semibold text-white mt-10">13. Privacy</h2>
+  <p class="text-gray-300">Please review the <a href={`/${productSlug}/privacy/`} class="text-brand-400 hover:underline">Privacy Policy</a> for information about data processing and your rights.</p>
+
+  <h2 class="text-xl font-semibold text-white mt-10">14. Changes to These Terms</h2>
+  <p class="text-gray-300">We may update these Terms from time to time. Continued use after the updated Terms take effect means you accept them.</p>
+
+  <h2 class="text-xl font-semibold text-white mt-10">15. Contact</h2>
+  <p class="text-gray-300">For questions about these Terms, contact <a href="mailto:hello@amrita-labs.com" class="text-brand-400 hover:underline">hello@amrita-labs.com</a>.</p>
+</article>
+
+<div class="max-w-3xl mx-auto px-6 pb-12 flex gap-6 text-xs text-gray-500">
+  <a href={`/${productSlug}/`} class="hover:text-gray-400">← Back to {productName}</a>
+  <a href={`/${productSlug}/privacy/`} class="hover:text-gray-400">Privacy Policy</a>
+</div>

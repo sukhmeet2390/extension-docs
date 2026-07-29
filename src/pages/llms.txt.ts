@@ -32,7 +32,7 @@ const CHROME_EXTENSIONS = [
     cwsUrl: 'https://chromewebstore.google.com/detail/privacy-blur-for-slack/cejmffebfhdnhbjkhiobaecdohheimkj',
     cwsBlurb: 'Blur Slack messages before screen sharing.',
     hasPrivacy: true,
-    hasTerms: false,
+    hasTerms: true,
   },
   {
     slug: 'privacy-blur-discord',
@@ -42,7 +42,7 @@ const CHROME_EXTENSIONS = [
     cwsUrl: 'https://chromewebstore.google.com/detail/privacy-blur-for-discord/jjgfgplekjnhopfgmhgdogodmbkkcgnb',
     cwsBlurb: 'Blur Discord messages and channels before screen sharing.',
     hasPrivacy: true,
-    hasTerms: false,
+    hasTerms: true,
   },
   {
     slug: 'privacy-blur-teams',
@@ -52,7 +52,7 @@ const CHROME_EXTENSIONS = [
     cwsUrl: 'https://chromewebstore.google.com/detail/privacy-blur-for-teams-%E2%80%94/goghfejahaadidgoloolbphebacikalp',
     cwsBlurb: 'Blur Microsoft Teams chats before screen sharing.',
     hasPrivacy: true,
-    hasTerms: false,
+    hasTerms: true,
   },
   {
     slug: 'privacy-blur-whatsapp',
@@ -62,7 +62,7 @@ const CHROME_EXTENSIONS = [
     cwsUrl: 'https://chromewebstore.google.com/detail/privacy-blur-for-whatsapp/akficmlcinjihflahiekkkheikceblfc',
     cwsBlurb: 'Blur WhatsApp Web chats before screen sharing.',
     hasPrivacy: true,
-    hasTerms: false,
+    hasTerms: true,
   },
 ];
 
