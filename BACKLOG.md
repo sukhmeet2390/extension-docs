@@ -21,10 +21,11 @@ The core visual batch is shipped: IBM Plex Sans, an Amrita Labs SVG mark, and di
 | W5 | Testimonial quotes per product (from CWS reviews) | Deferred | HIGH | Wait for genuine reviews |
 | W6 | Product-specific brand colors per page | ✅ Done | MEDIUM | Gmail, Pinello, Cookie Consent, Accessibility, Chat, and Slack now have distinct accents |
 | W7 | Interactive demo on Gmail page (live subject line scorer) | Deferred | HIGH | Reassess after W9-W11 and meaningful page traffic; do not expose the production scorer yet |
-| W8 | About/founder section | 30 min | MEDIUM | Human photo + one paragraph. Trust signal for indie products |
-| W9 | Add Privacy Blur for Slack and WhatsApp Web to the product catalog | 30 min | HIGH | Add only these two Privacy Blur products for now |
-| W10 | Review homepage positioning for the current multi-product portfolio | 1 hr | HIGH | Validate the headline and product-category framing before rewriting copy |
-| W11 | Add Terms of Service pages for all Privacy Blur products | 1 hr | HIGH | Slack, Discord, Teams, and WhatsApp Web need matching linked terms pages |
+| W8 | Add an organization-only About Amrita Labs section | 30 min | MEDIUM | Explain the portfolio without a founder photo, name, location, or other personal information |
+| W9 | Add Privacy Blur for Slack and WhatsApp Web to the product catalog | ✅ Done | HIGH | Added only these two Privacy Blur products |
+| W10 | Review homepage positioning for the current multi-product portfolio | ✅ Done | HIGH | Reframed the homepage for the broader creator, team, and merchant portfolio |
+| W11 | Add Terms of Service pages for all Privacy Blur products | ✅ Done | HIGH | Added matching linked Terms for Slack, Discord, Teams, and WhatsApp Web |
+| W12 | Audit website product icons against shipped source assets | ✅ Done | MEDIUM | Replaced stale Slack, Discord, and Teams icons; all other product icons match their canonical artwork |
 
 ### What competitors do well
 
