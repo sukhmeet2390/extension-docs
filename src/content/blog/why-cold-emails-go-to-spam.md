@@ -13,6 +13,8 @@ You send 50 emails, maybe 100 if you are feeling ambitious. You refresh your inb
 That is a big part of cold outreach. Even when everything is going well, reply rates usually live in the low single digits. So if your deliverability is off, the whole campaign can look dead before a human ever sees it.
 
 If you write outreach from Gmail, [EmailSubjectScore Pro](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm) is a free Chrome extension that scores your subject lines for spam risk, clarity, and urgency in real time — right inside the compose window.
+![Email subject line scoring tools comparison — real-time scoring vs web-based checkers](/assets/blog/best-email-subject-line-extensions-hero.png)
+
 
 A lot of "my cold email is not working" turns out to be "my email setup and subject line are quietly working against me." These are the five problems I keep seeing.
 
