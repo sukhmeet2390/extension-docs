@@ -21,7 +21,7 @@ The core visual batch is shipped: IBM Plex Sans, an Amrita Labs SVG mark, and di
 | W5 | Testimonial quotes per product (from CWS reviews) | Deferred | HIGH | Wait for genuine reviews |
 | W6 | Product-specific brand colors per page | ✅ Done | MEDIUM | Gmail, Pinello, Cookie Consent, Accessibility, Chat, and Slack now have distinct accents |
 | W7 | Interactive demo on Gmail page (live subject line scorer) | Deferred | HIGH | Reassess after W9-W11 and meaningful page traffic; do not expose the production scorer yet |
-| W8 | Add an organization-only About Amrita Labs section | 30 min | MEDIUM | Explain the portfolio without a founder photo, name, location, or other personal information |
+| W8 | Add an organization-only About Amrita Labs section | ✅ Done | MEDIUM | Added a concrete, company-only portfolio statement without personal information |
 | W9 | Add Privacy Blur for Slack and WhatsApp Web to the product catalog | ✅ Done | HIGH | Added only these two Privacy Blur products |
 | W10 | Review homepage positioning for the current multi-product portfolio | ✅ Done | HIGH | Reframed the homepage for the broader creator, team, and merchant portfolio |
 | W11 | Add Terms of Service pages for all Privacy Blur products | ✅ Done | HIGH | Added matching linked Terms for Slack, Discord, Teams, and WhatsApp Web |
