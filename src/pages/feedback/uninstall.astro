@@ -15,21 +15,35 @@ const description = "Help us improve Privacy Blur with your feedback.";
       <form id="feedback-form">
         <input type="hidden" name="ext" id="field-ext" value="" />
         <input type="hidden" name="lang" id="field-lang" value="en" />
+        <input type="hidden" name="version" id="field-version" value="" />
 
         <fieldset>
           <legend id="legend-reason">Why did you uninstall?</legend>
-          <label><input type="radio" name="reason" value="not-working" /><span data-i18n="reason-not-working">It didn't work on my version</span></label>
-          <label><input type="radio" name="reason" value="too-expensive" /><span data-i18n="reason-too-expensive">Too expensive</span></label>
-          <label><input type="radio" name="reason" value="confusing" /><span data-i18n="reason-confusing">Confusing to use</span></label>
-          <label><input type="radio" name="reason" value="found-alternative" /><span data-i18n="reason-found-alternative">Found a better alternative</span></label>
-          <label><input type="radio" name="reason" value="just-testing" /><span data-i18n="reason-just-testing">Just testing, not needed</span></label>
-          <label><input type="radio" name="reason" value="other" /><span data-i18n="reason-other">Other</span></label>
-        </fieldset>
+            <label><input type="radio" name="reason" value="not-working" /><span data-i18n="reason-not-working">It didn't work as expected</span></label>
+            <label><input type="radio" name="reason" value="slow-laggy" /><span data-i18n="reason-slow-laggy">Slow or laggy</span></label>
+            <label><input type="radio" name="reason" value="bug" /><span data-i18n="reason-bug">Bug or problem</span></label>
+            <label><input type="radio" name="reason" value="confusing" /><span data-i18n="reason-confusing">Too complicated to use</span></label>
+            <label><input type="radio" name="reason" value="too-expensive" /><span data-i18n="reason-too-expensive">Too expensive</span></label>
+            <label><input type="radio" name="reason" value="found-alternative" /><span data-i18n="reason-found-alternative">Found a better alternative</span></label>
+            <label><input type="radio" name="reason" value="privacy" /><span data-i18n="reason-privacy">Privacy concerns</span></label>
+            <label><input type="radio" name="reason" value="just-testing" /><span data-i18n="reason-just-testing">Just testing, not needed</span></label>
+            <label><input type="radio" name="reason" value="other" /><span data-i18n="reason-other">Other</span></label>
+          </fieldset>
 
-        <div class="textarea-wrap">
-          <label for="feedback-text" id="label-feedback" data-i18n="label-feedback">What would bring you back? (optional)</label>
-          <textarea id="feedback-text" name="feedback" rows="3" placeholder=""></textarea>
-        </div>
+          <div id="conditional-privacy" class="conditional hidden">
+            <p class="cond-msg" data-i18n="cond-privacy">We take privacy seriously. Your data never leaves your device.</p>
+            <a id="privacy-link" href="#" target="_blank" data-i18n="cond-privacy-link">Read our privacy policy →</a>
+          </div>
+
+          <div id="conditional-reinstall" class="conditional hidden">
+            <p class="cond-msg" data-i18n="cond-reinstall">Want to give it another try?</p>
+            <a id="reinstall-link" href="#" target="_blank" class="cond-btn" data-i18n="cond-reinstall-btn">Reinstall from Chrome Web Store →</a>
+          </div>
+
+          <div class="textarea-wrap hidden" id="textarea-section">
+            <label for="feedback-text" id="label-feedback" data-i18n="label-feedback">Tell us more (optional)</label>
+            <textarea id="feedback-text" name="feedback" rows="3" placeholder=""></textarea>
+          </div>
 
         <div class="email-wrap">
           <label for="feedback-email" id="label-email" data-i18n="label-email">Email for follow-up (optional)</label>
@@ -131,12 +145,27 @@ const description = "Help us improve Privacy Blur with your feedback.";
   .thank-you h2 { font-size: 1.4rem; color: #1a1a2e; margin-bottom: 0.5rem; }
   .thank-you p { color: #666; font-size: 0.9rem; }
   .hidden { display: none; }
+  .conditional {
+    text-align: left; margin-bottom: 1.5rem;
+    padding: 1rem; border-radius: 10px; background: #f5f3ff;
+  }
+  .cond-msg { font-size: 0.85rem; color: #555; margin-bottom: 0.5rem; }
+  .conditional a {
+    font-size: 0.85rem; color: #6264A7; font-weight: 600; text-decoration: none;
+  }
+  .conditional a:hover { text-decoration: underline; }
+  .cond-btn {
+    display: inline-block; margin-top: 0.5rem; padding: 0.5rem 1rem;
+    background: #6264A7; color: #fff !important; border-radius: 8px;
+    font-size: 0.85rem;
+  }
+  .cond-btn:hover { background: #4e50a0; text-decoration: none !important; }
 </style>
 
 <script>
   // i18n translations (21 locales)
   const i18n = {
-    en: { heading: "We're sorry to see you go", subheading: "Your feedback helps us improve. Takes 30 seconds.", legend: "Why did you uninstall?", "reason-not-working": "It didn't work on my version", "reason-too-expensive": "Too expensive", "reason-confusing": "Confusing to use", "reason-found-alternative": "Found a better alternative", "reason-just-testing": "Just testing, not needed", "reason-other": "Other", "label-feedback": "What would bring you back? (optional)", "label-email": "Email for follow-up (optional)", submit: "Send Feedback", "ty-heading": "Thank you!", "ty-sub": "Your feedback helps us build a better product." },
+    en: { heading: "We're sorry to see you go", subheading: "Your feedback helps us improve. Takes 30 seconds.", legend: "Why did you uninstall?", "reason-not-working": "It didn't work as expected", "reason-slow-laggy": "Slow or laggy", "reason-bug": "Bug or problem", "reason-too-expensive": "Too expensive", "reason-confusing": "Too complicated to use", "reason-found-alternative": "Found a better alternative", "reason-privacy": "Privacy concerns", "reason-just-testing": "Just testing, not needed", "reason-other": "Other", "label-feedback": "Tell us more (optional)", "label-email": "Email for follow-up (optional)", submit: "Send Feedback", "ty-heading": "Thank you!", "ty-sub": "Your feedback helps us build a better product.", "cond-privacy": "We take privacy seriously. Your data never leaves your device.", "cond-privacy-link": "Read our privacy policy →", "cond-reinstall": "Want to give it another try?", "cond-reinstall-btn": "Reinstall from Chrome Web Store →" },
     es: { heading: "Lamentamos que te vayas", subheading: "Tu opinión nos ayuda a mejorar. Solo 30 segundos.", legend: "¿Por qué desinstalaste?", "reason-not-working": "No funcionó en mi versión", "reason-too-expensive": "Demasiado caro", "reason-confusing": "Difícil de usar", "reason-found-alternative": "Encontré una mejor alternativa", "reason-just-testing": "Solo estaba probando", "reason-other": "Otro", "label-feedback": "¿Qué te haría volver? (opcional)", "label-email": "Email para seguimiento (opcional)", submit: "Enviar", "ty-heading": "¡Gracias!", "ty-sub": "Tu opinión nos ayuda a mejorar." },
     fr: { heading: "Nous sommes désolés de vous voir partir", subheading: "Votre avis nous aide à nous améliorer. 30 secondes.", legend: "Pourquoi avez-vous désinstallé ?", "reason-not-working": "Ça ne fonctionnait pas", "reason-too-expensive": "Trop cher", "reason-confusing": "Difficile à utiliser", "reason-found-alternative": "J'ai trouvé une meilleure alternative", "reason-just-testing": "Simple test", "reason-other": "Autre", "label-feedback": "Qu'est-ce qui vous ferait revenir ? (facultatif)", "label-email": "Email pour suivi (facultatif)", submit: "Envoyer", "ty-heading": "Merci !", "ty-sub": "Votre avis nous aide à créer un meilleur produit." },
     de: { heading: "Schade, dass Sie gehen", subheading: "Ihr Feedback hilft uns, besser zu werden. Nur 30 Sekunden.", legend: "Warum haben Sie deinstalliert?", "reason-not-working": "Hat bei mir nicht funktioniert", "reason-too-expensive": "Zu teuer", "reason-confusing": "Verwirrend zu benutzen", "reason-found-alternative": "Bessere Alternative gefunden", "reason-just-testing": "Nur getestet", "reason-other": "Sonstiges", "label-feedback": "Was würde Sie zurückbringen? (optional)", "label-email": "E-Mail für Rückfragen (optional)", submit: "Absenden", "ty-heading": "Vielen Dank!", "ty-sub": "Ihr Feedback hilft uns, ein besseres Produkt zu bauen." },
@@ -165,18 +194,40 @@ const description = "Help us improve Privacy Blur with your feedback.";
     'privacy-blur-whatsapp': 'Privacy Blur for WhatsApp',
     'privacy-blur-discord': 'Privacy Blur for Discord',
     'privacy-blur-teams': 'Privacy Blur for Teams',
-    'gmail-subject-score': 'SubjectScore Pro for Gmail',
+    'gmail-subject-score': 'EmailSubjectScore Pro',
     'pinello': 'Pinello — Pinterest Pin Scorer',
+  };
+
+  // CWS URLs for reinstall links
+  const cwsUrls = {
+    'privacy-blur-slack': 'https://chromewebstore.google.com/detail/privacy-blur-for-slack/pcpkknhlbkpmofgaaleadeniagnbehkc',
+    'privacy-blur-whatsapp': 'https://chromewebstore.google.com/detail/privacy-blur-for-whatsapp/mbibpfnilhfjkbpoafahkjmbneeagehh',
+    'privacy-blur-discord': 'https://chromewebstore.google.com/detail/privacy-blur-for-discord/opkgkaffnpimiaibgfpbjkopdhfaelba',
+    'privacy-blur-teams': 'https://chromewebstore.google.com/detail/privacy-blur-for-teams/pjmpgmenllmhbbieapofjdibbjaoccmo',
+    'gmail-subject-score': 'https://chromewebstore.google.com/detail/emailsubjectscore-pro/dleffnbdjohkmmkbojehdpkgkmpofmgm',
+    'pinello': 'https://chromewebstore.google.com/detail/pinello/ekcgkigoambfgakkelhdaldnphakgkgl',
+  };
+
+  // Privacy policy URLs
+  const privacyUrls = {
+    'privacy-blur-slack': 'https://amrita-labs.com/privacy-blur-slack/privacy/',
+    'privacy-blur-whatsapp': 'https://amrita-labs.com/privacy-blur-whatsapp/privacy/',
+    'privacy-blur-discord': 'https://amrita-labs.com/privacy-blur-discord/privacy/',
+    'privacy-blur-teams': 'https://amrita-labs.com/privacy-blur-teams/privacy/',
+    'gmail-subject-score': 'https://amrita-labs.com/gmail-subject-score/privacy/',
+    'pinello': 'https://amrita-labs.com/pinterest-pin-scorer/privacy/',
   };
 
   // Read URL params
   const params = new URLSearchParams(window.location.search);
   const ext = params.get('ext') || '';
   const lang = (params.get('lang') || 'en').replace('-', '_');
+  const version = params.get('v') || '';
 
   // Set hidden fields
   document.getElementById('field-ext').value = ext;
   document.getElementById('field-lang').value = lang;
+  document.getElementById('field-version').value = version;
 
   // Find best locale match
   const t = i18n[lang] || i18n[lang.split('_')[0]] || i18n.en;
@@ -200,6 +251,40 @@ const description = "Help us improve Privacy Blur with your feedback.";
     document.getElementById('subheading').textContent =
       extNames[ext] + ' — ' + t.subheading;
   }
+
+  // Set up privacy and reinstall links
+  if (ext && privacyUrls[ext]) {
+    document.getElementById('privacy-link').href = privacyUrls[ext];
+  }
+  if (ext && cwsUrls[ext]) {
+    document.getElementById('reinstall-link').href = cwsUrls[ext];
+  }
+
+  // Conditional UI per radio selection
+  const textareaSection = document.getElementById('textarea-section');
+  const condPrivacy = document.getElementById('conditional-privacy');
+  const condReinstall = document.getElementById('conditional-reinstall');
+
+  // Reasons that show textarea
+  const textareaReasons = ['not-working', 'slow-laggy', 'bug', 'confusing', 'found-alternative', 'other'];
+
+  document.querySelectorAll('input[name="reason"]').forEach(radio => {
+    radio.addEventListener('change', (e) => {
+      const val = e.target.value;
+      // Hide all conditionals
+      condPrivacy.classList.add('hidden');
+      condReinstall.classList.add('hidden');
+      textareaSection.classList.add('hidden');
+
+      // Show relevant conditional
+      if (val === 'privacy') condPrivacy.classList.remove('hidden');
+      if (val === 'just-testing') condReinstall.classList.remove('hidden');
+      if (textareaReasons.includes(val)) textareaSection.classList.remove('hidden');
+
+      // Reset legend color
+      document.querySelector('legend').style.color = '';
+    });
+  });
 
   // Google Apps Script endpoint
   const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwYdSpggzYv3dhrDIl8AxSeH8Mha_8h0dd3jfdAsLD8lC1wC1eBb_PGjH95xpRIpg1Y/exec';
@@ -228,6 +313,7 @@ const description = "Help us improve Privacy Blur with your feedback.";
         body: JSON.stringify({
           ext,
           lang,
+          version,
           reason,
           feedback,
           email,
