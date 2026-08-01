@@ -27,7 +27,21 @@ features based on assumptions; the remaining work is gated by verified traffic, 
 | W10 | Review homepage positioning for the current multi-product portfolio | ✅ Done | HIGH | Reframed the homepage for the broader creator, team, and merchant portfolio |
 | W11 | Add Terms of Service pages for all Privacy Blur products | ✅ Done | HIGH | Added matching linked Terms for Slack, Discord, Teams, and WhatsApp Web |
 | W12 | Audit website product icons against shipped source assets | ✅ Done | MEDIUM | Replaced stale Slack, Discord, and Teams icons; all other product icons match their canonical artwork |
-| W13 | Revisit Chrome catalog discovery | Deferred | MEDIUM | At 6+ Chrome products, add filters or a dedicated catalog page; do not use a slider |
+| W13 | Revisit Chrome catalog discovery | ✅ Done | MEDIUM | `/chrome-extensions/` catalog page shipped with all 6 extensions; added to top nav |
+| W14 | Google Search Console MCP setup | ✅ Done | HIGH | `AminForou/mcp-gsc` running via uvx OAuth; query/page/URL inspection working |
+| W15 | Bing Webmaster MCP setup | ✅ Done | HIGH | `ncosentino/bing-webmaster-mcp` native binary in `.secrets/`; site verified, quota available |
+| W16 | Noindex uninstall feedback page | ✅ Done | MEDIUM | `noindex` meta + excluded from sitemap |
+| W17 | Boost top-impression blog internal links | ✅ Done | HIGH | hide-slack (298 imp, pos 10.7 slack query) + best-gmail (193 imp) now link product pages contextually |
+| W18 | Schema strengthening | ✅ Done | MEDIUM | BreadcrumbList on 32 pages, ItemList on catalog, WebSite+SearchAction+Organization@graph, sameAs to CWS/Shopify/GitHub |
+| W19 | Hreflang | ✅ Done | LOW | `en` + `x-default` on canonical pages |
+| W20 | Bing URL batch submit | ✅ Done | HIGH | 25 priority URLs submitted (2026-08-01), 73/98 daily quota remaining |
+| W21 | IndexNow auto-ping on deploy | ✅ Done | HIGH | GitHub Action pings all sitemap URLs to IndexNow after every deploy |
+| W22 | llms.txt directory submission | ✅ Done | LOW | Submitted to directory.llmstxt.cloud |
+| W23 | dateModified on blog Article schema | ✅ Done | LOW | Frontmatter `updated?` field supported; falls back to `date` |
+| W24 | Pinello competitor comparison pages | Pending | HIGH | Data-justified: "pinradar" pos 8.7, "pinwise" trending. Mirror gmail-subject-score/vs pattern for pinello/vs/pinwise + pinello/vs/pinradar |
+| W25 | search-console-mcp trial (saurabhsharma2u) | Parked | LOW | Unified Google+Bing+GA4 MCP with pre-computed SEO tools (`seo_striking_distance`, `opportunity_matrix`, `compare_engines`). Requires interactive `npx search-console-mcp setup` OAuth flow. Resume when time |
+| W26 | Shopify app title/H1 rewrites for direct-intent queries | Pending | MEDIUM | Cookie/Chat/Accessibility page titles too generic. Bing shows "shopify accessibility widget" pos 70. Small copy edits, visible impact |
+| W27 | Homepage About text (visible) | Deferred | LOW | Already shipped as W8. No further copy work planned |
 
 ### What competitors do well
 
@@ -47,12 +61,29 @@ features based on assumptions; the remaining work is gated by verified traffic, 
 
 - Start W2 and W5 when products have meaningful, live-verified ratings and genuine reviews.
 - Start W7 only when Gmail-page traffic justifies the investment; do not expose the production scorer.
-- Start W13 only when the Chrome catalog reaches six or more products.
+- W13 completed 2026-08-01.
 
 ### Current next step
 
-Prioritize distribution and monitor product-page visits, installs, ratings, and reviews. There is no
-immediate website feature work planned until those signals meet a deferred-work trigger.
+Priority pending items:
+
+- **W24** — Pinello competitor comparison pages (data-justified from GSC query analytics)
+- **W26** — Shopify app title/H1 rewrites (Cookie Consent, Chat Widget, Accessibility) for direct-intent queries
+- **W25 (parked)** — Resume search-console-mcp OAuth setup when convenient
+
+Distribution manual tasks (outside code):
+
+- alternativeto.net listings for 6 chrome + 3 shopify products
+- ProductHunt staggered launches
+- Reddit story posts in r/chrome_extensions, r/shopify, r/webdev
+- Show HN thread for EmailSubjectScore Pro + Privacy Blur Slack
+- Bing Webmaster Geo-Targeting: set "Global" or specific markets in dashboard
+
+Monitor via MCPs:
+
+- GSC + Bing weekly performance checks
+- Watch chat-widget indexing (Discovered — not indexed as of last audit)
+- Track striking-distance queries (pos 8-15) for lift after content edits
 
 ---
 
