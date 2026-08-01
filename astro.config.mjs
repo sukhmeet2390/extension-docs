@@ -5,6 +5,11 @@ import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
   site: 'https://amrita-labs.com',
-  integrations: [tailwind(), sitemap()],
+  integrations: [
+    tailwind(),
+    sitemap({
+      filter: (page) => !page.includes('/feedback/uninstall'),
+    }),
+  ],
   output: 'static',
 });

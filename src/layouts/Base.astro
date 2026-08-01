@@ -8,11 +8,17 @@ interface Props {
   schema?: object;
   ogImage?: string;
   theme?: 'dark' | 'light';
+  appendBrand?: boolean;
+  noindex?: boolean;
 }
 
-const { title, description, canonical, schema, ogImage, theme = 'dark' } = Astro.props;
+const { title, description, canonical, schema, ogImage, theme = 'dark', appendBrand = true, noindex = false } = Astro.props;
 const siteUrl = 'https://amrita-labs.com';
-const fullTitle = title === 'Amrita Labs' ? 'Amrita Labs — Chrome Extensions & Shopify Apps for Creators and Merchants' : `${title} — Amrita Labs`;
+const fullTitle = title === 'Amrita Labs'
+  ? 'Amrita Labs — Chrome Extensions & Shopify Apps for Creators and Merchants'
+  : appendBrand
+    ? `${title} — Amrita Labs`
+    : title;
 const isDark = theme === 'dark';
 ---
 
@@ -22,6 +28,7 @@ const isDark = theme === 'dark';
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
     <title>{fullTitle}</title>
 
     <!-- Favicon -->
