@@ -20,9 +20,11 @@ const schema = {
   "headline": post.data.title,
   "description": post.data.description,
   "datePublished": post.data.date,
+  "dateModified": post.data.updated || post.data.date,
   ...(post.data.image && { "image": post.data.image.startsWith('http') ? post.data.image : `https://amrita-labs.com${post.data.image}` }),
-  "author": { "@type": "Organization", "name": "Amrita Labs", "url": "https://amrita-labs.com" },
-  "publisher": { "@type": "Organization", "name": "Amrita Labs", "url": "https://amrita-labs.com" }
+  "author": { "@type": "Organization", "name": "Amrita Labs", "url": "https://amrita-labs.com", "@id": "https://amrita-labs.com/#organization" },
+  "publisher": { "@type": "Organization", "name": "Amrita Labs", "url": "https://amrita-labs.com", "@id": "https://amrita-labs.com/#organization", "logo": { "@type": "ImageObject", "url": "https://amrita-labs.com/favicon.svg" } },
+  "mainEntityOfPage": { "@type": "WebPage", "@id": post.data.canonical || `https://amrita-labs.com/blog/${post.id}/` }
 };
 ---
 

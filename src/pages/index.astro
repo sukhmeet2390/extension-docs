@@ -16,6 +16,18 @@ const schema = {
         "@type": "ImageObject",
         "url": "https://amrita-labs.com/favicon.svg"
       },
+      "sameAs": [
+        "https://chromewebstore.google.com/detail/emailsubjectscore-pro-sub/dleffnbdjohkmmkbojehdpkgkmpofmgm",
+        "https://chromewebstore.google.com/detail/pinello/kmelegdnljikegoemigfgnpcbllmkije",
+        "https://chromewebstore.google.com/detail/privacy-blur-for-slack/cejmffebfhdnhbjkhiobaecdohheimkj",
+        "https://chromewebstore.google.com/detail/privacy-blur-for-discord/jjgfgplekjnhopfgmhgdogodmbkkcgnb",
+        "https://chromewebstore.google.com/detail/privacy-blur-for-teams-%E2%80%94/goghfejahaadidgoloolbphebacikalp",
+        "https://chromewebstore.google.com/detail/privacy-blur-for-whatsapp/akficmlcinjihflahiekkkheikceblfc",
+        "https://apps.shopify.com/cookie-consent-8",
+        "https://apps.shopify.com/chat-widget-1",
+        "https://apps.shopify.com/accessibility-widget",
+        "https://github.com/sukhmeet2390/extension-docs"
+      ],
       "contactPoint": {
         "@type": "ContactPoint",
         "email": "hello@amrita-labs.com",
@@ -29,7 +41,15 @@ const schema = {
       "name": "Amrita Labs",
       "description": "Privacy-first Chrome extensions and Shopify apps for creators, teams, and merchants.",
       "publisher": { "@id": "https://amrita-labs.com/#organization" },
-      "inLanguage": "en"
+      "inLanguage": "en",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://amrita-labs.com/blog/?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
     }
   ]
 };
