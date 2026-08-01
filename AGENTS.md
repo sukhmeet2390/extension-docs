@@ -54,7 +54,8 @@ Every blog post, product page, or comparison ships as a markdown/astro file. Dis
 
 ```
 1. Create src/content/blog/<slug>.md with schema-valid frontmatter:
-     { title, description, date (YYYY-MM-DD), tags?, canonical?, image? }
+     { title, description, date (YYYY-MM-DD), tags?, canonical?, image?, draft? }
+     Use `draft: true` for unpublished blog drafts; drafts stay out of routes, RSS, and llms.txt.
 2. git commit + git push origin master
 3. GitHub Pages deploy runs (~22s). Verify at https://amrita-labs.com/blog/<slug>/
 4. Sitemap, RSS, llms.txt, OG, JSON-LD all regenerate automatically.
@@ -68,7 +69,7 @@ Every blog post, product page, or comparison ships as a markdown/astro file. Dis
 
 ## Content collection schemas (`src/content.config.ts`)
 
-- **blog** — `{ title, description, date (str), tags?: string[], canonical?: string, image?: string }`
+- **blog** — `{ title, description, date (str), tags?: string[], canonical?: string, image?: string, draft?: boolean }`
 - **comparisons** — `{ title, description, date, product, competitor, competitorUrl, competitorStatus: 'active'|'dead', tags? }`
 
 Adding a new collection? Update `src/content.config.ts` schema + create a `[slug].astro` router + update `AGENTS.md`'s "What lives here" table + update `rss.xml.ts` and `llms.txt.ts` to include the new collection.

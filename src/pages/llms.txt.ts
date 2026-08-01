@@ -98,7 +98,7 @@ function line(url: string, title: string, blurb?: string) {
 }
 
 export async function GET(_context: APIContext) {
-  const blogPosts = (await getCollection('blog')).sort(
+  const blogPosts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
     (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime(),
   );
   const comparisons = (await getCollection('comparisons')).sort(

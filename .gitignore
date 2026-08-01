@@ -3,4 +3,6 @@ dist/
 .astro/
 .env
 .env.*
+.secrets/
+.mcp.json
 *.log
