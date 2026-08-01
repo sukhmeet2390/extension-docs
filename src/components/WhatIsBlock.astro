@@ -1,0 +1,33 @@
+---
+/**
+ * "What is X?" AEO block. Sits below hero screenshot on product pages.
+ * Short, quotable definition that answer engines (ChatGPT, Perplexity) prefer.
+ *
+ * Include per product page rather than deriving from PRODUCTS so each page
+ * can control its own phrasing without changing the shared catalog.
+ */
+interface Props {
+  productName: string;
+  definition: string;
+  theme?: 'dark' | 'light';
+}
+
+const { productName, definition, theme = 'dark' } = Astro.props;
+const isDark = theme === 'dark';
+---
+
+<section class:list={['max-w-3xl mx-auto px-6 pb-16']}>
+  <div class:list={[
+    'rounded-2xl border p-6 sm:p-8',
+    isDark ? 'border-white/5 bg-white/[0.02]' : 'border-gray-200 bg-gray-50',
+  ]}>
+    <h2 class:list={[
+      'text-xs font-semibold uppercase tracking-widest mb-3',
+      isDark ? 'text-gray-400' : 'text-gray-500',
+    ]}>What is {productName}?</h2>
+    <p class:list={[
+      'text-base leading-relaxed',
+      isDark ? 'text-gray-200' : 'text-gray-700',
+    ]}>{definition}</p>
+  </div>
+</section>

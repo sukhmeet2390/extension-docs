@@ -1,5 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
+import WhatIsBlock from '../../components/WhatIsBlock.astro';
+import RelatedContentBlock from '../../components/RelatedContentBlock.astro';
 import FeatureCard from '../../components/FeatureCard.astro';
 import FaqItem from '../../components/FaqItem.astro';
 
@@ -193,4 +195,7 @@ const schema = {
     <a href="/gmail-subject-score/terms" class="hover:text-gray-400">Terms of Service</a>
     <a href="/" class="hover:text-gray-400">← Back to Amrita Labs</a>
   </div>
+  <WhatIsBlock productName="EmailSubjectScore Pro" definition="EmailSubjectScore Pro is a free Chrome extension that scores Gmail subject lines for spam risk, clarity, and urgency in real time. It runs inside the Gmail compose window and offers AI-powered rewrite suggestions when a subject line scores weak. Free tier includes 50 AI scores per month, no signup, no credit card." />
+  <!-- RelatedContentBlock reverse-index -->
+  <RelatedContentBlock productSlug="gmail-subject-score" theme="dark" />
 </Base>

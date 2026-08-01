@@ -4,6 +4,7 @@ description: "After watching my cold emails die in spam folders, I built a tool 
 date: "2026-07-28"
 tags: ["showdev", "email", "productivity", "chrome"]
 image: "/assets/blog/emailsubjectscore-cws.png"
+relatedProducts: ['gmail-subject-score']
 ---
 
 A few months ago I was sending cold emails for a side project. Personalized openers, clear asks, short paragraphs — I thought the emails were good. But my reply rate was garbage. Like, 1-2% garbage.

@@ -1,5 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
+import WhatIsBlock from '../../components/WhatIsBlock.astro';
+import RelatedContentBlock from '../../components/RelatedContentBlock.astro';
 import FeatureCard from '../../components/FeatureCard.astro';
 import FaqItem from '../../components/FaqItem.astro';
 
@@ -97,4 +99,7 @@ const schema = {
     <a href="/accessibility-widget/terms/" class="hover:text-gray-400">Terms of Service</a>
     <a href="/" class="hover:text-gray-400">← Back to Amrita Labs</a>
   </div>
+  <WhatIsBlock productName="Amrita Accessibility Widget" definition="Amrita Accessibility Widget is a free Shopify app that adds a WCAG 2.1 accessibility toolbar to your storefront. Shoppers can adjust contrast, font size, dyslexia-friendly typography, link highlighting, and reading guides in one click. No coding required; seven-language admin interface." />
+  <!-- RelatedContentBlock reverse-index -->
+  <RelatedContentBlock productSlug="accessibility-widget" productSlugs={['cookie-consent', 'chat-widget']} theme="dark" />
 </Base>

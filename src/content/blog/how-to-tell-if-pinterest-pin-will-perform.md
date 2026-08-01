@@ -4,6 +4,7 @@ description: "Before a pin gets traction, it usually passes a few predictable ch
 date: "2026-07-28"
 tags: ["pinterest", "seo", "social-media", "content-marketing"]
 image: "/assets/blog/pinterest-chrome-extensions-pinello.png"
+relatedProducts: ['pinello']
 ---
 
 Some Pinterest pins feel dead on arrival.

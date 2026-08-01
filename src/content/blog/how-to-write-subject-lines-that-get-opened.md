@@ -4,6 +4,7 @@ description: "The 6-10 words in your subject line do a lot of the work. Here is 
 date: "2026-07-27"
 tags: ["email", "cold-email", "subject-lines", "productivity"]
 image: "/assets/blog/best-email-subject-line-extensions-hero.png"
+relatedProducts: ['gmail-subject-score']
 ---
 
 I have ruined plenty of decent emails with lazy subject lines.

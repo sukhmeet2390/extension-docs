@@ -1,5 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
+import WhatIsBlock from '../../components/WhatIsBlock.astro';
+import RelatedContentBlock from '../../components/RelatedContentBlock.astro';
 import FeatureCard from '../../components/FeatureCard.astro';
 import FaqItem from '../../components/FaqItem.astro';
 
@@ -99,4 +101,7 @@ const schema = {
     <a href="/chat-widget/terms/" class="hover:text-gray-400">Terms of Service</a>
     <a href="/" class="hover:text-gray-400">← Back to Amrita Labs</a>
   </div>
+  <WhatIsBlock productName="Amrita Chat Widget" definition="Amrita Chat Widget is a free Shopify app that adds one floating chat button to your store, connecting nine customer contact channels: WhatsApp, Messenger, Instagram, Telegram, LINE, Viber, SMS, Email, and Phone. No separate chat account required, zero cookies, no visitor cap. Ships with a nine-language admin interface." />
+  <!-- RelatedContentBlock reverse-index -->
+  <RelatedContentBlock productSlug="chat-widget" productSlugs={['cookie-consent', 'accessibility-widget']} theme="dark" />
 </Base>

@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import ProductFooter from '../../components/ProductFooter.astro';
+import RelatedContentBlock from '../../components/RelatedContentBlock.astro';
 import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -75,6 +76,12 @@ const schema = {
       prose-img:rounded-xl prose-img:border prose-img:border-gray-200 prose-img:shadow-sm">
       <Content />
     </div>
+
+    <RelatedContentBlock
+      productSlugs={post.data.relatedProducts ?? []}
+      postSlugs={post.data.relatedPosts ?? []}
+      theme="light"
+    />
 
     <!-- Product mentions: in DOM for GEO, visually subtle -->
     <ProductFooter visible={false} />

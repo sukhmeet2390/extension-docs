@@ -4,6 +4,7 @@ description: "Need to hide Slack messages during screen sharing? Here are 6 prac
 date: "2026-07-20"
 tags: ["slack", "screen sharing", "privacy", "remote work", "productivity"]
 image: "/assets/blog/safe-screen-share-cws.png"
+relatedProducts: ['privacy-blur-slack']
 ---
 
 You've probably had this moment: you're sharing your screen, talking through a project update, and then you notice Slack sitting there with a private message preview, a sensitive channel name, or a thread you definitely didn't mean to show the whole room.

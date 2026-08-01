@@ -1,5 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
+import WhatIsBlock from '../../components/WhatIsBlock.astro';
+import RelatedContentBlock from '../../components/RelatedContentBlock.astro';
 import FaqItem from '../../components/FaqItem.astro';
 
 const cwsLink = 'https://chromewebstore.google.com/detail/pinello/kmelegdnljikegoemigfgnpcbllmkije';
@@ -465,4 +467,7 @@ const schema = {
     <a href="mailto:hello@amrita-labs.com" class="hover:text-gray-400">hello@amrita-labs.com</a>
     <a href="/" class="hover:text-gray-400">← Back to Amrita Labs</a>
   </div>
+  <WhatIsBlock productName="Pinello" definition="Pinello is a free Chrome extension that scores Pinterest pins across five dimensions — image quality, board fit, title SEO, description SEO, and hashtags — in real time before you publish. It also surfaces hidden pin stats on hover and offers one-click AI rewrites for pin titles and descriptions." />
+  <!-- RelatedContentBlock reverse-index -->
+  <RelatedContentBlock productSlug="pinello" theme="dark" />
 </Base>

@@ -5,6 +5,7 @@ date: "2026-07-14"
 tags: ["shopify", "gdpr", "analytics", "consent-mode"]
 image: "/assets/blog/consent-mode-v2-hero.png"
 canonical: "https://amrita-labs.com/blog/consent-mode-v2-shopify-guide/"
+relatedProducts: ['cookie-consent']
 ---
 
 Amrita Cookie Consent is a free Shopify app with a GDPR cookie banner and Google Consent Mode v2 built in.
@@ -145,18 +146,13 @@ No. GCM v2 affects reporting and optimization, not billing. You still pay per cl
 Google needs enough consented traffic to build a model. Modeling availability depends on implementation quality, traffic volume, and Google's eligibility thresholds. Smaller stores may not qualify for modeling.
 
 ---
-
-## Summary
-
-| What | Status |
-|---|---|
-| GCM v2 helps recover lost measurement data | Yes — the impact varies by traffic, consent rate, and advertising setup |
-| Important if using Google measurement for EEA/UK visitors | Yes — it communicates consent choices to Google |
-| Free options exist on Shopify | Yes |
-| Replaces proper consent | No — it works alongside consent, not instead of it |
-
-The bottom line: if you use Google measurement or advertising features for visitors in the EEA, UK, or Switzerland, Consent Mode v2 is an important way to communicate their choices to Google. Without it, you're missing useful measurement signal.
-
+title: "How to Add Google Consent Mode v2 to Shopify (2026 Guide)"
+description: "When visitors reject cookies, your Google Analytics data disappears. Consent Mode v2 sends cookieless pings so Google can model the conversions you missed. Here's how to set it up on Shopify."
+date: "2026-07-14"
+tags: ["shopify", "gdpr", "analytics", "consent-mode"]
+image: "/assets/blog/consent-mode-v2-hero.png"
+canonical: "https://amrita-labs.com/blog/consent-mode-v2-shopify-guide/"
+relatedProducts: ['cookie-consent']
 ---
 
 *Consent requirements vary by business and jurisdiction. This guide provides technical information, not legal advice, and no consent app by itself guarantees compliance.*

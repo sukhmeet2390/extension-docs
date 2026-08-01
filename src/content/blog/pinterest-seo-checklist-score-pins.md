@@ -4,6 +4,7 @@ description: "Pinterest behaves more like a search engine than a social app. Thi
 date: "2026-07-27"
 tags: ["pinterest", "seo", "social-media", "productivity"]
 image: "/assets/blog/pinterest-chrome-extensions-pinello.png"
+relatedProducts: ['pinello']
 ---
 
 The easiest way to get disappointed on Pinterest is to treat it like Instagram.

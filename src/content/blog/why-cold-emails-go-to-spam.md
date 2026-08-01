@@ -4,6 +4,7 @@ description: "No replies does not always mean a bad pitch. Sometimes your cold e
 date: "2026-07-27"
 tags: ["email", "cold-email", "deliverability", "productivity"]
 image: "/assets/blog/emailsubjectscore-cws.png"
+relatedProducts: ['gmail-subject-score']
 ---
 
 The hardest part about cold email is not rejection. Rejection is information. Silence is the part that messes with your head.

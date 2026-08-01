@@ -1,5 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
+import WhatIsBlock from '../../components/WhatIsBlock.astro';
+import RelatedContentBlock from '../../components/RelatedContentBlock.astro';
 
 const cwsLink = 'https://chromewebstore.google.com/detail/privacy-blur-for-whatsapp/akficmlcinjihflahiekkkheikceblfc';
 const heroImage = '/assets/screenshots/privacy-blur-whatsapp/hero.png';
@@ -172,4 +174,7 @@ const schema = {
     <a href="mailto:hello@amrita-labs.com" class="hover:text-gray-400">hello@amrita-labs.com</a>
     <a href="/" class="hover:text-gray-400">← Back to Amrita Labs</a>
   </div>
+  <WhatIsBlock productName="Privacy Blur for WhatsApp" definition="Privacy Blur for WhatsApp is a free Chrome extension that blurs sensitive WhatsApp Web content — chat list, message previews, avatars, and media — during screen sharing, recording, or live demos. Runs on web.whatsapp.com in Chrome, entirely client-side." />
+  <!-- RelatedContentBlock reverse-index -->
+  <RelatedContentBlock productSlug="privacy-blur-whatsapp" productSlugs={['privacy-blur-slack', 'privacy-blur-discord', 'privacy-blur-teams']} theme="dark" />
 </Base>

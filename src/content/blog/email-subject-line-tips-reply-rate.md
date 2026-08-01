@@ -4,6 +4,7 @@ description: "A practical, data-backed guide to writing better email subject lin
 date: "2026-07-20"
 tags: ["email", "cold email", "sales", "freelancing", "job search"]
 image: "/assets/blog/emailsubjectscore-cws.png"
+relatedProducts: ['gmail-subject-score']
 ---
 
 Your email lives or dies in about 2-3 seconds. Before anyone reads your pitch, proposal, follow-up, or intro, they scan the subject line and make a snap decision: open, ignore, or delete.

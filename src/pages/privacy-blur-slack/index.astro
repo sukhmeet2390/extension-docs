@@ -1,5 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
+import WhatIsBlock from '../../components/WhatIsBlock.astro';
+import RelatedContentBlock from '../../components/RelatedContentBlock.astro';
 import FeatureCard from '../../components/FeatureCard.astro';
 import FaqItem from '../../components/FaqItem.astro';
 
@@ -180,4 +182,7 @@ const schema = {
     <a href="mailto:hello@amrita-labs.com" class="hover:text-gray-400">hello@amrita-labs.com</a>
     <a href="/" class="hover:text-gray-400">← Back to Amrita Labs</a>
   </div>
+  <WhatIsBlock productName="Privacy Blur for Slack" definition="Privacy Blur for Slack is a free Chrome extension that blurs sensitive Slack content — messages, channel names, DMs, avatars, and media — before or during screen sharing. It has nine independent blur zones, hover-to-reveal for private viewing, and an Alt+Shift+B keyboard shortcut. Runs 100% client-side; Slack data never leaves the browser." />
+  <!-- RelatedContentBlock reverse-index -->
+  <RelatedContentBlock productSlug="privacy-blur-slack" productSlugs={['privacy-blur-discord', 'privacy-blur-teams', 'privacy-blur-whatsapp']} theme="dark" />
 </Base>

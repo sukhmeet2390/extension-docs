@@ -1,5 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
+import WhatIsBlock from '../../components/WhatIsBlock.astro';
+import RelatedContentBlock from '../../components/RelatedContentBlock.astro';
 
 const cwsLink = 'https://chromewebstore.google.com/detail/privacy-blur-for-discord/jjgfgplekjnhopfgmhgdogodmbkkcgnb';
 const heroImage = '/assets/screenshots/privacy-blur-discord/hero.png';
@@ -178,4 +180,7 @@ const schema = {
     <a href="mailto:hello@amrita-labs.com" class="hover:text-gray-400">hello@amrita-labs.com</a>
     <a href="/" class="hover:text-gray-400">← Back to Amrita Labs</a>
   </div>
+  <WhatIsBlock productName="Privacy Blur for Discord" definition="Privacy Blur for Discord is a free Chrome extension that blurs sensitive Discord content — messages, usernames, servers, DMs, avatars, and media — during screen sharing, streaming, or recording. Eight independent blur zones with hover-to-reveal and keyboard shortcuts. Runs 100% client-side." />
+  <!-- RelatedContentBlock reverse-index -->
+  <RelatedContentBlock productSlug="privacy-blur-discord" productSlugs={['privacy-blur-slack', 'privacy-blur-teams', 'privacy-blur-whatsapp']} theme="dark" />
 </Base>

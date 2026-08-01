@@ -1,0 +1,73 @@
+---
+/**
+ * Renders "Related products" and "Related reading" blocks on blog posts using
+ * frontmatter arrays. Use `slug` prop on product pages to auto-render every
+ * blog post whose frontmatter mentions that product slug.
+ */
+import { findProduct } from '../data/products';
+import { getCollection } from 'astro:content';
+
+interface Props {
+  productSlugs?: string[];
+  postSlugs?: string[];
+  productSlug?: string;
+  theme?: 'dark' | 'light';
+}
+
+const { productSlugs = [], postSlugs = [], productSlug, theme = 'light' } = Astro.props;
+
+const products = productSlugs
+  .map((slug) => findProduct(slug))
+  .filter((p): p is NonNullable<typeof p> => Boolean(p));
+
+const allBlogPosts = await getCollection('blog', ({ data }) => !data.draft);
+const posts = postSlugs
+  .map((slug) => allBlogPosts.find((p) => p.id === slug))
+  .filter((p): p is NonNullable<typeof p> => Boolean(p));
+
+const autoPosts = productSlug
+  ? allBlogPosts
+      .filter((p) => p.data.relatedProducts?.includes(productSlug))
+      .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
+      .slice(0, 6)
+  : [];
+
+const allPosts = [...posts, ...autoPosts];
+const uniquePosts = allPosts.filter((post, index) => allPosts.findIndex((other) => other.id === post.id) === index);
+
+const nothingToShow = products.length === 0 && uniquePosts.length === 0;
+const isDark = theme === 'dark';
+---
+
+{!nothingToShow && (
+  <aside class:list={['border-t mt-16 pt-10', isDark ? 'border-white/5' : 'border-gray-200']}>
+    {products.length > 0 && (
+      <div class="mb-8">
+        <h2 class:list={['text-xs font-semibold uppercase tracking-widest mb-4', isDark ? 'text-gray-400' : 'text-gray-500']}>Related products</h2>
+        <ul class="grid sm:grid-cols-2 gap-3">
+          {products.map((product) => (
+            <li>
+              <a href={`/${product.slug}/`} class:list={['block rounded-xl border px-4 py-3 transition-colors', isDark ? 'border-white/5 bg-white/5 hover:border-brand-400/50' : 'border-gray-200 bg-gray-50 hover:border-brand-500/60 hover:bg-white']}>
+                <span class:list={['block text-sm font-semibold', isDark ? 'text-white' : 'text-gray-900']}>{product.name}</span>
+                <span class:list={['block text-xs mt-1', isDark ? 'text-gray-400' : 'text-gray-500']}>{product.tagline}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )}
+
+    {uniquePosts.length > 0 && (
+      <div>
+        <h2 class:list={['text-xs font-semibold uppercase tracking-widest mb-4', isDark ? 'text-gray-400' : 'text-gray-500']}>{productSlug ? 'From the blog' : 'Related reading'}</h2>
+        <ul class="space-y-2">
+          {uniquePosts.map((post) => (
+            <li>
+              <a href={`/blog/${post.id}/`} class:list={['text-sm hover:underline', isDark ? 'text-brand-400 hover:text-brand-300' : 'text-brand-600 hover:text-brand-500']}>{post.data.title}</a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )}
+  </aside>
+)}
