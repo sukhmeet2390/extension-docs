@@ -10,9 +10,22 @@ interface Props {
   theme?: 'dark' | 'light';
   appendBrand?: boolean;
   noindex?: boolean;
+  breadcrumbs?: Array<{ name: string; url: string }>;
 }
 
-const { title, description, canonical, schema, ogImage, theme = 'dark', appendBrand = true, noindex = false } = Astro.props;
+const { title, description, canonical, schema, ogImage, theme = 'dark', appendBrand = true, noindex = false, breadcrumbs } = Astro.props;
+const breadcrumbSchema = breadcrumbs && breadcrumbs.length > 1
+  ? {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": breadcrumbs.map((crumb, index) => ({
+        "@type": "ListItem",
+        "position": index + 1,
+        "name": crumb.name,
+        "item": crumb.url,
+      })),
+    }
+  : null;
 const siteUrl = 'https://amrita-labs.com';
 const fullTitle = title === 'Amrita Labs'
   ? 'Amrita Labs — Chrome Extensions & Shopify Apps for Creators and Merchants'
@@ -72,6 +85,9 @@ const isDark = theme === 'dark';
     <!-- Schema.org -->
     {schema && (
       <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+    )}
+    {breadcrumbSchema && (
+      <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
     )}
   </head>
   <body class:list={[

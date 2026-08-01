@@ -4,16 +4,34 @@ import ProductCard from '../components/ProductCard.astro';
 
 const schema = {
   "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Amrita Labs",
-  "url": "https://amrita-labs.com",
-  "description": "Privacy-first browser extensions and Shopify apps for creators, teams, and merchants.",
-  "foundingDate": "2026",
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "email": "hello@amrita-labs.com",
-    "contactType": "customer support"
-  }
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://amrita-labs.com/#organization",
+      "name": "Amrita Labs",
+      "url": "https://amrita-labs.com",
+      "description": "Privacy-first browser extensions and Shopify apps for creators, teams, and merchants.",
+      "foundingDate": "2026",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://amrita-labs.com/favicon.svg"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "hello@amrita-labs.com",
+        "contactType": "customer support"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://amrita-labs.com/#website",
+      "url": "https://amrita-labs.com",
+      "name": "Amrita Labs",
+      "description": "Privacy-first Chrome extensions and Shopify apps for creators, teams, and merchants.",
+      "publisher": { "@id": "https://amrita-labs.com/#organization" },
+      "inLanguage": "en"
+    }
+  ]
 };
 ---
 

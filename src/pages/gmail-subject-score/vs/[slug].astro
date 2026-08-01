@@ -35,6 +35,11 @@ const schema = {
   canonical={`https://amrita-labs.com/gmail-subject-score/vs/${comparison.id}/`}
   schema={schema}
   theme="light"
+  breadcrumbs={[
+    { name: 'Home', url: 'https://amrita-labs.com/' },
+    { name: 'EmailSubjectScore Pro', url: 'https://amrita-labs.com/gmail-subject-score/' },
+    { name: `vs ${comparison.data.competitor}`, url: `https://amrita-labs.com/gmail-subject-score/vs/${comparison.id}/` },
+  ]}
 >
   <article class="max-w-3xl mx-auto px-6 pt-24 pb-16 sm:pt-32">
     <!-- Breadcrumb -->

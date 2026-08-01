@@ -4,7 +4,7 @@ import ProductFooter from '../../components/ProductFooter.astro';
 import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('blog');
+  const posts = await getCollection('blog', ({ data }) => !data.draft);
   return posts.map((post) => ({
     params: { slug: post.id },
     props: { post },
@@ -33,6 +33,11 @@ const schema = {
   schema={schema}
   ogImage={post.data.image}
   theme="light"
+  breadcrumbs={[
+    { name: 'Home', url: 'https://amrita-labs.com/' },
+    { name: 'Blog', url: 'https://amrita-labs.com/blog/' },
+    { name: post.data.title, url: `https://amrita-labs.com/blog/${post.id}/` },
+  ]}
 >
   <article class="max-w-3xl mx-auto px-6 pt-24 pb-16 sm:pt-32">
     <!-- Header -->

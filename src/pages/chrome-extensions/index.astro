@@ -15,8 +15,25 @@ const schema = {
     "@type": "WebSite",
     "name": "Amrita Labs",
     "url": "https://amrita-labs.com"
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": 6,
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "url": "https://amrita-labs.com/gmail-subject-score/", "name": "EmailSubjectScore Pro" },
+      { "@type": "ListItem", "position": 2, "url": "https://amrita-labs.com/pinello/", "name": "Pinello" },
+      { "@type": "ListItem", "position": 3, "url": "https://amrita-labs.com/privacy-blur-slack/", "name": "Privacy Blur for Slack" },
+      { "@type": "ListItem", "position": 4, "url": "https://amrita-labs.com/privacy-blur-discord/", "name": "Privacy Blur for Discord" },
+      { "@type": "ListItem", "position": 5, "url": "https://amrita-labs.com/privacy-blur-teams/", "name": "Privacy Blur for Microsoft Teams" },
+      { "@type": "ListItem", "position": 6, "url": "https://amrita-labs.com/privacy-blur-whatsapp/", "name": "Privacy Blur for WhatsApp" }
+    ]
   }
 };
+
+const breadcrumbs = [
+  { name: 'Home', url: 'https://amrita-labs.com/' },
+  { name: 'Chrome Extensions', url: canonical },
+];
 
 const extensions = [
   {
@@ -75,6 +92,7 @@ const extensions = [
   description={description}
   canonical={canonical}
   schema={schema}
+  breadcrumbs={breadcrumbs}
 >
   <section class="relative overflow-hidden">
     <div class="absolute inset-0 bg-gradient-to-b from-brand-600/5 via-transparent to-transparent"></div>

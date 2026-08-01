@@ -1,144 +1,468 @@
 ---
 import Base from '../../layouts/Base.astro';
-import FeatureCard from '../../components/FeatureCard.astro';
 import FaqItem from '../../components/FaqItem.astro';
 
 const cwsLink = 'https://chromewebstore.google.com/detail/pinello/kmelegdnljikegoemigfgnpcbllmkije';
 const heroImage = '/assets/screenshots/pinello/hero.png';
+const iconPath = '/assets/icons/pinello.png';
+
+const features = [
+  {
+    icon: '🏷️',
+    title: 'Feed score badges',
+    tier: 'FREE',
+    description: 'See green, yellow, and red score badges on pins in your feed so strong ideas pop fast.',
+  },
+  {
+    icon: '📌',
+    title: 'Pin detail stats',
+    tier: 'FREE',
+    description: 'Open a pin and check saves, repins, and comments without clicking around Pinterest.',
+  },
+  {
+    icon: '🤖',
+    title: 'AI scoring on creation',
+    tier: 'FREE',
+    meta: '10/mo',
+    description: 'Score your draft before you publish. Pinello checks the title, description, image, board fit, and more.',
+  },
+  {
+    icon: '✍️',
+    title: 'AI rewrites',
+    tier: 'PRO',
+    description: 'When a title or description feels flat, get cleaner rewrite ideas in one click.',
+  },
+  {
+    icon: '🔎',
+    title: 'Sort and filter feed',
+    tier: 'PRO',
+    description: 'Sort by score, hide weak pins, and scan Pinterest with less guesswork.',
+  },
+  {
+    icon: '📤',
+    title: 'CSV export',
+    tier: 'PRO',
+    description: 'Export scored pin data for audits, content planning, or quick creator handoffs.',
+  },
+  {
+    icon: '🧪',
+    title: 'SEO audit',
+    tier: 'PRO+',
+    meta: 'Coming soon',
+    description: 'See where your title, description, and keywords are helping — or hurting — your Pinterest SEO.',
+  },
+  {
+    icon: '📊',
+    title: 'Viral benchmarking',
+    tier: 'PRO+',
+    meta: 'Coming soon',
+    description: 'Compare your pin against the patterns Pinterest is already rewarding in your niche.',
+  },
+];
+
+const comparisonRows = [
+  { feature: 'Pin scoring', pinello: '✅ AI-powered', pinwise: '❌', manual: '❌' },
+  { feature: 'Feed badges', pinello: '✅', pinwise: '✅', manual: '❌' },
+  { feature: 'Engagement stats', pinello: '✅', pinwise: '✅', manual: 'Click each pin' },
+  { feature: 'AI rewrites', pinello: '✅', pinwise: '❌', manual: '❌' },
+  { feature: 'Pricing', pinello: 'From $0', pinwise: '$7.99/mo', manual: 'Free but slow' },
+];
+
+const pricingTiers = [
+  {
+    name: 'Free',
+    price: '$0',
+    subtitle: 'Start here. No account. No friction.',
+    cta: 'Install free',
+    featured: false,
+    href: cwsLink,
+    items: [
+      'Feed score badges',
+      '10 AI pin scores per month',
+      'Basic pin detail stats',
+      'Core creator workflow inside Pinterest',
+    ],
+  },
+  {
+    name: 'Pro',
+    price: '$5/mo',
+    kicker: 'or $29 lifetime',
+    subtitle: 'For creators who want faster feedback every day.',
+    cta: 'Get Pro',
+    featured: true,
+    href: cwsLink,
+    items: [
+      'Unlimited AI scores',
+      'AI rewrites',
+      'CSV export',
+      'Sort and filter feed',
+    ],
+  },
+  {
+    name: 'Pro+',
+    price: '$12/mo',
+    kicker: 'or $59 lifetime',
+    subtitle: 'For deeper SEO checks and competitive context.',
+    cta: 'Coming soon',
+    featured: false,
+    comingSoon: true,
+    href: '#pricing',
+    items: [
+      'SEO audit',
+      'Viral benchmarks',
+      'Future advanced research tools',
+      'Priority access to new Pinello features',
+    ],
+  },
+];
+
+const steps = [
+  {
+    title: 'Install',
+    description: 'Add Pinello from the Chrome Web Store. Open Pinterest like you normally do.',
+  },
+  {
+    title: 'Browse Pinterest',
+    description: 'Scroll the feed, open pins, or start a new draft. Pinello works right on the page.',
+  },
+  {
+    title: 'See scores everywhere',
+    description: 'Spot strong pins, check hidden stats, and fix weak copy before you hit publish.',
+  },
+];
+
+const faqs = [
+  {
+    question: 'How does Pinello work?',
+    answer: 'Pinello runs inside Pinterest in Chrome. It reads the data Pinterest already sends to your browser, adds score badges in the feed, and helps you score draft pins before publishing.',
+  },
+  {
+    question: 'Is Pinello free?',
+    answer: 'Yes. The free tier includes feed score badges, basic stats, and 10 AI pin scores per month. You only upgrade if you want more scoring volume, rewrites, exports, or advanced tools.',
+  },
+  {
+    question: 'What data does Pinello use?',
+    answer: 'Pinello uses Pinterest page data already loaded in your browser plus the title and description text you ask it to score. Image analysis stays local, and AI requests are processed ephemerally for scoring and rewrites.',
+  },
+  {
+    question: 'Does Pinello store my Pinterest content?',
+    answer: 'No. Pin images stay in your browser. Pin text is only sent when you trigger AI scoring or rewrites, and it is not stored as a content database.',
+  },
+  {
+    question: 'Do I need a Pinterest business account?',
+    answer: 'No. If you can open Pinterest in Chrome, you can use Pinello. No separate Pinello account is required for the free tier.',
+  },
+  {
+    question: 'What is the refund policy?',
+    answer: 'Paid upgrades are handled through checkout, and refund requests are reviewed case by case. Email hello@amrita-labs.com and we will help.',
+  },
+];
 
 const schema = {
-  "@context": "https://schema.org",
-  "@graph": [
+  '@context': 'https://schema.org',
+  '@graph': [
     {
-      "@type": "SoftwareApplication",
-      "name": "Pinello",
-      "description": "Pinello is a free Chrome extension that scores Pinterest pins across 5 dimensions — image, board fit, title, description, and hashtags — in real time.",
-      "applicationCategory": "BrowserExtension",
-      "operatingSystem": "Chrome",
-      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-      "url": "https://amrita-labs.com/pinello/",
-      "installUrl": cwsLink,
-      "author": { "@type": "Organization", "name": "Amrita Labs", "url": "https://amrita-labs.com" }
+      '@type': 'SoftwareApplication',
+      name: 'Pinello',
+      description: 'Pinello is a free Pinterest pin scorer and Pinterest SEO tool for Chrome. Score pins, see Pinterest analytics, and improve titles and descriptions before you publish.',
+      applicationCategory: 'BrowserExtension',
+      applicationSubCategory: 'Pinterest SEO tool',
+      operatingSystem: 'Chrome',
+      image: iconPath,
+      screenshot: heroImage,
+      featureList: features.map((feature) => `${feature.title} (${feature.tier}${feature.meta ? `, ${feature.meta}` : ''})`),
+      offers: [
+        { '@type': 'Offer', name: 'Free', price: '0', priceCurrency: 'USD', description: 'Feed score badges, 10 AI scores per month, and basic pin stats.' },
+        { '@type': 'Offer', name: 'Pro', price: '5', priceCurrency: 'USD', billingDuration: 'P1M', description: 'Unlimited AI scores, AI rewrites, export, and feed sort/filter.' },
+        { '@type': 'Offer', name: 'Pro+', price: '12', priceCurrency: 'USD', billingDuration: 'P1M', description: 'SEO audit and viral benchmarking tools, coming soon.' },
+      ],
+      keywords: 'Pinterest SEO tool, pin scorer, Pinterest analytics, Pinterest pin scorer',
+      url: 'https://amrita-labs.com/pinello/',
+      installUrl: cwsLink,
+      author: { '@type': 'Organization', name: 'Amrita Labs', url: 'https://amrita-labs.com' },
     },
     {
-      "@type": "FAQPage",
-      "mainEntity": [
-        { "@type": "Question", "name": "Is Pinello free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. 50 AI scores per month, no signup, no credit card. Structural scoring (image analysis, hashtag counting) is always unlimited." }},
-        { "@type": "Question", "name": "What data does Pinello collect?", "acceptedAnswer": { "@type": "Answer", "text": "Only anonymous device ID for rate limiting. Title/description text sent to Azure OpenAI for AI features is processed ephemerally — never stored. Image analysis is 100% local in your browser." }},
-        { "@type": "Question", "name": "Does Pinello modify my pins?", "acceptedAnswer": { "@type": "Answer", "text": "Never. AI rewrite suggestions are copy-to-clipboard only. You paste what you want. Pinello never auto-edits your pin content." }},
-        { "@type": "Question", "name": "Does it work on all Pinterest domains?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Works on pinterest.com and all country variants (ca.pinterest.com, uk.pinterest.com, etc.) for personal, business, and creator accounts." }},
-        { "@type": "Question", "name": "How is Pinello different from Tailwind?", "acceptedAnswer": { "@type": "Answer", "text": "Tailwind is a scheduling tool. Pinello scores your pin quality BEFORE you publish — image, board fit, title, description, and hashtags rated in real time inside the pin-creation modal." }}
-      ]
-    }
-  ]
+      '@type': 'FAQPage',
+      mainEntity: faqs.map((faq) => ({
+        '@type': 'Question',
+        name: faq.question,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: faq.answer,
+        },
+      })),
+    },
+  ],
 };
 ---
 
 <Base
-  title="Pinello — Free Pinterest Pin Scorer & SEO Checker"
-  description="Pinello is a free Chrome extension that scores Pinterest pins across 5 dimensions — image, board fit, title, description, and hashtags — in real time."
+  title="Pinello — Pinterest Pin Scorer & SEO Tool | Free Chrome Extension"
+  description="Pinello is a free Pinterest SEO tool and Pinterest pin scorer for Chrome. Score pins, see Pinterest analytics, and rewrite weak titles before you publish."
   canonical="https://amrita-labs.com/pinello/"
   schema={schema}
   ogImage={heroImage}
+  breadcrumbs={[
+    { name: 'Home', url: 'https://amrita-labs.com/' },
+    { name: 'Chrome Extensions', url: 'https://amrita-labs.com/chrome-extensions/' },
+    { name: 'Pinello', url: 'https://amrita-labs.com/pinello/' },
+  ]}
+  appendBrand={false}
 >
-  <!-- Hero -->
   <section class="relative overflow-hidden">
-    <div class="absolute inset-0 bg-gradient-to-b from-rose-500/10 via-transparent to-transparent"></div>
-    <div class="max-w-6xl mx-auto px-6 pt-24 pb-16 sm:pt-32 relative">
+    <div class="absolute inset-0 bg-gradient-to-b from-emerald-400/12 via-sky-400/8 to-transparent"></div>
+    <div class="absolute top-0 left-1/2 h-[420px] w-[900px] -translate-x-1/2 rounded-full bg-gradient-to-r from-emerald-400/12 via-sky-400/10 to-cyan-400/12 blur-3xl"></div>
+    <div class="relative max-w-6xl mx-auto px-6 pt-24 pb-16 sm:pt-32">
+      <div class="grid gap-14 lg:grid-cols-[1.05fr,0.95fr] lg:items-center">
+        <div class="max-w-2xl">
+          <div class="inline-flex items-center gap-3 rounded-full border border-emerald-400/20 bg-emerald-950/40 px-4 py-2">
+            <img src={iconPath} alt="Pinello Chrome extension icon" class="w-8 h-8 rounded-lg" loading="eager" />
+            <span class="text-xs font-semibold uppercase tracking-[0.18em] text-emerald-200">Chrome Extension</span>
+          </div>
+          <h1 class="mt-6 text-4xl font-extrabold leading-tight tracking-tight text-white sm:text-5xl">
+            Pinello is the<br />Pinterest Pin Scorer.
+          </h1>
+          <p class="mt-6 text-lg leading-relaxed text-gray-300">
+            Score your pins, see what is working, and clean up weak copy before you publish — right inside Pinterest.
+          </p>
+          <div class="mt-8 flex flex-wrap gap-3">
+            <a href={cwsLink} class="inline-flex items-center gap-2 rounded-full bg-emerald-400 px-6 py-3 text-sm font-semibold text-surface-950 shadow-lg shadow-emerald-400/20 transition-colors hover:bg-emerald-300">
+              Install on Chrome Web Store
+            </a>
+            <a href="#pricing" class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-6 py-3 text-sm font-semibold text-white transition-colors hover:border-emerald-300/30 hover:text-emerald-200">
+              See pricing
+            </a>
+          </div>
+          <p class="mt-3 text-xs text-gray-400">Free to start · Built for creators · Upgrade only if you need more power</p>
+          <div class="mt-8 inline-flex items-center gap-2 rounded-full border border-sky-400/20 bg-sky-950/40 px-4 py-2 text-sm text-sky-100">
+            <span class="inline-flex h-2 w-2 rounded-full bg-emerald-300"></span>
+            A Pinterest SEO tool that stays in your workflow. No copy-paste circus.
+          </div>
+        </div>
+
+        <div class="relative mx-auto w-full max-w-xl">
+          <div class="absolute -left-4 top-8 hidden rounded-2xl border border-emerald-400/20 bg-surface-900/95 p-4 shadow-2xl shadow-black/30 md:block">
+            <div class="text-[10px] font-bold uppercase tracking-[0.2em] text-emerald-300">Free</div>
+            <div class="mt-2 text-sm font-semibold text-white">Feed Score Badges</div>
+            <p class="mt-1 max-w-[180px] text-xs leading-relaxed text-gray-400">Scan your feed faster with green, yellow, and red score overlays.</p>
+          </div>
+          <div class="overflow-hidden rounded-[28px] border border-white/10 bg-white/5 p-3 shadow-2xl shadow-black/30 backdrop-blur">
+            <div class="overflow-hidden rounded-[22px] border border-white/10 bg-white">
+              <img src={heroImage} alt="Pinello showing Pinterest pin scores inside the Pinterest workflow" class="w-full h-auto" loading="lazy" />
+            </div>
+          </div>
+          <div class="absolute -right-3 bottom-6 rounded-2xl border border-sky-400/20 bg-surface-900/95 p-4 shadow-2xl shadow-black/30 sm:max-w-[220px]">
+            <div class="text-[10px] font-bold uppercase tracking-[0.2em] text-sky-300">Pro</div>
+            <div class="mt-2 text-sm font-semibold text-white">Rewrites, export, and feed controls</div>
+            <p class="mt-1 text-xs leading-relaxed text-gray-400">Good when you are posting often and want cleaner decisions, faster.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="border-y border-white/5 bg-surface-900">
+    <div class="max-w-6xl mx-auto px-6 py-5">
+      <div class="flex flex-wrap items-center justify-center gap-5 text-center text-sm font-medium text-gray-300">
+        <span class="inline-flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-emerald-300"></span>Pinterest pin scorer</span>
+        <span class="inline-flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-emerald-300"></span>Pinterest analytics on the page</span>
+        <span class="inline-flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-emerald-300"></span>Free tier + paid upgrades</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="bg-surface-950">
+    <div class="max-w-6xl mx-auto px-6 py-20">
       <div class="max-w-2xl">
-        <span class="inline-block text-xs font-semibold text-rose-300 bg-rose-950/50 px-3 py-1.5 rounded-full border border-rose-500/20 uppercase tracking-wider">Chrome Extension</span>
-        <h1 class="text-4xl sm:text-5xl font-extrabold text-white mt-6 leading-tight tracking-tight">
-          Stop guessing if<br />your pin will rank.
-        </h1>
-        <p class="text-lg text-gray-400 mt-6 leading-relaxed">
-          Pinello is a free Chrome extension that scores Pinterest pins across 5 dimensions — image, board fit, title, description, and hashtags — in real time. With one-click AI rewrite for text fields.
+        <h2 class="text-xs font-semibold uppercase tracking-widest text-gray-400">Feature overview</h2>
+        <h3 class="mt-4 text-3xl font-bold tracking-tight text-white sm:text-4xl">See what you get at every tier.</h3>
+        <p class="mt-4 text-lg leading-relaxed text-gray-400">
+          Pinello starts with the everyday stuff. Score badges. Stats. Simple answers. Then it layers on the creator tools you actually use.
         </p>
-        <div class="flex flex-wrap gap-3 mt-8">
-          <a href={cwsLink} class="inline-flex items-center gap-2 bg-rose-600 text-white px-6 py-3 rounded-full font-semibold text-sm hover:bg-rose-500 transition-colors shadow-lg shadow-rose-600/25">
-            Install Free — Chrome Web Store
+      </div>
+
+      <div class="mt-12 grid gap-4 sm:grid-cols-2 xl:grid-cols-4 animate-in">
+        {features.map((feature) => (
+          <div class="rounded-2xl border border-white/5 bg-surface-800 p-6 transition-all hover:border-emerald-400/20 hover:shadow-lg hover:shadow-black/20">
+            <div class="flex items-start justify-between gap-4">
+              <span class="text-2xl">{feature.icon}</span>
+              <div class="flex flex-wrap justify-end gap-2">
+                <span class:list={[
+                  'rounded-full border px-2.5 py-1 text-[10px] font-bold uppercase tracking-[0.18em]',
+                  feature.tier === 'FREE' && 'border-emerald-400/20 bg-emerald-950/70 text-emerald-200',
+                  feature.tier === 'PRO' && 'border-sky-400/20 bg-sky-950/70 text-sky-200',
+                  feature.tier === 'PRO+' && 'border-fuchsia-400/20 bg-fuchsia-950/70 text-fuchsia-200',
+                ]}>
+                  {feature.tier}
+                </span>
+                {feature.meta && (
+                  <span class="rounded-full border border-white/10 bg-white/5 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.16em] text-gray-300">
+                    {feature.meta}
+                  </span>
+                )}
+              </div>
+            </div>
+            <h4 class="mt-4 text-lg font-semibold text-white">{feature.title}</h4>
+            <p class="mt-2 text-sm leading-relaxed text-gray-400">{feature.description}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="border-t border-white/5 bg-surface-900">
+    <div class="max-w-6xl mx-auto px-6 py-20">
+      <div class="max-w-2xl">
+        <h2 class="text-xs font-semibold uppercase tracking-widest text-gray-400">Pinello vs the alternatives</h2>
+        <h3 class="mt-4 text-3xl font-bold tracking-tight text-white sm:text-4xl">You can guess. You can click everything manually. Or you can move faster.</h3>
+        <p class="mt-4 text-lg leading-relaxed text-gray-400">
+          PinWise is a solid research-style tool. Manual checking costs time. Pinello focuses on the creator moment: what should I post, and how do I make it better?
+        </p>
+      </div>
+
+      <div class="mt-10 overflow-x-auto rounded-3xl border border-white/5 bg-surface-800">
+        <table class="min-w-full text-left text-sm text-gray-300">
+          <thead class="bg-white/5 text-xs uppercase tracking-[0.18em] text-gray-400">
+            <tr>
+              <th class="px-6 py-4 font-semibold">Feature</th>
+              <th class="px-6 py-4 font-semibold text-white">Pinello</th>
+              <th class="px-6 py-4 font-semibold">PinWise</th>
+              <th class="px-6 py-4 font-semibold">Manual</th>
+            </tr>
+          </thead>
+          <tbody>
+            {comparisonRows.map((row) => (
+              <tr class="border-t border-white/5">
+                <td class="px-6 py-4 font-medium text-white">{row.feature}</td>
+                <td class="px-6 py-4">{row.pinello}</td>
+                <td class="px-6 py-4">{row.pinwise}</td>
+                <td class="px-6 py-4">{row.manual}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="max-w-6xl mx-auto px-6 py-20">
+    <div class="max-w-2xl">
+      <h2 class="text-xs font-semibold uppercase tracking-widest text-gray-400">Pricing</h2>
+      <h3 class="mt-4 text-3xl font-bold tracking-tight text-white sm:text-4xl">Three tiers. Simple choices.</h3>
+      <p class="mt-4 text-lg leading-relaxed text-gray-400">
+        Use the free tier until it earns its keep. Upgrade when you want more scoring, rewrites, and deeper Pinterest analytics.
+      </p>
+    </div>
+
+    <div class="mt-12 grid gap-6 lg:grid-cols-3 animate-in">
+      {pricingTiers.map((tier) => (
+        <div class:list={[
+          'rounded-3xl border bg-surface-900 p-8 shadow-sm shadow-black/20',
+          tier.featured ? 'border-emerald-400/50 shadow-2xl shadow-emerald-400/10' : 'border-white/5',
+        ]}>
+          {tier.featured && (
+            <div class="mb-5 inline-flex rounded-full bg-emerald-400 px-3 py-1 text-[10px] font-bold uppercase tracking-[0.18em] text-surface-950">
+              Most popular
+            </div>
+          )}
+          <div class="text-xs font-semibold uppercase tracking-[0.18em] text-gray-400">{tier.name}</div>
+          <div class="mt-4 text-5xl font-extrabold tracking-tight text-white">{tier.price}</div>
+          {tier.kicker && <p class="mt-2 text-sm font-medium text-emerald-200">{tier.kicker}</p>}
+          <p class="mt-3 text-sm leading-relaxed text-gray-400">{tier.subtitle}</p>
+          <ul class="mt-8 space-y-3 text-sm text-gray-300">
+            {tier.items.map((item) => (
+              <li class="flex gap-3">
+                <span class="text-emerald-300">✓</span>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+          <a
+            href={tier.href}
+            class:list={[
+              'mt-8 inline-flex w-full items-center justify-center rounded-full px-6 py-3 text-sm font-semibold transition-colors',
+              tier.comingSoon
+                ? 'cursor-default border border-white/10 bg-white/5 text-gray-400'
+                : tier.featured
+                  ? 'bg-emerald-400 text-surface-950 hover:bg-emerald-300'
+                  : 'border border-white/10 bg-white text-surface-950 hover:bg-gray-100',
+            ]}
+            aria-disabled={tier.comingSoon ? 'true' : 'false'}
+          >
+            {tier.cta}
           </a>
         </div>
-        <p class="text-xs text-gray-400 mt-3">Free · 50 AI scores/month · No signup</p>
-      </div>
+      ))}
     </div>
   </section>
 
-  <!-- Hero Screenshot -->
-  <section class="max-w-6xl mx-auto px-6 pb-16">
-    <div class="rounded-2xl overflow-hidden border border-white/10 shadow-2xl shadow-black/30">
-      <img src={heroImage} alt="Pinello scoring a Pinterest pin in real time" class="w-full h-auto" loading="lazy" />
-    </div>
-  </section>
-
-  <!-- How it works -->
-  <section class="max-w-6xl mx-auto px-6 pb-20">
-    <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-8">How it works</h2>
-    <div class="grid sm:grid-cols-3 gap-6 animate-in">
-      <div class="flex gap-4">
-        <span class="flex-shrink-0 w-8 h-8 bg-rose-600 text-white font-bold rounded-full flex items-center justify-center text-sm">1</span>
-        <div>
-          <h3 class="font-semibold text-white">Open Pinterest pin creator</h3>
-          <p class="text-sm text-gray-400 mt-1">Navigate to pinterest.com and start creating a pin. Pinello's scoring panel appears automatically.</p>
-        </div>
-      </div>
-      <div class="flex gap-4">
-        <span class="flex-shrink-0 w-8 h-8 bg-rose-600 text-white font-bold rounded-full flex items-center justify-center text-sm">2</span>
-        <div>
-          <h3 class="font-semibold text-white">See 5 dimension scores</h3>
-          <p class="text-sm text-gray-400 mt-1">Image, board fit, title, description, and hashtags — all scored live as you fill in your pin.</p>
-        </div>
-      </div>
-      <div class="flex gap-4">
-        <span class="flex-shrink-0 w-8 h-8 bg-rose-600 text-white font-bold rounded-full flex items-center justify-center text-sm">3</span>
-        <div>
-          <h3 class="font-semibold text-white">Optimize with AI rewrite</h3>
-          <p class="text-sm text-gray-400 mt-1">Weak title or description? Click for an AI-optimized alternative. Copy to clipboard — you paste where you want.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Features -->
-  <section class="bg-surface-900 border-t border-white/5">
+  <section class="border-y border-white/5 bg-surface-900">
     <div class="max-w-6xl mx-auto px-6 py-20">
-      <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-8">5 Dimensions Scored</h2>
-      <div class="grid sm:grid-cols-2 lg:grid-cols-5 gap-4 animate-in">
-        <FeatureCard icon="🖼️" title="Image" description="Aspect ratio, resolution, brightness, contrast — analyzed locally in your browser." />
-        <FeatureCard icon="📌" title="Board Fit" description="Keyword relevance between your pin content and selected board." />
-        <FeatureCard icon="✏️" title="Title SEO" description="Length, keyword placement, action words, coherence check." />
-        <FeatureCard icon="📝" title="Description" description="Length optimization, CTA detection, readability scoring." />
-        <FeatureCard icon="#️⃣" title="Hashtags" description="Tag count balance (2-8 ideal), inline + tagged topics combined." />
+      <div class="max-w-2xl">
+        <h2 class="text-xs font-semibold uppercase tracking-widest text-gray-400">How it works</h2>
+        <h3 class="mt-4 text-3xl font-bold tracking-tight text-white sm:text-4xl">Three steps. That is it.</h3>
+      </div>
+
+      <div class="mt-12 grid gap-6 sm:grid-cols-3 animate-in">
+        {steps.map((step, index) => (
+          <div class="rounded-2xl border border-white/5 bg-surface-800 p-6 shadow-sm shadow-black/20">
+            <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-emerald-400 font-mono text-sm font-bold text-surface-950">
+              0{index + 1}
+            </div>
+            <h4 class="mt-5 text-xl font-semibold text-white">{step.title}</h4>
+            <p class="mt-3 text-sm leading-relaxed text-gray-400">{step.description}</p>
+          </div>
+        ))}
       </div>
     </div>
   </section>
 
-  <!-- FAQ -->
   <section class="max-w-6xl mx-auto px-6 py-20">
-    <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-8">Frequently asked questions</h2>
-    <div class="max-w-2xl">
-      <FaqItem question="Is Pinello free?" answer="Yes. 50 AI scores per month, no signup, no credit card. Structural scoring (image analysis, hashtag counting, keyword overlap) is always unlimited." />
-      <FaqItem question="What data does Pinello collect?" answer="Only anonymous device ID for rate limiting. Title/description text sent to Azure OpenAI for AI features is processed ephemerally — never stored. Image analysis is 100% local in your browser." />
-      <FaqItem question="Does Pinello modify my pins?" answer="Never. AI rewrite suggestions are copy-to-clipboard only. You paste what you want. Pinello never auto-edits your pin content." />
-      <FaqItem question="Does it work on all Pinterest domains?" answer="Yes. Works on pinterest.com and all country variants (ca.pinterest.com, uk.pinterest.com, etc.) for personal, business, and creator accounts." />
-      <FaqItem question="How is Pinello different from Tailwind?" answer="Tailwind is a scheduling tool. Pinello scores your pin quality BEFORE you publish — image, board fit, title, description, and hashtags rated in real time inside the pin-creation modal." />
+    <div class="rounded-3xl border border-white/5 bg-surface-800 p-8 sm:p-10 lg:flex lg:items-center lg:justify-between lg:gap-10">
+      <div class="max-w-2xl">
+        <h2 class="text-2xl font-bold text-white sm:text-3xl">Score your next pin before it goes live.</h2>
+        <p class="mt-3 text-lg leading-relaxed text-gray-400">
+          Pinello is built for creators who want answers in the moment, not another tab full of chores.
+        </p>
+      </div>
+      <div class="mt-6 lg:mt-0">
+        <a href={cwsLink} class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white px-6 py-3 text-sm font-semibold text-surface-950 transition-colors hover:bg-gray-100">
+          Get Pinello on Chrome
+        </a>
+      </div>
     </div>
   </section>
 
-  <!-- CTA -->
+  <section class="border-t border-white/5 bg-surface-900">
+    <div class="max-w-6xl mx-auto px-6 py-20">
+      <div class="max-w-2xl">
+        <h2 class="text-xs font-semibold uppercase tracking-widest text-gray-400">Frequently asked questions</h2>
+        <h3 class="mt-4 text-3xl font-bold tracking-tight text-white sm:text-4xl">A few quick answers.</h3>
+      </div>
+
+      <div class="mt-8 max-w-3xl">
+        {faqs.map((faq) => (
+          <FaqItem question={faq.question} answer={faq.answer} />
+        ))}
+      </div>
+    </div>
+  </section>
+
   <section class="border-t border-white/5 bg-surface-800">
     <div class="max-w-6xl mx-auto px-6 py-16 text-center">
-      <h2 class="text-2xl sm:text-3xl font-bold text-white">Score your next pin.</h2>
-      <p class="text-gray-400 mt-3 text-lg">Free to install. Works instantly on Pinterest. No signup needed.</p>
-      <a href={cwsLink} class="inline-flex items-center gap-2 bg-rose-600 text-white px-8 py-3 rounded-full font-semibold text-sm mt-8 hover:bg-rose-500 transition-colors shadow-lg shadow-rose-600/25">
-        Install Free — Chrome Web Store
+      <h2 class="text-2xl font-bold text-white sm:text-3xl">See what is working. Fix what is not.</h2>
+      <p class="mt-3 text-lg text-gray-400">Install free, browse Pinterest, and let the scores show you where to push harder.</p>
+      <a href={cwsLink} class="mt-8 inline-flex items-center gap-2 rounded-full bg-emerald-400 px-8 py-3 text-sm font-semibold text-surface-950 shadow-lg shadow-emerald-400/20 transition-colors hover:bg-emerald-300">
+        Install Pinello Free
       </a>
     </div>
   </section>
 
-  <!-- Legal -->
-  <div class="max-w-6xl mx-auto px-6 py-8 flex gap-6 text-xs text-gray-500">
-    <a href="/pinello/privacy" class="hover:text-gray-400">Privacy Policy</a>
-    <a href="/pinello/terms" class="hover:text-gray-400">Terms of Service</a>
+  <div class="max-w-6xl mx-auto px-6 py-8 flex flex-wrap gap-6 text-xs text-gray-500">
+    <a href="/pinello/privacy/" class="hover:text-gray-400">Privacy Policy</a>
+    <a href="/pinello/terms/" class="hover:text-gray-400">Terms of Service</a>
+    <a href={cwsLink} class="hover:text-gray-400">Chrome Web Store</a>
+    <a href="mailto:hello@amrita-labs.com" class="hover:text-gray-400">hello@amrita-labs.com</a>
     <a href="/" class="hover:text-gray-400">← Back to Amrita Labs</a>
   </div>
 </Base>
