@@ -36,7 +36,7 @@ That is why it takes the top spot. Most Gmail tools help you send faster or trac
 
 ![EmailSubjectScore Pro on Chrome Web Store](/assets/blog/emailsubjectscore-cws.png)
 
-[Install EmailSubjectScore Pro](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm)
+[Learn more about EmailSubjectScore Pro →](/gmail-subject-score/) &middot; [Install from the Chrome Web Store](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm)
 
 ---
 

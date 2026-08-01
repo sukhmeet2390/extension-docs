@@ -8,7 +8,7 @@ image: "/assets/blog/safe-screen-share-cws.png"
 
 You've probably had this moment: you're sharing your screen, talking through a project update, and then you notice Slack sitting there with a private message preview, a sensitive channel name, or a thread you definitely didn't mean to show the whole room.
 
-If you need a fix fast, **[Privacy Blur for Slack](https://chromewebstore.google.com/detail/privacy-blur-for-slack/cejmffebfhdnhbjkhiobaecdohheimkj)** is the most practical option because it lets you keep Slack open while hiding the parts you don't want coworkers or clients to see. But it's not the only way to reduce the risk.
+If you need a fix fast, **[Privacy Blur for Slack](/privacy-blur-slack/)** is the most practical option because it lets you keep Slack open while hiding the parts you don't want coworkers or clients to see. But it's not the only way to reduce the risk.
 
 This guide walks through the best ways to hide Slack messages during screen sharing, ranked by how well they protect your privacy without slowing down your meeting. Some methods are perfect if Slack needs to stay visible. Others work better if you just want the safest possible setup before you click Share.
 
@@ -22,7 +22,7 @@ The good news: you don't need to overhaul your workflow. In most cases, one of t
 
 ## 1. Privacy Blur for Slack — Best if Slack needs to stay on screen
 
-**[Install Privacy Blur for Slack](https://chromewebstore.google.com/detail/privacy-blur-for-slack/cejmffebfhdnhbjkhiobaecdohheimkj)**
+**[Install Privacy Blur for Slack](https://chromewebstore.google.com/detail/privacy-blur-for-slack/cejmffebfhdnhbjkhiobaecdohheimkj)** &middot; [Learn more on the product page →](/privacy-blur-slack/)
 
 ![Privacy Blur for Slack — messages blurred during screen sharing](/assets/blog/privacy-blur-slack-panel.png)
 
@@ -121,6 +121,17 @@ The tradeoff is precision and speed. Generic tools are not built specifically fo
 | **Virtual desktop** | Partly | No | Yes, privately | Multitaskers who want Slack nearby |
 | **Close or minimize Slack** | Yes | Yes | No | Short meetings and lowest-risk setup |
 | **Generic blur extensions** | Yes | No | Usually | People who need privacy across many websites |
+
+## How to hide Slack message previews during screen sharing
+
+The fastest way to hide Slack message previews — unread bubbles, DM thumbnails, and channel notification previews — is a two-step combo:
+
+1. **Turn on [Privacy Blur for Slack](/privacy-blur-slack/) message and channel zones** so existing previews are blurred before you share.
+2. **Enable Slack Do Not Disturb** for the length of your meeting so new previews never appear.
+
+Blur alone hides current content but doesn't stop new popups. DND alone silences new notifications but leaves current previews visible. Together they cover both.
+
+If Slack isn't essential during the meeting, sharing only a specific window or tab is even safer — the previews never enter the shared surface at all.
 
 ## FAQ
 

@@ -1,0 +1,126 @@
+---
+import Base from '../../layouts/Base.astro';
+import ProductCard from '../../components/ProductCard.astro';
+
+const canonical = 'https://amrita-labs.com/chrome-extensions/';
+const description = 'All Chrome extensions from Amrita Labs — privacy-first tools for Gmail, Pinterest, Slack, Discord, Microsoft Teams, and WhatsApp Web. Free to install.';
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Chrome Extensions by Amrita Labs",
+  "description": description,
+  "url": canonical,
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Amrita Labs",
+    "url": "https://amrita-labs.com"
+  }
+};
+
+const extensions = [
+  {
+    name: 'EmailSubjectScore Pro',
+    tagline: 'Score your subject line before you send',
+    description: 'Spam risk, clarity, and urgency — rated live inside Gmail compose. AI-powered rewrite suggestions when your score is weak.',
+    iconSrc: '/assets/icons/gmail.png',
+    screenshotSrc: '/assets/screenshots/gmail/hero.png',
+    href: '/gmail-subject-score/',
+  },
+  {
+    name: 'Pinello',
+    tagline: 'Score every pin before you publish',
+    description: '5 dimensions scored in real time — image, board fit, title, description, and hashtags. With one-click AI rewrite for text fields.',
+    iconSrc: '/assets/icons/pinello.png',
+    screenshotSrc: '/assets/screenshots/pinello/hero.png',
+    href: '/pinello/',
+  },
+  {
+    name: 'Privacy Blur for Slack',
+    tagline: 'Screen share, not your secrets',
+    description: 'Blur Slack messages, names, channels, and media before a screen share. Hover to reveal only for your eyes.',
+    iconSrc: '/assets/icons/privacy-blur-slack.png',
+    screenshotSrc: '/assets/screenshots/privacy-blur-slack/hero.png',
+    href: '/privacy-blur-slack/',
+  },
+  {
+    name: 'Privacy Blur for Discord',
+    tagline: 'Hide DMs and channels during screen share',
+    description: 'Blur Discord messages, server list, DMs, and avatars before you share your screen or record a walkthrough.',
+    iconSrc: '/assets/icons/privacy-blur-discord.png',
+    screenshotSrc: '/assets/screenshots/privacy-blur-discord/hero.png',
+    href: '/privacy-blur-discord/',
+  },
+  {
+    name: 'Privacy Blur for Microsoft Teams',
+    tagline: 'Keep meeting chats out of view',
+    description: 'Blur Microsoft Teams chats, channels, calendar previews, and notifications during screen sharing and recordings.',
+    iconSrc: '/assets/icons/privacy-blur-teams.png',
+    screenshotSrc: '/assets/screenshots/privacy-blur-teams/hero.png',
+    href: '/privacy-blur-teams/',
+  },
+  {
+    name: 'Privacy Blur for WhatsApp',
+    tagline: 'Hide private chats before you share',
+    description: 'Blur WhatsApp Web chats, names, previews, and media during screen sharing, recordings, and live demos.',
+    iconSrc: '/assets/icons/privacy-blur-whatsapp.png',
+    screenshotSrc: '/assets/screenshots/privacy-blur-whatsapp/hero.png',
+    href: '/privacy-blur-whatsapp/',
+  },
+];
+---
+
+<Base
+  title="Chrome Extensions by Amrita Labs"
+  description={description}
+  canonical={canonical}
+  schema={schema}
+>
+  <section class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-b from-brand-600/5 via-transparent to-transparent"></div>
+    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-brand-600/8 rounded-full blur-[120px]"></div>
+    <div class="max-w-6xl mx-auto px-6 pt-24 pb-8 sm:pt-32 sm:pb-12 relative">
+      <div class="max-w-2xl">
+        <div class="inline-flex items-center gap-2 text-xs font-medium text-gray-400 bg-white/5 px-3 py-1.5 rounded-full border border-white/10 mb-6">
+          <span class="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse"></span>
+          {extensions.length} Chrome extensions · Free to install
+        </div>
+        <h1 class="text-4xl sm:text-5xl font-extrabold text-white leading-[1.05] tracking-tight">
+          Chrome extensions for<br />
+          <span class="text-brand-400">writing, sharing, and screen privacy.</span>
+        </h1>
+        <p class="text-lg text-gray-400 mt-6 leading-relaxed max-w-lg">
+          Privacy-first Chrome extensions that work inside Gmail, Pinterest, Slack, Discord, Microsoft Teams, and WhatsApp Web — no accounts, no tracking, free to install.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-surface-900">
+    <div class="max-w-6xl mx-auto px-6 py-16 sm:py-20">
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 animate-in">
+        {extensions.map((extension) => (
+          <ProductCard
+            name={extension.name}
+            tagline={extension.tagline}
+            description={extension.description}
+            iconSrc={extension.iconSrc}
+            screenshotSrc={extension.screenshotSrc}
+            href={extension.href}
+            cta="Learn more"
+            ctaHref={extension.href}
+            platform="chrome"
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-3xl mx-auto px-6 py-16 text-center">
+    <h2 class="text-2xl font-bold text-white">Also on Shopify.</h2>
+    <p class="text-gray-400 mt-4 leading-relaxed">
+      Amrita Labs also builds Shopify apps for consent, chat, and accessibility.
+      <a href="/#products" class="text-brand-400 hover:text-brand-300 transition-colors">See all products →</a>
+    </p>
+  </section>
+</Base>
