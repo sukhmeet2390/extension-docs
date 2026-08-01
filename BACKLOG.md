@@ -38,23 +38,25 @@ features based on assumptions; the remaining work is gated by verified traffic, 
 | W21 | IndexNow auto-ping on deploy | ✅ Done | HIGH | GitHub Action pings all sitemap URLs to IndexNow after every deploy |
 | W22 | llms.txt directory submission | ✅ Done | LOW | Submitted to directory.llmstxt.cloud |
 | W23 | dateModified on blog Article schema | ✅ Done | LOW | Frontmatter `updated?` field supported; falls back to `date` |
-| W24 | Comparison pages expansion | Pending | HIGH | Mirror gmail-subject-score/vs pattern across products. Sub-tasks: (a) pinello/vs/pinwise, (b) pinello/vs/pinradar, (c) privacy-blur-slack/vs/blurweb, (d) privacy-blur-slack/vs/page-blur, (e) privacy-blur-discord/vs/{competitor}, (f) privacy-blur-teams/vs/{competitor}, (g) privacy-blur-whatsapp/vs/{competitor}, (h) cookie-consent/vs/{top 3 competitors}, (i) chat-widget/vs/chaty (extract from existing blog), (j) accessibility-widget/vs/accessibe, (k) accessibility-widget/vs/userway. Each new page: schema, canonical, breadcrumb, cross-link to parent product |
+| W24 | Comparison pages expansion | Deferred | HIGH | Wait until products are more mature. Then mirror gmail-subject-score/vs pattern across products. Sub-tasks: (a) pinello/vs/pinwise, (b) pinello/vs/pinradar, (c) privacy-blur-slack/vs/blurweb, (d) privacy-blur-slack/vs/page-blur, (e) privacy-blur-discord/vs/{competitor}, (f) privacy-blur-teams/vs/{competitor}, (g) privacy-blur-whatsapp/vs/{competitor}, (h) cookie-consent/vs/{top 3 competitors}, (i) chat-widget/vs/chaty (extract from existing blog), (j) accessibility-widget/vs/accessibe, (k) accessibility-widget/vs/userway. Each new page: schema, canonical, breadcrumb, cross-link to parent product |
 | W25 | search-console-mcp trial (saurabhsharma2u) | Parked | LOW | Unified Google+Bing+GA4 MCP with pre-computed SEO tools (`seo_striking_distance`, `opportunity_matrix`, `compare_engines`). Requires interactive `npx search-console-mcp setup` OAuth flow. Resume when time |
 | W26 | Shopify app title/H1 rewrites for direct-intent queries | ✅ Done | HIGH | Cookie Consent, Chat Widget (full 9 channels in H1), Accessibility retitled for direct-intent Google + Bing queries |
 | W27 | Homepage About text (visible) | Deferred | LOW | Already shipped as W8. No further copy work planned |
 | W28 | Push privacy-screen cluster (comprehensive) | ✅ Done | HIGH | Blog title + description rewritten targeting "screen privacy extension" + "privacy screen chrome extension". Added "What is a screen privacy Chrome extension?" definition, "How to add a privacy screen for Chrome" H2, "Which Chrome extension hides my screen during sharing?" workflow block. Related-reading sections added to Slack/Discord/Teams/WhatsApp product pages linking back. Catalog page cross-links to blog. `updated: "2026-08-01"` frontmatter set |
 | W29 | Content gap posts (5 clusters) | Pending | MEDIUM | One blog per cluster + product-page cross-link + Bing content submission. Clusters: (a) "hide teams chat screen share" → new blog, links to Teams product, (b) "blur discord screen sharing" → new blog, links to Discord product, (c) "whatsapp web blur" → new blog, links to WhatsApp product, (d) "gmail subject line tester" → new blog, links to gmail-subject-score, (e) "pinterest pin analyzer" → new blog, links to Pinello. Each also gets vs-competitor page if data supports |
-| W30 | "What is X?" definition blocks (site-wide AEO) | Pending | MEDIUM | LLM citation format. Sub-tasks: (a) product pages × 9 — one paragraph starting "X is a..." near top, quotable, precise, (b) blog posts × 17 — first-line definition before intro, (c) comparison pages × 5 (current) — define both product + competitor, (d) homepage — short definition block per product tile alt-text. Coordinate with W17 blog link work |
-| W31 | Internal linking audit (site-wide) | Pending | HIGH | Not only Shopify. Full mesh audit. Sub-tasks: (a) blog to product — ~15 posts remaining after W17 covered hide-slack + best-gmail, (b) Privacy Blur mutual: Slack ↔ Discord ↔ Teams ↔ WhatsApp (4 mutual pairs), (c) Shopify mutual: Cookie ↔ Chat ↔ Accessibility (3 mutual pairs), (d) product to related blog post, (e) comparison pages back to parent product, (f) chrome catalog ↔ each product, (g) llms.txt cross-reference block. Replace all screen-reader-only ProductFooter with visible contextual links |
+| W30 | "What is X?" definition blocks (site-wide AEO) | Partial | MEDIUM | LLM citation format. Sub-tasks: (a) product pages × 9 [✅ Done via `WhatIsBlock` component 2026-08-01], (b) blog posts × 17 [Parked — later pass], (c) comparison pages × 5 [Parked — comparison expansion deferred until full-blown products], (d) homepage [skip — org schema covers] |
+| W31 | Internal linking audit (site-wide) | ✅ Done | HIGH | Automation shipped 2026-08-01. Sub-tasks: (a) blog to product [✅ frontmatter `relatedProducts` on 14 posts + auto-render `RelatedContentBlock`], (b) Privacy Blur mutual [✅ sibling productSlugs prop], (c) Shopify mutual [✅], (d) product to related blog [✅ auto reverse-index via `productSlug`], (e) comparison back to parent [existing], (f) catalog ↔ product [existing], (g) sr-only ProductFooter kept for compat, visible RelatedContentBlock replaces primary SEO role. Future blog posts auto-mesh via frontmatter |
 | W32 | Image delivery + Core Web Vitals | Pending | MEDIUM | Sub-tasks: (a) explicit width/height on ALL img tags — product hero, blog inline, icons, (b) convert PNG heroes to WebP (accessibility, chat, cookie hero >800KB each), (c) srcset for responsive delivery, (d) audit lazy-loading (hero should be eager per CWV guidance), (e) run PageSpeed baseline, (f) preconnect verify, (g) compress screenshots. Measure LCP/CLS before optimizing |
-| W33 | Visible "Updated" date on refreshed blog posts | Pending | LOW | Add visible "Updated Aug 2026" label when article materially updated. Requires: (a) `updated?` frontmatter (schema ready), (b) render logic in blog `[slug].astro` under date, (c) show only when `updated` differs from `date`. Ensures schema `dateModified` matches on-page. Apply first to W17 posts + W28 post |
+| W33 | Visible "Updated" date on refreshed blog posts | Deferred | LOW | Dropped 2026-08-01 — conflicts with Medium/dev.to publish dates. Age itself carries credibility. Revisit in months when refresh cadence matters |
 | W34 | Mobile ranking gap investigation + fixes | Pending | MEDIUM | Google impressions ~95% desktop. Investigate then fix. Sub-tasks: (a) GSC URL Inspection Mobile tab on top 5 pages, (b) query GSC for mobile-only queries + positions, (c) check no `display:none` hiding content on mobile viewport, (d) explicit img width/height for mobile Googlebot, (e) verify hero H1 not clipped on mobile SERP, (f) add shorter question-format H2 variants targeting mobile short-form queries |
 | W35 | Bing content submission automation | Pending | LOW | Sub-tasks: (a) automate `submit_content` in IndexNow workflow for new blog posts (post-body direct push, indexes faster than URL fetch), (b) weekly sitemap resubmit via `submit_sitemap`, (c) direct URL submission after each deploy for changed pages only |
 | W36 | AEO directory listings (expanded) | Partial | HIGH | Sub-tasks: (a) glama.ai × 9 product entries [Pending], (b) Product Hunt × 9 (backlink + AEO) [Pending], (c) alternativeto.net × 9 (also W-distribution) [Pending], (d) Perplexity product directory [Pending], (e) Startupfa.me [Pending], (f) Betalist [Pending], (g) Chrome Web Store dev profile → link back to amrita-labs.com [✅ Done 2026-08-01], (h) Shopify partner profile → link back [✅ Done 2026-08-01] |
 | W37 | International targeting audit | Pending | MEDIUM | 9 countries organically surfacing (USA, GBR, IND, FRA, TUR, MAR, ESP, PHL, CAN). All English content. Sub-tasks: (a) confirm no hreflang variants needed since content is universally English, (b) Bing Webmaster Geo-Targeting: "Global" or specific markets, (c) evaluate whether UK/IN/AU deserve country-specific landing variants (defer unless data supports), (d) monitor query volume per country monthly |
 | W38 | Long-tail near-page-1 push | Partial | HIGH | Cheap wins already on page 2. Sub-tasks: (a) "session share extension" pos 8 [Pending — find landing], (b) "slack hide message preview" pos 10.7 [✅ Done via W17 + W28], (c) "subject line analyzer" Bing pos 2-8 [✅ Done — gmail-subject-score H1 subtitle], (d) "email subject line score" pos 8 [✅ Done — same], (e) "screen privacy extension" + "privacy screen chrome extension" [✅ Done via W28], (f) inspect any query at position 6-15 weekly via MCP |
-| W39 | GSC + Bing weekly monitoring cadence | Pending | LOW | Recurring. Sub-tasks: (a) run `get_performance_overview` + `get_search_analytics` weekly, (b) check `list_sitemaps_enhanced` for errors, (c) `batch_url_inspection` on new pages, (d) Bing `get_url_submission_quota` + `get_crawl_issues`, (e) track striking-distance query lift after each content edit, (f) note in a log file at `_distribution/SEO-LOG.md` |
-| W40 | Backlink acquisition tracker | Pending | HIGH | Zero backlinks confirmed via Bing `get_link_counts`. This is ceiling on every ranking. Sub-tasks (all distribution — outside code): (a) alternativeto.net × 9, (b) Product Hunt staggered launches 1/month, (c) Reddit story posts in r/chrome_extensions, r/shopify, r/webdev — story format not spam, (d) Show HN per product, (e) dev.to already auto-imports blog via RSS — publish weekly, (f) Medium cross-post top 3 blogs with canonical, (g) guest posts on complementary SaaS blogs, (h) track new backlinks weekly via Bing `get_link_counts` |
+| W39 | GSC + Bing weekly monitoring cadence | Parked | LOW | Rely on GSC + Bing MCP direct queries when needed. Weekly script deferred; revisit if MCP unavailable |
+| W40 | Backlink acquisition tracker | Pending | HIGH | Zero backlinks confirmed via Bing `get_link_counts`. This is ceiling on every ranking. Sub-tasks (all distribution — outside code): (a) alternativeto.net × 9, (b) Product Hunt staggered launches 1/month, (c) Reddit story posts in r/chrome_extensions, r/shopify, r/webdev — story format not spam, (d) Show HN per product, (e) dev.to already auto-imports blog via RSS — publish weekly, (f) Medium cross-post top 3 blogs with canonical, (g) guest posts on complementary SaaS blogs, (h) track new backlinks weekly via Bing `get_link_counts`. Note: W36g + W36h Chrome Web Store + Shopify partner backlinks already shipped |
+| W41 | Blog "What is X?" first-line definition (batch pass) | Parked | LOW | Add "X is a ..." definition as first paragraph of remaining blog posts. Best done during blog refresh, not a batch pass. Skip until content editing sprint |
+| W42 | Comparison-page definition blocks | Parked | LOW | Merges with W24 (deferred until product maturity). Add "What is X?" to both product and competitor when comparison pages ship |
 
 ### What competitors do well
 
@@ -80,29 +82,28 @@ features based on assumptions; the remaining work is gated by verified traffic, 
 
 Ordered by ROI × ease:
 
-1. **W38** — Long-tail near-page-1 push (fastest wins, existing pages)
-2. **W28** — Privacy-screen cluster comprehensive push
-3. **W31** — Site-wide internal linking audit (unlocks link equity across mesh)
-4. **W30** — "What is X?" AEO blocks (LLM citation payoff)
-5. **W24** — Comparison pages expansion (11 pages, competitor-query capture)
-6. **W29** — Content gap posts (5 clusters)
-7. **W40** — Backlink tracker + distribution (structural ceiling)
-8. **W32** — Image CWV (measure first)
-9. **W34** — Mobile ranking investigation
-10. **W36** — AEO directories
+1. **W40** — Backlink acquisition (distribution manual; structural ceiling on every rank)
+2. **W29** — Content gap posts × 5 (each new post auto-meshes via `relatedProducts` frontmatter)
+3. **W32** — Image CWV audit
+4. **W34** — Mobile ranking investigation
+5. **W36** — AEO directory listings (glama.ai, ProductHunt, alternativeto.net × 9)
 
-Batchable auto tasks:
+Auto tasks available on request:
 
-- **W31 + W30 + W33** — can run together per file (link audit + definition block + updated date support)
-- **W28 + W38** — same file surface area
-- **W35 + W39** — GitHub Actions consolidation
+- Any new blog post via draft-to-published workflow
+- Any product page copy edit
+- Content-gap post drafting
 
 Deferred / signal-gated (unchanged):
 
 - **W2, W5, W7** — real reviews / traffic required
-- **W25** — search-console-mcp OAuth setup, resume interactively
+- **W24, W42** — comparison pages, wait until products mature
+- **W25** — search-console-mcp OAuth setup
+- **W33** — blog Updated dates conflict with cross-post platforms
+- **W39** — weekly monitoring script, GSC + Bing MCP direct queries suffice
+- **W41** — blog first-line definitions during future editing sprint
 
-Monitor via MCPs (W39):
+Monitor via MCPs:
 
 - Weekly GSC + Bing performance
 - Chat-widget indexing state
