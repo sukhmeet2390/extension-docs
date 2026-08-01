@@ -117,3 +117,14 @@ Monitor via MCPs (W39):
 |------|--------|-------|
 | RSS feed | ✅ Done | `src/pages/rss.xml.ts` — auto-imports to Dev.to |
 | Sitemap | ✅ Done | Auto-generated at `/sitemap-index.xml` via @astrojs/sitemap |
+
+## Recent operator actions (post-deploy hygiene, not tracked as W-tasks)
+
+Do not code around these — the operator handles as needed:
+
+- **GSC URL Inspection request-index** — run after significant page edits. Last batch (2026-08-01): homepage, `/chat-widget/`, `/chrome-extensions/`, hide-slack + best-gmail blog posts
+- **Bing sitemap resubmit via MCP** — 2026-08-01. Repeat weekly or after sitemap structure changes
+- **Bing URL batch submit** — done 2026-08-01 (25 URLs, 73/98 daily quota remaining)
+- **CWS listing bumps** — operator handles alongside product release pushes, not tracked here
+- **Bing Geo-Targeting** — left as auto/global; `.com` default is worldwide, no action needed unless targeting a single country
+- **Google + Bing publisher/partner backlinks** — W36g + W36h done 2026-08-01
