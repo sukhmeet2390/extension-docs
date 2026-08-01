@@ -40,8 +40,17 @@ features based on assumptions; the remaining work is gated by verified traffic, 
 | W23 | dateModified on blog Article schema | ✅ Done | LOW | Frontmatter `updated?` field supported; falls back to `date` |
 | W24 | Pinello competitor comparison pages | Pending | HIGH | Data-justified: "pinradar" pos 8.7, "pinwise" trending. Mirror gmail-subject-score/vs pattern for pinello/vs/pinwise + pinello/vs/pinradar |
 | W25 | search-console-mcp trial (saurabhsharma2u) | Parked | LOW | Unified Google+Bing+GA4 MCP with pre-computed SEO tools (`seo_striking_distance`, `opportunity_matrix`, `compare_engines`). Requires interactive `npx search-console-mcp setup` OAuth flow. Resume when time |
-| W26 | Shopify app title/H1 rewrites for direct-intent queries | Pending | MEDIUM | Cookie/Chat/Accessibility page titles too generic. Bing shows "shopify accessibility widget" pos 70. Small copy edits, visible impact |
+| W26 | Shopify app title/H1 rewrites for direct-intent queries | ✅ Done | HIGH | Cookie Consent, Chat Widget (full 9 channels in H1), Accessibility retitled for direct-intent Google + Bing queries |
 | W27 | Homepage About text (visible) | Deferred | LOW | Already shipped as W8. No further copy work planned |
+| W28 | Push `best-chrome-extensions-screen-sharing-privacy` for privacy-screen cluster | Pending | HIGH | Data: "screen privacy extension" pos 11.3, "privacy screen chrome extension" pos 13. Add matching H2 + tighten copy. Landing already ranks 14.8 avg / 87 imp / 2 clicks — small push moves whole cluster |
+| W29 | Content gap pages for missing clusters | Pending | MEDIUM | Zero-impression clusters with commercial intent: "hide teams chat screen share", "blur discord screen sharing", "whatsapp web blur", "gmail subject line tester", "pinterest pin analyzer". One blog post per cluster |
+| W30 | "What is X?" definition block on each product page | Pending | MEDIUM | Top LLM citation format. Short, quotable, precise. Boosts AEO across product pages |
+| W31 | Cross-link Shopify products in Shopify section | Pending | LOW | Mutual internal links between Cookie / Chat / Accessibility. Weak now |
+| W32 | Image delivery audit (Core Web Vitals) | Pending | MEDIUM | Set explicit width/height on hero images. If PageSpeed shows LCP/CLS impact, convert largest hero screenshots to responsive WebP/AVIF |
+| W33 | Visible "Updated" date on refreshed blog posts | Pending | LOW | Requires blog frontmatter `updated?` (already supported in schema). Add visible label when article materially updated so `dateModified` schema matches on-page |
+| W34 | Mobile ranking / crawl improvement | Pending | MEDIUM | Google impressions ~95% desktop. Product pages absent on mobile SERPs. Confirm mobile rendering via GSC mobile usability; add mobile-first content weighting if issues found |
+| W35 | Bing content submission (submit_content) | Pending | LOW | Bing indexes faster via direct content push than URL submission. Automate for new blog posts |
+| W36 | AEO directory listings | Pending | LOW | Beyond llmstxt.cloud (done): glama.ai, mcpservers.org (if any product becomes MCP), Product Hunt listings feed AEO signals |
 
 ### What competitors do well
 
@@ -65,25 +74,37 @@ features based on assumptions; the remaining work is gated by verified traffic, 
 
 ### Current next step
 
-Priority pending items:
+Priority pending items (data-backed from GSC + Bing MCP):
 
-- **W24** — Pinello competitor comparison pages (data-justified from GSC query analytics)
-- **W26** — Shopify app title/H1 rewrites (Cookie Consent, Chat Widget, Accessibility) for direct-intent queries
-- **W25 (parked)** — Resume search-console-mcp OAuth setup when convenient
+- **W28** — Push privacy-screen cluster (pos 11-13, one edit unlocks 87+ imp cluster)
+- **W24** — Pinello competitor comparison pages (mirrors gmail-subject-score/vs pattern)
+- **W29** — Content gap posts (5 zero-impression clusters, commercial intent)
+- **W30** — "What is X?" definition blocks on product pages (AEO win)
+- **W32** — Image CWV audit (measure before optimizing)
 
-Distribution manual tasks (outside code):
+Deferred / signal-gated:
 
-- alternativeto.net listings for 6 chrome + 3 shopify products
-- ProductHunt staggered launches
-- Reddit story posts in r/chrome_extensions, r/shopify, r/webdev
-- Show HN thread for EmailSubjectScore Pro + Privacy Blur Slack
+- **W2, W5** — Real reviews required
+- **W7** — Gmail-page traffic required
+- **W25** — search-console-mcp OAuth setup, resume interactively
+
+Distribution manual tasks (outside code, biggest ROI):
+
+- **Zero backlinks confirmed via Bing get_link_counts.** This is the ceiling on every ranking. Domain authority = floor. Every position 25-45 traces back here.
+- alternativeto.net listings for 6 chrome + 3 shopify products (backlink + competitor entity graph)
+- ProductHunt staggered launches, 1/month
+- Reddit story posts in r/chrome_extensions, r/shopify, r/webdev — story format not spam
+- Show HN thread per product
+- dev.to + Medium cross-post top 3 blogs (hide-slack, best-gmail, consent-mode) with canonical
 - Bing Webmaster Geo-Targeting: set "Global" or specific markets in dashboard
+- International presence: USA + GBR + IND + FRA + TUR + MAR + ESP + PHL + CAN organically surfacing — no hreflang variants needed yet (all English)
 
 Monitor via MCPs:
 
 - GSC + Bing weekly performance checks
 - Watch chat-widget indexing (Discovered — not indexed as of last audit)
 - Track striking-distance queries (pos 8-15) for lift after content edits
+- Watch position on "subject line analyzer" / "email subject line score" — Bing pos 2-8, near page 1
 
 ---
 
