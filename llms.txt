@@ -24,7 +24,7 @@
 - [Privacy Blur for Slack on Chrome Web Store](https://chromewebstore.google.com/detail/privacy-blur-for-slack/cejmffebfhdnhbjkhiobaecdohheimkj): Blur Slack messages before screen sharing.
 - [Privacy Blur for Discord on Chrome Web Store](https://chromewebstore.google.com/detail/privacy-blur-for-discord/jjgfgplekjnhopfgmhgdogodmbkkcgnb): Blur Discord messages and channels before screen sharing.
 - [Privacy Blur for Microsoft Teams on Chrome Web Store](https://chromewebstore.google.com/detail/privacy-blur-for-teams-%E2%80%94/goghfejahaadidgoloolbphebacikalp): Blur Microsoft Teams chats before screen sharing.
-- [Privacy Blur for WhatsApp Web on Chrome Web Store](https://chromewebstore.google.com/detail/privacy-blur-for-whatsapp/akficmlcinjihflahiekkkheikceblfc): Blur WhatsApp Web chats before screen sharing.
+- [Privacy Blur for WhatsApp Web on Chrome Web Store](https://chromewebstore.google.com/detail/privacy-blur-for-whatsapp/ljenfgnidmhmjimiihhfobncapegfbal): Blur WhatsApp Web chats before screen sharing.
 - [Amrita Cookie Consent on Shopify App Store](https://apps.shopify.com/cookie-consent-8): Install Amrita Cookie Consent from the Shopify App Store.
 - [Amrita Chat Widget on Shopify App Store](https://apps.shopify.com/chat-widget-1): Install Amrita Chat Widget from the Shopify App Store.
 - [Amrita Accessibility Widget on Shopify App Store](https://apps.shopify.com/accessibility-widget): Install Amrita Accessibility Widget from the Shopify App Store.
