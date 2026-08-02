@@ -59,7 +59,7 @@ const CHROME_EXTENSIONS = [
     name: 'Privacy Blur for WhatsApp Web',
     description:
       'Free Chrome extension that blurs sensitive WhatsApp Web content (chat list, previews, avatars, media) during screen sharing.',
-    cwsUrl: 'https://chromewebstore.google.com/detail/privacy-blur-for-whatsapp/akficmlcinjihflahiekkkheikceblfc',
+    cwsUrl: 'https://chromewebstore.google.com/detail/privacy-blur-for-whatsapp/ljenfgnidmhmjimiihhfobncapegfbal',
     cwsBlurb: 'Blur WhatsApp Web chats before screen sharing.',
     hasPrivacy: true,
     hasTerms: true,
