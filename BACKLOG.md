@@ -57,6 +57,9 @@ features based on assumptions; the remaining work is gated by verified traffic, 
 | W40 | Backlink acquisition tracker | Pending | HIGH | Zero backlinks confirmed via Bing `get_link_counts`. This is ceiling on every ranking. Sub-tasks (all distribution — outside code): (a) alternativeto.net × 9, (b) Product Hunt staggered launches 1/month, (c) Reddit story posts in r/chrome_extensions, r/shopify, r/webdev — story format not spam, (d) Show HN per product, (e) dev.to already auto-imports blog via RSS — publish weekly, (f) Medium cross-post top 3 blogs with canonical, (g) guest posts on complementary SaaS blogs, (h) track new backlinks weekly via Bing `get_link_counts`. Note: W36g + W36h Chrome Web Store + Shopify partner backlinks already shipped |
 | W41 | Blog "What is X?" first-line definition (batch pass) | Parked | LOW | Add "X is a ..." definition as first paragraph of remaining blog posts. Best done during blog refresh, not a batch pass. Skip until content editing sprint |
 | W42 | Comparison-page definition blocks | Parked | LOW | Merges with W24 (deferred until product maturity). Add "What is X?" to both product and competitor when comparison pages ship |
+| W43 | Refresh top 3 winning posts (research-backed) | Pending | HIGH | Data + research confirmed highest ROI available. See `docs/content-strategy.md`. Sub-tasks: (a) refresh `blog/best-chrome-extensions-screen-sharing-privacy` (108 imp, pos 15.2) — consolidates 4 privacy blur products, AEO citation target, (b) refresh `blog/hide-slack-messages-screen-sharing` (354 imp, pos 15.5) — highest volume, pos 15 → 5 = 5× clicks, (c) refresh `blog/consent-mode-v2-shopify-guide` (126 imp, Google pos 42, Bing pos 2) — add DMA/GDPR deadlines, code snippet, app-vs-manual comparison. Format specs: 2,000-2,800 words, 4-7 screenshots, comparison table, FAQ (3-5 Qs), 1 GIF/video, updated year label. Priority: do all 3 in ~4 hours, single commit |
+| W44 | Monthly content-strategy revisit | Recurring | HIGH | Reference: `docs/content-strategy.md`. Next: 2026-09-03. Run GSC + Bing MCP queries. Checklist: (a) which posts moved 5+ spots?, (b) new striking-distance queries pos 6-15?, (c) W43 refresh impact vs baseline, (d) Bing `get_link_counts` — backlinks discovered?, (e) new competitor names appearing as landing queries?, (f) update `docs/content-strategy.md` Top 10 if data reshuffles, (g) publish 1 new post OR refresh 1 existing per month, not more |
+| W45 | Content queue after W43 (single post per month) | Pending | HIGH | Ranked in `docs/content-strategy.md`. Order: (4) Pinterest Chrome extensions roundup (includes PinRadar / Pindodo / SortPins competitor query capture), (5) blur Discord/Teams/WhatsApp Web during calls (3 products, zero content), (6) refresh `best-gmail-chrome-extensions-productivity`, (7) Shopify Accessibility Widget — WCAG 2.1 honest comparison (67% assistive-user overlay-disable angle), (8) Best Shopify Apps for Google Consent Mode v2, (9) Shopify chat widget comparison (Chaty/Tidio/Amrita), (10) Email subject line score explainer + tools. Max 1/month |
 
 ### What competitors do well
 
@@ -82,17 +85,22 @@ features based on assumptions; the remaining work is gated by verified traffic, 
 
 Ordered by ROI × ease:
 
-1. **W40** — Backlink acquisition (distribution manual; structural ceiling on every rank)
-2. **W29** — Content gap posts × 5 (each new post auto-meshes via `relatedProducts` frontmatter)
-3. **W32** — Image CWV audit
-4. **W34** — Mobile ranking investigation
-5. **W36** — AEO directory listings (glama.ai, ProductHunt, alternativeto.net × 9)
+1. **W43** — Refresh top 3 winning posts (research-backed, ~4 hrs, highest ROI)
+2. **W40** — Backlink acquisition (distribution manual; structural ceiling on every rank)
+3. **W45** — Content queue after W43 (1 post/month, ranked list)
+4. **W44** — Monthly revisit checklist (recurring)
+5. **W29** — Content gap posts × 5 (subsumed by W45 for structured cadence)
+6. **W32** — Image CWV audit
+7. **W34** — Mobile ranking investigation
+8. **W36** — AEO directory listings (glama.ai, ProductHunt, alternativeto.net × 9)
+
+Content strategy reference: **`docs/content-strategy.md`** (research-backed, refresh monthly per W44).
 
 Auto tasks available on request:
 
 - Any new blog post via draft-to-published workflow
 - Any product page copy edit
-- Content-gap post drafting
+- Content-gap post drafting per W45 queue
 
 Deferred / signal-gated (unchanged):
 
