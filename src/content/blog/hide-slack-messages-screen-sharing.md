@@ -1,17 +1,24 @@
 ---
-title: "How to Hide Slack Messages During Screen Sharing: 6 Practical Options"
-description: "Need to hide Slack messages during screen sharing? Here are 6 practical ways to protect private chats, channel names, and notifications in Zoom, Meet, or Teams."
+title: "How to Hide Slack Messages During Screen Sharing: 6 Practical Options (2026)"
+description: "The fastest way to hide Slack messages during screen sharing is to install a screen-privacy Chrome extension. Here are 6 practical methods for Zoom, Google Meet, and Microsoft Teams — with a comparison table."
 date: "2026-07-20"
+updated: "2026-08-06"
 tags: ["slack", "screen sharing", "privacy", "remote work", "productivity"]
 image: "/assets/blog/safe-screen-share-cws.png"
 relatedProducts: ['privacy-blur-slack']
 ---
+
+**The fastest way to hide Slack messages during screen sharing is to install a screen-privacy Chrome extension that blurs message previews, channel names, and DMs before you share.** Slack does not have a built-in privacy mode, so you need either an extension, a window-sharing strategy, or a mix of both.
+
+*Last updated: August 2026 — includes Do Not Disturb, virtual desktops, generic blur tools, and screen-privacy Chrome extensions.*
 
 You've probably had this moment: you're sharing your screen, talking through a project update, and then you notice Slack sitting there with a private message preview, a sensitive channel name, or a thread you definitely didn't mean to show the whole room.
 
 If you need a fix fast, **[Privacy Blur for Slack](/privacy-blur-slack/)** is the most practical option because it lets you keep Slack open while hiding the parts you don't want coworkers or clients to see. But it's not the only way to reduce the risk.
 
 This guide walks through the best ways to hide Slack messages during screen sharing, ranked by how well they protect your privacy without slowing down your meeting. Some methods are perfect if Slack needs to stay visible. Others work better if you just want the safest possible setup before you click Share.
+
+Also using **Discord**, **Microsoft Teams**, or **WhatsApp Web**? Each has its own screen-privacy extension: [Privacy Blur for Discord](/privacy-blur-discord/), [Privacy Blur for Teams](/privacy-blur-teams/), and [Privacy Blur for WhatsApp](/privacy-blur-whatsapp/). Same idea, different platforms.
 
 ## Why Slack doesn't have a built-in solution
 
@@ -147,6 +154,24 @@ Usually no. Do Not Disturb is great for stopping new notification popups, but it
 ### What's the best setup for people who screen share every day?
 
 If Slack needs to stay open, the most practical setup is **Privacy Blur for Slack + Slack Do Not Disturb**. That combination protects visible content and reduces the chance of a surprise popup at the same time.
+
+### Does Privacy Blur for Slack work in Zoom, Google Meet, and Microsoft Teams?
+
+Yes. The extension applies a CSS blur to the Slack Web tab in Chrome. When you share your screen or that specific tab in any meeting tool — Zoom, Google Meet, Microsoft Teams, or Webex — the blurred content is what remote viewers see. The blur is part of the rendered page, so every screen capture pipeline picks it up.
+
+### What about hiding Discord, Microsoft Teams, or WhatsApp Web?
+
+The same idea works across platforms. If you screen share those apps regularly, each has its own screen-privacy Chrome extension:
+
+- **Discord** — see [Privacy Blur for Discord](/privacy-blur-discord/)
+- **Microsoft Teams** — see [Privacy Blur for Microsoft Teams](/privacy-blur-teams/)
+- **WhatsApp Web** — see [Privacy Blur for WhatsApp](/privacy-blur-whatsapp/)
+
+Each extension is scoped to its host domain, which is stricter for privacy and faster than a generic blur tool.
+
+### Does hiding Slack messages during screen share work on the Slack mobile app?
+
+No. Chrome extensions cannot run inside the Slack mobile app. If you present from mobile occasionally, the safest option is to fully close Slack before starting a screen share, then reopen it after your presentation. Or share only a specific window or tab from a mobile screen mirror.
 
 ## The simplest way to avoid an awkward Slack moment
 
