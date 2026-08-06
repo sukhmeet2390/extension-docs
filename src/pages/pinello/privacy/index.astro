@@ -4,65 +4,86 @@ import Base from '../../../layouts/Base.astro';
 
 <Base
   title="Privacy Policy — Pinello"
-  description="Privacy policy for Pinello Chrome extension. Learn what data we collect and how we protect it."
+  description="Privacy policy for the Pinello Chrome extension. What data is collected, when AI is used, and how caches work."
   canonical="https://amrita-labs.com/pinello/privacy/"
 >
   <article class="max-w-3xl mx-auto px-6 py-24 prose prose-invert prose-sm">
     <h1 class="text-3xl font-bold text-white">Privacy Policy — Pinello</h1>
-    <p class="text-sm text-gray-400"><strong>Effective Date</strong>: 2026-06-15 · <strong>Last Updated</strong>: 2026-07-15</p>
+    <p class="text-sm text-gray-400"><strong>Effective Date</strong>: 2026-08-05 &middot; <strong>Last Updated</strong>: 2026-08-05</p>
 
     <h2 class="text-xl font-semibold text-white mt-10">1. Who We Are</h2>
     <p class="text-gray-300">Pinello is operated by Amrita Labs, based in Canada.<br />Contact: <a href="mailto:hello@amrita-labs.com" class="text-brand-400 hover:underline">hello@amrita-labs.com</a></p>
 
     <h2 class="text-xl font-semibold text-white mt-10">2. What This Extension Does</h2>
-    <p class="text-gray-300">Pinello scores Pinterest pins across 5 dimensions — image quality, board fit, title SEO, description optimization, and hashtag usage — in real time as you create pins. It also offers AI-powered rewrite suggestions for text fields.</p>
+    <p class="text-gray-300">Pinello helps Pinterest creators prepare stronger Pins before publishing. It surfaces a Feed Score on Pin cards while you browse, a Pin Detail Score inside the Pin closeup, and a Pin Doctor pre-publish check inside the Create Pin workflow. Structural scoring runs locally in your browser. AI suggestions and Board Match run only when you explicitly click the corresponding button.</p>
 
-    <h2 class="text-xl font-semibold text-white mt-10">3. Data We Collect</h2>
-    <p class="text-gray-300">We collect <strong>only</strong> the following:</p>
+    <h2 class="text-xl font-semibold text-white mt-10">3. Data Stored Locally In Your Browser</h2>
+    <p class="text-gray-300">Pinello stores the following in <code>chrome.storage.local</code> on your device only:</p>
     <div class="overflow-x-auto">
       <table class="text-sm text-gray-300 w-full">
         <thead><tr class="border-b border-white/10"><th class="text-left py-2 pr-4">Category</th><th class="text-left py-2 pr-4">What</th><th class="text-left py-2 pr-4">Why</th><th class="text-left py-2">Retention</th></tr></thead>
         <tbody>
-          <tr class="border-b border-white/5"><td class="py-2 pr-4">Anonymous device ID</td><td class="py-2 pr-4">Random UUID generated on install</td><td class="py-2 pr-4">Rate limiting &amp; free-tier cap</td><td class="py-2">Until deletion request</td></tr>
-          <tr class="border-b border-white/5"><td class="py-2 pr-4">Aggregated usage events</td><td class="py-2 pr-4">Counts of feature uses</td><td class="py-2 pr-4">Product improvement</td><td class="py-2">Up to 24 months</td></tr>
-          <tr><td class="py-2 pr-4">Error logs</td><td class="py-2 pr-4">Stack traces (no user content)</td><td class="py-2 pr-4">Bug fixing</td><td class="py-2">Up to 90 days</td></tr>
+          <tr class="border-b border-white/5"><td class="py-2 pr-4">Anonymous device ID</td><td class="py-2 pr-4">Random UUID generated on install</td><td class="py-2 pr-4">Fair-use limits, analytics de-duplication</td><td class="py-2">Until uninstall or you clear extension storage</td></tr>
+          <tr class="border-b border-white/5"><td class="py-2 pr-4">Preferences</td><td class="py-2 pr-4">Feed filters, Pin Doctor panel position, dimension toggles, scoring mode</td><td class="py-2 pr-4">Restore your setup between sessions</td><td class="py-2">Until you change them or uninstall</td></tr>
+          <tr class="border-b border-white/5"><td class="py-2 pr-4">Score history</td><td class="py-2 pr-4">Recent Pin URLs, titles, descriptions, scores, and timestamps for Pins you scored</td><td class="py-2 pr-4">Power the side panel, refresh scores, and enable CSV export (Pro)</td><td class="py-2">Cleared on browser restart. You can also clear it any time in Options &rarr; Data &amp; Privacy.</td></tr>
+          <tr class="border-b border-white/5"><td class="py-2 pr-4">Free-tier counters</td><td class="py-2 pr-4">Monthly Pin Doctor check count and suggestion count</td><td class="py-2 pr-4">Enforce Free-tier limits</td><td class="py-2">Reset monthly, cleared on uninstall</td></tr>
+          <tr><td class="py-2 pr-4">Subscription state</td><td class="py-2 pr-4">Cached tier (Free / Pro), trial start date, plan nickname from ExtensionPay</td><td class="py-2 pr-4">Unlock Pro features between checks</td><td class="py-2">Refreshed periodically; cleared on uninstall</td></tr>
         </tbody>
       </table>
     </div>
-    <p class="text-gray-300 mt-4">We do <strong>NOT</strong> collect:</p>
-    <ul class="text-gray-300">
-      <li>Your Pinterest account credentials or login tokens</li>
-      <li>Pin images (analyzed 100% locally in your browser)</li>
-      <li>Browsing history or pages visited beyond Pinterest</li>
-      <li>Any personally identifiable information without explicit account creation</li>
-    </ul>
 
     <h2 class="text-xl font-semibold text-white mt-10">4. What Leaves Your Browser</h2>
-    <p class="text-gray-300">When you trigger an AI score or rewrite, the extension sends:</p>
-    <ul class="text-gray-300">
-      <li>Anonymous device ID (no name, no email)</li>
-      <li>Pin title and description text (ephemeral — processed and immediately discarded, never stored)</li>
-      <li>Diagnostic metadata (extension version, browser version)</li>
-    </ul>
-    <p class="text-gray-300"><strong>Image analysis is 100% local</strong> — pin images never leave your browser.</p>
-    <p class="text-gray-300">All transmission is encrypted via HTTPS / TLS 1.3.</p>
-    <p class="text-gray-300"><strong>Important</strong>: Pin text is sent to Azure OpenAI (Microsoft) for AI scoring. The text is processed ephemerally and is not stored by us or used for model training. See Microsoft's <a href="https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy" class="text-brand-400 hover:underline" target="_blank" rel="noopener">data privacy commitments</a>.</p>
-
-    <h2 class="text-xl font-semibold text-white mt-10">5. Third-Party Services</h2>
+    <p class="text-gray-300"><strong>While you browse Pinterest and while the Pin Doctor scores your draft locally, no Pin content leaves your browser.</strong></p>
+    <p class="text-gray-300">Data is sent to our backend only when you click one of the following actions:</p>
     <div class="overflow-x-auto">
       <table class="text-sm text-gray-300 w-full">
-        <thead><tr class="border-b border-white/10"><th class="text-left py-2 pr-4">Service</th><th class="text-left py-2 pr-4">Data shared</th><th class="text-left py-2 pr-4">Purpose</th></tr></thead>
+        <thead><tr class="border-b border-white/10"><th class="text-left py-2 pr-4">Action</th><th class="text-left py-2 pr-4">What is sent</th><th class="text-left py-2">Where it goes</th></tr></thead>
         <tbody>
-          <tr class="border-b border-white/5"><td class="py-2 pr-4">Microsoft Azure OpenAI</td><td class="py-2 pr-4">Pin text (ephemeral)</td><td class="py-2 pr-4">AI scoring &amp; rewrite</td></tr>
-          <tr class="border-b border-white/5"><td class="py-2 pr-4">Microsoft Azure</td><td class="py-2 pr-4">Encrypted request relay</td><td class="py-2 pr-4">Backend hosting</td></tr>
-          <tr><td class="py-2 pr-4">PostHog</td><td class="py-2 pr-4">Anonymous usage events</td><td class="py-2 pr-4">Product analytics</td></tr>
+          <tr class="border-b border-white/5"><td class="py-2 pr-4">Suggest a stronger title / description / topics</td><td class="py-2 pr-4">Anonymous device ID, the draft title / description / topics, the selected board name (for context), extension version</td><td class="py-2">Our Azure backend, which forwards to Azure OpenAI (Microsoft) for a single AI call</td></tr>
+          <tr class="border-b border-white/5"><td class="py-2 pr-4">Check board match</td><td class="py-2 pr-4">Anonymous device ID, the draft Pin text, the selected board name, extension version</td><td class="py-2">Our Azure backend, which forwards to Azure OpenAI embeddings for a similarity score</td></tr>
+          <tr><td class="py-2 pr-4">Anonymous analytics events</td><td class="py-2 pr-4">Anonymous device ID, event name (for example <code>doctor_opened</code>, <code>ai_action_completed</code>), extension version, browser locale. No Pin content.</td><td class="py-2">PostHog (product analytics)</td></tr>
         </tbody>
       </table>
     </div>
-    <p class="text-gray-300 mt-4">We do <strong>NOT</strong> sell, share, or rent your data to advertisers or data brokers.</p>
+    <p class="text-gray-300 mt-4"><strong>Image analysis is 100% local.</strong> The extension reads pixels from Pinterest CDN images via the browser Canvas API to check aspect ratio, resolution, and text overlay density. Pixel data is discarded immediately and never uploaded.</p>
+    <p class="text-gray-300"><strong>Pinello never types into Pinterest for you.</strong> AI suggestions are copy-only: they land on your clipboard for you to paste.</p>
+    <p class="text-gray-300">All backend transmission uses HTTPS / TLS 1.3.</p>
 
-    <h2 class="text-xl font-semibold text-white mt-10">6. Your Rights</h2>
-    <h3 class="text-lg font-medium text-white mt-6">GDPR (EU users)</h3>
+    <h2 class="text-xl font-semibold text-white mt-10">5. Backend Caches</h2>
+    <p class="text-gray-300">Our backend caches limited data to avoid double-charging you for repeated actions and to keep the service fast:</p>
+    <ul class="text-gray-300">
+      <li><strong>AI suggestion cache</strong>: generated alternative title / description / topics text, keyed by a hash of the input. Retained for approximately 24 hours.</li>
+      <li><strong>Board Match cache</strong>: similarity score for a given (Pin text, board name) pair, keyed by a hash of the input. Retained for approximately 30 days.</li>
+      <li><strong>Fair-use usage records</strong>: anonymous device ID plus per-action counters used to enforce Free-tier limits and Pro fair-use caps. Retained for approximately 32 days.</li>
+    </ul>
+    <p class="text-gray-300">Caches are keyed by anonymous device ID and content hash only. They are not sold, shared with third parties, or used for advertising.</p>
+
+    <h2 class="text-xl font-semibold text-white mt-10">6. What We Do NOT Collect</h2>
+    <ul class="text-gray-300">
+      <li>Your Pinterest account credentials, session tokens, or login information</li>
+      <li>Pin images (all image analysis is local and pixel data is discarded)</li>
+      <li>Browsing history or activity outside of pinterest.com and pinimg.com</li>
+      <li>Your name, email, or other personally identifiable information &mdash; unless you email us for support</li>
+      <li>Payment card details (handled by Stripe via ExtensionPay; we never see card data)</li>
+    </ul>
+
+    <h2 class="text-xl font-semibold text-white mt-10">7. Third-Party Services</h2>
+    <div class="overflow-x-auto">
+      <table class="text-sm text-gray-300 w-full">
+        <thead><tr class="border-b border-white/10"><th class="text-left py-2 pr-4">Service</th><th class="text-left py-2 pr-4">Data shared</th><th class="text-left py-2">Purpose</th></tr></thead>
+        <tbody>
+          <tr class="border-b border-white/5"><td class="py-2 pr-4">Microsoft Azure OpenAI</td><td class="py-2 pr-4">Draft Pin text (title / description / topics / board name), when you trigger a suggestion or Board Match</td><td class="py-2">AI suggestion and embedding generation. Processed under Microsoft&rsquo;s <a href="https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy" class="text-brand-400 hover:underline" target="_blank" rel="noopener">Azure OpenAI data privacy commitments</a>. Not used to train Microsoft&rsquo;s foundation models.</td></tr>
+          <tr class="border-b border-white/5"><td class="py-2 pr-4">Microsoft Azure (backend)</td><td class="py-2 pr-4">Encrypted request relay, Cosmos DB usage records, cache entries</td><td class="py-2">Backend hosting and rate limiting</td></tr>
+          <tr class="border-b border-white/5"><td class="py-2 pr-4">PostHog</td><td class="py-2 pr-4">Anonymous device ID, event names, extension version. IP address is used server-side by PostHog for coarse geolocation, then discarded per PostHog policy.</td><td class="py-2">Product analytics</td></tr>
+          <tr class="border-b border-white/5"><td class="py-2 pr-4">Sentry</td><td class="py-2 pr-4">Error stack traces and extension version</td><td class="py-2">Bug tracking. We scrub known content fields but you should not paste Pin content into error dialogs.</td></tr>
+          <tr><td class="py-2 pr-4">ExtensionPay / Stripe</td><td class="py-2 pr-4">Your email address and payment information (when you subscribe)</td><td class="py-2">Subscription billing. See <a href="https://extensionpay.com" class="text-brand-400 hover:underline" target="_blank" rel="noopener">ExtensionPay</a> and <a href="https://stripe.com/privacy" class="text-brand-400 hover:underline" target="_blank" rel="noopener">Stripe</a> policies.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="text-gray-300 mt-4">We do NOT sell, share, or rent your data to advertisers or data brokers.</p>
+
+    <h2 class="text-xl font-semibold text-white mt-10">8. Your Rights</h2>
+    <h3 class="text-lg font-medium text-white mt-6">GDPR (EU / UK users)</h3>
     <ul class="text-gray-300">
       <li>Right to access, rectify, erase, restrict, or port your data</li>
       <li>Right to object to processing</li>
@@ -72,7 +93,7 @@ import Base from '../../../layouts/Base.astro';
     <ul class="text-gray-300">
       <li>Right to know what we collect</li>
       <li>Right to delete</li>
-      <li>Right to opt out of "sale" or "sharing" — we do not sell or share your data</li>
+      <li>Right to opt out of &ldquo;sale&rdquo; or &ldquo;sharing&rdquo; &mdash; we do not sell or share your data</li>
       <li>Right to non-discrimination</li>
     </ul>
     <h3 class="text-lg font-medium text-white mt-6">PIPEDA (Canadian users)</h3>
@@ -83,36 +104,40 @@ import Base from '../../../layouts/Base.astro';
     </ul>
     <p class="text-gray-300 mt-4">For any rights request: <a href="mailto:hello@amrita-labs.com" class="text-brand-400 hover:underline">hello@amrita-labs.com</a></p>
 
-    <h2 class="text-xl font-semibold text-white mt-10">7. Data Retention &amp; Deletion</h2>
+    <h2 class="text-xl font-semibold text-white mt-10">9. Data Retention Summary</h2>
     <ul class="text-gray-300">
-      <li>Anonymous device ID: retained while active, deleted upon request</li>
-      <li>Usage events: up to 24 months, then deleted</li>
-      <li>Error logs: up to 90 days</li>
+      <li>Local score history: cleared on browser restart; you can clear at any time in Options.</li>
+      <li>Local preferences and device ID: retained until you clear extension storage or uninstall.</li>
+      <li>Backend AI suggestion cache: approximately 24 hours.</li>
+      <li>Backend Board Match cache: approximately 30 days.</li>
+      <li>Backend fair-use usage records: approximately 32 days.</li>
+      <li>PostHog anonymous events: retained per PostHog defaults; deletion available on request.</li>
+      <li>Sentry error logs: 90 days.</li>
     </ul>
 
-    <h2 class="text-xl font-semibold text-white mt-10">8. Children's Privacy</h2>
-    <p class="text-gray-300">This extension is not intended for users under 13 (COPPA) or under 16 in the EU (GDPR). We do not knowingly collect data from children.</p>
+    <h2 class="text-xl font-semibold text-white mt-10">10. Children&rsquo;s Privacy</h2>
+    <p class="text-gray-300">Pinello is not intended for users under 13 (COPPA) or under 16 in the EU (GDPR). We do not knowingly collect data from children.</p>
 
-    <h2 class="text-xl font-semibold text-white mt-10">9. Security</h2>
+    <h2 class="text-xl font-semibold text-white mt-10">11. Security</h2>
     <ul class="text-gray-300">
       <li>All data in transit: HTTPS / TLS 1.3</li>
-      <li>Backend secrets: Azure Key Vault (never hardcoded)</li>
-      <li>Per-user daily spend caps prevent abuse</li>
-      <li>No API keys or secrets in the extension code</li>
+      <li>Backend secrets held in Azure Key Vault; no API keys or secrets are shipped inside the extension</li>
+      <li>Per-user and global spend caps prevent abuse of the AI backend</li>
+      <li>Suggestions and Board Match are AI features and can hallucinate &mdash; you are responsible for reviewing text before publishing</li>
     </ul>
 
-    <h2 class="text-xl font-semibold text-white mt-10">10. AI Disclosure</h2>
-    <p class="text-gray-300">This extension uses AI (GPT-4.1-mini via Azure OpenAI) to score pin text and generate alternatives. All AI-generated content is clearly labeled in the interface.</p>
+    <h2 class="text-xl font-semibold text-white mt-10">12. AI Disclosure</h2>
+    <p class="text-gray-300">Pinello uses AI (currently GPT-4.1-mini and <code>text-embedding-3-small</code> via Azure OpenAI) to generate title / description / topics suggestions and to score Board Match. AI is invoked only when you click a suggestion or Board Match button. AI outputs are labelled in the interface, are copy-only (never auto-inserted), and are not guaranteed to improve Pinterest performance.</p>
 
-    <h2 class="text-xl font-semibold text-white mt-10">11. Changes to This Policy</h2>
-    <p class="text-gray-300">We may update this policy at any time. Material changes will be communicated via an in-extension banner and by updating the "Last Updated" date above. Continued use after changes constitutes acceptance.</p>
+    <h2 class="text-xl font-semibold text-white mt-10">13. Changes to This Policy</h2>
+    <p class="text-gray-300">We may update this policy at any time. Material changes will be signalled by updating the &ldquo;Last Updated&rdquo; date above and, when reasonably feasible, by an in-Extension notice. Continued use after changes constitutes acceptance.</p>
 
-    <h2 class="text-xl font-semibold text-white mt-10">12. Contact</h2>
-    <p class="text-gray-300">For any privacy questions: <a href="mailto:hello@amrita-labs.com" class="text-brand-400 hover:underline">hello@amrita-labs.com</a></p>
+    <h2 class="text-xl font-semibold text-white mt-10">14. Contact</h2>
+    <p class="text-gray-300">For any privacy questions or rights requests: <a href="mailto:hello@amrita-labs.com" class="text-brand-400 hover:underline">hello@amrita-labs.com</a></p>
   </article>
 
   <div class="max-w-3xl mx-auto px-6 pb-12 flex gap-6 text-xs text-gray-500">
-    <a href="/pinello/" class="hover:text-gray-400">← Back to Pinello</a>
+    <a href="/pinello/" class="hover:text-gray-400">&larr; Back to Pinello</a>
     <a href="/pinello/terms/" class="hover:text-gray-400">Terms of Service</a>
   </div>
 </Base>

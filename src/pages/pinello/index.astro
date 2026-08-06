@@ -4,116 +4,115 @@ import WhatIsBlock from '../../components/WhatIsBlock.astro';
 import RelatedContentBlock from '../../components/RelatedContentBlock.astro';
 import FaqItem from '../../components/FaqItem.astro';
 
-const cwsLink = 'https://chromewebstore.google.com/detail/pinello/kmelegdnljikegoemigfgnpcbllmkije';
+const cwsLink = 'https://chromewebstore.google.com/detail/pinello-%E2%80%94-pinterest-pin-s/kmelegdnljikegoemigfgnpcbllmkije';
 const heroImage = '/assets/screenshots/pinello/hero.png';
 const iconPath = '/assets/icons/pinello.png';
+
+const heroTitle = 'Prepare stronger Pinterest Pins before you publish.';
+const heroSubtitle =
+  'Pinello shows what to fix first, helps you improve the copy, and checks whether your Pin matches the board you chose — without leaving Pinterest.';
+
+const surfaces = [
+  {
+    step: '1. Browse',
+    name: 'Feed Score',
+    body: 'Fast quality signal from visible Pin cues while you scroll — image ratio, engagement, and any title on the card.',
+  },
+  {
+    step: '2. Inspect',
+    name: 'Pin Detail Score',
+    body: 'Uses fuller detail-page signals — the full title, description, board, saves, and dimensions Pinterest exposes when you open a Pin.',
+  },
+  {
+    step: '3. Improve',
+    name: 'Pin Doctor',
+    body: 'Your pre-publish check inside the Create Pin workflow — reviews image, title, description, topics, and Board Match.',
+  },
+];
 
 const features = [
   {
     icon: '🏷️',
-    title: 'Feed score badges',
+    title: 'Feed Score badges',
     tier: 'FREE',
-    description: 'See green, yellow, and red score badges on pins in your feed so strong ideas pop fast.',
+    description: 'A quick quality signal on every Pin card in your feed. Colour-coded so weak drafts and stale layouts are easy to spot.',
   },
   {
     icon: '📌',
-    title: 'Pin detail stats',
+    title: 'Pin Detail Score & stats',
     tier: 'FREE',
-    description: 'Open a pin and check saves, repins, and comments without clicking around Pinterest.',
+    description: 'Open a Pin to see saves, engagement per day, board, and a refreshed score based on the fuller detail-page data.',
   },
   {
-    icon: '🤖',
-    title: 'AI scoring on creation',
+    icon: '🩺',
+    title: 'Pin Doctor',
     tier: 'FREE',
-    meta: '10/mo',
-    description: 'Score your draft before you publish. Pinello checks the title, description, image, board fit, and more.',
+    meta: '20 checks/month',
+    description: 'A pre-publish check inside Create Pin. Local scoring across image, title, description, topics, and board match.',
+  },
+  {
+    icon: '🚫',
+    title: 'Hide Ads',
+    tier: 'FREE',
+    description: 'Hide promoted and sponsored Pins on the Pinterest feed while you research.',
   },
   {
     icon: '✍️',
-    title: 'AI rewrites',
+    title: 'Suggestions',
     tier: 'PRO',
-    description: 'When a title or description feels flat, get cleaner rewrite ideas in one click.',
+    description: 'Strengthen title, improve description, refine topics. Copy-only — you paste each suggestion into Pinterest yourself.',
+  },
+  {
+    icon: '🎯',
+    title: 'Board Match check',
+    tier: 'PRO',
+    description: 'Explicit AI check of how well your Pin text matches the board you selected. On-demand only — never automatic.',
   },
   {
     icon: '🔎',
-    title: 'Sort and filter feed',
+    title: 'Feed sorting & Hide AI Pins',
     tier: 'PRO',
-    description: 'Sort by score, hide weak pins, and scan Pinterest with less guesswork.',
+    description: 'Reorder the feed by your locally computed Pin scores and hide Pins Pinterest marks as AI-made.',
   },
   {
     icon: '📤',
     title: 'CSV export',
     tier: 'PRO',
-    description: 'Export scored pin data for audits, content planning, or quick creator handoffs.',
+    description: 'Export scored Pin data for audits, content planning, or handoffs to a virtual assistant.',
   },
-  {
-    icon: '🧪',
-    title: 'SEO audit',
-    tier: 'PRO+',
-    meta: 'Coming soon',
-    description: 'See where your title, description, and keywords are helping — or hurting — your Pinterest SEO.',
-  },
-  {
-    icon: '📊',
-    title: 'Viral benchmarking',
-    tier: 'PRO+',
-    meta: 'Coming soon',
-    description: 'Compare your pin against the patterns Pinterest is already rewarding in your niche.',
-  },
-];
-
-const comparisonRows = [
-  { feature: 'Pin scoring', pinello: '✅ AI-powered', pinwise: '❌', manual: '❌' },
-  { feature: 'Feed badges', pinello: '✅', pinwise: '✅', manual: '❌' },
-  { feature: 'Engagement stats', pinello: '✅', pinwise: '✅', manual: 'Click each pin' },
-  { feature: 'AI rewrites', pinello: '✅', pinwise: '❌', manual: '❌' },
-  { feature: 'Pricing', pinello: 'From $0', pinwise: '$7.99/mo', manual: 'Free but slow' },
 ];
 
 const pricingTiers = [
   {
     name: 'Free',
     price: '$0',
-    subtitle: 'Start here. No account. No friction.',
-    cta: 'Install free',
+    subtitle: 'Start here. No account. No credit card.',
+    cta: 'Install Free',
     featured: false,
     href: cwsLink,
     items: [
-      'Feed score badges',
-      '10 AI pin scores per month',
-      'Basic pin detail stats',
-      'Core creator workflow inside Pinterest',
+      'Feed Score on every Pin card',
+      'Pin Detail Score and Pin stats',
+      '20 Pin Doctor checks per month',
+      '5 suggestions per month',
+      'Hide Ads on the feed',
     ],
   },
   {
     name: 'Pro',
-    price: '$5/mo',
-    kicker: 'or $29 lifetime',
-    subtitle: 'For creators who want faster feedback every day.',
-    cta: 'Get Pro',
+    price: '$8.99',
+    priceUnit: '/month',
+    kicker: 'or $79/year (save ~27%)',
+    subtitle: 'For creators who want to publish stronger drafts every day.',
+    cta: 'Start 7-day free trial',
     featured: true,
     href: cwsLink,
     items: [
-      'Unlimited AI scores',
-      'AI rewrites',
-      'CSV export',
-      'Sort and filter feed',
-    ],
-  },
-  {
-    name: 'Pro+',
-    price: '$12/mo',
-    kicker: 'or $59 lifetime',
-    subtitle: 'For deeper SEO checks and competitive context.',
-    cta: 'Coming soon',
-    featured: false,
-    comingSoon: true,
-    href: '#pricing',
-    items: [
-      'SEO audit',
-      'Viral benchmarks',
-      'Future advanced research tools',
-      'Priority access to new Pinello features',
+      'Suggestions that strengthen title, description, and topics',
+      'Board Match check against your selected board',
+      'Feed sorting and Hide AI Pins',
+      'CSV export of scored Pins',
+      'Priority support at hello@amrita-labs.com',
     ],
   },
 ];
@@ -121,42 +120,50 @@ const pricingTiers = [
 const steps = [
   {
     title: 'Install',
-    description: 'Add Pinello from the Chrome Web Store. Open Pinterest like you normally do.',
+    description: 'Add Pinello from the Chrome Web Store. Open Pinterest and start browsing like usual.',
   },
   {
-    title: 'Browse Pinterest',
-    description: 'Scroll the feed, open pins, or start a new draft. Pinello works right on the page.',
+    title: 'See the Feed Score',
+    description: 'Every Pin card gets a quality signal. Click any badge to see the score breakdown in the side panel.',
   },
   {
-    title: 'See scores everywhere',
-    description: 'Spot strong pins, check hidden stats, and fix weak copy before you hit publish.',
+    title: 'Improve inside Create Pin',
+    description: 'When you draft a Pin, the Pin Doctor opens alongside the Create form and tells you what to fix first.',
   },
 ];
 
 const faqs = [
   {
-    question: 'How does Pinello work?',
-    answer: 'Pinello runs inside Pinterest in Chrome. It reads the data Pinterest already sends to your browser, adds score badges in the feed, and helps you score draft pins before publishing.',
+    question: 'What does the Feed Score on a Pin card mean?',
+    answer: 'It is a quick quality signal from the visible cues Pinterest exposes on the feed — image ratio, engagement, and any title text on the card. It is not a prediction of clicks or reach.',
   },
   {
-    question: 'Is Pinello free?',
-    answer: 'Yes. The free tier includes feed score badges, basic stats, and 10 AI pin scores per month. You only upgrade if you want more scoring volume, rewrites, exports, or advanced tools.',
+    question: 'Why does the Pin Detail Score differ from the Feed Score?',
+    answer: 'The Pin closeup exposes fuller data — full title, description, board name, save count, dimensions — so Pinello recomputes the score with more signal. Both numbers are honest for the data they had access to.',
   },
   {
-    question: 'What data does Pinello use?',
-    answer: 'Pinello uses Pinterest page data already loaded in your browser plus the title and description text you ask it to score. Image analysis stays local, and AI requests are processed ephemerally for scoring and rewrites.',
+    question: 'What is the Pin Doctor?',
+    answer: 'A pre-publish check inside the Create Pin workflow. It reviews image format, title, description, topics, and how well your Pin matches the board you selected. Structural scoring is local; AI suggestions and Board Match run only when you click the button.',
   },
   {
-    question: 'Does Pinello store my Pinterest content?',
-    answer: 'No. Pin images stay in your browser. Pin text is only sent when you trigger AI scoring or rewrites, and it is not stored as a content database.',
+    question: 'Will Pinello guarantee I get more saves, clicks, or reach?',
+    answer: 'No. Pinello does not guarantee saves, clicks, reach, or ranking on Pinterest. It helps you prepare stronger drafts — what Pinterest does with them is outside our control.',
   },
   {
-    question: 'Do I need a Pinterest business account?',
-    answer: 'No. If you can open Pinterest in Chrome, you can use Pinello. No separate Pinello account is required for the free tier.',
+    question: 'What does Pro cost?',
+    answer: '$8.99 per month or $79 per year, with a 7-day free trial. There is no lifetime plan. Cancel any time through the checkout portal.',
   },
   {
-    question: 'What is the refund policy?',
-    answer: 'Paid upgrades are handled through checkout, and refund requests are reviewed case by case. Email hello@amrita-labs.com and we will help.',
+    question: 'What data does Pinello send to servers?',
+    answer: 'Nothing while you browse. Only when you explicitly click a suggestion or Board Match does the extension send the relevant draft text (title, description, board name) to our Azure backend for a single AI call. Pin images are analysed locally in your browser and never uploaded.',
+  },
+  {
+    question: 'Do you store my Pin content?',
+    answer: 'Locally, yes — recent scores are cached so the side panel and CSV export work; the score history is cleared on browser restart. Server-side, we cache AI-generated alternatives for 24 hours and Board Match similarity for 30 days so repeated requests do not double-charge you.',
+  },
+  {
+    question: 'Do you offer refunds?',
+    answer: 'Refund requests are handled case-by-case at Amrita Labs\u2019 discretion. Email hello@amrita-labs.com.',
   },
 ];
 
@@ -166,19 +173,40 @@ const schema = {
     {
       '@type': 'SoftwareApplication',
       name: 'Pinello',
-      description: 'Pinello is a free Pinterest pin scorer and Pinterest SEO tool for Chrome. Score pins, see Pinterest analytics, and improve titles and descriptions before you publish.',
+      description:
+        'Pinello is a pre-publish quality check for Pinterest creators. It surfaces Feed Score and Pin Detail Score as you browse, and opens the Pin Doctor inside Create Pin to review image, title, description, topics, and board match before you publish.',
       applicationCategory: 'BrowserExtension',
-      applicationSubCategory: 'Pinterest SEO tool',
+      applicationSubCategory: 'Pinterest creator tool',
       operatingSystem: 'Chrome',
       image: iconPath,
       screenshot: heroImage,
       featureList: features.map((feature) => `${feature.title} (${feature.tier}${feature.meta ? `, ${feature.meta}` : ''})`),
       offers: [
-        { '@type': 'Offer', name: 'Free', price: '0', priceCurrency: 'USD', description: 'Feed score badges, 10 AI scores per month, and basic pin stats.' },
-        { '@type': 'Offer', name: 'Pro', price: '5', priceCurrency: 'USD', billingDuration: 'P1M', description: 'Unlimited AI scores, AI rewrites, export, and feed sort/filter.' },
-        { '@type': 'Offer', name: 'Pro+', price: '12', priceCurrency: 'USD', billingDuration: 'P1M', description: 'SEO audit and viral benchmarking tools, coming soon.' },
+        {
+          '@type': 'Offer',
+          name: 'Free',
+          price: '0',
+          priceCurrency: 'USD',
+          description: 'Feed Score badges, Pin Detail Score and stats, 20 Pin Doctor checks per month, 5 suggestions per month, Hide Ads.',
+        },
+        {
+          '@type': 'Offer',
+          name: 'Pro (monthly)',
+          price: '8.99',
+          priceCurrency: 'USD',
+          billingDuration: 'P1M',
+          description: 'Suggestions, Board Match, feed sorting, Hide AI Pins, CSV export. 7-day free trial.',
+        },
+        {
+          '@type': 'Offer',
+          name: 'Pro (annual)',
+          price: '79',
+          priceCurrency: 'USD',
+          billingDuration: 'P1Y',
+          description: 'All Pro features on annual billing. 7-day free trial.',
+        },
       ],
-      keywords: 'Pinterest SEO tool, pin scorer, Pinterest analytics, Pinterest pin scorer',
+      keywords: 'Pinterest pin scorer, Pinterest pin quality check, Pin Doctor, board match, Pinterest creator tool',
       url: 'https://amrita-labs.com/pinello/',
       installUrl: cwsLink,
       author: { '@type': 'Organization', name: 'Amrita Labs', url: 'https://amrita-labs.com' },
@@ -199,8 +227,8 @@ const schema = {
 ---
 
 <Base
-  title="Pinello — Pinterest Pin Scorer & SEO Tool | Free Chrome Extension"
-  description="Pinello is a free Pinterest SEO tool and Pinterest pin scorer for Chrome. Score pins, see Pinterest analytics, and rewrite weak titles before you publish."
+  title="Pinello — Pin Doctor for Pinterest creators | Chrome extension"
+  description="Prepare stronger Pinterest Pins before you publish. Pinello shows what to fix first, helps you improve the copy, and checks board match — inside Pinterest."
   canonical="https://amrita-labs.com/pinello/"
   schema={schema}
   ogImage={heroImage}
@@ -222,11 +250,9 @@ const schema = {
             <span class="text-xs font-semibold uppercase tracking-[0.18em] text-emerald-200">Chrome Extension</span>
           </div>
           <h1 class="mt-6 text-4xl font-extrabold leading-tight tracking-tight text-white sm:text-5xl">
-            Pinello is the<br />Pinterest Pin Scorer.
+            {heroTitle}
           </h1>
-          <p class="mt-6 text-lg leading-relaxed text-gray-300">
-            Score your pins, see what is working, and clean up weak copy before you publish — right inside Pinterest.
-          </p>
+          <p class="mt-6 text-lg leading-relaxed text-gray-300">{heroSubtitle}</p>
           <div class="mt-8 flex flex-wrap gap-3">
             <a href={cwsLink} class="inline-flex items-center gap-2 rounded-full bg-emerald-400 px-6 py-3 text-sm font-semibold text-surface-950 shadow-lg shadow-emerald-400/20 transition-colors hover:bg-emerald-300">
               Install on Chrome Web Store
@@ -235,40 +261,41 @@ const schema = {
               See pricing
             </a>
           </div>
-          <p class="mt-3 text-xs text-gray-400">Free to start · Built for creators · Upgrade only if you need more power</p>
+          <p class="mt-3 text-xs text-gray-400">Free to start · 7-day Pro trial · Cancel any time in checkout</p>
           <div class="mt-8 inline-flex items-center gap-2 rounded-full border border-sky-400/20 bg-sky-950/40 px-4 py-2 text-sm text-sky-100">
             <span class="inline-flex h-2 w-2 rounded-full bg-emerald-300"></span>
-            A Pinterest SEO tool that stays in your workflow. No copy-paste circus.
+            Copy-only AI. Pinello never types into Pinterest for you.
           </div>
         </div>
 
         <div class="relative mx-auto w-full max-w-xl">
-          <div class="absolute -left-4 top-8 hidden rounded-2xl border border-emerald-400/20 bg-surface-900/95 p-4 shadow-2xl shadow-black/30 md:block">
-            <div class="text-[10px] font-bold uppercase tracking-[0.2em] text-emerald-300">Free</div>
-            <div class="mt-2 text-sm font-semibold text-white">Feed Score Badges</div>
-            <p class="mt-1 max-w-[180px] text-xs leading-relaxed text-gray-400">Scan your feed faster with green, yellow, and red score overlays.</p>
-          </div>
           <div class="overflow-hidden rounded-[28px] border border-white/10 bg-white/5 p-3 shadow-2xl shadow-black/30 backdrop-blur">
             <div class="overflow-hidden rounded-[22px] border border-white/10 bg-white">
-              <img src={heroImage} alt="Pinello showing Pinterest pin scores inside the Pinterest workflow" class="w-full h-auto" loading="lazy" />
+              <img src={heroImage} alt="Pinello showing the Feed Score, Pin Detail Score, and Pin Doctor inside Pinterest" class="w-full h-auto" loading="lazy" />
             </div>
-          </div>
-          <div class="absolute -right-3 bottom-6 rounded-2xl border border-sky-400/20 bg-surface-900/95 p-4 shadow-2xl shadow-black/30 sm:max-w-[220px]">
-            <div class="text-[10px] font-bold uppercase tracking-[0.2em] text-sky-300">Pro</div>
-            <div class="mt-2 text-sm font-semibold text-white">Rewrites, export, and feed controls</div>
-            <p class="mt-1 text-xs leading-relaxed text-gray-400">Good when you are posting often and want cleaner decisions, faster.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="border-y border-white/5 bg-surface-900">
-    <div class="max-w-6xl mx-auto px-6 py-5">
-      <div class="flex flex-wrap items-center justify-center gap-5 text-center text-sm font-medium text-gray-300">
-        <span class="inline-flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-emerald-300"></span>Pinterest pin scorer</span>
-        <span class="inline-flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-emerald-300"></span>Pinterest analytics on the page</span>
-        <span class="inline-flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-emerald-300"></span>Free tier + paid upgrades</span>
+  <section id="how" class="border-y border-white/5 bg-surface-900">
+    <div class="max-w-6xl mx-auto px-6 py-20">
+      <div class="max-w-2xl">
+        <h2 class="text-xs font-semibold uppercase tracking-widest text-gray-400">The three surfaces</h2>
+        <h3 class="mt-4 text-3xl font-bold tracking-tight text-white sm:text-4xl">Browse. Inspect. Improve.</h3>
+        <p class="mt-4 text-lg leading-relaxed text-gray-400">
+          Each surface uses the data actually available at that moment. That is why the Feed Score, the Pin Detail Score, and the Pin Doctor can look different — and that is a feature, not a bug.
+        </p>
+      </div>
+      <div class="mt-10 grid gap-6 md:grid-cols-3 animate-in">
+        {surfaces.map((surface) => (
+          <div class="rounded-2xl border border-white/5 bg-surface-800 p-6 shadow-sm shadow-black/20">
+            <div class="text-[11px] font-bold uppercase tracking-[0.18em] text-emerald-300">{surface.step}</div>
+            <h4 class="mt-3 text-xl font-semibold text-white">{surface.name}</h4>
+            <p class="mt-3 text-sm leading-relaxed text-gray-400">{surface.body}</p>
+          </div>
+        ))}
       </div>
     </div>
   </section>
@@ -276,10 +303,10 @@ const schema = {
   <section id="features" class="bg-surface-950">
     <div class="max-w-6xl mx-auto px-6 py-20">
       <div class="max-w-2xl">
-        <h2 class="text-xs font-semibold uppercase tracking-widest text-gray-400">Feature overview</h2>
-        <h3 class="mt-4 text-3xl font-bold tracking-tight text-white sm:text-4xl">See what you get at every tier.</h3>
+        <h2 class="text-xs font-semibold uppercase tracking-widest text-gray-400">What you get</h2>
+        <h3 class="mt-4 text-3xl font-bold tracking-tight text-white sm:text-4xl">Signals while you browse. A pre-publish check when it matters.</h3>
         <p class="mt-4 text-lg leading-relaxed text-gray-400">
-          Pinello starts with the everyday stuff. Score badges. Stats. Simple answers. Then it layers on the creator tools you actually use.
+          Structural scoring is fully local. AI suggestions and Board Match run only when you click the button — never automatically.
         </p>
       </div>
 
@@ -293,7 +320,6 @@ const schema = {
                   'rounded-full border px-2.5 py-1 text-[10px] font-bold uppercase tracking-[0.18em]',
                   feature.tier === 'FREE' && 'border-emerald-400/20 bg-emerald-950/70 text-emerald-200',
                   feature.tier === 'PRO' && 'border-sky-400/20 bg-sky-950/70 text-sky-200',
-                  feature.tier === 'PRO+' && 'border-fuchsia-400/20 bg-fuchsia-950/70 text-fuchsia-200',
                 ]}>
                   {feature.tier}
                 </span>
@@ -312,51 +338,16 @@ const schema = {
     </div>
   </section>
 
-  <section class="border-t border-white/5 bg-surface-900">
-    <div class="max-w-6xl mx-auto px-6 py-20">
-      <div class="max-w-2xl">
-        <h2 class="text-xs font-semibold uppercase tracking-widest text-gray-400">Pinello vs the alternatives</h2>
-        <h3 class="mt-4 text-3xl font-bold tracking-tight text-white sm:text-4xl">You can guess. You can click everything manually. Or you can move faster.</h3>
-        <p class="mt-4 text-lg leading-relaxed text-gray-400">
-          PinWise is a solid research-style tool. Manual checking costs time. Pinello focuses on the creator moment: what should I post, and how do I make it better?
-        </p>
-      </div>
-
-      <div class="mt-10 overflow-x-auto rounded-3xl border border-white/5 bg-surface-800">
-        <table class="min-w-full text-left text-sm text-gray-300">
-          <thead class="bg-white/5 text-xs uppercase tracking-[0.18em] text-gray-400">
-            <tr>
-              <th class="px-6 py-4 font-semibold">Feature</th>
-              <th class="px-6 py-4 font-semibold text-white">Pinello</th>
-              <th class="px-6 py-4 font-semibold">PinWise</th>
-              <th class="px-6 py-4 font-semibold">Manual</th>
-            </tr>
-          </thead>
-          <tbody>
-            {comparisonRows.map((row) => (
-              <tr class="border-t border-white/5">
-                <td class="px-6 py-4 font-medium text-white">{row.feature}</td>
-                <td class="px-6 py-4">{row.pinello}</td>
-                <td class="px-6 py-4">{row.pinwise}</td>
-                <td class="px-6 py-4">{row.manual}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </section>
-
   <section id="pricing" class="max-w-6xl mx-auto px-6 py-20">
     <div class="max-w-2xl">
       <h2 class="text-xs font-semibold uppercase tracking-widest text-gray-400">Pricing</h2>
-      <h3 class="mt-4 text-3xl font-bold tracking-tight text-white sm:text-4xl">Three tiers. Simple choices.</h3>
+      <h3 class="mt-4 text-3xl font-bold tracking-tight text-white sm:text-4xl">Two plans. Honest scope.</h3>
       <p class="mt-4 text-lg leading-relaxed text-gray-400">
-        Use the free tier until it earns its keep. Upgrade when you want more scoring, rewrites, and deeper Pinterest analytics.
+        Use Free until it earns its keep. Upgrade to Pro when you want suggestions, Board Match, feed controls, and CSV export.
       </p>
     </div>
 
-    <div class="mt-12 grid gap-6 lg:grid-cols-3 animate-in">
+    <div class="mt-12 grid gap-6 lg:grid-cols-2 animate-in">
       {pricingTiers.map((tier) => (
         <div class:list={[
           'rounded-3xl border bg-surface-900 p-8 shadow-sm shadow-black/20',
@@ -364,11 +355,14 @@ const schema = {
         ]}>
           {tier.featured && (
             <div class="mb-5 inline-flex rounded-full bg-emerald-400 px-3 py-1 text-[10px] font-bold uppercase tracking-[0.18em] text-surface-950">
-              Most popular
+              7-day free trial
             </div>
           )}
           <div class="text-xs font-semibold uppercase tracking-[0.18em] text-gray-400">{tier.name}</div>
-          <div class="mt-4 text-5xl font-extrabold tracking-tight text-white">{tier.price}</div>
+          <div class="mt-4 flex items-baseline gap-2">
+            <span class="text-5xl font-extrabold tracking-tight text-white">{tier.price}</span>
+            {tier.priceUnit && <span class="text-sm text-gray-400">{tier.priceUnit}</span>}
+          </div>
           {tier.kicker && <p class="mt-2 text-sm font-medium text-emerald-200">{tier.kicker}</p>}
           <p class="mt-3 text-sm leading-relaxed text-gray-400">{tier.subtitle}</p>
           <ul class="mt-8 space-y-3 text-sm text-gray-300">
@@ -383,19 +377,20 @@ const schema = {
             href={tier.href}
             class:list={[
               'mt-8 inline-flex w-full items-center justify-center rounded-full px-6 py-3 text-sm font-semibold transition-colors',
-              tier.comingSoon
-                ? 'cursor-default border border-white/10 bg-white/5 text-gray-400'
-                : tier.featured
-                  ? 'bg-emerald-400 text-surface-950 hover:bg-emerald-300'
-                  : 'border border-white/10 bg-white text-surface-950 hover:bg-gray-100',
+              tier.featured
+                ? 'bg-emerald-400 text-surface-950 hover:bg-emerald-300'
+                : 'border border-white/10 bg-white text-surface-950 hover:bg-gray-100',
             ]}
-            aria-disabled={tier.comingSoon ? 'true' : 'false'}
           >
             {tier.cta}
           </a>
         </div>
       ))}
     </div>
+
+    <p class="mt-6 text-xs text-gray-500">
+      Subscriptions billed via ExtensionPay / Stripe. Refunds handled case-by-case at Amrita Labs&rsquo; discretion — email <a href="mailto:hello@amrita-labs.com" class="underline hover:text-gray-300">hello@amrita-labs.com</a>. Pinello does not guarantee saves, clicks, reach, or ranking on Pinterest.
+    </p>
   </section>
 
   <section class="border-y border-white/5 bg-surface-900">
@@ -422,14 +417,14 @@ const schema = {
   <section class="max-w-6xl mx-auto px-6 py-20">
     <div class="rounded-3xl border border-white/5 bg-surface-800 p-8 sm:p-10 lg:flex lg:items-center lg:justify-between lg:gap-10">
       <div class="max-w-2xl">
-        <h2 class="text-2xl font-bold text-white sm:text-3xl">Score your next pin before it goes live.</h2>
+        <h2 class="text-2xl font-bold text-white sm:text-3xl">Prepare stronger Pins before you publish.</h2>
         <p class="mt-3 text-lg leading-relaxed text-gray-400">
-          Pinello is built for creators who want answers in the moment, not another tab full of chores.
+          Install Pinello, keep browsing Pinterest, and let the Feed Score, Pin Detail Score, and Pin Doctor tell you what to fix first.
         </p>
       </div>
       <div class="mt-6 lg:mt-0">
         <a href={cwsLink} class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white px-6 py-3 text-sm font-semibold text-surface-950 transition-colors hover:bg-gray-100">
-          Get Pinello on Chrome
+          Install Pinello on Chrome
         </a>
       </div>
     </div>
@@ -439,7 +434,7 @@ const schema = {
     <div class="max-w-6xl mx-auto px-6 py-20">
       <div class="max-w-2xl">
         <h2 class="text-xs font-semibold uppercase tracking-widest text-gray-400">Frequently asked questions</h2>
-        <h3 class="mt-4 text-3xl font-bold tracking-tight text-white sm:text-4xl">A few quick answers.</h3>
+        <h3 class="mt-4 text-3xl font-bold tracking-tight text-white sm:text-4xl">Clear answers, on the record.</h3>
       </div>
 
       <div class="mt-8 max-w-3xl">
@@ -450,24 +445,16 @@ const schema = {
     </div>
   </section>
 
-  <section class="border-t border-white/5 bg-surface-800">
-    <div class="max-w-6xl mx-auto px-6 py-16 text-center">
-      <h2 class="text-2xl font-bold text-white sm:text-3xl">See what is working. Fix what is not.</h2>
-      <p class="mt-3 text-lg text-gray-400">Install free, browse Pinterest, and let the scores show you where to push harder.</p>
-      <a href={cwsLink} class="mt-8 inline-flex items-center gap-2 rounded-full bg-emerald-400 px-8 py-3 text-sm font-semibold text-surface-950 shadow-lg shadow-emerald-400/20 transition-colors hover:bg-emerald-300">
-        Install Pinello Free
-      </a>
-    </div>
-  </section>
-
   <div class="max-w-6xl mx-auto px-6 py-8 flex flex-wrap gap-6 text-xs text-gray-500">
     <a href="/pinello/privacy/" class="hover:text-gray-400">Privacy Policy</a>
     <a href="/pinello/terms/" class="hover:text-gray-400">Terms of Service</a>
     <a href={cwsLink} class="hover:text-gray-400">Chrome Web Store</a>
     <a href="mailto:hello@amrita-labs.com" class="hover:text-gray-400">hello@amrita-labs.com</a>
-    <a href="/" class="hover:text-gray-400">← Back to Amrita Labs</a>
+    <a href="/" class="hover:text-gray-400">&larr; Back to Amrita Labs</a>
   </div>
-  <WhatIsBlock productName="Pinello" definition="Pinello is a free Chrome extension that scores Pinterest pins across five dimensions — image quality, board fit, title SEO, description SEO, and hashtags — in real time before you publish. It also surfaces hidden pin stats on hover and offers one-click AI rewrites for pin titles and descriptions." />
-  <!-- RelatedContentBlock reverse-index -->
+  <WhatIsBlock
+    productName="Pinello"
+    definition="Pinello is a Chrome extension that helps Pinterest creators prepare stronger Pins before publishing. It surfaces a Feed Score on Pin cards, a Pin Detail Score inside the closeup, and a Pin Doctor pre-publish check inside Create Pin. Structural scoring runs locally in the browser; AI suggestions and Board Match run only when the creator clicks a button. Pinello never types into Pinterest for you and does not guarantee saves, clicks, reach, or ranking."
+  />
   <RelatedContentBlock productSlug="pinello" theme="dark" />
 </Base>

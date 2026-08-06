@@ -10,7 +10,7 @@ export interface ProductEntry {
 
 export const PRODUCTS: ProductEntry[] = [
   { slug: 'gmail-subject-score', name: 'EmailSubjectScore Pro', tagline: 'Score Gmail subject lines in real time', category: 'chrome' },
-  { slug: 'pinello', name: 'Pinello', tagline: 'Score Pinterest pins before you publish', category: 'chrome' },
+  { slug: 'pinello', name: 'Pinello', tagline: 'Prepare stronger Pinterest Pins before you publish', category: 'chrome' },
   { slug: 'privacy-blur-slack', name: 'Privacy Blur for Slack', tagline: 'Blur Slack during screen sharing', category: 'chrome' },
   { slug: 'privacy-blur-discord', name: 'Privacy Blur for Discord', tagline: 'Blur Discord during screen sharing', category: 'chrome' },
   { slug: 'privacy-blur-teams', name: 'Privacy Blur for Microsoft Teams', tagline: 'Blur Teams during screen sharing', category: 'chrome' },

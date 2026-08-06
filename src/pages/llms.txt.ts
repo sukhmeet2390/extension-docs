@@ -18,9 +18,9 @@ const CHROME_EXTENSIONS = [
     slug: 'pinello',
     name: 'Pinello',
     description:
-      'Free Chrome extension that scores Pinterest pins across 5 dimensions — image, board fit, title, description, and hashtags — in real time. AI rewrite included.',
-    cwsUrl: 'https://chromewebstore.google.com/detail/pinello/kmelegdnljikegoemigfgnpcbllmkije',
-    cwsBlurb: 'Score Pinterest pins as you create them.',
+      'Chrome extension that helps Pinterest creators prepare stronger Pins before publishing. Feed Score on Pin cards, Pin Detail Score inside the closeup, and a Pin Doctor pre-publish check with Board Match and copy-only AI suggestions inside Create Pin.',
+    cwsUrl: 'https://chromewebstore.google.com/detail/pinello-%E2%80%94-pinterest-pin-s/kmelegdnljikegoemigfgnpcbllmkije',
+    cwsBlurb: 'Prepare stronger Pinterest Pins before you publish.',
     hasPrivacy: true,
     hasTerms: true,
   },
