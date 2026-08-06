@@ -10,8 +10,6 @@ relatedProducts: ['privacy-blur-slack']
 
 **The fastest way to hide Slack messages during screen sharing is to install a screen-privacy Chrome extension that blurs message previews, channel names, and DMs before you share.** Slack does not have a built-in privacy mode, so you need either an extension, a window-sharing strategy, or a mix of both.
 
-*Last updated: August 2026 — includes Do Not Disturb, virtual desktops, generic blur tools, and screen-privacy Chrome extensions.*
-
 You've probably had this moment: you're sharing your screen, talking through a project update, and then you notice Slack sitting there with a private message preview, a sensitive channel name, or a thread you definitely didn't mean to show the whole room.
 
 If you need a fix fast, **[Privacy Blur for Slack](/privacy-blur-slack/)** is the most practical option because it lets you keep Slack open while hiding the parts you don't want coworkers or clients to see. But it's not the only way to reduce the risk.

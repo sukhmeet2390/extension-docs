@@ -10,8 +10,6 @@ relatedProducts: ['privacy-blur-slack', 'privacy-blur-discord', 'privacy-blur-te
 
 **The best screen privacy Chrome extension depends on where your risk actually is.** If you screen share Slack, Discord, Microsoft Teams, or WhatsApp Web often, a platform-specific blur extension is faster and more precise than a generic one. For everything else — CRMs, dashboards, admin panels — a general-purpose page blur extension is the right pick. This guide compares 5 options head to head.
 
-*Last updated: August 2026.*
-
 A **screen privacy Chrome extension** is a browser add-on that hides sensitive content on a web page before or during a screen share, screen recording, or live session. Options range from Slack-specific tools like [Privacy Blur for Slack](/privacy-blur-slack/) to generic blur extensions that work on any website.
 
 Accidentally sharing the wrong thing on a call is one of those mistakes that feels small for one second and huge the next. Maybe it is a Slack DM, a private channel name, a salary note, a customer account balance, or an internal tab you forgot was still open. The more remote work becomes normal, the more this happens to managers, sales teams, recruiters, customer success reps, founders, and anyone else who lives in browser tabs all day.

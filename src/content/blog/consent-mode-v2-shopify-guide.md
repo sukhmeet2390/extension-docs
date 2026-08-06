@@ -13,8 +13,6 @@ relatedProducts: ['cookie-consent']
 
 *Consent requirements vary by business and jurisdiction. This guide provides technical information, not legal advice, and no consent app by itself guarantees compliance.*
 
-*Last updated: August 2026 — reflects EU Digital Markets Act enforcement (in effect since March 2024) and European Accessibility Act (EAA) requirements that took effect June 28, 2025.*
-
 If you use Google measurement or advertising features for visitors in the EEA, UK, or Switzerland, you have probably noticed your Google Analytics data getting worse. Fewer conversions tracked, lower reported traffic, less effective ad optimization. Here is why — and how to fix it.
 
 ![Google Consent Mode v2 explained — comparison of what happens when visitors reject cookies with and without Consent Mode](/assets/blog/consent-mode-v2-hero.png)
