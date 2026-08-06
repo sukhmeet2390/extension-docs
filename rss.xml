@@ -987,7 +987,11 @@ Most cold email mistakes are preventable. You do not need a giant deliverability
 
 ---
 
-*This article is by the team at Amrita Labs. We build tools for people who send important emails.*</content:encoded></item><item><title>Best Screen Privacy Chrome Extension — 5 Options for Screen Sharing (2026)</title><link>https://amrita-labs.com/blog/best-chrome-extensions-screen-sharing-privacy/</link><guid isPermaLink="true">https://amrita-labs.com/blog/best-chrome-extensions-screen-sharing-privacy/</guid><description>Best Chrome extensions for screen privacy and screen sharing — hide Slack, Discord, Teams, WhatsApp Web, or any tab before you present. Free options included.</description><pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate><content:encoded>**Screen privacy Chrome extension** = a browser add-on that hides sensitive content on a web page before or during a screen share, screen recording, or live session. Options range from Slack-specific tools like [Privacy Blur for Slack](/privacy-blur-slack/) to generic blur extensions that work on any website.
+*This article is by the team at Amrita Labs. We build tools for people who send important emails.*</content:encoded></item><item><title>Best Screen Privacy Chrome Extension — 5 Options for Screen Sharing (2026)</title><link>https://amrita-labs.com/blog/best-chrome-extensions-screen-sharing-privacy/</link><guid isPermaLink="true">https://amrita-labs.com/blog/best-chrome-extensions-screen-sharing-privacy/</guid><description>Best Chrome extensions for screen privacy and screen sharing — hide Slack, Discord, Teams, WhatsApp Web, or any tab before you present. Free options included.</description><pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate><content:encoded>**The best screen privacy Chrome extension depends on where your risk actually is.** If you screen share Slack, Discord, Microsoft Teams, or WhatsApp Web often, a platform-specific blur extension is faster and more precise than a generic one. For everything else — CRMs, dashboards, admin panels — a general-purpose page blur extension is the right pick. This guide compares 5 options head to head.
+
+*Last updated: August 2026.*
+
+A **screen privacy Chrome extension** is a browser add-on that hides sensitive content on a web page before or during a screen share, screen recording, or live session. Options range from Slack-specific tools like [Privacy Blur for Slack](/privacy-blur-slack/) to generic blur extensions that work on any website.
 
 Accidentally sharing the wrong thing on a call is one of those mistakes that feels small for one second and huge the next. Maybe it is a Slack DM, a private channel name, a salary note, a customer account balance, or an internal tab you forgot was still open. The more remote work becomes normal, the more this happens to managers, sales teams, recruiters, customer success reps, founders, and anyone else who lives in browser tabs all day.
 
@@ -997,39 +1001,70 @@ In this guide, I compared the best Chrome extensions for screen sharing privacy 
 
 Related Amrita Labs privacy extensions: [Slack](/privacy-blur-slack/) · [Discord](/privacy-blur-discord/) · [Microsoft Teams](/privacy-blur-teams/) · [WhatsApp Web](/privacy-blur-whatsapp/).
 
----
-title: &quot;Best Screen Privacy Chrome Extension — 5 Options for Screen Sharing (2026)&quot;
-description: &quot;Best Chrome extensions for screen privacy and screen sharing — hide Slack, Discord, Teams, WhatsApp Web, or any tab before you present. Free options included.&quot;
-date: &quot;2026-07-20&quot;
-updated: &quot;2026-08-01&quot;
-tags: [&quot;screen sharing&quot;, &quot;privacy&quot;, &quot;chrome extensions&quot;, &quot;remote work&quot;, &quot;productivity&quot;, &quot;session share extension&quot;]
-image: &quot;/assets/blog/safe-screen-share-cws.png&quot;
-relatedProducts: [&apos;privacy-blur-slack&apos;, &apos;privacy-blur-discord&apos;, &apos;privacy-blur-teams&apos;, &apos;privacy-blur-whatsapp&apos;]
----
+## What is a screen privacy Chrome extension?
 
-## What to Look for in a Screen-Sharing Privacy Extension
+A screen privacy extension is a browser tool that blurs, hides, or masks parts of a webpage so private information does not appear during a screen share, meeting, or recording. Modern options work per-app (Slack, Discord, Teams, WhatsApp Web) or across any website. The best ones combine hover-to-reveal, keyboard shortcuts, and persistent rules so you can present with confidence without disabling access to your own tools.
+
+## How to add a privacy screen for Chrome (quick setup)
+
+1. **Choose the extension that matches your risk** — Slack-heavy workflow: pick a Slack-specific blur tool. Mixed workflow: pick a generic page blur. Multi-platform team chat: install one privacy blur per platform (Slack, Discord, Teams, WhatsApp Web).
+2. **Install from the Chrome Web Store** and pin the extension icon to your toolbar.
+3. **Configure blur zones before the call** — messages, channel names, DMs, avatars, media previews.
+4. **Test with a scratch meeting** — start a Google Meet with only yourself to see exactly what viewers would see.
+5. **Use a keyboard shortcut** (like `Alt+Shift+B`) to toggle blur on/off quickly during live meetings.
+
+## Which Chrome extension hides my screen during sharing?
+
+Pick by workflow:
+
+- **Slack only** — [Privacy Blur for Slack](/privacy-blur-slack/) (9 blur zones, hover reveal, free forever)
+- **Discord DMs and servers** — [Privacy Blur for Discord](/privacy-blur-discord/)
+- **Microsoft Teams meetings and chats** — [Privacy Blur for Teams](/privacy-blur-teams/)
+- **WhatsApp Web** — [Privacy Blur for WhatsApp](/privacy-blur-whatsapp/)
+- **Any site (CRMs, dashboards, spreadsheets, email)** — a generic page blur extension covered later in this guide
+
+## What to look for in a screen-sharing privacy extension
 
 Before you install the first blur tool you see, focus on five practical criteria:
 
-- **App-specific vs. generic:** A Slack-specific tool can feel much faster inside Slack, while a generic tool is better if you present from many different sites.
-- **Ease of use:** In a real meeting, you want one click or one shortcut, not a complicated setup flow.
-- **Hover-to-reveal:** This is underrated. It lets you keep information hidden from your audience while still quickly checking something yourself.
-- **Persistence:** If you share the same tools repeatedly, saved blur rules can save a lot of time.
-- **Price:** Free is great, but paid can still be worth it if you screen share constantly and need repeatable protection.
+- **App-specific vs. generic** — A Slack-specific tool can feel much faster inside Slack, while a generic tool is better if you present from many different sites.
+- **Ease of use** — In a real meeting, you want one click or one shortcut, not a complicated setup flow.
+- **Hover-to-reveal** — This is underrated. It lets you keep information hidden from your audience while still quickly checking something yourself.
+- **Persistence** — If you share the same tools repeatedly, saved blur rules can save a lot of time.
+- **Price** — Free is great, but paid can still be worth it if you screen share constantly and need repeatable protection.
 
 A good rule of thumb: choose the most specific tool that matches your daily workflow. If most of your screen-sharing mistakes happen in Slack, a generic extension can feel slower than something built exactly for Slack. But if you move between dashboards, spreadsheets, admin panels, and web apps all week, flexibility matters more.
 
 ---
-title: &quot;Best Screen Privacy Chrome Extension — 5 Options for Screen Sharing (2026)&quot;
-description: &quot;Best Chrome extensions for screen privacy and screen sharing — hide Slack, Discord, Teams, WhatsApp Web, or any tab before you present. Free options included.&quot;
-date: &quot;2026-07-20&quot;
-updated: &quot;2026-08-01&quot;
-tags: [&quot;screen sharing&quot;, &quot;privacy&quot;, &quot;chrome extensions&quot;, &quot;remote work&quot;, &quot;productivity&quot;, &quot;session share extension&quot;]
-image: &quot;/assets/blog/safe-screen-share-cws.png&quot;
-relatedProducts: [&apos;privacy-blur-slack&apos;, &apos;privacy-blur-discord&apos;, &apos;privacy-blur-teams&apos;, &apos;privacy-blur-whatsapp&apos;]
+
+## 1. Privacy Blur for Slack — Best for Slack-heavy workflows
+
+**[Chrome Web Store](https://chromewebstore.google.com/detail/privacy-blur-for-slack/cejmffebfhdnhbjkhiobaecdohheimkj)** &amp;middot; [Product page](/privacy-blur-slack/) — Free forever, Pro $3/month
+
+![Privacy Blur for Slack — messages blurred during screen sharing](/assets/blog/privacy-blur-slack-panel.png)
+
+Privacy Blur for Slack is the strongest pick if your privacy risk is concentrated in Slack. It gives you **9 independent blur zones** — messages, channel names, DMs, avatars, media previews, activity indicators, member list, compose box, and images — so you can hide exactly what would leak without making Slack unusable.
+
+**How it stands out:**
+
+- **Hover-to-reveal** — briefly inspect a blurred message without turning protection off for the room.
+- **Keyboard shortcut** — `Alt+Shift+B` toggles blur instantly before a call.
+- **Client-side only** — no telemetry, no data collection, no message content ever leaves your browser.
+- **Pro features** — persistence across reloads, keyword rules (&quot;salary&quot;, &quot;confidential&quot;), and sender rules for $3/month.
+
+**Best verdict:** If Slack is where sensitive info usually leaks, this is the fastest, cleanest solution. The platform-specific focus means fewer clicks and no accidental over-blur.
+
+**Trade-off:** Works on Slack Web (`app.slack.com`) in Chrome only. Slack desktop app is not supported because Chrome extensions cannot run there.
+
+**Best for:** Managers, recruiters, founders, customer success, and support teams who keep Slack open during live calls.
+
+**Price:** Free forever. Pro $3/month.
+
+Similar sibling extensions are available for [Discord](/privacy-blur-discord/), [Microsoft Teams](/privacy-blur-teams/), and [WhatsApp Web](/privacy-blur-whatsapp/) — same design, different platform.
+
 ---
 
-## 2. Page Blur — Hide Sensitive Info for Screen Sharing
+## 2. Page Blur — Best free generic option
 
 **[Chrome Web Store](https://chromewebstore.google.com/detail/page-blur-hide-sensitive/mekiecmbbmjhakpahnijnhgbpkiifnop)** — Free
 
@@ -1039,26 +1074,35 @@ Page Blur is the best generic option on this list because it covers the core pri
 
 Its flexibility is the main reason to choose it over an app-specific product. If you need to hide a customer name on one page, a balance figure on another, and the tab title itself while sharing your whole screen, Page Blur can handle that.
 
-The trade-off is that it stays manual. It is not optimized around one app, so it does not automatically know what is sensitive. You usually need to select the elements yourself every time, which is fine for planned presentations but adds friction when a meeting starts unexpectedly or you need to share your screen quickly without preparation time.
+The trade-off is that it stays manual. It is not optimized around one app, so it does not automatically know what is sensitive. You usually need to select the elements yourself every time, which is fine for planned presentations but adds friction when a meeting starts unexpectedly.
 
 **Best for:** Remote workers who need one free privacy extension across many websites.
 
 **Price:** Free.
 
 ---
-title: &quot;Best Screen Privacy Chrome Extension — 5 Options for Screen Sharing (2026)&quot;
-description: &quot;Best Chrome extensions for screen privacy and screen sharing — hide Slack, Discord, Teams, WhatsApp Web, or any tab before you present. Free options included.&quot;
-date: &quot;2026-07-20&quot;
-updated: &quot;2026-08-01&quot;
-tags: [&quot;screen sharing&quot;, &quot;privacy&quot;, &quot;chrome extensions&quot;, &quot;remote work&quot;, &quot;productivity&quot;, &quot;session share extension&quot;]
-image: &quot;/assets/blog/safe-screen-share-cws.png&quot;
-relatedProducts: [&apos;privacy-blur-slack&apos;, &apos;privacy-blur-discord&apos;, &apos;privacy-blur-teams&apos;, &apos;privacy-blur-whatsapp&apos;]
+
+## 3. Safe Screen Share — Best for one-click &quot;hide everything&quot;
+
+**[safescreenshare.com](https://safescreenshare.com/)** — Free
+
+![Safe Screen Share Chrome extension for hiding sensitive info during screen sharing](/assets/blog/safe-screen-share-cws.png)
+
+Safe Screen Share takes a different approach: instead of picking individual elements, it hides everything on the page with one click and lets you reveal individual sections when you need them. It is great for people who want the safest possible default state before every call.
+
+The one-click &quot;hide everything&quot; model is appealing because it removes a decision. You never have to remember what to blur. On the other hand, it requires an extra step to reveal what you want to show, which can feel slow during a fast-moving demo.
+
+**Best for:** Anyone who prefers a maximally safe default.
+
+**Price:** Free.
+
 ---
 
-## 4. BlurWeb
+## 4. BlurWeb — Best for tutorials and recordings
 
 **[blurweb.app](https://www.blurweb.app/)** — Paid premium after trial/refund window
-![Blur-Web](/assets/blog/blur-app.png)
+
+![BlurWeb Chrome extension for blurring website content](/assets/blog/blur-app.png)
 
 BlurWeb is a strong choice for people who create tutorials, onboarding videos, demos, or livestreams on a repeat basis. It lets you blur any element, draw blur over custom areas, persist blur between sessions, and adjust intensity. That combination makes it useful when you need to clean up the same product walkthrough more than once.
 
@@ -1071,40 +1115,68 @@ The main drawback is price and setup complexity. BlurWeb is not the best fit for
 **Price:** Paid premium after the trial/refund window.
 
 ---
-title: &quot;Best Screen Privacy Chrome Extension — 5 Options for Screen Sharing (2026)&quot;
-description: &quot;Best Chrome extensions for screen privacy and screen sharing — hide Slack, Discord, Teams, WhatsApp Web, or any tab before you present. Free options included.&quot;
-date: &quot;2026-07-20&quot;
-updated: &quot;2026-08-01&quot;
-tags: [&quot;screen sharing&quot;, &quot;privacy&quot;, &quot;chrome extensions&quot;, &quot;remote work&quot;, &quot;productivity&quot;, &quot;session share extension&quot;]
-image: &quot;/assets/blog/safe-screen-share-cws.png&quot;
-relatedProducts: [&apos;privacy-blur-slack&apos;, &apos;privacy-blur-discord&apos;, &apos;privacy-blur-teams&apos;, &apos;privacy-blur-whatsapp&apos;]
+
+## 5. Obscuro — Best for developers and security teams
+
+**[GitHub](https://github.com/intezer/obscuro)** — Free, open source
+
+![Obscuro screen privacy tool for developers](/assets/blog/obscuro.png)
+
+Obscuro is a Chrome extension built by Intezer&apos;s security team. It is open source, minimal, and focused on hiding text content quickly during ad-hoc screen shares. Because the source is public on GitHub, security-conscious teams can audit exactly what the extension does before installing it on work machines.
+
+Obscuro&apos;s main strength is transparency. For teams that require every browser extension to pass a source-code review, open source is often the only path forward. The trade-off is that Obscuro is intentionally simple. You will not find persistence, hover-reveal, keyword rules, or platform-specific optimizations here. It is a focused text-blur tool, not a full privacy suite.
+
+**Best for:** Developers, security engineers, and teams that require open-source audits before rolling out extensions internally.
+
+**Price:** Free, open source.
+
 ---
 
-## Comparison Table
+## Comparison table
 
 | Extension | Best for | Price | App-specific? | Hover-reveal? |
 |---|---|---|---|---|
-| [Privacy Blur for Slack](https://chromewebstore.google.com/detail/privacy-blur-for-slack/cejmffebfhdnhbjkhiobaecdohheimkj) | Slack users who screen share often | Free forever; Pro $3/mo | Yes — Slack Web only | Yes |
-| [Page Blur](https://chromewebstore.google.com/detail/page-blur-hide-sensitive/mekiecmbbmjhakpahnijnhgbpkiifnop) | Free privacy across many websites | Free | No | No |
-| [Privacy Blur: Screen Privacy Tool](https://chromewebstore.google.com/detail/privacy-blur-screen-priva/hdndfcdhmndogkbfeomfpeeafpndhgff) | Users who want many blur modes | Free + optional premium | No | No |
-| [BlurWeb](https://www.blurweb.app/) | Tutorials, recordings, livestreams | Paid premium | No | No |
-| [Obscuro](https://github.com/intezer/obscuro) | Developers and security teams | Free | No | No |
+| **[Privacy Blur for Slack](/privacy-blur-slack/)** | Slack users who screen share often | Free forever, Pro $3/mo | Yes — Slack Web only | Yes |
+| **[Page Blur](https://chromewebstore.google.com/detail/page-blur-hide-sensitive/mekiecmbbmjhakpahnijnhgbpkiifnop)** | Free privacy across many websites | Free | No | No |
+| **[Safe Screen Share](https://safescreenshare.com/)** | Users who want &quot;hide everything&quot; default | Free | No | Optional reveal |
+| **[BlurWeb](https://www.blurweb.app/)** | Tutorials, recordings, livestreams | Paid premium | No | No |
+| **[Obscuro](https://github.com/intezer/obscuro)** | Developers and security teams | Free, open source | No | No |
+
+## FAQ
+
+### What is the best screen privacy Chrome extension for Slack?
+
+For Slack specifically, [Privacy Blur for Slack](/privacy-blur-slack/) is the strongest choice. It has 9 independent blur zones, hover-to-reveal, and an `Alt+Shift+B` toggle. It works on Slack Web (`app.slack.com`) in Chrome and runs 100% client-side with no data collection.
+
+### Do any of these extensions work on the Slack desktop app?
+
+No. Chrome extensions cannot run inside standalone desktop apps. For Slack Desktop, Discord Desktop, or Teams Desktop, either switch to the web version before your call, or close the app entirely and rely on window-sharing to control what your audience sees.
+
+### Which extension is best for Discord, Microsoft Teams, or WhatsApp Web?
+
+Each has its own platform-specific extension in the Amrita Labs family: [Privacy Blur for Discord](/privacy-blur-discord/), [Privacy Blur for Microsoft Teams](/privacy-blur-teams/), and [Privacy Blur for WhatsApp](/privacy-blur-whatsapp/). Same design principles, different platform.
+
+### Can I use one extension to hide everything across all my apps?
+
+Page Blur or BlurWeb work across any website. The trade-off is that you have to configure them manually every time — they do not know Slack from Salesforce. If your risk is spread across many apps, a generic tool is the pragmatic pick. If your risk is concentrated in one app, an app-specific extension is faster and cleaner.
+
+### Does hiding content in Chrome hide it in Zoom, Google Meet, and Microsoft Teams too?
+
+Yes. All these extensions apply the blur inside the Chrome page. When you share your screen or a specific Chrome tab in any meeting tool, viewers see whatever Chrome is rendering — including the blur.
+
+### Is any of these safe for enterprise use?
+
+Privacy Blur for Slack and Obscuro are the two options with the strongest privacy posture: both run entirely client-side and never transmit content. Obscuro is open source. For enterprise rollouts, review each extension&apos;s manifest permissions and privacy policy before installing on managed devices.
 
 ---
-title: &quot;Best Screen Privacy Chrome Extension — 5 Options for Screen Sharing (2026)&quot;
-description: &quot;Best Chrome extensions for screen privacy and screen sharing — hide Slack, Discord, Teams, WhatsApp Web, or any tab before you present. Free options included.&quot;
-date: &quot;2026-07-20&quot;
-updated: &quot;2026-08-01&quot;
-tags: [&quot;screen sharing&quot;, &quot;privacy&quot;, &quot;chrome extensions&quot;, &quot;remote work&quot;, &quot;productivity&quot;, &quot;session share extension&quot;]
-image: &quot;/assets/blog/safe-screen-share-cws.png&quot;
-relatedProducts: [&apos;privacy-blur-slack&apos;, &apos;privacy-blur-discord&apos;, &apos;privacy-blur-teams&apos;, &apos;privacy-blur-whatsapp&apos;]
----
 
-## Final Take
+## Final take
 
-If Slack is where your private messages, channel names, and internal chatter usually leak into meetings, **Privacy Blur for Slack** is the strongest fit because it solves that exact problem without making Slack hard to use.
+If Slack is where your private messages, channel names, and internal chatter usually leak into meetings, **[Privacy Blur for Slack](/privacy-blur-slack/)** is the strongest fit because it solves that exact problem without making Slack hard to use.
 
 If your screen-sharing risk is spread across lots of sites, **Page Blur** is the best free all-purpose choice.
+
+If you screen share Discord, Microsoft Teams, or WhatsApp Web often, install the matching sibling extension — [Discord](/privacy-blur-discord/), [Teams](/privacy-blur-teams/), or [WhatsApp](/privacy-blur-whatsapp/) — for the same platform-specific precision.
 
 Ready to make Slack safer before your next call? **[Install Privacy Blur for Slack](https://chromewebstore.google.com/detail/privacy-blur-for-slack/cejmffebfhdnhbjkhiobaecdohheimkj)** and keep sensitive Slack content hidden while you share.</content:encoded></item><item><title>7 Best Gmail Chrome Extensions for Productivity (2026)</title><link>https://amrita-labs.com/blog/best-gmail-chrome-extensions-productivity/</link><guid isPermaLink="true">https://amrita-labs.com/blog/best-gmail-chrome-extensions-productivity/</guid><description>The best Gmail Chrome extensions for productivity in 2026, compared for writing, scheduling, tracking, templates, CRM, and focus.</description><pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate><content:encoded>Gmail is powerful, but the default compose experience is still pretty basic. You can write, attach files, and hit send — but that does not solve the real problems most people deal with every day: weak subject lines, missed follow-ups, repetitive replies, cluttered inboxes, and no easy way to tell what happened after an email went out.
 
@@ -1427,11 +1499,17 @@ Start with a small set of clear variations for any meaningful outreach campaign.
 
 If your subject line is too long, too generic, too pushy, or too spammy, the rest of your email never gets a fair chance. A better subject line will not fix a weak offer, but it will help good emails earn more of the replies they deserve.
 
-If you want an easy way to check subject lines as you write them, install **[EmailSubjectScore Pro](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm)**. It works directly inside Gmail, scores spam risk, clarity, and urgency in real time, includes AI rewrite suggestions, and gives you **50 free scores per month** before you ever need Pro.</content:encoded></item><item><title>How to Hide Slack Messages During Screen Sharing: 6 Practical Options</title><link>https://amrita-labs.com/blog/hide-slack-messages-screen-sharing/</link><guid isPermaLink="true">https://amrita-labs.com/blog/hide-slack-messages-screen-sharing/</guid><description>Need to hide Slack messages during screen sharing? Here are 6 practical ways to protect private chats, channel names, and notifications in Zoom, Meet, or Teams.</description><pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate><content:encoded>You&apos;ve probably had this moment: you&apos;re sharing your screen, talking through a project update, and then you notice Slack sitting there with a private message preview, a sensitive channel name, or a thread you definitely didn&apos;t mean to show the whole room.
+If you want an easy way to check subject lines as you write them, install **[EmailSubjectScore Pro](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm)**. It works directly inside Gmail, scores spam risk, clarity, and urgency in real time, includes AI rewrite suggestions, and gives you **50 free scores per month** before you ever need Pro.</content:encoded></item><item><title>How to Hide Slack Messages During Screen Sharing: 6 Practical Options (2026)</title><link>https://amrita-labs.com/blog/hide-slack-messages-screen-sharing/</link><guid isPermaLink="true">https://amrita-labs.com/blog/hide-slack-messages-screen-sharing/</guid><description>The fastest way to hide Slack messages during screen sharing is to install a screen-privacy Chrome extension. Here are 6 practical methods for Zoom, Google Meet, and Microsoft Teams — with a comparison table.</description><pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate><content:encoded>**The fastest way to hide Slack messages during screen sharing is to install a screen-privacy Chrome extension that blurs message previews, channel names, and DMs before you share.** Slack does not have a built-in privacy mode, so you need either an extension, a window-sharing strategy, or a mix of both.
+
+*Last updated: August 2026 — includes Do Not Disturb, virtual desktops, generic blur tools, and screen-privacy Chrome extensions.*
+
+You&apos;ve probably had this moment: you&apos;re sharing your screen, talking through a project update, and then you notice Slack sitting there with a private message preview, a sensitive channel name, or a thread you definitely didn&apos;t mean to show the whole room.
 
 If you need a fix fast, **[Privacy Blur for Slack](/privacy-blur-slack/)** is the most practical option because it lets you keep Slack open while hiding the parts you don&apos;t want coworkers or clients to see. But it&apos;s not the only way to reduce the risk.
 
 This guide walks through the best ways to hide Slack messages during screen sharing, ranked by how well they protect your privacy without slowing down your meeting. Some methods are perfect if Slack needs to stay visible. Others work better if you just want the safest possible setup before you click Share.
+
+Also using **Discord**, **Microsoft Teams**, or **WhatsApp Web**? Each has its own screen-privacy extension: [Privacy Blur for Discord](/privacy-blur-discord/), [Privacy Blur for Teams](/privacy-blur-teams/), and [Privacy Blur for WhatsApp](/privacy-blur-whatsapp/). Same idea, different platforms.
 
 ## Why Slack doesn&apos;t have a built-in solution
 
@@ -1567,6 +1645,24 @@ Usually no. Do Not Disturb is great for stopping new notification popups, but it
 ### What&apos;s the best setup for people who screen share every day?
 
 If Slack needs to stay open, the most practical setup is **Privacy Blur for Slack + Slack Do Not Disturb**. That combination protects visible content and reduces the chance of a surprise popup at the same time.
+
+### Does Privacy Blur for Slack work in Zoom, Google Meet, and Microsoft Teams?
+
+Yes. The extension applies a CSS blur to the Slack Web tab in Chrome. When you share your screen or that specific tab in any meeting tool — Zoom, Google Meet, Microsoft Teams, or Webex — the blurred content is what remote viewers see. The blur is part of the rendered page, so every screen capture pipeline picks it up.
+
+### What about hiding Discord, Microsoft Teams, or WhatsApp Web?
+
+The same idea works across platforms. If you screen share those apps regularly, each has its own screen-privacy Chrome extension:
+
+- **Discord** — see [Privacy Blur for Discord](/privacy-blur-discord/)
+- **Microsoft Teams** — see [Privacy Blur for Microsoft Teams](/privacy-blur-teams/)
+- **WhatsApp Web** — see [Privacy Blur for WhatsApp](/privacy-blur-whatsapp/)
+
+Each extension is scoped to its host domain, which is stricter for privacy and faster than a generic blur tool.
+
+### Does hiding Slack messages during screen share work on the Slack mobile app?
+
+No. Chrome extensions cannot run inside the Slack mobile app. If you present from mobile occasionally, the safest option is to fully close Slack before starting a screen share, then reopen it after your presentation. Or share only a specific window or tab from a mobile screen mirror.
 
 ## The simplest way to avoid an awkward Slack moment
 
@@ -1784,35 +1880,46 @@ The highest-ROI optimization for Pinterest is pre-publish scoring. A single pin 
 
 Most creators spend hours on design but seconds on the title and description. That&apos;s backwards. Pinterest&apos;s search algorithm weights text just as heavily as the image.
 
-Score your next pin before you publish → [Install Pinello (Free)](https://chromewebstore.google.com/detail/pinello/kmelegdnljikegoemigfgnpcbllmkije)</content:encoded></item><item><title>How to Add Google Consent Mode v2 to Shopify (2026 Guide)</title><link>https://amrita-labs.com/blog/consent-mode-v2-shopify-guide/</link><guid isPermaLink="true">https://amrita-labs.com/blog/consent-mode-v2-shopify-guide/</guid><description>When visitors reject cookies, your Google Analytics data disappears. Consent Mode v2 sends cookieless pings so Google can model the conversions you missed. Here&apos;s how to set it up on Shopify.</description><pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate><content:encoded>Amrita Cookie Consent is a free Shopify app with a GDPR cookie banner and Google Consent Mode v2 built in.
+Score your next pin before you publish → [Install Pinello (Free)](https://chromewebstore.google.com/detail/pinello/kmelegdnljikegoemigfgnpcbllmkije)</content:encoded></item><item><title>How to Add Google Consent Mode v2 to Shopify (2026 Guide)</title><link>https://amrita-labs.com/blog/consent-mode-v2-shopify-guide/</link><guid isPermaLink="true">https://amrita-labs.com/blog/consent-mode-v2-shopify-guide/</guid><description>Google Consent Mode v2 lets your Shopify store keep advertising and analytics measurement when EU visitors reject cookies. This step-by-step guide covers manual setup with GTM plus the free app option.</description><pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate><content:encoded>**The fastest way to add Google Consent Mode v2 to Shopify is to install a consent app that already sends all four consent signals to Google.** If you prefer manual control, you can wire it up through Google Tag Manager. Both paths are covered below.
 
-If you use Google measurement or advertising features for visitors in the EEA, UK, or Switzerland, you&apos;ve probably noticed your Google Analytics data getting worse. Fewer conversions tracked, lower reported traffic, less effective ad optimization. Here&apos;s why — and how to fix it.
+*Consent requirements vary by business and jurisdiction. This guide provides technical information, not legal advice, and no consent app by itself guarantees compliance.*
+
+*Last updated: August 2026 — reflects EU Digital Markets Act enforcement (in effect since March 2024) and European Accessibility Act (EAA) requirements that took effect June 28, 2025.*
+
+If you use Google measurement or advertising features for visitors in the EEA, UK, or Switzerland, you have probably noticed your Google Analytics data getting worse. Fewer conversions tracked, lower reported traffic, less effective ad optimization. Here is why — and how to fix it.
 
 ![Google Consent Mode v2 explained — comparison of what happens when visitors reject cookies with and without Consent Mode](/assets/blog/consent-mode-v2-hero.png)
 
-## The problem
+## What is Google Consent Mode v2?
+
+Google Consent Mode v2 is a consent-signal API that lets Google measurement tags respond to visitor consent choices instead of firing or blocking completely. When a visitor rejects cookies, Google still receives limited cookieless pings that fuel conversion modeling in Google Ads and Google Analytics 4.
+
+Version 2 is required for anyone using Google advertising or measurement in the European Economic Area, United Kingdom, and Switzerland under the Digital Markets Act. Without it, Google Ads cannot use EEA-visitor data for personalization or remarketing, and reported conversions drop as consent-denied traffic goes uncounted.
+
+## The problem this solves
 
 When a visitor rejects cookies on your Shopify store:
+
 1. Your Google Analytics tag never fires
 2. Google Ads never sees the conversion
 3. Your ad optimization gets starved of data
 4. Your reported traffic can drop significantly (the impact varies by traffic volume, consent rate, and advertising setup)
 
-This isn&apos;t a bug — it&apos;s consent working correctly. But it limits the data you can act on.
+This is not a bug — it is consent working correctly. But it limits the data you can act on.
 
-If you&apos;re running Google Ads targeting EU customers, you&apos;re likely paying for clicks but can&apos;t see which ones convert. Your cost-per-acquisition looks inflated, your ROAS looks worse than reality, and Smart Bidding doesn&apos;t have enough signal to optimize. The problem compounds: incomplete data leads to less effective bid decisions, which leads to wasted ad spend.
+If you are running Google Ads targeting EU customers, you are likely paying for clicks but cannot see which ones convert. Your cost-per-acquisition looks inflated, your return on ad spend looks worse than reality, and Smart Bidding does not have enough signal to optimize. The problem compounds: incomplete data leads to less effective bid decisions, which leads to wasted ad spend.
 
 ## What Google Consent Mode v2 does
 
-Instead of &quot;tag fires&quot; or &quot;tag doesn&apos;t fire,&quot; GCM v2 adds a third option:
+Instead of &quot;tag fires&quot; or &quot;tag does not fire,&quot; Consent Mode v2 adds a third option:
 
 | Consent state | What happens |
 |---|---|
 | **Granted** | Full tracking (cookies, personal data, everything) |
 | **Denied** | Tag is blocked entirely — no data at all |
-| **Denied + GCM v2** | No advertising or analytics cookies are stored. Google receives limited cookieless measurements under the denied consent state, and uses statistical modeling to estimate conversions. |
+| **Denied + Consent Mode v2** | No advertising or analytics cookies are stored. Google receives limited cookieless measurements under the denied consent state, and uses statistical modeling to estimate conversions. |
 
-With GCM v2, even when visitors reject cookies, Google still gets a signal. It uses **conversion modeling** to fill in the gaps.
+With Consent Mode v2, even when visitors reject cookies, Google still gets a signal. It uses **conversion modeling** to fill in the gaps.
 
 ### What changed from v1 to v2
 
@@ -1829,7 +1936,8 @@ If your consent setup only sends the original two signals, Google treats it as v
 
 ## How it works technically
 
-When consent is denied, GCM v2 sends &quot;consent-aware pings&quot; to Google:
+When consent is denied, Consent Mode v2 sends &quot;consent-aware pings&quot; to Google:
+
 - No advertising or analytics cookies are stored
 - No user-level identification
 - Google receives limited cookieless measurements: page URL, timestamp, user agent, referrer, and ad-click indicators
@@ -1838,13 +1946,24 @@ Google then uses machine learning across its entire dataset to model what a conv
 
 Google includes eligible modeled conversions in the regular Conversions column. Check the Diagnostics tab in Google Ads to see whether Consent Mode is implemented and whether modeling is active.
 
-## Setting it up on Shopify
+## Setting it up on Shopify: two paths
 
-There are two approaches:
+You can add Consent Mode v2 to your Shopify store two ways.
 
 ![Consent flow diagram — visitor arrives, banner shown with defaults denied, then accept leads to full tracking or reject leads to cookieless pings via Consent Mode v2](/assets/blog/consent-mode-v2-flow.png)
 
-### Option A: Manual (Google Tag Manager)
+### Manual vs app: which fits your setup?
+
+| Aspect | Manual (GTM) | Consent app |
+|---|---|---|
+| Setup time | 3-6 hours | 5-10 minutes |
+| Ongoing maintenance | Yes (test after each Shopify theme update) | Handled by the app |
+| Custom GTM knowledge needed | Yes | No |
+| Cost | Free (developer time) | Free to $50/month |
+| Best for | Complex tracking stacks, multi-brand stores | Standard Shopify stores |
+| Risk of misconfiguration | Higher (order of tag firing matters) | Lower (Shopify Privacy API integration) |
+
+### Option A: Manual setup with Google Tag Manager
 
 1. Set up a GTM container with consent-aware tags
 2. Configure consent defaults as `denied` for all EU visitors
@@ -1853,16 +1972,33 @@ There are two approaches:
 5. When visitor rejects → consent stays `denied`, and compatible Google tags send cookieless pings
 6. Make sure all four consent signals are included (`analytics_storage`, `ad_storage`, `ad_user_data`, `ad_personalization`)
 
+Consent defaults must be set before any measurement tag fires. In your GTM container, add a Consent Initialization trigger with this snippet or equivalent:
+
+```javascript
+gtag(&apos;consent&apos;, &apos;default&apos;, {
+  ad_storage: &apos;denied&apos;,
+  ad_user_data: &apos;denied&apos;,
+  ad_personalization: &apos;denied&apos;,
+  analytics_storage: &apos;denied&apos;,
+  wait_for_update: 500,
+  region: [&apos;DE&apos;, &apos;FR&apos;, &apos;IT&apos;, &apos;ES&apos;, &apos;BE&apos;, &apos;NL&apos;, &apos;AT&apos;, &apos;DK&apos;, &apos;FI&apos;, &apos;IE&apos;, &apos;PT&apos;, &apos;SE&apos;, &apos;GR&apos;, &apos;PL&apos;, &apos;LU&apos;, &apos;BG&apos;, &apos;CY&apos;, &apos;CZ&apos;, &apos;EE&apos;, &apos;HR&apos;, &apos;HU&apos;, &apos;LV&apos;, &apos;LT&apos;, &apos;MT&apos;, &apos;RO&apos;, &apos;SI&apos;, &apos;SK&apos;, &apos;GB&apos;, &apos;CH&apos;, &apos;IS&apos;, &apos;NO&apos;, &apos;LI&apos;]
+});
+```
+
+After the visitor decides, the consent banner should call `gtag(&apos;consent&apos;, &apos;update&apos;, ...)` with `granted` for whichever signals apply.
+
 This works but requires GTM knowledge and ongoing maintenance. You also need to keep the consent defaults in sync with your banner — if they get out of sync, incorrect ordering can cause data collection before the visitor chooses and may create privacy-compliance risk, or you could be losing data unnecessarily by blocking pings after consent.
 
-### Option B: Use a consent app with GCM v2 built in
+### Option B: Use a consent app with Consent Mode v2 built in
 
-Several Shopify consent apps include GCM v2 integration natively:
-- Pandectes GDPR Compliance ($9-49/mo — GCM v2 on paid plans)
-- Consentmo ($9-29/mo)
-- **Amrita Cookie Consent** (free — GCM v2 included on the free plan)
+Several Shopify consent apps include Consent Mode v2 integration natively:
+
+- **[Amrita Cookie Consent](/cookie-consent/)** — free, Consent Mode v2 included on the free plan
+- Pandectes GDPR Compliance ($9-49/month — Consent Mode v2 on paid plans)
+- Consentmo ($9-29/month)
 
 With these apps, the consent-to-Google signal mapping is handled for you:
+
 1. Install the app
 2. Enable the consent banner
 3. Banner sets consent defaults to `denied` via Shopify&apos;s Customer Privacy API
@@ -1870,13 +2006,25 @@ With these apps, the consent-to-Google signal mapping is handled for you:
 5. On reject → consent stays `denied`, and compatible Google tags receive the denied state
 6. Google receives the signal either way
 
-Amrita sends all four Consent Mode v2 signals to compatible Google tags already installed on your store. Verify the setup with Tag Assistant after installation.
+Amrita sends all four Consent Mode v2 signals to compatible Google tags already installed on your store. Verify the setup with Google Tag Assistant after installation.
 
 ![Amrita Cookie Consent banner on a Shopify store showing Customize, Reject all, and Accept all buttons](/assets/blog/consent-mode-v2-banner.png)
 
+## How does Amrita Cookie Consent handle Consent Mode v2?
+
+[Amrita Cookie Consent](/cookie-consent/) is a free Shopify app that adds a GDPR-compliant cookie banner with Consent Mode v2 built in on the free plan. Once installed on your store, the app:
+
+- Sets consent defaults to `denied` before any measurement tag runs, using Shopify&apos;s Customer Privacy API
+- Emits all four Consent Mode v2 signals (`ad_storage`, `analytics_storage`, `ad_user_data`, `ad_personalization`) to compatible Google tags
+- Auto-detects visitor region and applies GDPR requirements to EEA, UK, and Swiss visitors
+- Sends the granted or denied state on the visitor&apos;s consent decision
+- Requires no code changes to your Shopify theme
+
+The app does not replace Google Analytics or Google Ads — it wires the consent signals into whatever Google measurement stack you already run. If you install Amrita Cookie Consent alongside GTM, it uses Shopify&apos;s Consent Mode API, and GTM tags configured to respect consent will honor the choice automatically.
+
 ## What about Meta Pixel and Facebook Ads?
 
-GCM v2 is a Google-specific protocol. Meta has its own approach: the Conversions API (CAPI). If you&apos;re running Facebook or Instagram ads alongside Google Ads, you&apos;ll need both:
+Consent Mode v2 is a Google-specific protocol. Meta has its own approach: the Conversions API. If you are running Facebook or Instagram ads alongside Google Ads, you will need both:
 
 - **Google Ads**: Consent Mode v2 handles the consent-denied case
 - **Meta Ads**: Server-side Conversions API can send events without cookies, but you still need consent for personal data under GDPR
@@ -1892,50 +2040,72 @@ After setting up, check with Google Tag Assistant (Chrome extension):
 3. Close incognito, open a new one
 4. **Reject cookies** → verify you see `consent_default` with `analytics_storage: denied` AND that cookieless pings still fire
 5. Check that all four consent signals appear in the Tag Assistant consent tab
-6. In Google Ads, check the Diagnostics tab to see whether Consent Mode is implemented and whether modeling is active.
+6. In Google Ads, check the Diagnostics tab to see whether Consent Mode is implemented and whether modeling is active
 
-If the Diagnostics tab doesn&apos;t show Consent Mode as active after a week of traffic, double-check that your Google tag loads in consent-aware mode (not fully blocked on denial).
+If the Diagnostics tab does not show Consent Mode as active after a week of traffic, double-check that your Google tag loads in consent-aware mode (not fully blocked on denial).
 
 You can also verify in Google Analytics: go to Admin → Data Streams → your stream → Consent Settings. It should show &quot;Consent Mode active&quot; if everything is configured correctly.
 
+## Compliance context: DMA, GDPR, and EAA
+
+- **Digital Markets Act (DMA) — March 2024**. Consent Mode v2 became the practical baseline for using Google Ads with EEA, UK, and Swiss visitor data. Google will not use denied-consent data for personalization or remarketing without it.
+- **General Data Protection Regulation (GDPR) — ongoing**. Consent must be freely given, specific, informed, and unambiguous. Pre-ticked accept boxes and cookie walls that block content until consent is given are non-compliant in most jurisdictions.
+- **European Accessibility Act (EAA) — June 28, 2025**. Requires consent banners to be operable by keyboard, readable at 200% zoom, and compatible with screen readers. Many older cookie banners fail these requirements.
+
+None of these regulations mandate Consent Mode v2 by name. What they mandate is that visitor consent choices are respected and that measurement without consent does not track individuals. Consent Mode v2 is currently the most practical way to keep Google measurement working under those constraints.
+
 ## Common mistakes
 
-1. **Blocking ALL scripts on rejection** — if your consent solution kills every script when consent is denied, GCM v2 pings can&apos;t fire either. The Google tag needs to load in &quot;consent-aware&quot; mode, not be blocked entirely.
+1. **Blocking ALL scripts on rejection** — if your consent solution kills every script when consent is denied, Consent Mode v2 pings cannot fire either. The Google tag needs to load in &quot;consent-aware&quot; mode, not be blocked entirely.
 
-2. **Not setting consent defaults** — Consent defaults should be set before measurement tags run. If you don&apos;t explicitly set defaults to `denied` before the consent decision, Google assumes consent is granted and sets cookies immediately. Incorrect ordering can cause data collection before the visitor chooses and may create privacy-compliance risk.
+2. **Not setting consent defaults** — Consent defaults should be set before measurement tags run. If you do not explicitly set defaults to `denied` before the consent decision, Google assumes consent is granted and sets cookies immediately. Incorrect ordering can cause data collection before the visitor chooses and may create privacy-compliance risk.
 
-3. **Using enhanced conversions as a replacement** — Enhanced Conversions enhance an existing conversion event. If the base tag never fires (because consent was denied), there&apos;s nothing to enhance. GCM v2 is the layer that handles the denial case.
+3. **Using enhanced conversions as a replacement** — Enhanced Conversions enhance an existing conversion event. If the base tag never fires (because consent was denied), there is nothing to enhance. Consent Mode v2 is the layer that handles the denial case.
 
-4. **Only sending two consent signals instead of four** — If your setup only sends `analytics_storage` and `ad_storage` (the v1 signals), you don&apos;t have a complete v2 implementation. A complete Consent Mode v2 setup sends all four signals, including the new `ad_user_data` and `ad_personalization`.
+4. **Only sending two consent signals instead of four** — If your setup only sends `analytics_storage` and `ad_storage` (the v1 signals), you do not have a complete v2 implementation. A complete Consent Mode v2 setup sends all four signals, including the new `ad_user_data` and `ad_personalization`.
 
 5. **Not testing in incognito** — Your browser likely has existing cookies and consent state cached. Always test consent flows in incognito windows to simulate a first-time visitor experience.
 
 ## FAQ
 
-**Does GCM v2 replace the need for a cookie banner?**
-No. GCM v2 works alongside your consent banner, not instead of it. You still need to ask for consent. GCM v2 just makes sure Google gets useful (non-personal) data even when the answer is &quot;no.&quot;
+**Does Consent Mode v2 replace the need for a cookie banner?**
+
+No. Consent Mode v2 works alongside your consent banner, not instead of it. You still need to ask for consent. Consent Mode v2 just makes sure Google gets useful (non-personal) data even when the answer is &quot;no.&quot;
+
+**Do I need Consent Mode v2 for non-EU stores?**
+
+Not required, but recommended. Consent Mode v2 only affects Google&apos;s data handling in the EEA, UK, and Switzerland, where the Digital Markets Act applies. For US, Canada, or Asia-Pacific stores with no EEA traffic, Consent Mode v2 changes nothing. If your store gets any EU traffic at all — even a small percentage — enabling Consent Mode v2 is the safer default.
+
+**What if I already use another cookie app?**
+
+Check whether it sends all four Consent Mode v2 signals (`analytics_storage`, `ad_storage`, `ad_user_data`, `ad_personalization`) and whether it uses Shopify&apos;s Customer Privacy API. If it does, you are set. If it only sends the v1 signals or only sets consent through GTM directly, you may need to reconfigure it or replace it. Older cookie apps built before March 2024 often did not update to v2.
+
+**Does this work with Google Analytics 4 and Universal Analytics?**
+
+Consent Mode v2 is fully supported by Google Analytics 4. Universal Analytics stopped processing new data in July 2023, so there is nothing to configure there. For GA4, once Consent Mode v2 is active, your measurement stream shows modeled traffic in the standard reports.
 
 **Will this affect my Google Ads billing?**
-No. GCM v2 affects reporting and optimization, not billing. You still pay per click. But with better conversion data, Smart Bidding can optimize more effectively — which should improve your return on ad spend over time.
+
+No. Consent Mode v2 affects reporting and optimization, not billing. You still pay per click. But with better conversion data, Smart Bidding can optimize more effectively — which should improve your return on ad spend over time.
 
 **How long until I see modeled conversions?**
+
 Google needs enough consented traffic to build a model. Modeling availability depends on implementation quality, traffic volume, and Google&apos;s eligibility thresholds. Smaller stores may not qualify for modeling.
 
----
-title: &quot;How to Add Google Consent Mode v2 to Shopify (2026 Guide)&quot;
-description: &quot;When visitors reject cookies, your Google Analytics data disappears. Consent Mode v2 sends cookieless pings so Google can model the conversions you missed. Here&apos;s how to set it up on Shopify.&quot;
-date: &quot;2026-07-14&quot;
-tags: [&quot;shopify&quot;, &quot;gdpr&quot;, &quot;analytics&quot;, &quot;consent-mode&quot;]
-image: &quot;/assets/blog/consent-mode-v2-hero.png&quot;
-canonical: &quot;https://amrita-labs.com/blog/consent-mode-v2-shopify-guide/&quot;
-relatedProducts: [&apos;cookie-consent&apos;]
----
+**How do I verify Consent Mode is working after setup?**
 
-*Consent requirements vary by business and jurisdiction. This guide provides technical information, not legal advice, and no consent app by itself guarantees compliance.*
+Use Google Tag Assistant in an incognito window. Reject cookies on your store, then check whether consent signals show `denied` for the four v2 signals AND whether cookieless pings still fire. In Google Ads Diagnostics, look for the &quot;Consent Mode implemented&quot; indicator after a few days of traffic.
 
 ---
 
-*We built [Amrita Cookie Consent](https://apps.shopify.com/cookie-consent-8) specifically because we couldn&apos;t find a free app with GCM v2 included. Questions? Reach us at [hello@amrita-labs.com](mailto:hello@amrita-labs.com).*</content:encoded></item><item><title>5 Best Chrome Extensions for Email Subject Lines (2026)</title><link>https://amrita-labs.com/blog/best-email-subject-line-extensions/</link><guid isPermaLink="true">https://amrita-labs.com/blog/best-email-subject-line-extensions/</guid><description>Tested and compared: the 5 best tools for scoring and improving your email subject lines — from in-Gmail extensions to web-based analyzers.</description><pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate><content:encoded>Your subject line is the single biggest factor in whether your email gets read or ignored. The average cold email reply rate is just 3-5% — and most of that filtering happens at the subject line. If it sounds generic, triggers spam keywords, or lacks any reason to open now, your email dies before the body gets a chance.
+## Ship this on your Shopify store this afternoon
+
+Manual setup with GTM is fine if you already run a custom tag stack and know GTM well. For every other Shopify store, an app with Consent Mode v2 built in is faster to set up, easier to keep in sync with Shopify theme updates, and less likely to break silently.
+
+- [Install Amrita Cookie Consent](https://apps.shopify.com/cookie-consent-8) — free forever, Consent Mode v2 on the free plan, no third-party scripts, no visitor cap
+- [Read more about Amrita Cookie Consent](/cookie-consent/) — features, pricing, and how it integrates with Shopify&apos;s Customer Privacy API
+
+Questions? Reach out at [hello@amrita-labs.com](mailto:hello@amrita-labs.com).</content:encoded></item><item><title>5 Best Chrome Extensions for Email Subject Lines (2026)</title><link>https://amrita-labs.com/blog/best-email-subject-line-extensions/</link><guid isPermaLink="true">https://amrita-labs.com/blog/best-email-subject-line-extensions/</guid><description>Tested and compared: the 5 best tools for scoring and improving your email subject lines — from in-Gmail extensions to web-based analyzers.</description><pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate><content:encoded>Your subject line is the single biggest factor in whether your email gets read or ignored. The average cold email reply rate is just 3-5% — and most of that filtering happens at the subject line. If it sounds generic, triggers spam keywords, or lacks any reason to open now, your email dies before the body gets a chance.
 
 The problem: you can&apos;t tell how good a subject line is just by looking at it. What sounds clever to you might trigger spam filters. What feels urgent might come across as pushy. You need scoring — objective feedback before you hit send.
 
