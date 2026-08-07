@@ -58,15 +58,10 @@ const features = [
   },
   {
     icon: '✍️',
-    title: 'Suggestions',
-    tier: 'PRO',
-    description: 'Strengthen title, improve description, refine topics. Copy-only — you paste each suggestion into Pinterest yourself.',
-  },
-  {
-    icon: '🎯',
-    title: 'Board Match check',
-    tier: 'PRO',
-    description: 'Explicit AI check of how well your Pin text matches the board you selected. On-demand only — never automatic.',
+    title: 'AI actions',
+    tier: 'FREE',
+    meta: '5/month',
+    description: 'Strengthen title, improve description, refine topics, Check board match. Copy-only — Pinello never types into Pinterest.',
   },
   {
     icon: '🔎',
@@ -94,7 +89,7 @@ const pricingTiers = [
       'Feed Score on every Pin card',
       'Pin Detail Score and Pin stats',
       '20 Pin Doctor checks per month',
-      '5 suggestions per month',
+      '5 AI actions per month (suggestions + Board Match)',
       'Hide Ads on the feed',
     ],
   },
@@ -108,8 +103,7 @@ const pricingTiers = [
     featured: true,
     href: cwsLink,
     items: [
-      'Suggestions that strengthen title, description, and topics',
-      'Board Match check against your selected board',
+      'More AI actions — Strengthen title, Improve description, Refine topics, Check board match',
       'Feed sorting and Hide AI Pins',
       'CSV export of scored Pins',
       'Priority support at hello@amrita-labs.com',
@@ -187,7 +181,7 @@ const schema = {
           name: 'Free',
           price: '0',
           priceCurrency: 'USD',
-          description: 'Feed Score badges, Pin Detail Score and stats, 20 Pin Doctor checks per month, 5 suggestions per month, Hide Ads.',
+          description: 'Feed Score badges, Pin Detail Score and stats, 20 Pin Doctor checks per month, 5 AI actions per month (suggestions + Board Match), Hide Ads.',
         },
         {
           '@type': 'Offer',
@@ -195,7 +189,7 @@ const schema = {
           price: '8.99',
           priceCurrency: 'USD',
           billingDuration: 'P1M',
-          description: 'Suggestions, Board Match, feed sorting, Hide AI Pins, CSV export. 7-day free trial.',
+          description: 'More AI actions, feed sorting, Hide AI Pins, CSV export. 7-day free trial.',
         },
         {
           '@type': 'Offer',
@@ -343,7 +337,7 @@ const schema = {
       <h2 class="text-xs font-semibold uppercase tracking-widest text-gray-400">Pricing</h2>
       <h3 class="mt-4 text-3xl font-bold tracking-tight text-white sm:text-4xl">Two plans. Honest scope.</h3>
       <p class="mt-4 text-lg leading-relaxed text-gray-400">
-        Use Free until it earns its keep. Upgrade to Pro when you want suggestions, Board Match, feed controls, and CSV export.
+        Use Free until it earns its keep. Upgrade to Pro when you want more AI actions per month, feed controls, and CSV export.
       </p>
     </div>
 
