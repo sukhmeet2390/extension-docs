@@ -176,13 +176,15 @@ const schema = {
   </section>
 
   <!-- Legal -->
+  <WhatIsBlock productName="Privacy Blur for Slack" definition="Privacy Blur for Slack is a free Chrome extension that blurs sensitive Slack content — messages, channel names, DMs, avatars, and media — before or during screen sharing. It has nine independent blur zones, hover-to-reveal for private viewing, and an Alt+Shift+B keyboard shortcut. Runs 100% client-side; Slack data never leaves the browser." />
+  <!-- RelatedContentBlock reverse-index -->
+  <RelatedContentBlock productSlug="privacy-blur-slack" productSlugs={['privacy-blur-discord', 'privacy-blur-teams', 'privacy-blur-whatsapp']} theme="dark" />
+
+
   <div class="max-w-6xl mx-auto px-6 py-8 flex gap-6 text-xs text-gray-500">
     <a href="/privacy-blur-slack/privacy" class="hover:text-gray-400">Privacy Policy</a>
     <a href="/privacy-blur-slack/terms/" class="hover:text-gray-400">Terms of Service</a>
     <a href="mailto:hello@amrita-labs.com" class="hover:text-gray-400">hello@amrita-labs.com</a>
     <a href="/" class="hover:text-gray-400">← Back to Amrita Labs</a>
   </div>
-  <WhatIsBlock productName="Privacy Blur for Slack" definition="Privacy Blur for Slack is a free Chrome extension that blurs sensitive Slack content — messages, channel names, DMs, avatars, and media — before or during screen sharing. It has nine independent blur zones, hover-to-reveal for private viewing, and an Alt+Shift+B keyboard shortcut. Runs 100% client-side; Slack data never leaves the browser." />
-  <!-- RelatedContentBlock reverse-index -->
-  <RelatedContentBlock productSlug="privacy-blur-slack" productSlugs={['privacy-blur-discord', 'privacy-blur-teams', 'privacy-blur-whatsapp']} theme="dark" />
 </Base>

@@ -40,7 +40,8 @@ const isDark = theme === 'dark';
 ---
 
 {!nothingToShow && (
-  <aside class:list={['border-t mt-16 pt-10', isDark ? 'border-white/5' : 'border-gray-200']}>
+  <aside class:list={['border-t mt-16', isDark ? 'border-white/5' : 'border-gray-200']}>
+    <div class="max-w-6xl mx-auto px-6 pt-10 pb-6">
     {products.length > 0 && (
       <div class="mb-8">
         <h2 class:list={['text-xs font-semibold uppercase tracking-widest mb-4', isDark ? 'text-gray-400' : 'text-gray-500']}>Related products</h2>
@@ -69,5 +70,6 @@ const isDark = theme === 'dark';
         </ul>
       </div>
     )}
+    </div>
   </aside>
 )}
