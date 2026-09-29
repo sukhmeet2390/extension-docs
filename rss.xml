@@ -420,16 +420,6 @@ That gets you useful telemetry in a Chrome extension without letting analytics b
 
 *Amrita Chat Widget on a Shopify storefront — one button opens 9 channels: WhatsApp, Facebook Messenger, Instagram, SMS, Email, LINE, Viber, Telegram, phone.*
 
----
-title: &quot;Chaty Alternative for Shopify: Free Forever, No Tracking, No Visitor Cap (2026)&quot;
-description: &quot;Amrita Chat Widget vs Chaty for Shopify — free forever, no visitor cap, zero cookies, WhatsApp/Messenger/Instagram + 6 more channels. DOM verified.&quot;
-date: &quot;2026-07-27&quot;
-tags: [&quot;shopify&quot;, &quot;chat-widget&quot;, &quot;comparison&quot;, &quot;chaty-alternative&quot;, &quot;privacy&quot;]
-image: &quot;https://cdn.shopify.com/app-store/listing_images/e8017261bb2b89a90cafbd5fdf1abc08/promotional_image/CJiDvY-c5ZUDEAE=.png&quot;
-canonical: &quot;https://amrita-labs.com/blog/chaty-alternative-shopify/&quot;
-relatedProducts: [&apos;chat-widget&apos;]
----
-
 ## When to pick which
 
 **Choose Amrita Chat Widget** if the store has exceeded Chaty&apos;s 500 visitor/month free cap and paid tiers are not justified, if the storefront&apos;s theme has previously been affected by widget CSS bleed, or if the store sells internationally — [Amrita Chat Widget](https://apps.shopify.com/chat-widget-1) App Store listing and widget both localize into 8 languages, Chaty&apos;s listing is English only.
@@ -437,16 +427,6 @@ relatedProducts: [&apos;chat-widget&apos;]
 **Stay on Chaty** if the store needs agent-side workflows (avatars, business hours scheduling, country targeting, merge tags), if it specifically requires WeChat, Skype (which Microsoft retired in 2025), TikTok, or Poptin, or if it needs live chat plus AI via the [Chatway](https://chaty.app/chat-button/chatway) integration.
 
 Both apps solve the same top-level problem: a chat button on a Shopify storefront. The differences are in the engineering trade-offs behind that button.
-
----
-title: &quot;Chaty Alternative for Shopify: Free Forever, No Tracking, No Visitor Cap (2026)&quot;
-description: &quot;Amrita Chat Widget vs Chaty for Shopify — free forever, no visitor cap, zero cookies, WhatsApp/Messenger/Instagram + 6 more channels. DOM verified.&quot;
-date: &quot;2026-07-27&quot;
-tags: [&quot;shopify&quot;, &quot;chat-widget&quot;, &quot;comparison&quot;, &quot;chaty-alternative&quot;, &quot;privacy&quot;]
-image: &quot;https://cdn.shopify.com/app-store/listing_images/e8017261bb2b89a90cafbd5fdf1abc08/promotional_image/CJiDvY-c5ZUDEAE=.png&quot;
-canonical: &quot;https://amrita-labs.com/blog/chaty-alternative-shopify/&quot;
-relatedProducts: [&apos;chat-widget&apos;]
----
 
 ## What Chaty does to the storefront (as of 2026-07)
 
@@ -489,16 +469,6 @@ Programmatic access is useful for triggering the chat from a custom button. It a
 
 Amrita Chat Widget exposes no globals on `window` by default. When programmatic control is needed, a single scoped API can be enabled instead of six top-level functions.
 
----
-title: &quot;Chaty Alternative for Shopify: Free Forever, No Tracking, No Visitor Cap (2026)&quot;
-description: &quot;Amrita Chat Widget vs Chaty for Shopify — free forever, no visitor cap, zero cookies, WhatsApp/Messenger/Instagram + 6 more channels. DOM verified.&quot;
-date: &quot;2026-07-27&quot;
-tags: [&quot;shopify&quot;, &quot;chat-widget&quot;, &quot;comparison&quot;, &quot;chaty-alternative&quot;, &quot;privacy&quot;]
-image: &quot;https://cdn.shopify.com/app-store/listing_images/e8017261bb2b89a90cafbd5fdf1abc08/promotional_image/CJiDvY-c5ZUDEAE=.png&quot;
-canonical: &quot;https://amrita-labs.com/blog/chaty-alternative-shopify/&quot;
-relatedProducts: [&apos;chat-widget&apos;]
----
-
 ## Pricing model
 
 Chaty&apos;s four tiers:
@@ -514,16 +484,6 @@ Chaty&apos;s Pro and Growth tiers ship identical feature sets to Basic. The only
 
 This model is a rational fit for businesses with per-visitor serving costs. [Amrita Chat Widget](https://apps.shopify.com/chat-widget-1) has none — the widget is a static asset served from Shopify&apos;s own CDN. Pricing reflects that architecture: Amrita Chat Widget is **free** at any traffic level. 
 
----
-title: &quot;Chaty Alternative for Shopify: Free Forever, No Tracking, No Visitor Cap (2026)&quot;
-description: &quot;Amrita Chat Widget vs Chaty for Shopify — free forever, no visitor cap, zero cookies, WhatsApp/Messenger/Instagram + 6 more channels. DOM verified.&quot;
-date: &quot;2026-07-27&quot;
-tags: [&quot;shopify&quot;, &quot;chat-widget&quot;, &quot;comparison&quot;, &quot;chaty-alternative&quot;, &quot;privacy&quot;]
-image: &quot;https://cdn.shopify.com/app-store/listing_images/e8017261bb2b89a90cafbd5fdf1abc08/promotional_image/CJiDvY-c5ZUDEAE=.png&quot;
-canonical: &quot;https://amrita-labs.com/blog/chaty-alternative-shopify/&quot;
-relatedProducts: [&apos;chat-widget&apos;]
----
-
 ## Migrating from Chaty in five minutes
 
 Migration completes in five steps:
@@ -535,16 +495,6 @@ Migration completes in five steps:
 5. **Enter the channels in use** — WhatsApp number, Messenger page, Instagram handle, and any others the team replies on. Save.
 
 Amrita Chat Widget does not present a billing screen, a visitor-cap warning, or an upgrade prompt at any point during setup.
-
----
-title: &quot;Chaty Alternative for Shopify: Free Forever, No Tracking, No Visitor Cap (2026)&quot;
-description: &quot;Amrita Chat Widget vs Chaty for Shopify — free forever, no visitor cap, zero cookies, WhatsApp/Messenger/Instagram + 6 more channels. DOM verified.&quot;
-date: &quot;2026-07-27&quot;
-tags: [&quot;shopify&quot;, &quot;chat-widget&quot;, &quot;comparison&quot;, &quot;chaty-alternative&quot;, &quot;privacy&quot;]
-image: &quot;https://cdn.shopify.com/app-store/listing_images/e8017261bb2b89a90cafbd5fdf1abc08/promotional_image/CJiDvY-c5ZUDEAE=.png&quot;
-canonical: &quot;https://amrita-labs.com/blog/chaty-alternative-shopify/&quot;
-relatedProducts: [&apos;chat-widget&apos;]
----
 
 ## The bottom line
 
@@ -1188,15 +1138,6 @@ That is why the right Chrome extension can make Gmail feel like a real productiv
 - It is useful without demanding a complex setup
 - It solves a recurring daily problem: writing, follow-up, tracking, templates, CRM, or focus
 
----
-title: &quot;7 Best Gmail Chrome Extensions for Productivity (2026)&quot;
-description: &quot;The best Gmail Chrome extensions for productivity in 2026, compared for writing, scheduling, tracking, templates, CRM, and focus.&quot;
-date: &quot;2026-07-20&quot;
-tags: [&quot;gmail&quot;, &quot;chrome extensions&quot;, &quot;productivity&quot;, &quot;email&quot;, &quot;sales&quot;]
-image: &quot;/assets/blog/emailsubjectscore-cws.png&quot;
-relatedProducts: [&apos;gmail-subject-score&apos;]
----
-
 ## 2. Boomerang for Gmail
 
 **What it does:** Boomerang helps you schedule emails, set follow-up reminders, and pause your inbox so you can work without constant interruptions. It is one of the most established Gmail productivity tools for a reason: it handles the practical parts of email that people usually try to manage from memory.
@@ -1212,15 +1153,6 @@ If you routinely draft client replies late at night, Boomerang lets you write no
 **Price:** Free for 10 credits/month. Paid plans run about $4.98-$14.98/month.
 
 **Best for:** Scheduling, follow-up automation, and anyone who wants more control over when email gets sent and seen.
-
----
-title: &quot;7 Best Gmail Chrome Extensions for Productivity (2026)&quot;
-description: &quot;The best Gmail Chrome extensions for productivity in 2026, compared for writing, scheduling, tracking, templates, CRM, and focus.&quot;
-date: &quot;2026-07-20&quot;
-tags: [&quot;gmail&quot;, &quot;chrome extensions&quot;, &quot;productivity&quot;, &quot;email&quot;, &quot;sales&quot;]
-image: &quot;/assets/blog/emailsubjectscore-cws.png&quot;
-relatedProducts: [&apos;gmail-subject-score&apos;]
----
 
 ## 4. Grammarly
 
@@ -1238,15 +1170,6 @@ For busy professionals, Grammarly is less about perfect grammar and more about s
 
 **Best for:** Overall writing quality and people who want cleaner emails without slowing down.
 
----
-title: &quot;7 Best Gmail Chrome Extensions for Productivity (2026)&quot;
-description: &quot;The best Gmail Chrome extensions for productivity in 2026, compared for writing, scheduling, tracking, templates, CRM, and focus.&quot;
-date: &quot;2026-07-20&quot;
-tags: [&quot;gmail&quot;, &quot;chrome extensions&quot;, &quot;productivity&quot;, &quot;email&quot;, &quot;sales&quot;]
-image: &quot;/assets/blog/emailsubjectscore-cws.png&quot;
-relatedProducts: [&apos;gmail-subject-score&apos;]
----
-
 ## 6. HubSpot Sales
 
 **What it does:** HubSpot Sales brings CRM features into Gmail, including email tracking, template support, contact records, and meeting scheduling. If your inbox is tightly connected to pipeline management, this kind of extension can save a lot of tab-switching.
@@ -1261,15 +1184,6 @@ The value here is not just convenience. It is context. When you open an email, s
 
 **Best for:** Sales teams and operators who already live in a CRM-driven workflow.
 
----
-title: &quot;7 Best Gmail Chrome Extensions for Productivity (2026)&quot;
-description: &quot;The best Gmail Chrome extensions for productivity in 2026, compared for writing, scheduling, tracking, templates, CRM, and focus.&quot;
-date: &quot;2026-07-20&quot;
-tags: [&quot;gmail&quot;, &quot;chrome extensions&quot;, &quot;productivity&quot;, &quot;email&quot;, &quot;sales&quot;]
-image: &quot;/assets/blog/emailsubjectscore-cws.png&quot;
-relatedProducts: [&apos;gmail-subject-score&apos;]
----
-
 ## Comparison Table
 
 | Extension | Category | Price | Works in compose? |
@@ -1281,15 +1195,6 @@ relatedProducts: [&apos;gmail-subject-score&apos;]
 | Text Blaze | Templates and snippets | Free, Pro from $2.99/mo | Yes |
 | HubSpot Sales | CRM and sales workflow | Free CRM, paid from $20+/mo | Yes |
 | Simplify Gmail | Interface cleanup and focus | Free trial, then $3/mo or $36/yr | No |
-
----
-title: &quot;7 Best Gmail Chrome Extensions for Productivity (2026)&quot;
-description: &quot;The best Gmail Chrome extensions for productivity in 2026, compared for writing, scheduling, tracking, templates, CRM, and focus.&quot;
-date: &quot;2026-07-20&quot;
-tags: [&quot;gmail&quot;, &quot;chrome extensions&quot;, &quot;productivity&quot;, &quot;email&quot;, &quot;sales&quot;]
-image: &quot;/assets/blog/emailsubjectscore-cws.png&quot;
-relatedProducts: [&apos;gmail-subject-score&apos;]
----
 
 ## The Best Gmail Productivity Extension for Most People
 
@@ -1670,15 +1575,6 @@ That is exactly why tools like **Pinello** are useful. Instead of guessing wheth
 
 If you are a food blogger, craft seller, lifestyle creator, or niche publisher, use this **Pinterest pin SEO checklist before publishing** every time. It takes a few extra minutes, but it can save you from posting pins that look nice and still go nowhere.
 
----
-title: &quot;Pinterest Pin SEO Checklist Before Publishing: 10 Checks That Get More Saves&quot;
-description: &quot;Use this Pinterest pin SEO checklist before publishing to improve titles, descriptions, board fit, and click-throughs without guessing.&quot;
-date: &quot;2026-07-20&quot;
-tags: [&quot;pinterest&quot;, &quot;pinterest seo&quot;, &quot;pin design&quot;, &quot;content marketing&quot;, &quot;creators&quot;]
-image: &quot;/assets/blog/pinello-cws.png&quot;
-relatedProducts: [&apos;pinello&apos;]
----
-
 ## Why hashtags no longer work on Pinterest
 
 If you learned Pinterest marketing a few years ago, you were probably told to stuff a few hashtags at the end of every description.
@@ -1695,15 +1591,6 @@ What to do instead:
 - Write for humans first, search clarity second
 
 In short: stop thinking in hashtags and start thinking in keyword alignment.
-
----
-title: &quot;Pinterest Pin SEO Checklist Before Publishing: 10 Checks That Get More Saves&quot;
-description: &quot;Use this Pinterest pin SEO checklist before publishing to improve titles, descriptions, board fit, and click-throughs without guessing.&quot;
-date: &quot;2026-07-20&quot;
-tags: [&quot;pinterest&quot;, &quot;pinterest seo&quot;, &quot;pin design&quot;, &quot;content marketing&quot;, &quot;creators&quot;]
-image: &quot;/assets/blog/pinello-cws.png&quot;
-relatedProducts: [&apos;pinello&apos;]
----
 
 ## Before vs. after: a quick optimization example
 
@@ -1737,15 +1624,6 @@ Same creator. Same topic. Much stronger search signal.
 
 That is the goal of this checklist: not making your pins sound robotic, but making them unmistakably clear.
 
----
-title: &quot;Pinterest Pin SEO Checklist Before Publishing: 10 Checks That Get More Saves&quot;
-description: &quot;Use this Pinterest pin SEO checklist before publishing to improve titles, descriptions, board fit, and click-throughs without guessing.&quot;
-date: &quot;2026-07-20&quot;
-tags: [&quot;pinterest&quot;, &quot;pinterest seo&quot;, &quot;pin design&quot;, &quot;content marketing&quot;, &quot;creators&quot;]
-image: &quot;/assets/blog/pinello-cws.png&quot;
-relatedProducts: [&apos;pinello&apos;]
----
-
 ## Final pre-publish rule: score before you post
 
 Most Pinterest underperformance happens before a pin ever goes live. The image is the wrong shape. The title is vague. The first sentence is wasted. The board is too broad. The link is sloppy.
@@ -1761,15 +1639,6 @@ These 5 Chrome extensions handle the tedious parts so you can focus on creating 
 Pinello is a free Chrome extension that scores Pinterest pins across 5 dimensions — image, board fit, title, description, and hashtags — in real time.
 
 ![5 Best Free Chrome Extensions for Pinterest Creators — comparison of Pinello, Tailwind, Save to Pinterest, PinRadar, and Keywords Everywhere](/assets/blog/pinterest-chrome-extensions-hero.png)
-
----
-title: &quot;5 Best Free Chrome Extensions for Pinterest Creators (2026)&quot;
-description: &quot;Boost your Pinterest SEO and pin performance with these 5 free Chrome extensions. From real-time pin scoring to keyword research and analytics.&quot;
-date: &quot;2026-07-17&quot;
-tags: [&quot;pinterest&quot;, &quot;chrome extensions&quot;, &quot;pinterest seo&quot;, &quot;creators&quot;]
-image: &quot;/assets/blog/pinterest-chrome-extensions-hero.png&quot;
-relatedProducts: [&apos;pinello&apos;]
----
 
 ## 2. Tailwind — Pin Scheduling &amp; SmartSchedule
 
@@ -1790,15 +1659,6 @@ relatedProducts: [&apos;pinello&apos;]
 🔗 [Install Tailwind on Chrome Web Store](https://chromewebstore.google.com/detail/tailwind-pinterest-market/gkbhgdhhefdphpikedbinecandoigdel)
 
 ![Tailwind Pinterest scheduling extension](/assets/blog/tailwind-pinterest-scheduling.png)
-
----
-title: &quot;5 Best Free Chrome Extensions for Pinterest Creators (2026)&quot;
-description: &quot;Boost your Pinterest SEO and pin performance with these 5 free Chrome extensions. From real-time pin scoring to keyword research and analytics.&quot;
-date: &quot;2026-07-17&quot;
-tags: [&quot;pinterest&quot;, &quot;chrome extensions&quot;, &quot;pinterest seo&quot;, &quot;creators&quot;]
-image: &quot;/assets/blog/pinterest-chrome-extensions-hero.png&quot;
-relatedProducts: [&apos;pinello&apos;]
----
 
 ## 4. PinRadar — Hidden Pin Analytics &amp; Viral Score
 
@@ -1822,15 +1682,6 @@ relatedProducts: [&apos;pinello&apos;]
 
 ![PinRadar Pinterest analytics and viral score extension](/assets/blog/pinradar-pinterest-analytics.png)
 
----
-title: &quot;5 Best Free Chrome Extensions for Pinterest Creators (2026)&quot;
-description: &quot;Boost your Pinterest SEO and pin performance with these 5 free Chrome extensions. From real-time pin scoring to keyword research and analytics.&quot;
-date: &quot;2026-07-17&quot;
-tags: [&quot;pinterest&quot;, &quot;chrome extensions&quot;, &quot;pinterest seo&quot;, &quot;creators&quot;]
-image: &quot;/assets/blog/pinterest-chrome-extensions-hero.png&quot;
-relatedProducts: [&apos;pinello&apos;]
----
-
 ## Quick Comparison Table
 
 | Extension | Pin scoring | Scheduling | SEO keywords | Works on pinterest.com | Price |
@@ -1840,15 +1691,6 @@ relatedProducts: [&apos;pinello&apos;]
 | **Save to Pinterest** | ❌ | ❌ | ❌ | ❌ (saves TO Pinterest) | Free |
 | **PinRadar** | ❌ (analytics, not scoring) | ❌ | ❌ | ✅ | Free |
 | **Keywords Everywhere** | ❌ | ❌ | ✅ | ✅ | Free + $2/mo for volume |
-
----
-title: &quot;5 Best Free Chrome Extensions for Pinterest Creators (2026)&quot;
-description: &quot;Boost your Pinterest SEO and pin performance with these 5 free Chrome extensions. From real-time pin scoring to keyword research and analytics.&quot;
-date: &quot;2026-07-17&quot;
-tags: [&quot;pinterest&quot;, &quot;chrome extensions&quot;, &quot;pinterest seo&quot;, &quot;creators&quot;]
-image: &quot;/assets/blog/pinterest-chrome-extensions-hero.png&quot;
-relatedProducts: [&apos;pinello&apos;]
----
 
 ## Frequently Asked Questions
 
@@ -2109,15 +1951,6 @@ Below are the 5 best tools for testing and improving your email subject lines in
 
 ![Comparison of email subject line tools — EmailSubjectScore Pro scores in real time inside Gmail while others require copy-pasting to external websites](/assets/blog/best-email-subject-line-extensions-hero.png)
 
----
-title: &quot;5 Best Chrome Extensions for Email Subject Lines (2026)&quot;
-description: &quot;Tested and compared: the 5 best tools for scoring and improving your email subject lines — from in-Gmail extensions to web-based analyzers.&quot;
-date: &quot;2026-07-13&quot;
-tags: [&quot;email&quot;, &quot;productivity&quot;, &quot;chrome&quot;, &quot;cold-email&quot;]
-image: &quot;/assets/blog/best-email-subject-line-extensions-hero.png&quot;
-relatedProducts: [&apos;gmail-subject-score&apos;]
----
-
 ## 2. SendCheckIt
 
 **[sendcheckit.com/email-subject-line-tester](https://sendcheckit.com/email-subject-line-tester/)** — Free, unlimited
@@ -2140,15 +1973,6 @@ SendCheckIt gives you a single score out of 100 for any subject line you paste i
 
 ![SendCheckIt email subject line tester — paste your subject line and get a score out of 100](/assets/blog/sendcheckit-subject-line-tester.png)
 
----
-title: &quot;5 Best Chrome Extensions for Email Subject Lines (2026)&quot;
-description: &quot;Tested and compared: the 5 best tools for scoring and improving your email subject lines — from in-Gmail extensions to web-based analyzers.&quot;
-date: &quot;2026-07-13&quot;
-tags: [&quot;email&quot;, &quot;productivity&quot;, &quot;chrome&quot;, &quot;cold-email&quot;]
-image: &quot;/assets/blog/best-email-subject-line-extensions-hero.png&quot;
-relatedProducts: [&apos;gmail-subject-score&apos;]
----
-
 ## 4. Mailmeteor Subject Line Tester
 
 **[mailmeteor.com/email-subject-line-tester](https://mailmeteor.com/email-subject-line-tester)** — Free, unlimited
@@ -2170,15 +1994,6 @@ Mailmeteor is primarily a Gmail mail merge tool, but their subject line tester i
 
 ![Mailmeteor email subject line tester with AI-powered alternative suggestions](/assets/blog/mailmeteor-subject-line-tester.png)
 
----
-title: &quot;5 Best Chrome Extensions for Email Subject Lines (2026)&quot;
-description: &quot;Tested and compared: the 5 best tools for scoring and improving your email subject lines — from in-Gmail extensions to web-based analyzers.&quot;
-date: &quot;2026-07-13&quot;
-tags: [&quot;email&quot;, &quot;productivity&quot;, &quot;chrome&quot;, &quot;cold-email&quot;]
-image: &quot;/assets/blog/best-email-subject-line-extensions-hero.png&quot;
-relatedProducts: [&apos;gmail-subject-score&apos;]
----
-
 ## Comparison: Which Tool Should You Use?
 
 | Tool | In Gmail? | Real-time? | Free tier | AI rewrites? | Best for |
@@ -2190,15 +2005,6 @@ relatedProducts: [&apos;gmail-subject-score&apos;]
 | [SubjectLine.com](https://www.subjectline.com/) | ❌ | ❌ | Unlimited | ❌ | Deliverability depth |
 
 The biggest difference: **workflow integration**. Tools 2-5 all require leaving Gmail, copying your subject line, pasting it into another tab, reading the result, then going back to Gmail to make changes. EmailSubjectScore Pro is the only one that scores in place — which means you&apos;ll actually use it on every email, not just when you remember to check.
-
----
-title: &quot;5 Best Chrome Extensions for Email Subject Lines (2026)&quot;
-description: &quot;Tested and compared: the 5 best tools for scoring and improving your email subject lines — from in-Gmail extensions to web-based analyzers.&quot;
-date: &quot;2026-07-13&quot;
-tags: [&quot;email&quot;, &quot;productivity&quot;, &quot;chrome&quot;, &quot;cold-email&quot;]
-image: &quot;/assets/blog/best-email-subject-line-extensions-hero.png&quot;
-relatedProducts: [&apos;gmail-subject-score&apos;]
----
 
 ## The Bottom Line
 
