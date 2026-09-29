@@ -14,16 +14,6 @@ relatedProducts: ['chat-widget']
 
 *Amrita Chat Widget on a Shopify storefront — one button opens 9 channels: WhatsApp, Facebook Messenger, Instagram, SMS, Email, LINE, Viber, Telegram, phone.*
 
----
-title: "Chaty Alternative for Shopify: Free Forever, No Tracking, No Visitor Cap (2026)"
-description: "Amrita Chat Widget vs Chaty for Shopify — free forever, no visitor cap, zero cookies, WhatsApp/Messenger/Instagram + 6 more channels. DOM verified."
-date: "2026-07-27"
-tags: ["shopify", "chat-widget", "comparison", "chaty-alternative", "privacy"]
-image: "https://cdn.shopify.com/app-store/listing_images/e8017261bb2b89a90cafbd5fdf1abc08/promotional_image/CJiDvY-c5ZUDEAE=.png"
-canonical: "https://amrita-labs.com/blog/chaty-alternative-shopify/"
-relatedProducts: ['chat-widget']
----
-
 ## When to pick which
 
 **Choose Amrita Chat Widget** if the store has exceeded Chaty's 500 visitor/month free cap and paid tiers are not justified, if the storefront's theme has previously been affected by widget CSS bleed, or if the store sells internationally — [Amrita Chat Widget](https://apps.shopify.com/chat-widget-1) App Store listing and widget both localize into 8 languages, Chaty's listing is English only.
@@ -31,16 +21,6 @@ relatedProducts: ['chat-widget']
 **Stay on Chaty** if the store needs agent-side workflows (avatars, business hours scheduling, country targeting, merge tags), if it specifically requires WeChat, Skype (which Microsoft retired in 2025), TikTok, or Poptin, or if it needs live chat plus AI via the [Chatway](https://chaty.app/chat-button/chatway) integration.
 
 Both apps solve the same top-level problem: a chat button on a Shopify storefront. The differences are in the engineering trade-offs behind that button.
-
----
-title: "Chaty Alternative for Shopify: Free Forever, No Tracking, No Visitor Cap (2026)"
-description: "Amrita Chat Widget vs Chaty for Shopify — free forever, no visitor cap, zero cookies, WhatsApp/Messenger/Instagram + 6 more channels. DOM verified."
-date: "2026-07-27"
-tags: ["shopify", "chat-widget", "comparison", "chaty-alternative", "privacy"]
-image: "https://cdn.shopify.com/app-store/listing_images/e8017261bb2b89a90cafbd5fdf1abc08/promotional_image/CJiDvY-c5ZUDEAE=.png"
-canonical: "https://amrita-labs.com/blog/chaty-alternative-shopify/"
-relatedProducts: ['chat-widget']
----
 
 ## What Chaty does to the storefront (as of 2026-07)
 
@@ -83,16 +63,6 @@ Programmatic access is useful for triggering the chat from a custom button. It a
 
 Amrita Chat Widget exposes no globals on `window` by default. When programmatic control is needed, a single scoped API can be enabled instead of six top-level functions.
 
----
-title: "Chaty Alternative for Shopify: Free Forever, No Tracking, No Visitor Cap (2026)"
-description: "Amrita Chat Widget vs Chaty for Shopify — free forever, no visitor cap, zero cookies, WhatsApp/Messenger/Instagram + 6 more channels. DOM verified."
-date: "2026-07-27"
-tags: ["shopify", "chat-widget", "comparison", "chaty-alternative", "privacy"]
-image: "https://cdn.shopify.com/app-store/listing_images/e8017261bb2b89a90cafbd5fdf1abc08/promotional_image/CJiDvY-c5ZUDEAE=.png"
-canonical: "https://amrita-labs.com/blog/chaty-alternative-shopify/"
-relatedProducts: ['chat-widget']
----
-
 ## Pricing model
 
 Chaty's four tiers:
@@ -108,16 +78,6 @@ Chaty's Pro and Growth tiers ship identical feature sets to Basic. The only vari
 
 This model is a rational fit for businesses with per-visitor serving costs. [Amrita Chat Widget](https://apps.shopify.com/chat-widget-1) has none — the widget is a static asset served from Shopify's own CDN. Pricing reflects that architecture: Amrita Chat Widget is **free** at any traffic level. 
 
----
-title: "Chaty Alternative for Shopify: Free Forever, No Tracking, No Visitor Cap (2026)"
-description: "Amrita Chat Widget vs Chaty for Shopify — free forever, no visitor cap, zero cookies, WhatsApp/Messenger/Instagram + 6 more channels. DOM verified."
-date: "2026-07-27"
-tags: ["shopify", "chat-widget", "comparison", "chaty-alternative", "privacy"]
-image: "https://cdn.shopify.com/app-store/listing_images/e8017261bb2b89a90cafbd5fdf1abc08/promotional_image/CJiDvY-c5ZUDEAE=.png"
-canonical: "https://amrita-labs.com/blog/chaty-alternative-shopify/"
-relatedProducts: ['chat-widget']
----
-
 ## Migrating from Chaty in five minutes
 
 Migration completes in five steps:
@@ -129,16 +89,6 @@ Migration completes in five steps:
 5. **Enter the channels in use** — WhatsApp number, Messenger page, Instagram handle, and any others the team replies on. Save.
 
 Amrita Chat Widget does not present a billing screen, a visitor-cap warning, or an upgrade prompt at any point during setup.
-
----
-title: "Chaty Alternative for Shopify: Free Forever, No Tracking, No Visitor Cap (2026)"
-description: "Amrita Chat Widget vs Chaty for Shopify — free forever, no visitor cap, zero cookies, WhatsApp/Messenger/Instagram + 6 more channels. DOM verified."
-date: "2026-07-27"
-tags: ["shopify", "chat-widget", "comparison", "chaty-alternative", "privacy"]
-image: "https://cdn.shopify.com/app-store/listing_images/e8017261bb2b89a90cafbd5fdf1abc08/promotional_image/CJiDvY-c5ZUDEAE=.png"
-canonical: "https://amrita-labs.com/blog/chaty-alternative-shopify/"
-relatedProducts: ['chat-widget']
----
 
 ## The bottom line
 

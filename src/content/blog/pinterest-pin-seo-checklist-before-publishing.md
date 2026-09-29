@@ -15,15 +15,6 @@ That is exactly why tools like **Pinello** are useful. Instead of guessing wheth
 
 If you are a food blogger, craft seller, lifestyle creator, or niche publisher, use this **Pinterest pin SEO checklist before publishing** every time. It takes a few extra minutes, but it can save you from posting pins that look nice and still go nowhere.
 
----
-title: "Pinterest Pin SEO Checklist Before Publishing: 10 Checks That Get More Saves"
-description: "Use this Pinterest pin SEO checklist before publishing to improve titles, descriptions, board fit, and click-throughs without guessing."
-date: "2026-07-20"
-tags: ["pinterest", "pinterest seo", "pin design", "content marketing", "creators"]
-image: "/assets/blog/pinello-cws.png"
-relatedProducts: ['pinello']
----
-
 ## Why hashtags no longer work on Pinterest
 
 If you learned Pinterest marketing a few years ago, you were probably told to stuff a few hashtags at the end of every description.
@@ -40,15 +31,6 @@ What to do instead:
 - Write for humans first, search clarity second
 
 In short: stop thinking in hashtags and start thinking in keyword alignment.
-
----
-title: "Pinterest Pin SEO Checklist Before Publishing: 10 Checks That Get More Saves"
-description: "Use this Pinterest pin SEO checklist before publishing to improve titles, descriptions, board fit, and click-throughs without guessing."
-date: "2026-07-20"
-tags: ["pinterest", "pinterest seo", "pin design", "content marketing", "creators"]
-image: "/assets/blog/pinello-cws.png"
-relatedProducts: ['pinello']
----
 
 ## Before vs. after: a quick optimization example
 
@@ -81,15 +63,6 @@ Why it underperforms:
 Same creator. Same topic. Much stronger search signal.
 
 That is the goal of this checklist: not making your pins sound robotic, but making them unmistakably clear.
-
----
-title: "Pinterest Pin SEO Checklist Before Publishing: 10 Checks That Get More Saves"
-description: "Use this Pinterest pin SEO checklist before publishing to improve titles, descriptions, board fit, and click-throughs without guessing."
-date: "2026-07-20"
-tags: ["pinterest", "pinterest seo", "pin design", "content marketing", "creators"]
-image: "/assets/blog/pinello-cws.png"
-relatedProducts: ['pinello']
----
 
 ## Final pre-publish rule: score before you post
 
