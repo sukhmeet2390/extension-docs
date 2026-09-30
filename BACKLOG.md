@@ -43,7 +43,7 @@ features based on assumptions; the remaining work is gated by verified traffic, 
 | W26 | Shopify app title/H1 rewrites for direct-intent queries | ✅ Done | HIGH | Cookie Consent, Chat Widget (full 9 channels in H1), Accessibility retitled for direct-intent Google + Bing queries |
 | W27 | Homepage About text (visible) | Deferred | LOW | Already shipped as W8. No further copy work planned |
 | W28 | Push privacy-screen cluster (comprehensive) | ✅ Done | HIGH | Blog title + description rewritten targeting "screen privacy extension" + "privacy screen chrome extension". Added "What is a screen privacy Chrome extension?" definition, "How to add a privacy screen for Chrome" H2, "Which Chrome extension hides my screen during sharing?" workflow block. Related-reading sections added to Slack/Discord/Teams/WhatsApp product pages linking back. Catalog page cross-links to blog. `updated: "2026-08-01"` frontmatter set |
-| W29 | Content gap posts (5 clusters) | Pending | MEDIUM | One blog per cluster + product-page cross-link + Bing content submission. Clusters: (a) "hide teams chat screen share" → new blog, links to Teams product, (b) "blur discord screen sharing" → new blog, links to Discord product, (c) "whatsapp web blur" → new blog, links to WhatsApp product, (d) "gmail subject line tester" → new blog, links to gmail-subject-score, (e) "pinterest pin analyzer" → new blog, links to Pinello. Each also gets vs-competitor page if data supports |
+| W29 | Content gap posts (5 clusters) | Parked | MEDIUM | Subsumed by W45's one-post-per-month queue. Reopen only when a cluster has verified demand and no existing page satisfies intent. |
 | W30 | "What is X?" definition blocks (site-wide AEO) | Partial | MEDIUM | LLM citation format. Sub-tasks: (a) product pages × 9 [✅ Done via `WhatIsBlock` component 2026-08-01], (b) blog posts × 17 [Parked — later pass], (c) comparison pages × 5 [Parked — comparison expansion deferred until full-blown products], (d) homepage [skip — org schema covers] |
 | W31 | Internal linking audit (site-wide) | ✅ Done | HIGH | Automation shipped 2026-08-01. Sub-tasks: (a) blog to product [✅ frontmatter `relatedProducts` on 14 posts + auto-render `RelatedContentBlock`], (b) Privacy Blur mutual [✅ sibling productSlugs prop], (c) Shopify mutual [✅], (d) product to related blog [✅ auto reverse-index via `productSlug`], (e) comparison back to parent [existing], (f) catalog ↔ product [existing], (g) sr-only ProductFooter kept for compat, visible RelatedContentBlock replaces primary SEO role. Future blog posts auto-mesh via frontmatter |
 | W32 | Image delivery + Core Web Vitals | Pending | MEDIUM | Sub-tasks: (a) explicit width/height on ALL img tags — product hero, blog inline, icons, (b) convert PNG heroes to WebP (accessibility, chat, cookie hero >800KB each), (c) srcset for responsive delivery, (d) audit lazy-loading (hero should be eager per CWV guidance), (e) run PageSpeed baseline, (f) preconnect verify, (g) compress screenshots. Measure LCP/CLS before optimizing |
@@ -57,8 +57,8 @@ features based on assumptions; the remaining work is gated by verified traffic, 
 | W40 | Backlink acquisition tracker | Pending | HIGH | Zero backlinks confirmed via Bing `get_link_counts`. This is ceiling on every ranking. Sub-tasks (all distribution — outside code): (a) alternativeto.net × 9, (b) Product Hunt staggered launches 1/month, (c) Reddit story posts in r/chrome_extensions, r/shopify, r/webdev — story format not spam, (d) Show HN per product, (e) dev.to already auto-imports blog via RSS — publish weekly, (f) Medium cross-post top 3 blogs with canonical, (g) guest posts on complementary SaaS blogs, (h) track new backlinks weekly via Bing `get_link_counts`. Note: W36g + W36h Chrome Web Store + Shopify partner backlinks already shipped |
 | W41 | Blog "What is X?" first-line definition (batch pass) | Parked | LOW | Add "X is a ..." definition as first paragraph of remaining blog posts. Best done during blog refresh, not a batch pass. Skip until content editing sprint |
 | W42 | Comparison-page definition blocks | Parked | LOW | Merges with W24 (deferred until product maturity). Add "What is X?" to both product and competitor when comparison pages ship |
-| W43 | Refresh top 3 winning posts (research-backed) | Pending | HIGH | Data + research confirmed highest ROI available. See `docs/content-strategy.md`. Sub-tasks: (a) refresh `blog/best-chrome-extensions-screen-sharing-privacy` (108 imp, pos 15.2) — consolidates 4 privacy blur products, AEO citation target, (b) refresh `blog/hide-slack-messages-screen-sharing` (354 imp, pos 15.5) — highest volume, pos 15 → 5 = 5× clicks, (c) refresh `blog/consent-mode-v2-shopify-guide` (126 imp, Google pos 42, Bing pos 2) — add DMA/GDPR deadlines, code snippet, app-vs-manual comparison. Format specs: 2,000-2,800 words, 4-7 screenshots, comparison table, FAQ (3-5 Qs), 1 GIF/video, updated year label. Priority: do all 3 in ~4 hours, single commit |
-| W44 | Monthly content-strategy revisit | Recurring | HIGH | Reference: `docs/content-strategy.md`. Next: 2026-09-03. Run GSC + Bing MCP queries. Checklist: (a) which posts moved 5+ spots?, (b) new striking-distance queries pos 6-15?, (c) W43 refresh impact vs baseline, (d) Bing `get_link_counts` — backlinks discovered?, (e) new competitor names appearing as landing queries?, (f) update `docs/content-strategy.md` Top 10 if data reshuffles, (g) publish 1 new post OR refresh 1 existing per month, not more |
+| W43 | Refresh top 3 winning posts (research-backed) | ✅ Done | HIGH | Completed in August: refreshed `best-chrome-extensions-screen-sharing-privacy`, `hide-slack-messages-screen-sharing`, and `consent-mode-v2-shopify-guide` with direct answers, FAQs, comparison context, compliance detail, and product links. Measure CTR/ranking lift before another rewrite. |
+| W44 | Monthly content-strategy revisit | Due now | HIGH | September review is overdue. Reference `docs/content-strategy.md`; run GSC + Bing MCP queries, compare W43 impact, inspect positions 6-15, check backlinks, update the Top 10, then publish or refresh no more than one item. |
 | W45 | Content queue after W43 (single post per month) | Pending | HIGH | Ranked in `docs/content-strategy.md`. Order: (4) Pinterest Chrome extensions roundup (includes PinRadar / Pindodo / SortPins competitor query capture), (5) blur Discord/Teams/WhatsApp Web during calls (3 products, zero content), (6) refresh `best-gmail-chrome-extensions-productivity`, (7) Shopify Accessibility Widget — WCAG 2.1 honest comparison (67% assistive-user overlay-disable angle), (8) Best Shopify Apps for Google Consent Mode v2, (9) Shopify chat widget comparison (Chaty/Tidio/Amrita), (10) Email subject line score explainer + tools. Max 1/month |
 
 ### What competitors do well
@@ -85,16 +85,27 @@ features based on assumptions; the remaining work is gated by verified traffic, 
 
 Ordered by ROI × ease:
 
-1. **W43** — Refresh top 3 winning posts (research-backed, ~4 hrs, highest ROI)
+1. **W44** — Run overdue monthly strategy review and select one evidence-backed content action
 2. **W40** — Backlink acquisition (distribution manual; structural ceiling on every rank)
 3. **W45** — Content queue after W43 (1 post/month, ranked list)
-4. **W44** — Monthly revisit checklist (recurring)
-5. **W29** — Content gap posts × 5 (subsumed by W45 for structured cadence)
-6. **W32** — Image CWV audit
-7. **W34** — Mobile ranking investigation
-8. **W36** — AEO directory listings (glama.ai, ProductHunt, alternativeto.net × 9)
+4. **W32** — Image CWV audit
+5. **W34** — Mobile ranking investigation
+6. **W36** — AEO directory listings (glama.ai, ProductHunt, alternativeto.net × 9)
+7. **W35** — Bing content submission automation
 
 Content strategy reference: **`docs/content-strategy.md`** (research-backed, refresh monthly per W44).
+
+### Current operating plan (2026-09-29)
+
+Keep site stable after the September metadata deployment. Do not make broad SEO or copy changes
+for 2–4 weeks. Request reindexing for the five corrected blog posts, record CTR, impressions,
+clicks, and position baselines, and review results in mid-October.
+
+First controlled experiment: update only the WhatsApp Privacy Blur title and meta description,
+then measure for 14–28 days. Keep the change only if CTR improves. Park broad rewrites, new
+comparison pages, interactive Gmail demo, testimonials, rating badges, full CWV/mobile projects,
+directory campaigns, weekly monitoring automation, and GitHub organization migration until data
+justifies them.
 
 Auto tasks available on request:
 
@@ -126,6 +137,7 @@ Monitor via MCPs:
 |------|--------|-------|
 | RSS feed | ✅ Done | `src/pages/rss.xml.ts` — auto-imports to Dev.to |
 | Sitemap | ✅ Done | Auto-generated at `/sitemap-index.xml` via @astrojs/sitemap |
+| Transfer repository to Amrita Labs GitHub organization | Deferred | Organization created 2026-08-15; decide later. Before migration: confirm GitHub Pages/custom-domain continuity, private/public repo plan, personal-membership visibility, commit-author privacy, history-squash need, and rollback/backup. |
 
 ## Recent operator actions (post-deploy hygiene, not tracked as W-tasks)
 
