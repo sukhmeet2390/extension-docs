@@ -31,6 +31,7 @@
 
 ## Blog
 
+- [Pinterest Pin Scorer: Feed Score vs Pin Detail Score vs Pin Doctor](https://amrita-labs.com/blog/pinterest-pin-scorer-feed-detail-score-pin-doctor/): Understand how Pinello's Feed Score, Pin Detail Score, and Pin Doctor fit together when you inspect and improve Pinterest Pins.
 - [Azure Functions ESM Imports: The Silent Bug That Deploys Fine and Registers 0 Endpoints](https://amrita-labs.com/blog/esm-azure-functions-silent-killer/): If your Azure Functions v4 deploy succeeds but no endpoints show up, a missing .js extension in an ESM import can crash cold start without obvious deploy errors.
 - [I Built a Chrome Extension That Scores Your Gmail Subject Lines — Here's What I Learned](https://amrita-labs.com/blog/gmail-subject-scorer-launch/): After watching my cold emails die in spam folders, I built a tool that scores subject lines in real time. Here's what actually makes email subjects work.
 - [How to Tell If Your Pinterest Pin Will Perform (Before You Post)](https://amrita-labs.com/blog/how-to-tell-if-pinterest-pin-will-perform/): Before a pin gets traction, it usually passes a few predictable checks. These are the signals we look at before publishing when we want stronger Pinterest performance.

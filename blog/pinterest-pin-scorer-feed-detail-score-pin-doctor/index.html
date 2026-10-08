@@ -1,0 +1,148 @@
+<!DOCTYPE html><html lang="en" class="scroll-smooth" data-astro-cid-hkbrpulz><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Understand how Pinello's Feed Score, Pin Detail Score, and Pin Doctor fit together when you inspect and improve Pinterest Pins."><title>Pinterest Pin Scorer: Feed Score vs Pin Detail Score vs Pin Doctor — Amrita Labs</title><!-- Favicon --><link rel="icon" type="image/svg+xml" href="/favicon.svg?v=2"><!-- Canonical --><link rel="canonical" href="https://amrita-labs.com/blog/pinterest-pin-scorer-feed-detail-score-pin-doctor/"><link rel="alternate" hreflang="en" href="https://amrita-labs.com/blog/pinterest-pin-scorer-feed-detail-score-pin-doctor/"><link rel="alternate" hreflang="x-default" href="https://amrita-labs.com/blog/pinterest-pin-scorer-feed-detail-score-pin-doctor/"><!-- Open Graph --><meta property="og:title" content="Pinterest Pin Scorer: Feed Score vs Pin Detail Score vs Pin Doctor — Amrita Labs"><meta property="og:description" content="Understand how Pinello's Feed Score, Pin Detail Score, and Pin Doctor fit together when you inspect and improve Pinterest Pins."><meta property="og:type" content="website"><meta property="og:url" content="https://amrita-labs.com/blog/pinterest-pin-scorer-feed-detail-score-pin-doctor/"><meta property="og:image" content="https://amrita-labs.com/assets/blog/pinello/feed/feed-score.png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://amrita-labs.com/assets/blog/pinello/feed/feed-score.png"><!-- Fonts --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"><!-- Animations (pure CSS, no JS) --><!-- Schema.org --><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Pinterest Pin Scorer: Feed Score vs Pin Detail Score vs Pin Doctor","description":"Understand how Pinello's Feed Score, Pin Detail Score, and Pin Doctor fit together when you inspect and improve Pinterest Pins.","datePublished":"2026-10-07","dateModified":"2026-10-07","image":"https://amrita-labs.com/assets/blog/pinello/feed/feed-score.png","author":{"@type":"Organization","name":"Amrita Labs","url":"https://amrita-labs.com","@id":"https://amrita-labs.com/#organization"},"publisher":{"@type":"Organization","name":"Amrita Labs","url":"https://amrita-labs.com","@id":"https://amrita-labs.com/#organization","logo":{"@type":"ImageObject","url":"https://amrita-labs.com/favicon.svg"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://amrita-labs.com/blog/pinterest-pin-scorer-feed-detail-score-pin-doctor/"}}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://amrita-labs.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://amrita-labs.com/blog/"},{"@type":"ListItem","position":3,"name":"Pinterest Pin Scorer: Feed Score vs Pin Detail Score vs Pin Doctor","item":"https://amrita-labs.com/blog/pinterest-pin-scorer-feed-detail-score-pin-doctor/"}]}</script><link rel="stylesheet" href="/_astro/Base.DXUFxwIO.css"></head><body class="font-sans antialiased bg-white text-gray-900" data-astro-cid-hkbrpulz><!-- Nav --><nav class="fixed top-0 w-full backdrop-blur-md border-b z-50 bg-white/80 border-gray-200" data-astro-cid-hkbrpulz><div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between" data-astro-cid-hkbrpulz><a href="/" class="transition-colors text-gray-900 hover:text-brand-600" data-astro-cid-hkbrpulz><span class="inline-flex items-center gap-2.5"><svg class="h-7 w-7 flex-none text-brand-400" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M16 3.5 27.5 16 16 28.5 4.5 16 16 3.5Z" fill="currentColor" opacity="0.22"></path><path d="M16 7.5 23.75 16 16 24.5 8.25 16 16 7.5Z" stroke="currentColor" stroke-width="2.25"></path><circle cx="16" cy="16" r="3.25" fill="currentColor"></circle></svg><span class="text-lg font-bold tracking-tight">Amrita <span class="text-brand-400">Labs</span></span></span></a><div class="hidden sm:flex items-center gap-6 text-sm font-medium text-gray-500" data-astro-cid-hkbrpulz><a href="/#products" class="hover:transition-colors hover:text-gray-900" data-astro-cid-hkbrpulz>Products</a><a href="/chrome-extensions/" class="hover:transition-colors hover:text-gray-900" data-astro-cid-hkbrpulz>Extensions</a><a href="/blog/" class="hover:transition-colors hover:text-gray-900" data-astro-cid-hkbrpulz>Blog</a><a href="mailto:hello@amrita-labs.com" class="hover:transition-colors hover:text-gray-900" data-astro-cid-hkbrpulz>Contact</a></div></div></nav><!-- Content --><main class="pt-16" data-astro-cid-hkbrpulz><article class="max-w-3xl mx-auto px-6 pt-24 pb-16 sm:pt-32"><!-- Header --><div class="mb-12"><a href="/blog/" class="text-sm text-gray-400 hover:text-brand-600 transition-colors">← Back to blog</a><h1 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mt-4 leading-tight tracking-tight">Pinterest Pin Scorer: Feed Score vs Pin Detail Score vs Pin Doctor</h1><div class="flex items-center gap-4 mt-4"><span class="text-sm text-gray-400">2026-10-07</span><div class="flex gap-2 flex-wrap"><span class="text-xs text-gray-500 bg-gray-100 px-2 py-0.5 rounded-full">#pinterest</span><span class="text-xs text-gray-500 bg-gray-100 px-2 py-0.5 rounded-full">#pinterest pin scorer</span><span class="text-xs text-gray-500 bg-gray-100 px-2 py-0.5 rounded-full">#pinterest pin analyzer</span><span class="text-xs text-gray-500 bg-gray-100 px-2 py-0.5 rounded-full">#content creation</span><span class="text-xs text-gray-500 bg-gray-100 px-2 py-0.5 rounded-full">#etsy sellers</span></div></div></div><!-- Article content (rendered from markdown) --><div class="prose prose-gray max-w-none
+      prose-headings:text-gray-900 prose-headings:font-bold prose-headings:tracking-tight
+      prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4
+      prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3
+      prose-p:text-gray-700 prose-p:leading-relaxed
+      prose-a:text-brand-600 prose-a:no-underline hover:prose-a:underline
+      prose-strong:text-gray-900
+      prose-code:text-brand-700 prose-code:bg-gray-100 prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded prose-code:font-mono prose-code:text-[0.9em] prose-code:before:content-none prose-code:after:content-none
+      prose-pre:rounded-lg prose-pre:p-4 prose-pre:overflow-x-auto prose-pre:my-6
+      [&amp;_pre_code]:!bg-transparent [&amp;_pre_code]:!text-inherit [&amp;_pre_code]:!p-0 [&amp;_pre_code]:!rounded-none [&amp;_pre_code]:!text-sm [&amp;_pre_code]:!leading-relaxed
+      prose-li:text-gray-700
+      prose-blockquote:border-brand-500 prose-blockquote:text-gray-500
+      prose-hr:border-gray-200
+      prose-img:rounded-xl prose-img:border prose-img:border-gray-200 prose-img:shadow-sm"><h1 id="pinterest-pin-scorer-feed-score-vs-pin-detail-score-vs-pin-doctor">Pinterest Pin Scorer: Feed Score vs Pin Detail Score vs Pin Doctor</h1>
+<p>A Pinterest Pin can look different depending on where you inspect it. In the feed, you see a compact card. In the closeup, you can review more of the Pin’s details. In Create Pin, you are working on a draft that you can still change.</p>
+<p><strong><a href="https://amrita-labs.com/pinello/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=pinello_launch_2026-10&amp;utm_content=feed-detail-score-pin-doctor">Pinello</a> is a free Chrome extension that scores Pinterest pins across 5 dimensions — image, board fit, title, description, and hashtags — in real time.</strong> It places three related surfaces around those three moments: Feed Score while you browse, Pin Detail Score when you open a Pin, and Pin Doctor while you prepare your own Pin.</p>
+<p>These surfaces belong to one workflow, but they are not interchangeable. Each one answers a different question: Which Pins are worth a closer look? What can I learn from this Pin’s fuller context? What should I fix in my own draft before publishing?
+<img src="/assets/blog/pinello/feed/feed-score.png" alt="Pinello Feed Score badges displayed on Pinterest feed cards"></p>
+<h2 id="the-short-version">The short version</h2>
+<table>
+<thead>
+<tr>
+<th>Pinello surface</th>
+<th>Where you see it</th>
+<th>What it is for</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Feed Score</strong></td>
+<td>Pinterest feed cards</td>
+<td>A quick signal while you browse</td>
+</tr>
+<tr>
+<td><strong>Pin Detail Score</strong></td>
+<td>The Pin closeup</td>
+<td>A fuller inspection using the information available there</td>
+</tr>
+<tr>
+<td><strong>Pin Doctor</strong></td>
+<td>Pinterest Create Pin</td>
+<td>Pre-publish checks and guidance on the next fix</td>
+</tr>
+</tbody>
+</table>
+<p>The numbers can differ because the surfaces have different inputs. That is not a bug, and it is not a promise that one number is the “real Pinterest score.” These are Pinello’s own quality-review signals based on the information available at that moment.</p>
+<h2 id="1-feed-score-a-quick-signal-while-you-browse">1. Feed Score: a quick signal while you browse</h2>
+<p>Feed Score is designed for speed. As you browse Pinterest, Pinello adds score badges to feed cards so you can decide which Pins deserve a closer look.</p>
+<p>This is useful when you are:</p>
+<ul>
+<li>Collecting inspiration for a new Etsy listing</li>
+<li>Reviewing Pins in a niche before designing your own</li>
+<li>Looking for examples of title and description patterns</li>
+<li>Comparing several Pins without opening every one</li>
+<li>Saving promising Pins to local Favorites for later</li>
+</ul>
+<p>The feed card does not always expose every field available inside the Pin closeup. A Feed Score is therefore a browse-time signal, not a complete inspection.</p>
+<p>The surrounding context still matters. Depending on what Pinterest exposes, Pinello can show creator and board context, visible stats, and other details that help you understand what you are looking at. Those details are useful for research, but they should not be treated as an official Pinterest measurement or as an explanation of future distribution.</p>
+<h3 id="when-to-use-feed-score">When to use Feed Score</h3>
+<p>Use Feed Score when you are moving quickly through a feed and want a compact way to prioritize what to inspect next. You do not need to stop and analyze every Pin. Start with the Pins that are relevant to your topic, then open the ones that contain useful examples or context.</p>
+<p>For example, an Etsy seller planning a nursery-art collection might browse several related searches, note which Pins are visually clear, and save a few useful references. Feed Score helps keep that first pass lightweight.</p>
+<p>Do not copy another creator’s wording or assume that a score explains why a Pin received attention. Use the feed view to collect examples and questions for your own publishing workflow.</p>
+<h2 id="2-pin-detail-score-inspect-the-closeup">2. Pin Detail Score: inspect the closeup</h2>
+<p>Pin Detail Score appears when you open a Pin. The closeup can expose fuller information than the feed card, such as the title, description, board, image dimensions, creator context, visible stats, and other available Pin metadata.</p>
+<p>With that fuller view, Pinello can recompute its score using more inputs. A Pin that received a partial Feed Score may receive a different Pin Detail Score simply because more information is now available.</p>
+<p><img src="/assets/blog/pinello/pin-details/feed-score-comparison-with-pin-detail-1.png" alt="Pinello Pin Detail Score and Pin context shown in the Pinterest closeup"></p>
+<p>Use the closeup to ask better questions:</p>
+<ul>
+<li>What does the title actually say?</li>
+<li>Does the description add useful context?</li>
+<li>Which board is attached?</li>
+<li>Are the image dimensions and presentation what you expected?</li>
+<li>What creator and board context is visible?</li>
+<li>Which details are supplied by Pinterest, and which are Pinello checks?</li>
+</ul>
+<p>You can also save the Pin to local Favorites. Favorites keep useful research in your browser, where you can filter or sort saved Pins by available score and review them later. This creates a reference set without turning a score into a claim about what will happen next.</p>
+<h3 id="why-feed-score-and-pin-detail-score-may-not-match">Why Feed Score and Pin Detail Score may not match</h3>
+<p>Imagine a feed card with a strong image and a short visible title. Feed Score may use that limited information. When you open the Pin, the closeup may reveal a blank description, a different board context, or additional metadata. Pin Detail Score can account for the fuller view.</p>
+<p>The reverse can happen too. A field may be unavailable, incomplete, or exposed inconsistently. Pinello shows the score it can calculate from the current evidence and uses source labels where the distinction matters.</p>
+<p>The practical interpretation is simple:</p>
+<ul>
+<li><strong>Feed Score</strong> is a quick browse-time check.</li>
+<li><strong>Pin Detail Score</strong> is a fuller closeup check.</li>
+</ul>
+<p>Neither one is an official Pinterest ranking score, and neither one predicts reach, saves, clicks, or future performance.</p>
+<h2 id="3-pin-doctor-improve-your-own-draft">3. Pin Doctor: improve your own draft</h2>
+<p>Pin Doctor is the creation-side surface. It appears inside Pinterest’s Create Pin workflow, where you can still edit the image, title, description, topics, and board.</p>
+<p>Instead of helping you choose what to inspect, Pin Doctor helps you decide what to fix next. Depending on the available fields and the current draft, it includes:</p>
+<ul>
+<li>Image checks</li>
+<li>Title checks</li>
+<li>Description checks</li>
+<li>Topic and hashtag checks</li>
+<li>Board-related checks</li>
+<li>SEO Audit</li>
+<li>A publish-status chip</li>
+<li>Focus next for the most important issue</li>
+<li>Before-and-after rescore after you revise the draft</li>
+</ul>
+<p><img src="/assets/blog/pinello/pin-doctor/pin-doctor.png" alt="Pinello Pin Doctor showing SEO Audit and the pre-publish review workflow"></p>
+<p>The distinction is important. Feed Score and Pin Detail Score help you inspect Pins you are browsing. Pin Doctor is for the Pin you are preparing to publish.</p>
+<h3 id="when-to-use-pin-doctor">When to use Pin Doctor</h3>
+<p>Open Pin Doctor after you have chosen the Pin’s direction and are ready to review the draft. Start with SEO Audit and Focus next rather than trying to change everything at once.</p>
+<p>If the title is vague, rewrite it so the topic is clearer. If the description is empty, add useful context in natural language. If the selected board does not fit the Pin, review the board choice and run the explicit Board Match check when appropriate.</p>
+<p>When you use an AI action, Pinello returns a copy-only suggestion to your clipboard. You choose whether to paste it, edit it, or ignore it. Pinello does not publish the suggestion for you, and the final wording remains your decision.</p>
+<p>After making a change, review the draft again. The before-and-after rescore helps you see whether the change improved the checks that were available for that draft.</p>
+<h2 id="a-practical-browse-to-publish-workflow">A practical browse-to-publish workflow</h2>
+<h3 id="step-1-browse-with-feed-score">Step 1: Browse with Feed Score</h3>
+<p>Start on Pinterest and look for Pins relevant to the topic, audience, and format you are researching. Use Feed Score to prioritize which examples deserve more attention. Save useful references to Favorites rather than opening every card immediately.</p>
+<h3 id="step-2-inspect-promising-pins-with-pin-detail-score">Step 2: Inspect promising Pins with Pin Detail Score</h3>
+<p>Open a small set of Pins and compare their closeup details. Look at titles, descriptions, boards, image treatment, and visible creator or board context.</p>
+<p>You are building a better brief for your own Pin: what is clear, what is missing, and which decisions seem intentional. Pinello can help you inspect those fields. It does not tell you that another Pin will win or that your version will receive a particular result.</p>
+<p><img src="/assets/blog/pinello/pin-details/feed-score-comparison-with-pin-detail-2.png" alt="Pinello comparison view showing the transition from a feed signal to fuller Pin detail"></p>
+<h3 id="step-3-improve-your-own-draft-with-pin-doctor">Step 3: Improve your own draft with Pin Doctor</h3>
+<p>Create your Pin, select the board, and open Pin Doctor. Start with the highest-priority issue, make a focused revision, and review the result again.</p>
+<p>This order keeps research and creation separate. You can learn from the context around existing Pins without copying them, then apply the useful lessons to a draft that belongs to you.</p>
+<h2 id="source-labels-keep-the-scores-understandable">Source labels keep the scores understandable</h2>
+<p>Pinello uses plain labels to distinguish what you are seeing:</p>
+<ul>
+<li><strong>From Pinterest</strong> — information exposed by Pinterest</li>
+<li><strong>Pinello check</strong> — a local or rule-based review</li>
+<li><strong>AI suggestion</strong> — copy generated only after you request an action</li>
+<li><strong>Not provided by Pinterest</strong> — information the platform does not expose to Pinello</li>
+</ul>
+<p>This distinction is especially useful when reviewing Board Match or a copy suggestion. Those are Pinello tools for decision support, not official Pinterest judgments.</p>
+<h2 id="which-surface-should-you-use">Which surface should you use?</h2>
+<p>Use <strong>Feed Score</strong> when you are moving quickly through a feed and want a compact signal.</p>
+<p>Use <strong>Pin Detail Score</strong> when a Pin is worth opening and you want fuller context.</p>
+<p>Use <strong>Pin Doctor</strong> when the Pin belongs to you and you can still edit it before publishing.</p>
+<p>You do not need to choose one surface forever. A creator can browse for inspiration, inspect a saved example, and then switch to Pin Doctor for the actual publishing workflow.</p>
+<h2 id="what-none-of-these-scores-means">What none of these scores means</h2>
+<p>None of these surfaces predicts reach, virality, ranking, saves, clicks, timing, or future performance. Pinterest’s own systems and user behavior include information outside the fields a browser extension can inspect.</p>
+<p>Pinello’s narrower promise is more practical: it makes visible checks easier before you publish. You can improve a vague title because it is vague. You can choose a board because it fits the Pin. You can repair an incomplete description because it leaves out the point. Those are decisions you can make before publishing without pretending to know the future.</p>
+<h2 id="try-the-full-inspect-to-improve-workflow">Try the full inspect-to-improve workflow</h2>
+<p><a href="https://amrita-labs.com/pinello/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=pinello_launch_2026-10&amp;utm_content=feed-detail-score-pin-doctor">See the Pinello workflow for browsing, inspecting, and improving Pins</a>. The landing page shows where Feed Score, Pin Detail Score, and Pin Doctor fit without asking you to treat any one number as a guarantee.</p>
+<!--
+Internal review notes:
+- Primary keyword: Pinterest pin scorer
+- Secondary keywords: Pinterest pin analyzer, Feed Score, Pin Detail Score, Pinterest Pin Doctor
+- Search intent: commercial/informational comparison; explain which scoring surface to use
+- CTA: owned landing page with the standard Pinello UTM link
+- Factual-risk guardrail: preserve the three-surface distinction; do not call any score official, predictive, viral, reach-based, or ranking-based
+- Asset status: the hero and three inline images already exist under _distribution/blog/assets/pinello/
+-->
+</div><aside class="border-t mt-16 border-gray-200"><div class="max-w-6xl mx-auto px-6 pt-10 pb-6"><div class="mb-8"><h2 class="text-xs font-semibold uppercase tracking-widest mb-4 text-gray-500">Related products</h2><ul class="grid sm:grid-cols-2 gap-3"><li><a href="/pinello/" class="block rounded-xl border px-4 py-3 transition-colors border-gray-200 bg-gray-50 hover:border-brand-500/60 hover:bg-white"><span class="block text-sm font-semibold text-gray-900">Pinello</span><span class="block text-xs mt-1 text-gray-500">Prepare stronger Pinterest Pins before you publish</span></a></li></ul></div></div></aside><!-- Product mentions: in DOM for GEO, visually subtle --><!-- 
+  SEO/GEO: product names + one-liners in DOM for LLM parsing.
+  Visually: either subtle footer text or screen-reader-only (sr-only).
+--><aside class="sr-only"><p class="text-xs text-gray-600 leading-relaxed">Built by <a href="/" class="text-gray-500 hover:text-gray-400">Amrita Labs</a>.<span><a href="/gmail-subject-score/" class="text-gray-500 hover:text-gray-400">EmailSubjectScore Pro</a> is a free Chrome extension that scores Gmail subject lines for spam risk, clarity, and urgency in real time. </span><span><a href="/pinello/" class="text-gray-500 hover:text-gray-400">Pinello</a> is a free Chrome extension that scores Pinterest pins across 5 dimensions — image, board fit, title, description, and hashtags — in real time. </span><span><a href="/cookie-consent/" class="text-gray-500 hover:text-gray-400">Amrita Cookie Consent</a> is a cookie consent banner for Shopify with Google Consent Mode v2 built in. </span><span><a href="/accessibility-widget/" class="text-gray-500 hover:text-gray-400">Amrita Accessibility Widget</a> is a WCAG accessibility toolbar for Shopify stores. </span><span><a href="/chat-widget/" class="text-gray-500 hover:text-gray-400">Amrita Chat Widget</a> is a multi-channel chat button for Shopify with nine channels: WhatsApp, Messenger, Instagram, Telegram, LINE, Viber, SMS, Email, and Phone.</span></p></aside></article><section class="border-t border-gray-200 bg-gray-50"><div class="max-w-3xl mx-auto px-6 py-12 text-center"><p class="text-sm text-gray-400">More from <a href="/" class="text-gray-500 hover:text-brand-600">Amrita Labs</a></p></div></section></main><!-- Footer --><footer class="border-t mt-24 border-gray-200" data-astro-cid-hkbrpulz><div class="max-w-6xl mx-auto px-6 py-12" data-astro-cid-hkbrpulz><div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6" data-astro-cid-hkbrpulz><div data-astro-cid-hkbrpulz><span class="inline-flex items-center gap-2.5"><svg class="h-7 w-7 flex-none text-brand-400" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M16 3.5 27.5 16 16 28.5 4.5 16 16 3.5Z" fill="currentColor" opacity="0.22"></path><path d="M16 7.5 23.75 16 16 24.5 8.25 16 16 7.5Z" stroke="currentColor" stroke-width="2.25"></path><circle cx="16" cy="16" r="3.25" fill="currentColor"></circle></svg><span class="text-lg font-bold tracking-tight">Amrita <span class="text-brand-400">Labs</span></span></span><p class="text-sm mt-1 text-gray-500" data-astro-cid-hkbrpulz>Privacy-first productivity tools for creators and merchants.</p></div><div class="flex gap-6 text-sm text-gray-500" data-astro-cid-hkbrpulz><a href="mailto:hello@amrita-labs.com" class="hover:text-brand-400 transition-colors" data-astro-cid-hkbrpulz>hello@amrita-labs.com</a></div></div><p class="text-xs mt-8 text-gray-500" data-astro-cid-hkbrpulz>&copy; 2026 Amrita Labs. All rights reserved.</p></div></footer></body></html>
