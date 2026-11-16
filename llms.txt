@@ -31,6 +31,7 @@
 
 ## Blog
 
+- [How to Blur WhatsApp Messages During a Screen Share](https://amrita-labs.com/blog/how-to-blur-whatsapp-messages-during-screen-share/): Learn how to blur WhatsApp messages, chats, names, and media before sharing your screen in a meeting, demo, support call, or recording.
 - [Best Chrome Extensions to Blur WhatsApp During Screen Sharing](https://amrita-labs.com/blog/best-chrome-extensions-blur-whatsapp-screen-sharing/): Compare Chrome extensions that blur WhatsApp Web chats, names, previews, and media during screen sharing, meetings, demos, and recordings.
 - [How to Write Better Pinterest Pin Titles and Descriptions](https://amrita-labs.com/blog/how-to-write-better-pinterest-pin-titles-descriptions/): Write Pinterest Pin titles and descriptions that make the topic clear, add useful context, and stay aligned with the image, board, and destination.
 - [Pinterest Pin Doctor: Fix the Weakest Part of a Pin Before Publishing](https://amrita-labs.com/blog/pinterest-pin-doctor-fix-weakest-part/): Use Pinterest Pin Doctor to find the weakest part of a draft, make one focused fix, and review the Pin again before publishing.
