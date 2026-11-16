@@ -156,14 +156,6 @@ You can still publish a Pin with an imperfect preference call. The point is to r
 
 [See Pinello’s Pin Doctor workflow](https://amrita-labs.com/pinello/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=pinello_launch_2026-11&utm_content=pin-doctor-fix-weakest-part) if you want to review a draft one issue at a time. You can make the edit in Pinterest, request copy-only help when useful, and compare the draft again before publishing.
 
-## Assets used
-
-- [x] Main Pin Doctor workflow with status, checks, and **Focus next**
-- [x] Focused next-action close-up
-- [x] Example Pin before the repair
-- [x] Example Pin after the repair with rescore
-- [ ] Copy-only AI suggestion capture retained for a future title-and-description article
-
 <!--
 Internal SEO review
 Primary keyword: Pinterest Pin Doctor
