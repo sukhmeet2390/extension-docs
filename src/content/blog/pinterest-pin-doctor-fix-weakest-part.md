@@ -3,7 +3,7 @@ title: "Pinterest Pin Doctor: Fix the Weakest Part of a Pin Before Publishing"
 description: "Use Pinterest Pin Doctor to find the weakest part of a draft, make one focused fix, and review the Pin again before publishing."
 date: "2026-11-15"
 tags: ["pinterest", "pinterest pin analyzer", "pinterest seo", "etsy sellers", "pin optimization"]
-image: "/assets/blog/pinello/pin-doctor/etsy-pin-doctor.webp"
+image: "https://amrita-labs.com/assets/blog/pinello/pin-doctor/etsy-pin-doctor.png"
 relatedProducts: ['pinello']
 ---
 
@@ -13,7 +13,7 @@ That’s not helpful when you’re preparing a batch of Etsy product Pins, writi
 
 Pinello’s Pin Doctor is built for that moment. [Pinello](https://amrita-labs.com/pinello/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=pinello_launch_2026-11&utm_content=pin-doctor-fix-weakest-part) is a free Chrome extension that scores Pinterest pins across 5 dimensions — image, board fit, title, description, and hashtags — in real time. Inside Create Pin, Pin Doctor shows the SEO Audit and uses **Focus next** to point to the most important unfinished part.
 
-![Pinello Pin Doctor reviewing an Etsy-style Pinterest draft with Focus next and a ready-to-review status](/assets/blog/pinello/pin-doctor/etsy-pin-doctor.webp)
+![Pinello Pin Doctor reviewing an Etsy-style Pinterest draft with Focus next and a ready-to-review status](https://amrita-labs.com/assets/blog/pinello/pin-doctor/etsy-pin-doctor.png)
 
 ## What the Pin Doctor checks
 
@@ -49,7 +49,7 @@ Focus next can turn a broad review into one manageable action:
 
 You’re not trying to make the score perfect in one click. You’re making the next decision clearer.
 
-![Pinello Pin Doctor showing a focused next action for a draft that still needs topics](/assets/blog/pinello/pin-doctor/focus-on.webp)
+![Pinello Pin Doctor showing a focused next action for a draft that still needs topics](https://amrita-labs.com/assets/blog/pinello/pin-doctor/focus-on.png)
 
 ## Example: an Etsy product Pin
 
@@ -83,9 +83,9 @@ The repair doesn’t require a new design. It needs clarity:
 
 The result is more useful because every field supports the same topic. That’s the kind of improvement a pre-publish review can verify.
 
-![Pinterest Pin Doctor before a repair, showing a weak title, short description, and missing topics](/assets/blog/pinello/pin-doctor/room-ideas-before.webp)
+![Pinterest Pin Doctor before a repair, showing a weak title, short description, and missing topics](https://amrita-labs.com/assets/blog/pinello/pin-doctor/room-ideas-before.png)
 
-![Pinterest Pin Doctor after a repair, showing clearer copy and a ready-to-review status](/assets/blog/pinello/pin-doctor/room-ideas-after.webp)
+![Pinterest Pin Doctor after a repair, showing clearer copy and a ready-to-review status](https://amrita-labs.com/assets/blog/pinello/pin-doctor/room-ideas-after.png)
 
 ## When to use a copy-only AI suggestion
 
