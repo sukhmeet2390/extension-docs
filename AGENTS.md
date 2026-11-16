@@ -63,6 +63,9 @@ Every blog post, product page, or comparison ships as a markdown/astro file. Dis
 6. Medium cross-post third with same canonical.
 ```
 
+The content validator blocks duplicate markdown H1 headings, missing local image assets,
+missing image alt text, and internal editorial markers such as `Assets used`.
+
 **No manual edits to:** `sitemap-*.xml`, `rss.xml`, `llms.txt`, any index page. Ever.
 
 ---

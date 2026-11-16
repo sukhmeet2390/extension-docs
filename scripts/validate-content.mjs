@@ -33,6 +33,38 @@ for (const directory of contentRoots) {
     if (duplicateTitleLine !== -1) {
       errors.push(`${relativePath}:${duplicateTitleLine + 1}: duplicate frontmatter detected`);
     }
+
+    const bodyLines = lines.slice(closingIndex + 1);
+    const markdownH1Line = bodyLines.findIndex((line) => /^#\s+/.test(line));
+    if (markdownH1Line !== -1) {
+      errors.push(
+        `${relativePath}:${closingIndex + markdownH1Line + 2}: markdown H1 duplicates the layout title; use frontmatter title only`,
+      );
+    }
+
+    const internalChecklistLine = bodyLines.findIndex((line) => /assets used/i.test(line));
+    if (internalChecklistLine !== -1) {
+      errors.push(
+        `${relativePath}:${closingIndex + internalChecklistLine + 2}: internal "Assets used" checklist must not be published`,
+      );
+    }
+
+    for (const [index, line] of bodyLines.entries()) {
+      const imageMatch = line.match(/!\[([^\]]*)\]\(([^)]+)\)/);
+      if (!imageMatch) continue;
+
+      const [, altText, imageUrl] = imageMatch;
+      if (!altText.trim()) {
+        errors.push(`${relativePath}:${closingIndex + index + 2}: image alt text is required`);
+      }
+
+      if (imageUrl.startsWith('/assets/')) {
+        const assetPath = path.join(root, 'public', imageUrl.slice(1));
+        if (!fs.existsSync(assetPath)) {
+          errors.push(`${relativePath}:${closingIndex + index + 2}: missing image asset ${imageUrl}`);
+        }
+      }
+    }
   }
 }
 

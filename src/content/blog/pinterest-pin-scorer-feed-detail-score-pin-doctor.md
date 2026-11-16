@@ -7,8 +7,6 @@ image: "/assets/blog/pinello/feed/feed-score.png"
 relatedProducts: ['pinello']
 ---
 
-# Pinterest Pin Scorer: Feed Score vs Pin Detail Score vs Pin Doctor
-
 A Pinterest Pin can look different depending on where you inspect it. In the feed, you see a compact card. In the closeup, you can review more of the Pin's details. In Create Pin, you are working on a draft that you can still change.
 
 **[Pinello](https://amrita-labs.com/pinello/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=pinello_launch_2026-10&utm_content=feed-detail-score-pin-doctor) is a free Chrome extension that scores Pinterest pins across 5 dimensions — image, board fit, title, description, and hashtags — in real time.** It places three related surfaces around those three moments: Feed Score while you browse, Pin Detail Score when you open a Pin, and Pin Doctor while you prepare your own Pin.
