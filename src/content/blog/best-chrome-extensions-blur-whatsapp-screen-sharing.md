@@ -4,6 +4,7 @@ description: "Compare Chrome extensions that blur WhatsApp Web chats, names, pre
 date: "2026-11-15"
 tags: ["whatsapp", "whatsapp web", "screen sharing", "privacy", "chrome extensions"]
 image: "https://amrita-labs.com/assets/blog/whatsapp-blur/whatsapp-full-blurred.png"
+relatedProducts: ['privacy-blur-whatsapp']
 ---
 
 Screen sharing turns an ordinary WhatsApp Web tab into a privacy risk. A chat preview can expose a private message, a contact name can reveal who you are talking to, and a profile photo can identify someone before you notice what is visible in the shared window.

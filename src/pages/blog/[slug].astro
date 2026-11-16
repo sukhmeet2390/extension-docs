@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import BlogProductCta from '../../components/BlogProductCta.astro';
 import ProductFooter from '../../components/ProductFooter.astro';
 import RelatedContentBlock from '../../components/RelatedContentBlock.astro';
 import { getCollection, render } from 'astro:content';
@@ -76,6 +77,8 @@ const schema = {
       prose-img:rounded-xl prose-img:border prose-img:border-gray-200 prose-img:shadow-sm">
       <Content />
     </div>
+
+    <BlogProductCta productSlugs={post.data.relatedProducts ?? []} />
 
     <RelatedContentBlock
       productSlugs={post.data.relatedProducts ?? []}
