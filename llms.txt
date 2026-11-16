@@ -31,6 +31,7 @@
 
 ## Blog
 
+- [Best Chrome Extensions to Blur WhatsApp During Screen Sharing](https://amrita-labs.com/blog/best-chrome-extensions-blur-whatsapp-screen-sharing/): Compare Chrome extensions that blur WhatsApp Web chats, names, previews, and media during screen sharing, meetings, demos, and recordings.
 - [Pinterest Pin Doctor: Fix the Weakest Part of a Pin Before Publishing](https://amrita-labs.com/blog/pinterest-pin-doctor-fix-weakest-part/): Use Pinterest Pin Doctor to find the weakest part of a draft, make one focused fix, and review the Pin again before publishing.
 - [Pinterest Pin Scorer: Feed Score vs Pin Detail Score vs Pin Doctor](https://amrita-labs.com/blog/pinterest-pin-scorer-feed-detail-score-pin-doctor/): Understand how Pinello's Feed Score, Pin Detail Score, and Pin Doctor fit together when you inspect and improve Pinterest Pins.
 - [Azure Functions ESM Imports: The Silent Bug That Deploys Fine and Registers 0 Endpoints](https://amrita-labs.com/blog/esm-azure-functions-silent-killer/): If your Azure Functions v4 deploy succeeds but no endpoints show up, a missing .js extension in an ESM import can crash cold start without obvious deploy errors.
