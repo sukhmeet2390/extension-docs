@@ -55,6 +55,9 @@ Every blog post, product page, or comparison ships as a markdown/astro file. Dis
 ```
 1. Create src/content/blog/<slug>.md with schema-valid frontmatter:
      { title, description, date (YYYY-MM-DD), tags?, canonical?, image?, draft? }
+     Choose a short, SEO-friendly kebab-case `<slug>` from the primary search phrase
+     before publishing. Once pushed or cross-posted, never rename it without a
+     deliberate redirect migration.
      Use `draft: true` for unpublished blog drafts; drafts stay out of routes, RSS, and llms.txt.
 2. git commit + git push origin master
 3. GitHub Pages deploy runs (~22s). Verify at https://amrita-labs.com/blog/<slug>/
