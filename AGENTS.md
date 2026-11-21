@@ -26,6 +26,8 @@ or other personal information on this public site.
 - **Product pages** — `src/pages/<product>/index.astro`, `<product>/privacy.astro`, `<product>/terms.astro`
 - **Blog posts** — `src/content/blog/*.md` (rendered by `src/pages/blog/[slug].astro`)
 - **Comparisons** — `src/content/comparisons/*.md` (currently gmail-subject-score only; rendered by `src/pages/gmail-subject-score/vs/[slug].astro`)
+- **Copilot skills** — `.github/skills/<skill-name>/SKILL.md` (reusable, repository-scoped agent workflows)
+- **SEO reports** — `docs/seo-reports/YYYY-MM-DD-<weekly|monthly>.md` (saved by the `seo-snapshot` skill; tracked for trend analysis, no account identifiers)
 - **Legal + assets** — `public/`, `src/pages/*/privacy.astro`, `src/pages/*/terms.astro`
 - **AEO plumbing** — `src/pages/llms.txt.ts`, `src/pages/brand.json.ts`, `public/robots.txt`, auto-generated `sitemap-index.xml`
 
