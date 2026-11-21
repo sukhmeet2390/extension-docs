@@ -19,7 +19,8 @@ remembered figures, repository notes, or prior reports for fresh measurements.
   7 days, plus Google opportunity audits.
 - **Monthly:** use when the prompt says "monthly". Each engine's latest 28
   returned days versus the previous 28 days, plus PageSpeed on the top three
-  Google landing pages by clicks.
+  Google landing pages by clicks. Without a PageSpeed API key, `pagespeed_analyze`
+  can hit a free-tier rate limit; report PageSpeed as not checked if it fails.
 - Honor explicit date ranges from the prompt instead of the mode defaults.
 
 ## Before querying

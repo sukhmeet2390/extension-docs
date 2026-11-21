@@ -37,26 +37,14 @@ Bing diagnostics passed, and `sc-domain:amrita-labs.com` plus
 
 ## Startup performance (bundle required)
 
-Copilot fails MCP startup after 60 seconds ("MCP lifecycle negotiation did not
-complete within 60000 ms"), and the timeout is not configurable. The unbundled
-`dist\index.js` loads about 5,800 dependency files and took 20–23 seconds warm and
-over 200 seconds when cold, so scheduled automations failed. The single-file bundle
-starts in 12–16 seconds, including cold starts. Node's compile cache
-(`NODE_COMPILE_CACHE`) was tested and did not help.
-
-Rebuild the bundle after any `npm run build` or dependency change:
+Copilot stops waiting for an MCP server after 60 seconds, so the server runs from a
+single-file bundle that starts in 8–16 seconds. See
+[`search-console-mcp-bundle.md`](./search-console-mcp-bundle.md) for why, tool
+compatibility, how it runs, and how to update it. Rebuild and verify with:
 
 ```powershell
-cd <repo>\.tools\search-console-mcp-src-restored
-$banner = "import { createRequire as __bundleCreateRequire } from 'module'; import { fileURLToPath as __bundleFileURLToPath } from 'url'; import { dirname as __bundleDirname } from 'path'; const require = __bundleCreateRequire(import.meta.url); globalThis.__filename ??= __bundleFileURLToPath(import.meta.url); globalThis.__dirname ??= __bundleDirname(globalThis.__filename);"
-$externals = @('@napi-rs/keyring','@google-analytics/data','google-gax','open','zod','zod/*','@modelcontextprotocol/sdk','@modelcontextprotocol/sdk/*') | ForEach-Object { "--external:$_" }
-& node_modules\.bin\esbuild.cmd dist/index.js --bundle --platform=node --format=esm --target=node22 --minify-whitespace --minify-syntax --legal-comments=none --outfile=bundle/server.min.mjs @externals "--banner:js=$banner"
+.\scripts\rebuild-search-console-mcp.ps1
 ```
-
-Keep `zod` and `@modelcontextprotocol/sdk` external: bundling them causes a
-module initialization-order crash (`Class2 is not a constructor`). Keep the native
-keyring, GA4/gRPC, and `open` packages external because they load files by path.
-Do not minify identifiers.
 
 ## Authentication arrangement
 
@@ -82,13 +70,11 @@ Do not change global npm or Python configuration. Run feed overrides only for th
 repo-local command:
 
 ```powershell
-cd <repo>\.tools\search-console-mcp-src-restored
-$feed = "https://ms-feed-2.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/"
-npm install --registry $feed
-npm run build
+.\scripts\rebuild-search-console-mcp.ps1 -Install
 ```
 
-Then rebuild the bundle (see "Startup performance").
+This installs through the approved npm feed, compiles, rebuilds the bundle, and verifies
+startup.
 
 For the Amin Python server:
 
