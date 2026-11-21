@@ -3,12 +3,14 @@ import { findProduct } from '../data/products';
 
 interface Props {
   productSlugs?: string[];
+  postSlug?: string;
 }
 
-const { productSlugs = [] } = Astro.props;
-const product = productSlugs.length === 1 ? findProduct(productSlugs[0]) : undefined;
+const { productSlugs = [], postSlug } = Astro.props;
+// The first related product is the post's primary product (multi-product round-ups list it first).
+const product = productSlugs.length > 0 ? findProduct(productSlugs[0]) : undefined;
 const ctaUrl = product
-  ? `/${product.slug}/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=blog_cta&utm_content=${product.slug}`
+  ? `/${product.slug}/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=${product.slug}_blog&utm_content=${postSlug ? `${postSlug}-cta` : 'blog-cta'}`
   : undefined;
 ---
 

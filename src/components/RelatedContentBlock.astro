@@ -11,10 +11,16 @@ interface Props {
   productSlugs?: string[];
   postSlugs?: string[];
   productSlug?: string;
+  /** Blog post slug; when set, product links carry UTM params identifying the post. */
+  sourcePost?: string;
   theme?: 'dark' | 'light';
 }
 
-const { productSlugs = [], postSlugs = [], productSlug, theme = 'light' } = Astro.props;
+const { productSlugs = [], postSlugs = [], productSlug, sourcePost, theme = 'light' } = Astro.props;
+const productHref = (slug: string) =>
+  sourcePost
+    ? `/${slug}/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=${slug}_blog&utm_content=${sourcePost}-related`
+    : `/${slug}/`;
 
 const products = productSlugs
   .map((slug) => findProduct(slug))
@@ -48,7 +54,7 @@ const isDark = theme === 'dark';
         <ul class="grid sm:grid-cols-2 gap-3">
           {products.map((product) => (
             <li>
-              <a href={`/${product.slug}/`} class:list={['block rounded-xl border px-4 py-3 transition-colors', isDark ? 'border-white/5 bg-white/5 hover:border-brand-400/50' : 'border-gray-200 bg-gray-50 hover:border-brand-500/60 hover:bg-white']}>
+              <a href={productHref(product.slug)} class:list={['block rounded-xl border px-4 py-3 transition-colors', isDark ? 'border-white/5 bg-white/5 hover:border-brand-400/50' : 'border-gray-200 bg-gray-50 hover:border-brand-500/60 hover:bg-white']}>
                 <span class:list={['block text-sm font-semibold', isDark ? 'text-white' : 'text-gray-900']}>{product.name}</span>
                 <span class:list={['block text-xs mt-1', isDark ? 'text-gray-400' : 'text-gray-500']}>{product.tagline}</span>
               </a>

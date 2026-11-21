@@ -140,5 +140,37 @@ const isDark = theme === 'dark';
         <p class:list={['text-xs mt-8', isDark ? 'text-gray-400' : 'text-gray-500']}>&copy; {new Date().getFullYear()} Amrita Labs. All rights reserved.</p>
       </div>
     </footer>
+
+    <!--
+      Forward campaign tags to Chrome Web Store links. CWS passes utm_source/medium/campaign (not utm_content)
+      to its GA4 property, so this is what attributes installs to a blog post, Reddit thread, or video.
+      utm_content is folded into utm_campaign. Visits without tags are labelled as website traffic by page.
+    -->
+    <script is:inline>
+      (function () {
+        var params = new URLSearchParams(window.location.search);
+        var source = params.get('utm_source');
+        var medium = params.get('utm_medium');
+        var campaign = params.get('utm_campaign');
+        var content = params.get('utm_content');
+        if (!source) {
+          source = 'amrita-labs';
+          medium = 'website';
+          campaign = window.location.pathname.replace(/index\.html$/, '').replace(/^\/|\/$/g, '').replace(/\//g, '_') || 'home';
+        } else if (content) {
+          campaign = (campaign ? campaign + '__' : '') + content;
+        }
+        document.querySelectorAll('a[href*="chromewebstore.google.com/detail/"]').forEach(function (a) {
+          try {
+            var url = new URL(a.href);
+            if (url.searchParams.has('utm_source')) return;
+            url.searchParams.set('utm_source', source);
+            if (medium) url.searchParams.set('utm_medium', medium);
+            if (campaign) url.searchParams.set('utm_campaign', campaign);
+            a.href = url.toString();
+          } catch (e) {}
+        });
+      })();
+    </script>
   </body>
 </html>

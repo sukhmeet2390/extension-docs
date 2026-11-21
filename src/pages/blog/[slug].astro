@@ -78,11 +78,12 @@ const schema = {
       <Content />
     </div>
 
-    <BlogProductCta productSlugs={post.data.relatedProducts ?? []} />
+    <BlogProductCta productSlugs={post.data.relatedProducts ?? []} postSlug={post.id} />
 
     <RelatedContentBlock
       productSlugs={post.data.relatedProducts ?? []}
       postSlugs={post.data.relatedPosts ?? []}
+      sourcePost={post.id}
       theme="light"
     />
 
