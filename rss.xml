@@ -1158,7 +1158,7 @@ Pinello also includes local Favorites, sorting and filtering, SEO Audit, Board M
 
 **Watch for:** it is not an analytics dashboard, scheduler, keyword-volume database, or reach forecast.
 
-Official page: [Pinello](https://amrita-labs.com/pinello/).
+Official page: [Pinello](https://amrita-labs.com/pinello/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=pinello_blog&amp;utm_content=11-best-pinterest-tools-creators).
 
 ## 4. Tailwind: schedule and plan Pinterest content
 
@@ -2029,16 +2029,7 @@ You can still publish a Pin with an imperfect preference call. The point is to r
 
 ## Try a focused pre-publish review
 
-[See Pinello’s Pin Doctor workflow](https://amrita-labs.com/pinello/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=pinello_launch_2026-11&amp;utm_content=pin-doctor-fix-weakest-part) if you want to review a draft one issue at a time. You can make the edit in Pinterest, request copy-only help when useful, and compare the draft again before publishing.
-
-&lt;!--
-Internal SEO review
-Primary keyword: Pinterest Pin Doctor
-Secondary keywords: Pinterest pin analyzer, optimize Pinterest pins, Pinterest SEO checklist, Pinterest title and description, Pinterest board fit
-Search intent: Feature-led informational/commercial; reader wants a way to repair a weak Pin before publishing.
-CTA target: https://amrita-labs.com/pinello/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=pinello_launch_2026-11&amp;utm_content=pin-doctor-fix-weakest-part
-Factual-risk flags: Use only current v1.4.x Doctor actions and labels. Do not imply AI writes into Pinterest or that SEO Audit predicts ranking, reach, saves, clicks, timing, or future performance. Board Match must remain an explicit user-triggered check.
---&gt;</content:encoded></item><item><title>Pinterest Pin Scorer: Feed Score vs Pin Detail Score vs Pin Doctor</title><link>https://amrita-labs.com/blog/pinterest-pin-scorer-feed-detail-score-pin-doctor/</link><guid isPermaLink="true">https://amrita-labs.com/blog/pinterest-pin-scorer-feed-detail-score-pin-doctor/</guid><description>Understand how Pinello&apos;s Feed Score, Pin Detail Score, and Pin Doctor fit together when you inspect and improve Pinterest Pins.</description><pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate><content:encoded>A Pinterest Pin can look different depending on where you inspect it. In the feed, you see a compact card. In the closeup, you can review more of the Pin&apos;s details. In Create Pin, you are working on a draft that you can still change.
+[See Pinello’s Pin Doctor workflow](https://amrita-labs.com/pinello/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=pinello_launch_2026-11&amp;utm_content=pin-doctor-fix-weakest-part) if you want to review a draft one issue at a time. You can make the edit in Pinterest, request copy-only help when useful, and compare the draft again before publishing.</content:encoded></item><item><title>Pinterest Pin Scorer: Feed Score vs Pin Detail Score vs Pin Doctor</title><link>https://amrita-labs.com/blog/pinterest-pin-scorer-feed-detail-score-pin-doctor/</link><guid isPermaLink="true">https://amrita-labs.com/blog/pinterest-pin-scorer-feed-detail-score-pin-doctor/</guid><description>Understand how Pinello&apos;s Feed Score, Pin Detail Score, and Pin Doctor fit together when you inspect and improve Pinterest Pins.</description><pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate><content:encoded>A Pinterest Pin can look different depending on where you inspect it. In the feed, you see a compact card. In the closeup, you can review more of the Pin&apos;s details. In Create Pin, you are working on a draft that you can still change.
 
 **[Pinello](https://amrita-labs.com/pinello/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=pinello_launch_2026-10&amp;utm_content=feed-detail-score-pin-doctor) is a free Chrome extension that scores Pinterest pins across 5 dimensions — image, board fit, title, description, and hashtags — in real time.** It places three related surfaces around those three moments: Feed Score while you browse, Pin Detail Score when you open a Pin, and Pin Doctor while you prepare your own Pin.
 
@@ -2190,17 +2181,7 @@ Pinello&apos;s narrower promise is more practical: it makes visible checks easie
 
 ## Try the full inspect-to-improve workflow
 
-[See the Pinello workflow for browsing, inspecting, and improving Pins](https://amrita-labs.com/pinello/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=pinello_launch_2026-10&amp;utm_content=feed-detail-score-pin-doctor). The landing page shows where Feed Score, Pin Detail Score, and Pin Doctor fit without asking you to treat any one number as a guarantee.
-
-&lt;!--
-Internal review notes:
-- Primary keyword: Pinterest pin scorer
-- Secondary keywords: Pinterest pin analyzer, Feed Score, Pin Detail Score, Pinterest Pin Doctor
-- Search intent: commercial/informational comparison; explain which scoring surface to use
-- CTA: owned landing page with the standard Pinello UTM link
-- Factual-risk guardrail: preserve the three-surface distinction; do not call any score official, predictive, viral, reach-based, or ranking-based
-- Asset status: the hero and three inline images already exist under _distribution/blog/assets/pinello/
---&gt;</content:encoded></item><item><title>Azure Functions ESM Imports: The Silent Bug That Deploys Fine and Registers 0 Endpoints</title><link>https://amrita-labs.com/blog/esm-azure-functions-silent-killer/</link><guid isPermaLink="true">https://amrita-labs.com/blog/esm-azure-functions-silent-killer/</guid><description>If your Azure Functions v4 deploy succeeds but no endpoints show up, a missing .js extension in an ESM import can crash cold start without obvious deploy errors.</description><pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate><content:encoded>I had one of those deploys that makes you question your own eyesight. `func azure functionapp publish` said everything was fine. Azure Portal showed a healthy Function App. My local tests passed. The build passed. Then I ran `az functionapp function list` and got... nothing.
+[See the Pinello workflow for browsing, inspecting, and improving Pins](https://amrita-labs.com/pinello/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=pinello_launch_2026-10&amp;utm_content=feed-detail-score-pin-doctor). The landing page shows where Feed Score, Pin Detail Score, and Pin Doctor fit without asking you to treat any one number as a guarantee.</content:encoded></item><item><title>Azure Functions ESM Imports: The Silent Bug That Deploys Fine and Registers 0 Endpoints</title><link>https://amrita-labs.com/blog/esm-azure-functions-silent-killer/</link><guid isPermaLink="true">https://amrita-labs.com/blog/esm-azure-functions-silent-killer/</guid><description>If your Azure Functions v4 deploy succeeds but no endpoints show up, a missing .js extension in an ESM import can crash cold start without obvious deploy errors.</description><pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate><content:encoded>I had one of those deploys that makes you question your own eyesight. `func azure functionapp publish` said everything was fine. Azure Portal showed a healthy Function App. My local tests passed. The build passed. Then I ran `az functionapp function list` and got... nothing.
 
 Not broken endpoints. Not one broken endpoint. Zero endpoints registered.
 
@@ -2301,7 +2282,7 @@ So I did what any engineer would do when annoyed enough — I built something.
 
 ## What I actually built
 
-[EmailSubjectScore Pro](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm) is a Chrome extension that sits inside Gmail&apos;s compose window. As you type a subject line, it scores it on three things:
+[EmailSubjectScore Pro](https://amrita-labs.com/gmail-subject-score/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=gmail-subject-score_blog&amp;utm_content=gmail-subject-scorer-launch) is a Chrome extension that sits inside Gmail&apos;s compose window. As you type a subject line, it scores it on three things:
 
 - **Spam risk** — are you triggering filters without realizing it?
 - **Clarity** — does the recipient know what this email is about?
@@ -2345,7 +2326,7 @@ The free tier gives you 50 AI scores per month and 10 per day. Enough to cover a
 
 If you try it and something feels off — a score that doesn&apos;t make sense, a rewrite that sounds weird, a bug where it doesn&apos;t show up in compose — genuinely tell us. We&apos;re building this for people who send emails that matter, and the best feedback comes from people actually using it.
 
-**→ [Install EmailSubjectScore Pro (free)](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm)**
+**→ [Get EmailSubjectScore Pro (free)](https://amrita-labs.com/gmail-subject-score/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=gmail-subject-score_blog&amp;utm_content=gmail-subject-scorer-launch)**
 
 ---
 
@@ -2355,7 +2336,7 @@ You post them, maybe give them a day, and it is obvious they are not going anywh
 
 A lot of the difference shows up before the pin is even published. Pinterest gets an immediate set of signals from the image, the board, the title, the description, and then the first wave of engagement. If those signals are weak, the pin rarely gets much room to recover.
 
-[Pinello](https://chromewebstore.google.com/detail/kmelegdnljikegoemigfgnpcbllmkije) is a free Chrome extension that scores Pinterest pins across 5 dimensions — image, board fit, title, description, and keywords — in real time, directly on pinterest.com.
+[Pinello](https://amrita-labs.com/pinello/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=pinello_blog&amp;utm_content=how-to-tell-if-pinterest-pin-will-perform) is a free Chrome extension that scores Pinterest pins across 5 dimensions — image, board fit, title, description, and keywords — in real time, directly on pinterest.com.
 
 ![Pinterest pin scoring checklist — 5 dimensions to check before posting](/assets/blog/pinterest-chrome-extensions-pinello.png)
 
@@ -2477,7 +2458,7 @@ That will not guarantee a viral pin. It will give the pin a fairer chance, which
 
 ## Score your next pin before posting
 
-Before you hit publish, give the pin one last check. [Install Pinello from the Chrome Web Store](https://chromewebstore.google.com/detail/kmelegdnljikegoemigfgnpcbllmkije) — it&apos;s free, works directly on pinterest.com, and scores your pins across all 5 dimensions before you post. No signup needed.
+Before you hit publish, give the pin one last check. [Get Pinello](https://amrita-labs.com/pinello/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=pinello_blog&amp;utm_content=how-to-tell-if-pinterest-pin-will-perform) — it&apos;s free, works directly on pinterest.com, and scores your pins across all 5 dimensions before you post. No signup needed.
 
 ---
 
@@ -2716,7 +2697,7 @@ That is such a bad trade.
 
 The subject line is the first decision point. Before someone reads your opener, before they notice your CTA, before they appreciate how thoughtful your email is, they make a snap call about whether this message deserves attention at all.
 
-If you write outreach from Gmail, [EmailSubjectScore Pro](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm) is a free Chrome extension that scores your subject lines for spam risk, clarity, and urgency in real time — right inside the compose window.
+If you write outreach from Gmail, [EmailSubjectScore Pro](https://amrita-labs.com/gmail-subject-score/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=gmail-subject-score_blog&amp;utm_content=how-to-write-subject-lines-that-get-opened) is a free Chrome extension that scores your subject lines for spam risk, clarity, and urgency in real time — right inside the compose window.
 
 ![Subject line formulas and examples for cold email outreach](/assets/blog/best-email-subject-line-extensions-hero.png)
 
@@ -2864,7 +2845,7 @@ That one minute is usually worth more than another ten minutes polishing the bod
 
 ## Score your next subject line
 
-Before your next important email, give the subject line a quick score. [Install EmailSubjectScore Pro](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm) — it&apos;s free, works inside Gmail, and shows you exactly what feels weak before you hit send. No signup, no copy-pasting to external tools.
+Before your next important email, give the subject line a quick score. [Get EmailSubjectScore Pro](https://amrita-labs.com/gmail-subject-score/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=gmail-subject-score_blog&amp;utm_content=how-to-write-subject-lines-that-get-opened) — it&apos;s free, works inside Gmail, and shows you exactly what feels weak before you hit send. No signup, no copy-pasting to external tools.
 
 ---
 
@@ -2876,7 +2857,7 @@ Pinterest is much closer to a search engine than a traditional social platform. 
 
 And the payoff is different too. A decent Instagram post disappears quickly. A well-optimized Pinterest pin can keep surfacing for months. Some of the pins we have posted keep getting impressions long after we stopped thinking about them.
 
-[Pinello](https://chromewebstore.google.com/detail/kmelegdnljikegoemigfgnpcbllmkije) is a free Chrome extension that scores Pinterest pins across 5 dimensions — image, board fit, title, description, and keywords — in real time.
+[Pinello](https://amrita-labs.com/pinello/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=pinello_blog&amp;utm_content=pinterest-seo-checklist-score-pins) is a free Chrome extension that scores Pinterest pins across 5 dimensions — image, board fit, title, description, and keywords — in real time.
 
 ![Pinterest pin scoring checklist — 5 dimensions to check before posting](/assets/blog/pinterest-chrome-extensions-pinello.png)
 
@@ -3016,7 +2997,7 @@ Those three changes are not flashy, but they do more for Pinterest SEO than most
 
 Your next pin might quietly compound traffic for months, or it might disappear before anyone really sees it. The difference is often a few minutes of optimization before you hit publish.
 
-[Install Pinello from the Chrome Web Store](https://chromewebstore.google.com/detail/kmelegdnljikegoemigfgnpcbllmkije) — it&apos;s free, works directly on pinterest.com, and scores your pins across all 5 dimensions before you post. No signup needed.
+[Get Pinello](https://amrita-labs.com/pinello/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=pinello_blog&amp;utm_content=pinterest-seo-checklist-score-pins) — it&apos;s free, works directly on pinterest.com, and scores your pins across all 5 dimensions before you post. No signup needed.
 
 ---
 
@@ -3026,7 +3007,7 @@ You send 50 emails, maybe 100 if you are feeling ambitious. You refresh your inb
 
 That is a big part of cold outreach. Even when everything is going well, reply rates usually live in the low single digits. So if your deliverability is off, the whole campaign can look dead before a human ever sees it.
 
-If you write outreach from Gmail, [EmailSubjectScore Pro](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm) is a free Chrome extension that scores your subject lines for spam risk, clarity, and urgency in real time — right inside the compose window.
+If you write outreach from Gmail, [EmailSubjectScore Pro](https://amrita-labs.com/gmail-subject-score/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=gmail-subject-score_blog&amp;utm_content=why-cold-emails-go-to-spam) is a free Chrome extension that scores your subject lines for spam risk, clarity, and urgency in real time — right inside the compose window.
 ![Email subject line scoring tools comparison — real-time scoring vs web-based checkers](/assets/blog/best-email-subject-line-extensions-hero.png)
 
 
@@ -3135,13 +3116,13 @@ If that list is clean and the campaign still flops, then I will start questionin
 
 Most cold email mistakes are preventable. You do not need a giant deliverability stack to catch the obvious ones. You just need a way to notice the problems before you hit send.
 
-[Install EmailSubjectScore Pro from the Chrome Web Store](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm) — it&apos;s free, works inside Gmail, and takes about 5 seconds to install. Score your next subject line before you send it.
+[Get EmailSubjectScore Pro](https://amrita-labs.com/gmail-subject-score/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=gmail-subject-score_blog&amp;utm_content=why-cold-emails-go-to-spam) — it&apos;s free, works inside Gmail, and takes about 5 seconds to install. Score your next subject line before you send it.
 
 ---
 
 *This article is by the team at Amrita Labs. We build tools for people who send important emails.*</content:encoded></item><item><title>Best Screen Privacy Chrome Extension — 5 Options for Screen Sharing (2026)</title><link>https://amrita-labs.com/blog/best-chrome-extensions-screen-sharing-privacy/</link><guid isPermaLink="true">https://amrita-labs.com/blog/best-chrome-extensions-screen-sharing-privacy/</guid><description>Best Chrome extensions for screen privacy and screen sharing — hide Slack, Discord, Teams, WhatsApp Web, or any tab before you present. Free options included.</description><pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate><content:encoded>**The best screen privacy Chrome extension depends on where your risk actually is.** If you screen share Slack, Discord, Microsoft Teams, or WhatsApp Web often, a platform-specific blur extension is faster and more precise than a generic one. For everything else — CRMs, dashboards, admin panels — a general-purpose page blur extension is the right pick. This guide compares 5 options head to head.
 
-A **screen privacy Chrome extension** is a browser add-on that hides sensitive content on a web page before or during a screen share, screen recording, or live session. Options range from Slack-specific tools like [Privacy Blur for Slack](/privacy-blur-slack/) to generic blur extensions that work on any website.
+A **screen privacy Chrome extension** is a browser add-on that hides sensitive content on a web page before or during a screen share, screen recording, or live session. Options range from Slack-specific tools like [Privacy Blur for Slack](https://amrita-labs.com/privacy-blur-slack/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=privacy-blur-slack_blog&amp;utm_content=best-chrome-extensions-screen-sharing-privacy) to generic blur extensions that work on any website.
 
 Accidentally sharing the wrong thing on a call is one of those mistakes that feels small for one second and huge the next. Maybe it is a Slack DM, a private channel name, a salary note, a customer account balance, or an internal tab you forgot was still open. The more remote work becomes normal, the more this happens to managers, sales teams, recruiters, customer success reps, founders, and anyone else who lives in browser tabs all day.
 
@@ -3149,7 +3130,7 @@ That is why screen-sharing privacy extensions are so useful. They let you hide s
 
 In this guide, I compared the best Chrome extensions for screen sharing privacy for everyday work use, not technical edge cases. If you mostly share Slack, one tool clearly stands out. If you jump between lots of sites, a generic blur tool may fit better.
 
-Related Amrita Labs privacy extensions: [Slack](/privacy-blur-slack/) · [Discord](/privacy-blur-discord/) · [Microsoft Teams](/privacy-blur-teams/) · [WhatsApp Web](/privacy-blur-whatsapp/).
+Related Amrita Labs privacy extensions: [Slack](https://amrita-labs.com/privacy-blur-slack/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=privacy-blur-slack_blog&amp;utm_content=best-chrome-extensions-screen-sharing-privacy) · [Discord](https://amrita-labs.com/privacy-blur-discord/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=privacy-blur-discord_blog&amp;utm_content=best-chrome-extensions-screen-sharing-privacy) · [Microsoft Teams](https://amrita-labs.com/privacy-blur-teams/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=privacy-blur-teams_blog&amp;utm_content=best-chrome-extensions-screen-sharing-privacy) · [WhatsApp Web](https://amrita-labs.com/privacy-blur-whatsapp/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=privacy-blur-whatsapp_blog&amp;utm_content=best-chrome-extensions-screen-sharing-privacy).
 
 ## What is a screen privacy Chrome extension?
 
@@ -3167,10 +3148,10 @@ A screen privacy extension is a browser tool that blurs, hides, or masks parts o
 
 Pick by workflow:
 
-- **Slack only** — [Privacy Blur for Slack](/privacy-blur-slack/) (9 blur zones, hover reveal, free forever)
-- **Discord DMs and servers** — [Privacy Blur for Discord](/privacy-blur-discord/)
-- **Microsoft Teams meetings and chats** — [Privacy Blur for Teams](/privacy-blur-teams/)
-- **WhatsApp Web** — [Privacy Blur for WhatsApp](/privacy-blur-whatsapp/)
+- **Slack only** — [Privacy Blur for Slack](https://amrita-labs.com/privacy-blur-slack/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=privacy-blur-slack_blog&amp;utm_content=best-chrome-extensions-screen-sharing-privacy) (9 blur zones, hover reveal, free forever)
+- **Discord DMs and servers** — [Privacy Blur for Discord](https://amrita-labs.com/privacy-blur-discord/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=privacy-blur-discord_blog&amp;utm_content=best-chrome-extensions-screen-sharing-privacy)
+- **Microsoft Teams meetings and chats** — [Privacy Blur for Teams](https://amrita-labs.com/privacy-blur-teams/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=privacy-blur-teams_blog&amp;utm_content=best-chrome-extensions-screen-sharing-privacy)
+- **WhatsApp Web** — [Privacy Blur for WhatsApp](https://amrita-labs.com/privacy-blur-whatsapp/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=privacy-blur-whatsapp_blog&amp;utm_content=best-chrome-extensions-screen-sharing-privacy)
 - **Any site (CRMs, dashboards, spreadsheets, email)** — a generic page blur extension covered later in this guide
 
 ## What to look for in a screen-sharing privacy extension
@@ -3189,7 +3170,7 @@ A good rule of thumb: choose the most specific tool that matches your daily work
 
 ## 1. Privacy Blur for Slack — Best for Slack-heavy workflows
 
-**[Chrome Web Store](https://chromewebstore.google.com/detail/privacy-blur-for-slack/cejmffebfhdnhbjkhiobaecdohheimkj)** &amp;middot; [Product page](/privacy-blur-slack/) — Free forever, Pro $3/month
+**[Get Privacy Blur for Slack](https://amrita-labs.com/privacy-blur-slack/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=privacy-blur-slack_blog&amp;utm_content=best-chrome-extensions-screen-sharing-privacy)** — Free forever, Pro $3/month
 
 ![Privacy Blur for Slack — messages blurred during screen sharing](/assets/blog/privacy-blur-slack-panel.png)
 
@@ -3210,7 +3191,7 @@ Privacy Blur for Slack is the strongest pick if your privacy risk is concentrate
 
 **Price:** Free forever. Pro $3/month.
 
-Similar sibling extensions are available for [Discord](/privacy-blur-discord/), [Microsoft Teams](/privacy-blur-teams/), and [WhatsApp Web](/privacy-blur-whatsapp/) — same design, different platform.
+Similar sibling extensions are available for [Discord](https://amrita-labs.com/privacy-blur-discord/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=privacy-blur-discord_blog&amp;utm_content=best-chrome-extensions-screen-sharing-privacy), [Microsoft Teams](https://amrita-labs.com/privacy-blur-teams/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=privacy-blur-teams_blog&amp;utm_content=best-chrome-extensions-screen-sharing-privacy), and [WhatsApp Web](https://amrita-labs.com/privacy-blur-whatsapp/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=privacy-blur-whatsapp_blog&amp;utm_content=best-chrome-extensions-screen-sharing-privacy) — same design, different platform.
 
 ---
 
@@ -3286,7 +3267,7 @@ Obscuro&apos;s main strength is transparency. For teams that require every brows
 
 | Extension | Best for | Price | App-specific? | Hover-reveal? |
 |---|---|---|---|---|
-| **[Privacy Blur for Slack](/privacy-blur-slack/)** | Slack users who screen share often | Free forever, Pro $3/mo | Yes — Slack Web only | Yes |
+| **[Privacy Blur for Slack](https://amrita-labs.com/privacy-blur-slack/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=privacy-blur-slack_blog&amp;utm_content=best-chrome-extensions-screen-sharing-privacy)** | Slack users who screen share often | Free forever, Pro $3/mo | Yes — Slack Web only | Yes |
 | **[Page Blur](https://chromewebstore.google.com/detail/page-blur-hide-sensitive/mekiecmbbmjhakpahnijnhgbpkiifnop)** | Free privacy across many websites | Free | No | No |
 | **[Safe Screen Share](https://safescreenshare.com/)** | Users who want &quot;hide everything&quot; default | Free | No | Optional reveal |
 | **[BlurWeb](https://www.blurweb.app/)** | Tutorials, recordings, livestreams | Paid premium | No | No |
@@ -3296,7 +3277,7 @@ Obscuro&apos;s main strength is transparency. For teams that require every brows
 
 ### What is the best screen privacy Chrome extension for Slack?
 
-For Slack specifically, [Privacy Blur for Slack](/privacy-blur-slack/) is the strongest choice. It has 9 independent blur zones, hover-to-reveal, and an `Alt+Shift+B` toggle. It works on Slack Web (`app.slack.com`) in Chrome and runs 100% client-side with no data collection.
+For Slack specifically, [Privacy Blur for Slack](https://amrita-labs.com/privacy-blur-slack/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=privacy-blur-slack_blog&amp;utm_content=best-chrome-extensions-screen-sharing-privacy) is the strongest choice. It has 9 independent blur zones, hover-to-reveal, and an `Alt+Shift+B` toggle. It works on Slack Web (`app.slack.com`) in Chrome and runs 100% client-side with no data collection.
 
 ### Do any of these extensions work on the Slack desktop app?
 
@@ -3304,7 +3285,7 @@ No. Chrome extensions cannot run inside standalone desktop apps. For Slack Deskt
 
 ### Which extension is best for Discord, Microsoft Teams, or WhatsApp Web?
 
-Each has its own platform-specific extension in the Amrita Labs family: [Privacy Blur for Discord](/privacy-blur-discord/), [Privacy Blur for Microsoft Teams](/privacy-blur-teams/), and [Privacy Blur for WhatsApp](/privacy-blur-whatsapp/). Same design principles, different platform.
+Each has its own platform-specific extension in the Amrita Labs family: [Privacy Blur for Discord](https://amrita-labs.com/privacy-blur-discord/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=privacy-blur-discord_blog&amp;utm_content=best-chrome-extensions-screen-sharing-privacy), [Privacy Blur for Microsoft Teams](https://amrita-labs.com/privacy-blur-teams/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=privacy-blur-teams_blog&amp;utm_content=best-chrome-extensions-screen-sharing-privacy), and [Privacy Blur for WhatsApp](https://amrita-labs.com/privacy-blur-whatsapp/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=privacy-blur-whatsapp_blog&amp;utm_content=best-chrome-extensions-screen-sharing-privacy). Same design principles, different platform.
 
 ### Can I use one extension to hide everything across all my apps?
 
@@ -3322,13 +3303,13 @@ Privacy Blur for Slack and Obscuro are the two options with the strongest privac
 
 ## Final take
 
-If Slack is where your private messages, channel names, and internal chatter usually leak into meetings, **[Privacy Blur for Slack](/privacy-blur-slack/)** is the strongest fit because it solves that exact problem without making Slack hard to use.
+If Slack is where your private messages, channel names, and internal chatter usually leak into meetings, **[Privacy Blur for Slack](https://amrita-labs.com/privacy-blur-slack/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=privacy-blur-slack_blog&amp;utm_content=best-chrome-extensions-screen-sharing-privacy)** is the strongest fit because it solves that exact problem without making Slack hard to use.
 
 If your screen-sharing risk is spread across lots of sites, **Page Blur** is the best free all-purpose choice.
 
-If you screen share Discord, Microsoft Teams, or WhatsApp Web often, install the matching sibling extension — [Discord](/privacy-blur-discord/), [Teams](/privacy-blur-teams/), or [WhatsApp](/privacy-blur-whatsapp/) — for the same platform-specific precision.
+If you screen share Discord, Microsoft Teams, or WhatsApp Web often, install the matching sibling extension — [Discord](https://amrita-labs.com/privacy-blur-discord/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=privacy-blur-discord_blog&amp;utm_content=best-chrome-extensions-screen-sharing-privacy), [Teams](https://amrita-labs.com/privacy-blur-teams/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=privacy-blur-teams_blog&amp;utm_content=best-chrome-extensions-screen-sharing-privacy), or [WhatsApp](https://amrita-labs.com/privacy-blur-whatsapp/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=privacy-blur-whatsapp_blog&amp;utm_content=best-chrome-extensions-screen-sharing-privacy) — for the same platform-specific precision.
 
-Ready to make Slack safer before your next call? **[Install Privacy Blur for Slack](https://chromewebstore.google.com/detail/privacy-blur-for-slack/cejmffebfhdnhbjkhiobaecdohheimkj)** and keep sensitive Slack content hidden while you share.</content:encoded></item><item><title>7 Best Gmail Chrome Extensions for Productivity (2026)</title><link>https://amrita-labs.com/blog/best-gmail-chrome-extensions-productivity/</link><guid isPermaLink="true">https://amrita-labs.com/blog/best-gmail-chrome-extensions-productivity/</guid><description>The best Gmail Chrome extensions for productivity in 2026, compared for writing, scheduling, tracking, templates, CRM, and focus.</description><pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate><content:encoded>Gmail is powerful, but the default compose experience is still pretty basic. You can write, attach files, and hit send — but that does not solve the real problems most people deal with every day: weak subject lines, missed follow-ups, repetitive replies, cluttered inboxes, and no easy way to tell what happened after an email went out.
+Ready to make Slack safer before your next call? **[Get Privacy Blur for Slack](https://amrita-labs.com/privacy-blur-slack/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=privacy-blur-slack_blog&amp;utm_content=best-chrome-extensions-screen-sharing-privacy)** and keep sensitive Slack content hidden while you share.</content:encoded></item><item><title>7 Best Gmail Chrome Extensions for Productivity (2026)</title><link>https://amrita-labs.com/blog/best-gmail-chrome-extensions-productivity/</link><guid isPermaLink="true">https://amrita-labs.com/blog/best-gmail-chrome-extensions-productivity/</guid><description>The best Gmail Chrome extensions for productivity in 2026, compared for writing, scheduling, tracking, templates, CRM, and focus.</description><pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate><content:encoded>Gmail is powerful, but the default compose experience is still pretty basic. You can write, attach files, and hit send — but that does not solve the real problems most people deal with every day: weak subject lines, missed follow-ups, repetitive replies, cluttered inboxes, and no easy way to tell what happened after an email went out.
 
 That is why the right Chrome extension can make Gmail feel like a real productivity tool instead of just an inbox. For this list, I focused on extensions that help professionals, freelancers, sales reps, recruiters, and operators move faster without turning Gmail into a mess.
 
@@ -3404,11 +3385,11 @@ If your goal is to spend less time in Gmail while getting better results from th
 
 Try **EmailSubjectScore Pro** if you want real-time feedback on spam risk, clarity, and urgency without leaving Gmail. The free plan gives you 50 scores per month, which is enough for most people to feel the difference quickly.
 
-[Install EmailSubjectScore Pro on the Chrome Web Store](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm)</content:encoded></item><item><title>How to Write Email Subject Lines That Get Replies</title><link>https://amrita-labs.com/blog/email-subject-line-tips-reply-rate/</link><guid isPermaLink="true">https://amrita-labs.com/blog/email-subject-line-tips-reply-rate/</guid><description>A practical, data-backed guide to writing better email subject lines for cold outreach, client pitches, follow-ups, and job search emails.</description><pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate><content:encoded>Your email lives or dies in about 2-3 seconds. Before anyone reads your pitch, proposal, follow-up, or intro, they scan the subject line and make a snap decision: open, ignore, or delete.
+[Get EmailSubjectScore Pro](https://amrita-labs.com/gmail-subject-score/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=gmail-subject-score_blog&amp;utm_content=best-gmail-chrome-extensions-productivity)</content:encoded></item><item><title>How to Write Email Subject Lines That Get Replies</title><link>https://amrita-labs.com/blog/email-subject-line-tips-reply-rate/</link><guid isPermaLink="true">https://amrita-labs.com/blog/email-subject-line-tips-reply-rate/</guid><description>A practical, data-backed guide to writing better email subject lines for cold outreach, client pitches, follow-ups, and job search emails.</description><pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate><content:encoded>Your email lives or dies in about 2-3 seconds. Before anyone reads your pitch, proposal, follow-up, or intro, they scan the subject line and make a snap decision: open, ignore, or delete.
 
 That tiny line carries more weight than most people realize. Cleanlist reports that 47% of recipients open an email based on the subject line alone, while 69% report emails as spam based on the subject line alone (Cleanlist 2026). And because average cold email reply rates sit around 3-5% across 53M+ emails analyzed, small subject-line improvements matter a lot more than they look on paper (Saleshandy 2026).
 
-If you write outreach from Gmail, tools like [EmailSubjectScore Pro](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm) make this easier by scoring your subject line for spam risk, clarity, and urgency in real time — right inside the compose window, with no copy-paste to external tools.
+If you write outreach from Gmail, tools like [EmailSubjectScore Pro](https://amrita-labs.com/gmail-subject-score/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=gmail-subject-score_blog&amp;utm_content=email-subject-line-tips-reply-rate) make this easier by scoring your subject line for spam risk, clarity, and urgency in real time — right inside the compose window, with no copy-paste to external tools.
 
 Most people obsess over the email body. Smart senders know the subject line decides whether the body gets a chance.
 
@@ -3552,7 +3533,7 @@ Timing will not rescue a bad subject line. But good timing gives a good subject 
 
 If you send important emails from Gmail, the fastest habit upgrade is to check the subject line *before* you hit send, not after a campaign underperforms.
 
-That is where [EmailSubjectScore Pro](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm) fits naturally into the workflow. It works directly inside the Gmail compose window and scores your subject line in real time across three practical dimensions:
+That is where [EmailSubjectScore Pro](https://amrita-labs.com/gmail-subject-score/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=gmail-subject-score_blog&amp;utm_content=email-subject-line-tips-reply-rate) fits naturally into the workflow. It works directly inside the Gmail compose window and scores your subject line in real time across three practical dimensions:
 
 - **Spam risk** — does this sound promotional, manipulative, or filter-friendly in the wrong way?
 - **Clarity** — will the recipient immediately understand what the email is about?
@@ -3604,15 +3585,15 @@ Start with a small set of clear variations for any meaningful outreach campaign.
 
 If your subject line is too long, too generic, too pushy, or too spammy, the rest of your email never gets a fair chance. A better subject line will not fix a weak offer, but it will help good emails earn more of the replies they deserve.
 
-If you want an easy way to check subject lines as you write them, install **[EmailSubjectScore Pro](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm)**. It works directly inside Gmail, scores spam risk, clarity, and urgency in real time, includes AI rewrite suggestions, and gives you **50 free scores per month** before you ever need Pro.</content:encoded></item><item><title>How to Hide Slack Messages During Screen Sharing: 6 Practical Options (2026)</title><link>https://amrita-labs.com/blog/hide-slack-messages-screen-sharing/</link><guid isPermaLink="true">https://amrita-labs.com/blog/hide-slack-messages-screen-sharing/</guid><description>The fastest way to hide Slack messages during screen sharing is to install a screen-privacy Chrome extension. Here are 6 practical methods for Zoom, Google Meet, and Microsoft Teams — with a comparison table.</description><pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate><content:encoded>**The fastest way to hide Slack messages during screen sharing is to install a screen-privacy Chrome extension that blurs message previews, channel names, and DMs before you share.** Slack does not have a built-in privacy mode, so you need either an extension, a window-sharing strategy, or a mix of both.
+If you want an easy way to check subject lines as you write them, install **[EmailSubjectScore Pro](https://amrita-labs.com/gmail-subject-score/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=gmail-subject-score_blog&amp;utm_content=email-subject-line-tips-reply-rate)**. It works directly inside Gmail, scores spam risk, clarity, and urgency in real time, includes AI rewrite suggestions, and gives you **50 free scores per month** before you ever need Pro.</content:encoded></item><item><title>How to Hide Slack Messages During Screen Sharing: 6 Practical Options (2026)</title><link>https://amrita-labs.com/blog/hide-slack-messages-screen-sharing/</link><guid isPermaLink="true">https://amrita-labs.com/blog/hide-slack-messages-screen-sharing/</guid><description>The fastest way to hide Slack messages during screen sharing is to install a screen-privacy Chrome extension. Here are 6 practical methods for Zoom, Google Meet, and Microsoft Teams — with a comparison table.</description><pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate><content:encoded>**The fastest way to hide Slack messages during screen sharing is to install a screen-privacy Chrome extension that blurs message previews, channel names, and DMs before you share.** Slack does not have a built-in privacy mode, so you need either an extension, a window-sharing strategy, or a mix of both.
 
 You&apos;ve probably had this moment: you&apos;re sharing your screen, talking through a project update, and then you notice Slack sitting there with a private message preview, a sensitive channel name, or a thread you definitely didn&apos;t mean to show the whole room.
 
-If you need a fix fast, **[Privacy Blur for Slack](/privacy-blur-slack/)** is the most practical option because it lets you keep Slack open while hiding the parts you don&apos;t want coworkers or clients to see. But it&apos;s not the only way to reduce the risk.
+If you need a fix fast, **[Privacy Blur for Slack](https://amrita-labs.com/privacy-blur-slack/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=privacy-blur-slack_blog&amp;utm_content=hide-slack-messages-screen-sharing)** is the most practical option because it lets you keep Slack open while hiding the parts you don&apos;t want coworkers or clients to see. But it&apos;s not the only way to reduce the risk.
 
 This guide walks through the best ways to hide Slack messages during screen sharing, ranked by how well they protect your privacy without slowing down your meeting. Some methods are perfect if Slack needs to stay visible. Others work better if you just want the safest possible setup before you click Share.
 
-Also using **Discord**, **Microsoft Teams**, or **WhatsApp Web**? Each has its own screen-privacy extension: [Privacy Blur for Discord](/privacy-blur-discord/), [Privacy Blur for Teams](/privacy-blur-teams/), and [Privacy Blur for WhatsApp](/privacy-blur-whatsapp/). Same idea, different platforms.
+Also using **Discord**, **Microsoft Teams**, or **WhatsApp Web**? Each has its own screen-privacy extension: [Privacy Blur for Discord](https://amrita-labs.com/privacy-blur-discord/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=privacy-blur-discord_blog&amp;utm_content=hide-slack-messages-screen-sharing), [Privacy Blur for Teams](https://amrita-labs.com/privacy-blur-teams/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=privacy-blur-teams_blog&amp;utm_content=hide-slack-messages-screen-sharing), and [Privacy Blur for WhatsApp](https://amrita-labs.com/privacy-blur-whatsapp/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=privacy-blur-whatsapp_blog&amp;utm_content=hide-slack-messages-screen-sharing). Same idea, different platforms.
 
 ## Why Slack doesn&apos;t have a built-in solution
 
@@ -3624,7 +3605,7 @@ The good news: you don&apos;t need to overhaul your workflow. In most cases, one
 
 ## 1. Privacy Blur for Slack — Best if Slack needs to stay on screen
 
-**[Install Privacy Blur for Slack](https://chromewebstore.google.com/detail/privacy-blur-for-slack/cejmffebfhdnhbjkhiobaecdohheimkj)** &amp;middot; [Learn more on the product page →](/privacy-blur-slack/)
+**[Get Privacy Blur for Slack](https://amrita-labs.com/privacy-blur-slack/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=privacy-blur-slack_blog&amp;utm_content=hide-slack-messages-screen-sharing)**
 
 ![Privacy Blur for Slack — messages blurred during screen sharing](/assets/blog/privacy-blur-slack-panel.png)
 
@@ -3728,7 +3709,7 @@ The tradeoff is precision and speed. Generic tools are not built specifically fo
 
 The fastest way to hide Slack message previews — unread bubbles, DM thumbnails, and channel notification previews — is a two-step combo:
 
-1. **Turn on [Privacy Blur for Slack](/privacy-blur-slack/) message and channel zones** so existing previews are blurred before you share.
+1. **Turn on [Privacy Blur for Slack](https://amrita-labs.com/privacy-blur-slack/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=privacy-blur-slack_blog&amp;utm_content=hide-slack-messages-screen-sharing) message and channel zones** so existing previews are blurred before you share.
 2. **Enable Slack Do Not Disturb** for the length of your meeting so new previews never appear.
 
 Blur alone hides current content but doesn&apos;t stop new popups. DND alone silences new notifications but leaves current previews visible. Together they cover both.
@@ -3757,9 +3738,9 @@ Yes. The extension applies a CSS blur to the Slack Web tab in Chrome. When you s
 
 The same idea works across platforms. If you screen share those apps regularly, each has its own screen-privacy Chrome extension:
 
-- **Discord** — see [Privacy Blur for Discord](/privacy-blur-discord/)
-- **Microsoft Teams** — see [Privacy Blur for Microsoft Teams](/privacy-blur-teams/)
-- **WhatsApp Web** — see [Privacy Blur for WhatsApp](/privacy-blur-whatsapp/)
+- **Discord** — see [Privacy Blur for Discord](https://amrita-labs.com/privacy-blur-discord/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=privacy-blur-discord_blog&amp;utm_content=hide-slack-messages-screen-sharing)
+- **Microsoft Teams** — see [Privacy Blur for Microsoft Teams](https://amrita-labs.com/privacy-blur-teams/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=privacy-blur-teams_blog&amp;utm_content=hide-slack-messages-screen-sharing)
+- **WhatsApp Web** — see [Privacy Blur for WhatsApp](https://amrita-labs.com/privacy-blur-whatsapp/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=privacy-blur-whatsapp_blog&amp;utm_content=hide-slack-messages-screen-sharing)
 
 Each extension is scoped to its host domain, which is stricter for privacy and faster than a generic blur tool.
 
@@ -3769,7 +3750,7 @@ No. Chrome extensions cannot run inside the Slack mobile app. If you present fro
 
 ## The simplest way to avoid an awkward Slack moment
 
-If you screen share often and still need Slack open, use the tool built for that exact problem. **[Install Privacy Blur for Slack](https://chromewebstore.google.com/detail/privacy-blur-for-slack/cejmffebfhdnhbjkhiobaecdohheimkj)** and blur messages, names, channels, and media before your next call. It&apos;s free forever, works entirely client-side, and takes less than a minute to set up.</content:encoded></item><item><title>Pinterest Pin SEO Checklist Before Publishing: 10 Checks That Get More Saves</title><link>https://amrita-labs.com/blog/pinterest-pin-seo-checklist-before-publishing/</link><guid isPermaLink="true">https://amrita-labs.com/blog/pinterest-pin-seo-checklist-before-publishing/</guid><description>Use this Pinterest pin SEO checklist before publishing to improve titles, descriptions, board fit, and click-throughs without guessing.</description><pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate><content:encoded>Most Pinterest creators do not need to publish more pins. They need to publish better ones.
+If you screen share often and still need Slack open, use the tool built for that exact problem. **[Get Privacy Blur for Slack](https://amrita-labs.com/privacy-blur-slack/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=privacy-blur-slack_blog&amp;utm_content=hide-slack-messages-screen-sharing)** and blur messages, names, channels, and media before your next call. It&apos;s free forever, works entirely client-side, and takes less than a minute to set up.</content:encoded></item><item><title>Pinterest Pin SEO Checklist Before Publishing: 10 Checks That Get More Saves</title><link>https://amrita-labs.com/blog/pinterest-pin-seo-checklist-before-publishing/</link><guid isPermaLink="true">https://amrita-labs.com/blog/pinterest-pin-seo-checklist-before-publishing/</guid><description>Use this Pinterest pin SEO checklist before publishing to improve titles, descriptions, board fit, and click-throughs without guessing.</description><pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate><content:encoded>Most Pinterest creators do not need to publish more pins. They need to publish better ones.
 
 That is the real 80/20 of Pinterest: one optimized pin can outperform 10 rushed ones. On a platform with 500M+ monthly active users, tiny pre-publish details matter because Pinterest is both a visual platform and a search engine. If your image, title, description, board, and link are aligned, your pin has a much better chance of earning saves and clicks over time.
 
@@ -3834,7 +3815,7 @@ That is fixable.
 
 Before you publish your next pin, run this checklist once — or make it even faster by using a live scoring tool inside Pinterest itself.
 
-**Install [Pinello](https://chromewebstore.google.com/detail/pinello/kmelegdnljikegoemigfgnpcbllmkije)** and check every pin for image quality, board fit, title SEO, description optimization, and keyword density before you hit publish.</content:encoded></item><item><title>5 Best Free Chrome Extensions for Pinterest Creators (2026)</title><link>https://amrita-labs.com/blog/free-pinterest-chrome-extensions-creators/</link><guid isPermaLink="true">https://amrita-labs.com/blog/free-pinterest-chrome-extensions-creators/</guid><description>Boost your Pinterest SEO and pin performance with these 5 free Chrome extensions. From real-time pin scoring to keyword research and analytics.</description><pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate><content:encoded>Pinterest rewards consistency, quality, and optimization. But manually checking image ratios, crafting keyword-rich descriptions, and analyzing which pins actually perform — across dozens of boards — eats hours every week.
+**Install [Pinello](https://amrita-labs.com/pinello/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=pinello_blog&amp;utm_content=pinterest-pin-seo-checklist-before-publishing)** and check every pin for image quality, board fit, title SEO, description optimization, and keyword density before you hit publish.</content:encoded></item><item><title>5 Best Free Chrome Extensions for Pinterest Creators (2026)</title><link>https://amrita-labs.com/blog/free-pinterest-chrome-extensions-creators/</link><guid isPermaLink="true">https://amrita-labs.com/blog/free-pinterest-chrome-extensions-creators/</guid><description>Boost your Pinterest SEO and pin performance with these 5 free Chrome extensions. From real-time pin scoring to keyword research and analytics.</description><pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate><content:encoded>Pinterest rewards consistency, quality, and optimization. But manually checking image ratios, crafting keyword-rich descriptions, and analyzing which pins actually perform — across dozens of boards — eats hours every week.
 
 These 5 Chrome extensions handle the tedious parts so you can focus on creating content that drives traffic.
 
@@ -3920,7 +3901,7 @@ The highest-ROI optimization for Pinterest is pre-publish scoring. A single pin 
 
 Most creators spend hours on design but seconds on the title and description. That&apos;s backwards. Pinterest&apos;s search algorithm weights text just as heavily as the image.
 
-Score your next pin before you publish → [Install Pinello (Free)](https://chromewebstore.google.com/detail/pinello/kmelegdnljikegoemigfgnpcbllmkije)</content:encoded></item><item><title>How to Add Google Consent Mode v2 to Shopify (2026 Guide)</title><link>https://amrita-labs.com/blog/consent-mode-v2-shopify-guide/</link><guid isPermaLink="true">https://amrita-labs.com/blog/consent-mode-v2-shopify-guide/</guid><description>Google Consent Mode v2 lets your Shopify store keep advertising and analytics measurement when EU visitors reject cookies. This step-by-step guide covers manual setup with GTM plus the free app option.</description><pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate><content:encoded>**The fastest way to add Google Consent Mode v2 to Shopify is to install a consent app that already sends all four consent signals to Google.** If you prefer manual control, you can wire it up through Google Tag Manager. Both paths are covered below.
+Score your next pin before you publish → [Get Pinello (Free)](https://amrita-labs.com/pinello/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=pinello_blog&amp;utm_content=free-pinterest-chrome-extensions-creators)</content:encoded></item><item><title>How to Add Google Consent Mode v2 to Shopify (2026 Guide)</title><link>https://amrita-labs.com/blog/consent-mode-v2-shopify-guide/</link><guid isPermaLink="true">https://amrita-labs.com/blog/consent-mode-v2-shopify-guide/</guid><description>Google Consent Mode v2 lets your Shopify store keep advertising and analytics measurement when EU visitors reject cookies. This step-by-step guide covers manual setup with GTM plus the free app option.</description><pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate><content:encoded>**The fastest way to add Google Consent Mode v2 to Shopify is to install a consent app that already sends all four consent signals to Google.** If you prefer manual control, you can wire it up through Google Tag Manager. Both paths are covered below.
 
 *Consent requirements vary by business and jurisdiction. This guide provides technical information, not legal advice, and no consent app by itself guarantees compliance.*
 
@@ -4200,7 +4181,7 @@ Mailmeteor is primarily a Gmail mail merge tool, but their subject line tester i
 
 | Tool | In Gmail? | Real-time? | Free tier | AI rewrites? | Best for |
 |---|---|---|---|---|---|
-| [EmailSubjectScore Pro](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm) | ✅ | ✅ | 50/month | ✅ | Daily email writing |
+| [EmailSubjectScore Pro](https://amrita-labs.com/gmail-subject-score/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=gmail-subject-score_blog&amp;utm_content=best-email-subject-line-extensions) | ✅ | ✅ | 50/month | ✅ | Daily email writing |
 | [SendCheckIt](https://sendcheckit.com/email-subject-line-tester/) | ❌ | ❌ | Unlimited | ❌ | Batch comparisons |
 | [CoSchedule](https://coschedule.com/headline-analyzer) | ❌ | ❌ | Limited | ❌ | Word balance learning |
 | [Mailmeteor](https://mailmeteor.com/email-subject-line-tester) | ❌ | ❌ | Unlimited | ✅ | Quick AI alternatives |
@@ -4214,7 +4195,7 @@ A subject line scorer won&apos;t turn a bad email into a good one. But it catche
 
 The best tool is the one you&apos;ll actually use every day. If it requires extra steps, you&apos;ll skip it when you&apos;re busy — which is exactly when you write your worst subject lines.
 
-[Install EmailSubjectScore Pro (Free — 50 scores/month)](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm) — scores appear as you type in Gmail, no tab switching needed.</content:encoded></item><item><title>Chrome Web Store Submission: The Gotchas Nobody Warns You About</title><link>https://amrita-labs.com/blog/cws-submission-gotchas/</link><guid isPermaLink="true">https://amrita-labs.com/blog/cws-submission-gotchas/</guid><description>Every gotcha I hit submitting Chrome extensions to CWS — manifest limits, keyword spam, hidden directories, permission justifications, and more.</description><pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate><content:encoded>I just submitted my second Chrome extension to the Chrome Web Store. The first time took 3 attempts. The second time I got rejected in 12 hours for something completely avoidable.
+[Get EmailSubjectScore Pro (Free — 50 scores/month)](https://amrita-labs.com/gmail-subject-score/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=gmail-subject-score_blog&amp;utm_content=best-email-subject-line-extensions) — scores appear as you type in Gmail, no tab switching needed.</content:encoded></item><item><title>Chrome Web Store Submission: The Gotchas Nobody Warns You About</title><link>https://amrita-labs.com/blog/cws-submission-gotchas/</link><guid isPermaLink="true">https://amrita-labs.com/blog/cws-submission-gotchas/</guid><description>Every gotcha I hit submitting Chrome extensions to CWS — manifest limits, keyword spam, hidden directories, permission justifications, and more.</description><pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate><content:encoded>I just submitted my second Chrome extension to the Chrome Web Store. The first time took 3 attempts. The second time I got rejected in 12 hours for something completely avoidable.
 
 Here&apos;s every gotcha I hit — so you don&apos;t have to.
 
