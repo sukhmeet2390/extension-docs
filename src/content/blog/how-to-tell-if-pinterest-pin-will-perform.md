@@ -13,7 +13,7 @@ You post them, maybe give them a day, and it is obvious they are not going anywh
 
 A lot of the difference shows up before the pin is even published. Pinterest gets an immediate set of signals from the image, the board, the title, the description, and then the first wave of engagement. If those signals are weak, the pin rarely gets much room to recover.
 
-[Pinello](https://chromewebstore.google.com/detail/kmelegdnljikegoemigfgnpcbllmkije) is a free Chrome extension that scores Pinterest pins across 5 dimensions — image, board fit, title, description, and keywords — in real time, directly on pinterest.com.
+[Pinello](https://amrita-labs.com/pinello/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=pinello_blog&utm_content=how-to-tell-if-pinterest-pin-will-perform) is a free Chrome extension that scores Pinterest pins across 5 dimensions — image, board fit, title, description, and keywords — in real time, directly on pinterest.com.
 
 ![Pinterest pin scoring checklist — 5 dimensions to check before posting](/assets/blog/pinterest-chrome-extensions-pinello.png)
 
@@ -135,7 +135,7 @@ That will not guarantee a viral pin. It will give the pin a fairer chance, which
 
 ## Score your next pin before posting
 
-Before you hit publish, give the pin one last check. [Install Pinello from the Chrome Web Store](https://chromewebstore.google.com/detail/kmelegdnljikegoemigfgnpcbllmkije) — it's free, works directly on pinterest.com, and scores your pins across all 5 dimensions before you post. No signup needed.
+Before you hit publish, give the pin one last check. [Get Pinello](https://amrita-labs.com/pinello/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=pinello_blog&utm_content=how-to-tell-if-pinterest-pin-will-perform) — it's free, works directly on pinterest.com, and scores your pins across all 5 dimensions before you post. No signup needed.
 
 ---
 

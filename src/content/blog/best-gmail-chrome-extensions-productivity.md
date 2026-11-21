@@ -83,4 +83,4 @@ If your goal is to spend less time in Gmail while getting better results from th
 
 Try **EmailSubjectScore Pro** if you want real-time feedback on spam risk, clarity, and urgency without leaving Gmail. The free plan gives you 50 scores per month, which is enough for most people to feel the difference quickly.
 
-[Install EmailSubjectScore Pro on the Chrome Web Store](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm)
+[Get EmailSubjectScore Pro](https://amrita-labs.com/gmail-subject-score/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=gmail-subject-score_blog&utm_content=best-gmail-chrome-extensions-productivity)

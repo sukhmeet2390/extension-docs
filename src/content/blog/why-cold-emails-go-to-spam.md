@@ -13,7 +13,7 @@ You send 50 emails, maybe 100 if you are feeling ambitious. You refresh your inb
 
 That is a big part of cold outreach. Even when everything is going well, reply rates usually live in the low single digits. So if your deliverability is off, the whole campaign can look dead before a human ever sees it.
 
-If you write outreach from Gmail, [EmailSubjectScore Pro](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm) is a free Chrome extension that scores your subject lines for spam risk, clarity, and urgency in real time — right inside the compose window.
+If you write outreach from Gmail, [EmailSubjectScore Pro](https://amrita-labs.com/gmail-subject-score/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=gmail-subject-score_blog&utm_content=why-cold-emails-go-to-spam) is a free Chrome extension that scores your subject lines for spam risk, clarity, and urgency in real time — right inside the compose window.
 ![Email subject line scoring tools comparison — real-time scoring vs web-based checkers](/assets/blog/best-email-subject-line-extensions-hero.png)
 
 
@@ -122,7 +122,7 @@ If that list is clean and the campaign still flops, then I will start questionin
 
 Most cold email mistakes are preventable. You do not need a giant deliverability stack to catch the obvious ones. You just need a way to notice the problems before you hit send.
 
-[Install EmailSubjectScore Pro from the Chrome Web Store](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm) — it's free, works inside Gmail, and takes about 5 seconds to install. Score your next subject line before you send it.
+[Get EmailSubjectScore Pro](https://amrita-labs.com/gmail-subject-score/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=gmail-subject-score_blog&utm_content=why-cold-emails-go-to-spam) — it's free, works inside Gmail, and takes about 5 seconds to install. Score your next subject line before you send it.
 
 ---
 

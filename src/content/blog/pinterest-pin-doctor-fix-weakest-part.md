@@ -153,12 +153,3 @@ You can still publish a Pin with an imperfect preference call. The point is to r
 ## Try a focused pre-publish review
 
 [See Pinello’s Pin Doctor workflow](https://amrita-labs.com/pinello/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=pinello_launch_2026-11&utm_content=pin-doctor-fix-weakest-part) if you want to review a draft one issue at a time. You can make the edit in Pinterest, request copy-only help when useful, and compare the draft again before publishing.
-
-<!--
-Internal SEO review
-Primary keyword: Pinterest Pin Doctor
-Secondary keywords: Pinterest pin analyzer, optimize Pinterest pins, Pinterest SEO checklist, Pinterest title and description, Pinterest board fit
-Search intent: Feature-led informational/commercial; reader wants a way to repair a weak Pin before publishing.
-CTA target: https://amrita-labs.com/pinello/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=pinello_launch_2026-11&utm_content=pin-doctor-fix-weakest-part
-Factual-risk flags: Use only current v1.4.x Doctor actions and labels. Do not imply AI writes into Pinterest or that SEO Audit predicts ranking, reach, saves, clicks, timing, or future performance. Board Match must remain an explicit user-triggered check.
--->

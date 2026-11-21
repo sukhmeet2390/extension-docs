@@ -59,7 +59,7 @@ Pinello also includes local Favorites, sorting and filtering, SEO Audit, Board M
 
 **Watch for:** it is not an analytics dashboard, scheduler, keyword-volume database, or reach forecast.
 
-Official page: [Pinello](https://amrita-labs.com/pinello/).
+Official page: [Pinello](https://amrita-labs.com/pinello/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=pinello_blog&utm_content=11-best-pinterest-tools-creators).
 
 ## 4. Tailwind: schedule and plan Pinterest content
 

@@ -160,13 +160,3 @@ Pinello's narrower promise is more practical: it makes visible checks easier bef
 ## Try the full inspect-to-improve workflow
 
 [See the Pinello workflow for browsing, inspecting, and improving Pins](https://amrita-labs.com/pinello/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=pinello_launch_2026-10&utm_content=feed-detail-score-pin-doctor). The landing page shows where Feed Score, Pin Detail Score, and Pin Doctor fit without asking you to treat any one number as a guarantee.
-
-<!--
-Internal review notes:
-- Primary keyword: Pinterest pin scorer
-- Secondary keywords: Pinterest pin analyzer, Feed Score, Pin Detail Score, Pinterest Pin Doctor
-- Search intent: commercial/informational comparison; explain which scoring surface to use
-- CTA: owned landing page with the standard Pinello UTM link
-- Factual-risk guardrail: preserve the three-surface distinction; do not call any score official, predictive, viral, reach-based, or ranking-based
-- Asset status: the hero and three inline images already exist under _distribution/blog/assets/pinello/
--->

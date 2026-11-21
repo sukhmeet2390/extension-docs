@@ -10,7 +10,7 @@ relatedProducts: ['privacy-blur-slack', 'privacy-blur-discord', 'privacy-blur-te
 
 **The best screen privacy Chrome extension depends on where your risk actually is.** If you screen share Slack, Discord, Microsoft Teams, or WhatsApp Web often, a platform-specific blur extension is faster and more precise than a generic one. For everything else — CRMs, dashboards, admin panels — a general-purpose page blur extension is the right pick. This guide compares 5 options head to head.
 
-A **screen privacy Chrome extension** is a browser add-on that hides sensitive content on a web page before or during a screen share, screen recording, or live session. Options range from Slack-specific tools like [Privacy Blur for Slack](/privacy-blur-slack/) to generic blur extensions that work on any website.
+A **screen privacy Chrome extension** is a browser add-on that hides sensitive content on a web page before or during a screen share, screen recording, or live session. Options range from Slack-specific tools like [Privacy Blur for Slack](https://amrita-labs.com/privacy-blur-slack/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=privacy-blur-slack_blog&utm_content=best-chrome-extensions-screen-sharing-privacy) to generic blur extensions that work on any website.
 
 Accidentally sharing the wrong thing on a call is one of those mistakes that feels small for one second and huge the next. Maybe it is a Slack DM, a private channel name, a salary note, a customer account balance, or an internal tab you forgot was still open. The more remote work becomes normal, the more this happens to managers, sales teams, recruiters, customer success reps, founders, and anyone else who lives in browser tabs all day.
 
@@ -18,7 +18,7 @@ That is why screen-sharing privacy extensions are so useful. They let you hide s
 
 In this guide, I compared the best Chrome extensions for screen sharing privacy for everyday work use, not technical edge cases. If you mostly share Slack, one tool clearly stands out. If you jump between lots of sites, a generic blur tool may fit better.
 
-Related Amrita Labs privacy extensions: [Slack](/privacy-blur-slack/) · [Discord](/privacy-blur-discord/) · [Microsoft Teams](/privacy-blur-teams/) · [WhatsApp Web](/privacy-blur-whatsapp/).
+Related Amrita Labs privacy extensions: [Slack](https://amrita-labs.com/privacy-blur-slack/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=privacy-blur-slack_blog&utm_content=best-chrome-extensions-screen-sharing-privacy) · [Discord](https://amrita-labs.com/privacy-blur-discord/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=privacy-blur-discord_blog&utm_content=best-chrome-extensions-screen-sharing-privacy) · [Microsoft Teams](https://amrita-labs.com/privacy-blur-teams/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=privacy-blur-teams_blog&utm_content=best-chrome-extensions-screen-sharing-privacy) · [WhatsApp Web](https://amrita-labs.com/privacy-blur-whatsapp/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=privacy-blur-whatsapp_blog&utm_content=best-chrome-extensions-screen-sharing-privacy).
 
 ## What is a screen privacy Chrome extension?
 
@@ -36,10 +36,10 @@ A screen privacy extension is a browser tool that blurs, hides, or masks parts o
 
 Pick by workflow:
 
-- **Slack only** — [Privacy Blur for Slack](/privacy-blur-slack/) (9 blur zones, hover reveal, free forever)
-- **Discord DMs and servers** — [Privacy Blur for Discord](/privacy-blur-discord/)
-- **Microsoft Teams meetings and chats** — [Privacy Blur for Teams](/privacy-blur-teams/)
-- **WhatsApp Web** — [Privacy Blur for WhatsApp](/privacy-blur-whatsapp/)
+- **Slack only** — [Privacy Blur for Slack](https://amrita-labs.com/privacy-blur-slack/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=privacy-blur-slack_blog&utm_content=best-chrome-extensions-screen-sharing-privacy) (9 blur zones, hover reveal, free forever)
+- **Discord DMs and servers** — [Privacy Blur for Discord](https://amrita-labs.com/privacy-blur-discord/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=privacy-blur-discord_blog&utm_content=best-chrome-extensions-screen-sharing-privacy)
+- **Microsoft Teams meetings and chats** — [Privacy Blur for Teams](https://amrita-labs.com/privacy-blur-teams/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=privacy-blur-teams_blog&utm_content=best-chrome-extensions-screen-sharing-privacy)
+- **WhatsApp Web** — [Privacy Blur for WhatsApp](https://amrita-labs.com/privacy-blur-whatsapp/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=privacy-blur-whatsapp_blog&utm_content=best-chrome-extensions-screen-sharing-privacy)
 - **Any site (CRMs, dashboards, spreadsheets, email)** — a generic page blur extension covered later in this guide
 
 ## What to look for in a screen-sharing privacy extension
@@ -58,7 +58,7 @@ A good rule of thumb: choose the most specific tool that matches your daily work
 
 ## 1. Privacy Blur for Slack — Best for Slack-heavy workflows
 
-**[Chrome Web Store](https://chromewebstore.google.com/detail/privacy-blur-for-slack/cejmffebfhdnhbjkhiobaecdohheimkj)** &middot; [Product page](/privacy-blur-slack/) — Free forever, Pro $3/month
+**[Get Privacy Blur for Slack](https://amrita-labs.com/privacy-blur-slack/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=privacy-blur-slack_blog&utm_content=best-chrome-extensions-screen-sharing-privacy)** — Free forever, Pro $3/month
 
 ![Privacy Blur for Slack — messages blurred during screen sharing](/assets/blog/privacy-blur-slack-panel.png)
 
@@ -79,7 +79,7 @@ Privacy Blur for Slack is the strongest pick if your privacy risk is concentrate
 
 **Price:** Free forever. Pro $3/month.
 
-Similar sibling extensions are available for [Discord](/privacy-blur-discord/), [Microsoft Teams](/privacy-blur-teams/), and [WhatsApp Web](/privacy-blur-whatsapp/) — same design, different platform.
+Similar sibling extensions are available for [Discord](https://amrita-labs.com/privacy-blur-discord/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=privacy-blur-discord_blog&utm_content=best-chrome-extensions-screen-sharing-privacy), [Microsoft Teams](https://amrita-labs.com/privacy-blur-teams/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=privacy-blur-teams_blog&utm_content=best-chrome-extensions-screen-sharing-privacy), and [WhatsApp Web](https://amrita-labs.com/privacy-blur-whatsapp/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=privacy-blur-whatsapp_blog&utm_content=best-chrome-extensions-screen-sharing-privacy) — same design, different platform.
 
 ---
 
@@ -155,7 +155,7 @@ Obscuro's main strength is transparency. For teams that require every browser ex
 
 | Extension | Best for | Price | App-specific? | Hover-reveal? |
 |---|---|---|---|---|
-| **[Privacy Blur for Slack](/privacy-blur-slack/)** | Slack users who screen share often | Free forever, Pro $3/mo | Yes — Slack Web only | Yes |
+| **[Privacy Blur for Slack](https://amrita-labs.com/privacy-blur-slack/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=privacy-blur-slack_blog&utm_content=best-chrome-extensions-screen-sharing-privacy)** | Slack users who screen share often | Free forever, Pro $3/mo | Yes — Slack Web only | Yes |
 | **[Page Blur](https://chromewebstore.google.com/detail/page-blur-hide-sensitive/mekiecmbbmjhakpahnijnhgbpkiifnop)** | Free privacy across many websites | Free | No | No |
 | **[Safe Screen Share](https://safescreenshare.com/)** | Users who want "hide everything" default | Free | No | Optional reveal |
 | **[BlurWeb](https://www.blurweb.app/)** | Tutorials, recordings, livestreams | Paid premium | No | No |
@@ -165,7 +165,7 @@ Obscuro's main strength is transparency. For teams that require every browser ex
 
 ### What is the best screen privacy Chrome extension for Slack?
 
-For Slack specifically, [Privacy Blur for Slack](/privacy-blur-slack/) is the strongest choice. It has 9 independent blur zones, hover-to-reveal, and an `Alt+Shift+B` toggle. It works on Slack Web (`app.slack.com`) in Chrome and runs 100% client-side with no data collection.
+For Slack specifically, [Privacy Blur for Slack](https://amrita-labs.com/privacy-blur-slack/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=privacy-blur-slack_blog&utm_content=best-chrome-extensions-screen-sharing-privacy) is the strongest choice. It has 9 independent blur zones, hover-to-reveal, and an `Alt+Shift+B` toggle. It works on Slack Web (`app.slack.com`) in Chrome and runs 100% client-side with no data collection.
 
 ### Do any of these extensions work on the Slack desktop app?
 
@@ -173,7 +173,7 @@ No. Chrome extensions cannot run inside standalone desktop apps. For Slack Deskt
 
 ### Which extension is best for Discord, Microsoft Teams, or WhatsApp Web?
 
-Each has its own platform-specific extension in the Amrita Labs family: [Privacy Blur for Discord](/privacy-blur-discord/), [Privacy Blur for Microsoft Teams](/privacy-blur-teams/), and [Privacy Blur for WhatsApp](/privacy-blur-whatsapp/). Same design principles, different platform.
+Each has its own platform-specific extension in the Amrita Labs family: [Privacy Blur for Discord](https://amrita-labs.com/privacy-blur-discord/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=privacy-blur-discord_blog&utm_content=best-chrome-extensions-screen-sharing-privacy), [Privacy Blur for Microsoft Teams](https://amrita-labs.com/privacy-blur-teams/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=privacy-blur-teams_blog&utm_content=best-chrome-extensions-screen-sharing-privacy), and [Privacy Blur for WhatsApp](https://amrita-labs.com/privacy-blur-whatsapp/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=privacy-blur-whatsapp_blog&utm_content=best-chrome-extensions-screen-sharing-privacy). Same design principles, different platform.
 
 ### Can I use one extension to hide everything across all my apps?
 
@@ -191,10 +191,10 @@ Privacy Blur for Slack and Obscuro are the two options with the strongest privac
 
 ## Final take
 
-If Slack is where your private messages, channel names, and internal chatter usually leak into meetings, **[Privacy Blur for Slack](/privacy-blur-slack/)** is the strongest fit because it solves that exact problem without making Slack hard to use.
+If Slack is where your private messages, channel names, and internal chatter usually leak into meetings, **[Privacy Blur for Slack](https://amrita-labs.com/privacy-blur-slack/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=privacy-blur-slack_blog&utm_content=best-chrome-extensions-screen-sharing-privacy)** is the strongest fit because it solves that exact problem without making Slack hard to use.
 
 If your screen-sharing risk is spread across lots of sites, **Page Blur** is the best free all-purpose choice.
 
-If you screen share Discord, Microsoft Teams, or WhatsApp Web often, install the matching sibling extension — [Discord](/privacy-blur-discord/), [Teams](/privacy-blur-teams/), or [WhatsApp](/privacy-blur-whatsapp/) — for the same platform-specific precision.
+If you screen share Discord, Microsoft Teams, or WhatsApp Web often, install the matching sibling extension — [Discord](https://amrita-labs.com/privacy-blur-discord/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=privacy-blur-discord_blog&utm_content=best-chrome-extensions-screen-sharing-privacy), [Teams](https://amrita-labs.com/privacy-blur-teams/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=privacy-blur-teams_blog&utm_content=best-chrome-extensions-screen-sharing-privacy), or [WhatsApp](https://amrita-labs.com/privacy-blur-whatsapp/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=privacy-blur-whatsapp_blog&utm_content=best-chrome-extensions-screen-sharing-privacy) — for the same platform-specific precision.
 
-Ready to make Slack safer before your next call? **[Install Privacy Blur for Slack](https://chromewebstore.google.com/detail/privacy-blur-for-slack/cejmffebfhdnhbjkhiobaecdohheimkj)** and keep sensitive Slack content hidden while you share.
+Ready to make Slack safer before your next call? **[Get Privacy Blur for Slack](https://amrita-labs.com/privacy-blur-slack/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=privacy-blur-slack_blog&utm_content=best-chrome-extensions-screen-sharing-privacy)** and keep sensitive Slack content hidden while you share.

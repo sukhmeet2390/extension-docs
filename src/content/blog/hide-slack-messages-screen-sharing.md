@@ -12,11 +12,11 @@ relatedProducts: ['privacy-blur-slack']
 
 You've probably had this moment: you're sharing your screen, talking through a project update, and then you notice Slack sitting there with a private message preview, a sensitive channel name, or a thread you definitely didn't mean to show the whole room.
 
-If you need a fix fast, **[Privacy Blur for Slack](/privacy-blur-slack/)** is the most practical option because it lets you keep Slack open while hiding the parts you don't want coworkers or clients to see. But it's not the only way to reduce the risk.
+If you need a fix fast, **[Privacy Blur for Slack](https://amrita-labs.com/privacy-blur-slack/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=privacy-blur-slack_blog&utm_content=hide-slack-messages-screen-sharing)** is the most practical option because it lets you keep Slack open while hiding the parts you don't want coworkers or clients to see. But it's not the only way to reduce the risk.
 
 This guide walks through the best ways to hide Slack messages during screen sharing, ranked by how well they protect your privacy without slowing down your meeting. Some methods are perfect if Slack needs to stay visible. Others work better if you just want the safest possible setup before you click Share.
 
-Also using **Discord**, **Microsoft Teams**, or **WhatsApp Web**? Each has its own screen-privacy extension: [Privacy Blur for Discord](/privacy-blur-discord/), [Privacy Blur for Teams](/privacy-blur-teams/), and [Privacy Blur for WhatsApp](/privacy-blur-whatsapp/). Same idea, different platforms.
+Also using **Discord**, **Microsoft Teams**, or **WhatsApp Web**? Each has its own screen-privacy extension: [Privacy Blur for Discord](https://amrita-labs.com/privacy-blur-discord/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=privacy-blur-discord_blog&utm_content=hide-slack-messages-screen-sharing), [Privacy Blur for Teams](https://amrita-labs.com/privacy-blur-teams/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=privacy-blur-teams_blog&utm_content=hide-slack-messages-screen-sharing), and [Privacy Blur for WhatsApp](https://amrita-labs.com/privacy-blur-whatsapp/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=privacy-blur-whatsapp_blog&utm_content=hide-slack-messages-screen-sharing). Same idea, different platforms.
 
 ## Why Slack doesn't have a built-in solution
 
@@ -28,7 +28,7 @@ The good news: you don't need to overhaul your workflow. In most cases, one of t
 
 ## 1. Privacy Blur for Slack — Best if Slack needs to stay on screen
 
-**[Install Privacy Blur for Slack](https://chromewebstore.google.com/detail/privacy-blur-for-slack/cejmffebfhdnhbjkhiobaecdohheimkj)** &middot; [Learn more on the product page →](/privacy-blur-slack/)
+**[Get Privacy Blur for Slack](https://amrita-labs.com/privacy-blur-slack/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=privacy-blur-slack_blog&utm_content=hide-slack-messages-screen-sharing)**
 
 ![Privacy Blur for Slack — messages blurred during screen sharing](/assets/blog/privacy-blur-slack-panel.png)
 
@@ -132,7 +132,7 @@ The tradeoff is precision and speed. Generic tools are not built specifically fo
 
 The fastest way to hide Slack message previews — unread bubbles, DM thumbnails, and channel notification previews — is a two-step combo:
 
-1. **Turn on [Privacy Blur for Slack](/privacy-blur-slack/) message and channel zones** so existing previews are blurred before you share.
+1. **Turn on [Privacy Blur for Slack](https://amrita-labs.com/privacy-blur-slack/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=privacy-blur-slack_blog&utm_content=hide-slack-messages-screen-sharing) message and channel zones** so existing previews are blurred before you share.
 2. **Enable Slack Do Not Disturb** for the length of your meeting so new previews never appear.
 
 Blur alone hides current content but doesn't stop new popups. DND alone silences new notifications but leaves current previews visible. Together they cover both.
@@ -161,9 +161,9 @@ Yes. The extension applies a CSS blur to the Slack Web tab in Chrome. When you s
 
 The same idea works across platforms. If you screen share those apps regularly, each has its own screen-privacy Chrome extension:
 
-- **Discord** — see [Privacy Blur for Discord](/privacy-blur-discord/)
-- **Microsoft Teams** — see [Privacy Blur for Microsoft Teams](/privacy-blur-teams/)
-- **WhatsApp Web** — see [Privacy Blur for WhatsApp](/privacy-blur-whatsapp/)
+- **Discord** — see [Privacy Blur for Discord](https://amrita-labs.com/privacy-blur-discord/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=privacy-blur-discord_blog&utm_content=hide-slack-messages-screen-sharing)
+- **Microsoft Teams** — see [Privacy Blur for Microsoft Teams](https://amrita-labs.com/privacy-blur-teams/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=privacy-blur-teams_blog&utm_content=hide-slack-messages-screen-sharing)
+- **WhatsApp Web** — see [Privacy Blur for WhatsApp](https://amrita-labs.com/privacy-blur-whatsapp/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=privacy-blur-whatsapp_blog&utm_content=hide-slack-messages-screen-sharing)
 
 Each extension is scoped to its host domain, which is stricter for privacy and faster than a generic blur tool.
 
@@ -173,4 +173,4 @@ No. Chrome extensions cannot run inside the Slack mobile app. If you present fro
 
 ## The simplest way to avoid an awkward Slack moment
 
-If you screen share often and still need Slack open, use the tool built for that exact problem. **[Install Privacy Blur for Slack](https://chromewebstore.google.com/detail/privacy-blur-for-slack/cejmffebfhdnhbjkhiobaecdohheimkj)** and blur messages, names, channels, and media before your next call. It's free forever, works entirely client-side, and takes less than a minute to set up.
+If you screen share often and still need Slack open, use the tool built for that exact problem. **[Get Privacy Blur for Slack](https://amrita-labs.com/privacy-blur-slack/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=privacy-blur-slack_blog&utm_content=hide-slack-messages-screen-sharing)** and blur messages, names, channels, and media before your next call. It's free forever, works entirely client-side, and takes less than a minute to set up.

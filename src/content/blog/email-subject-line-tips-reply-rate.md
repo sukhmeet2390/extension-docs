@@ -11,7 +11,7 @@ Your email lives or dies in about 2-3 seconds. Before anyone reads your pitch, p
 
 That tiny line carries more weight than most people realize. Cleanlist reports that 47% of recipients open an email based on the subject line alone, while 69% report emails as spam based on the subject line alone (Cleanlist 2026). And because average cold email reply rates sit around 3-5% across 53M+ emails analyzed, small subject-line improvements matter a lot more than they look on paper (Saleshandy 2026).
 
-If you write outreach from Gmail, tools like [EmailSubjectScore Pro](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm) make this easier by scoring your subject line for spam risk, clarity, and urgency in real time — right inside the compose window, with no copy-paste to external tools.
+If you write outreach from Gmail, tools like [EmailSubjectScore Pro](https://amrita-labs.com/gmail-subject-score/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=gmail-subject-score_blog&utm_content=email-subject-line-tips-reply-rate) make this easier by scoring your subject line for spam risk, clarity, and urgency in real time — right inside the compose window, with no copy-paste to external tools.
 
 Most people obsess over the email body. Smart senders know the subject line decides whether the body gets a chance.
 
@@ -155,7 +155,7 @@ Timing will not rescue a bad subject line. But good timing gives a good subject 
 
 If you send important emails from Gmail, the fastest habit upgrade is to check the subject line *before* you hit send, not after a campaign underperforms.
 
-That is where [EmailSubjectScore Pro](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm) fits naturally into the workflow. It works directly inside the Gmail compose window and scores your subject line in real time across three practical dimensions:
+That is where [EmailSubjectScore Pro](https://amrita-labs.com/gmail-subject-score/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=gmail-subject-score_blog&utm_content=email-subject-line-tips-reply-rate) fits naturally into the workflow. It works directly inside the Gmail compose window and scores your subject line in real time across three practical dimensions:
 
 - **Spam risk** — does this sound promotional, manipulative, or filter-friendly in the wrong way?
 - **Clarity** — will the recipient immediately understand what the email is about?
@@ -207,5 +207,5 @@ Start with a small set of clear variations for any meaningful outreach campaign.
 
 If your subject line is too long, too generic, too pushy, or too spammy, the rest of your email never gets a fair chance. A better subject line will not fix a weak offer, but it will help good emails earn more of the replies they deserve.
 
-If you want an easy way to check subject lines as you write them, install **[EmailSubjectScore Pro](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm)**. It works directly inside Gmail, scores spam risk, clarity, and urgency in real time, includes AI rewrite suggestions, and gives you **50 free scores per month** before you ever need Pro.
+If you want an easy way to check subject lines as you write them, install **[EmailSubjectScore Pro](https://amrita-labs.com/gmail-subject-score/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=gmail-subject-score_blog&utm_content=email-subject-line-tips-reply-rate)**. It works directly inside Gmail, scores spam risk, clarity, and urgency in real time, includes AI rewrite suggestions, and gives you **50 free scores per month** before you ever need Pro.
 

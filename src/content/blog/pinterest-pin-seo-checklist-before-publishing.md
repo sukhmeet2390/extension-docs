@@ -72,4 +72,4 @@ That is fixable.
 
 Before you publish your next pin, run this checklist once — or make it even faster by using a live scoring tool inside Pinterest itself.
 
-**Install [Pinello](https://chromewebstore.google.com/detail/pinello/kmelegdnljikegoemigfgnpcbllmkije)** and check every pin for image quality, board fit, title SEO, description optimization, and keyword density before you hit publish.
+**Install [Pinello](https://amrita-labs.com/pinello/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=pinello_blog&utm_content=pinterest-pin-seo-checklist-before-publishing)** and check every pin for image quality, board fit, title SEO, description optimization, and keyword density before you hit publish.

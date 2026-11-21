@@ -15,7 +15,7 @@ Pinterest is much closer to a search engine than a traditional social platform. 
 
 And the payoff is different too. A decent Instagram post disappears quickly. A well-optimized Pinterest pin can keep surfacing for months. Some of the pins we have posted keep getting impressions long after we stopped thinking about them.
 
-[Pinello](https://chromewebstore.google.com/detail/kmelegdnljikegoemigfgnpcbllmkije) is a free Chrome extension that scores Pinterest pins across 5 dimensions — image, board fit, title, description, and keywords — in real time.
+[Pinello](https://amrita-labs.com/pinello/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=pinello_blog&utm_content=pinterest-seo-checklist-score-pins) is a free Chrome extension that scores Pinterest pins across 5 dimensions — image, board fit, title, description, and keywords — in real time.
 
 ![Pinterest pin scoring checklist — 5 dimensions to check before posting](/assets/blog/pinterest-chrome-extensions-pinello.png)
 
@@ -155,7 +155,7 @@ Those three changes are not flashy, but they do more for Pinterest SEO than most
 
 Your next pin might quietly compound traffic for months, or it might disappear before anyone really sees it. The difference is often a few minutes of optimization before you hit publish.
 
-[Install Pinello from the Chrome Web Store](https://chromewebstore.google.com/detail/kmelegdnljikegoemigfgnpcbllmkije) — it's free, works directly on pinterest.com, and scores your pins across all 5 dimensions before you post. No signup needed.
+[Get Pinello](https://amrita-labs.com/pinello/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=pinello_blog&utm_content=pinterest-seo-checklist-score-pins) — it's free, works directly on pinterest.com, and scores your pins across all 5 dimensions before you post. No signup needed.
 
 ---
 

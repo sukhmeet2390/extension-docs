@@ -17,7 +17,7 @@ So I did what any engineer would do when annoyed enough — I built something.
 
 ## What I actually built
 
-[EmailSubjectScore Pro](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm) is a Chrome extension that sits inside Gmail's compose window. As you type a subject line, it scores it on three things:
+[EmailSubjectScore Pro](https://amrita-labs.com/gmail-subject-score/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=gmail-subject-score_blog&utm_content=gmail-subject-scorer-launch) is a Chrome extension that sits inside Gmail's compose window. As you type a subject line, it scores it on three things:
 
 - **Spam risk** — are you triggering filters without realizing it?
 - **Clarity** — does the recipient know what this email is about?
@@ -61,7 +61,7 @@ The free tier gives you 50 AI scores per month and 10 per day. Enough to cover a
 
 If you try it and something feels off — a score that doesn't make sense, a rewrite that sounds weird, a bug where it doesn't show up in compose — genuinely tell us. We're building this for people who send emails that matter, and the best feedback comes from people actually using it.
 
-**→ [Install EmailSubjectScore Pro (free)](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm)**
+**→ [Get EmailSubjectScore Pro (free)](https://amrita-labs.com/gmail-subject-score/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=gmail-subject-score_blog&utm_content=gmail-subject-scorer-launch)**
 
 ---
 

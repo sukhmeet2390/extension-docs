@@ -64,7 +64,7 @@ Mailmeteor is primarily a Gmail mail merge tool, but their subject line tester i
 
 | Tool | In Gmail? | Real-time? | Free tier | AI rewrites? | Best for |
 |---|---|---|---|---|---|
-| [EmailSubjectScore Pro](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm) | ✅ | ✅ | 50/month | ✅ | Daily email writing |
+| [EmailSubjectScore Pro](https://amrita-labs.com/gmail-subject-score/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=gmail-subject-score_blog&utm_content=best-email-subject-line-extensions) | ✅ | ✅ | 50/month | ✅ | Daily email writing |
 | [SendCheckIt](https://sendcheckit.com/email-subject-line-tester/) | ❌ | ❌ | Unlimited | ❌ | Batch comparisons |
 | [CoSchedule](https://coschedule.com/headline-analyzer) | ❌ | ❌ | Limited | ❌ | Word balance learning |
 | [Mailmeteor](https://mailmeteor.com/email-subject-line-tester) | ❌ | ❌ | Unlimited | ✅ | Quick AI alternatives |
@@ -78,4 +78,4 @@ A subject line scorer won't turn a bad email into a good one. But it catches the
 
 The best tool is the one you'll actually use every day. If it requires extra steps, you'll skip it when you're busy — which is exactly when you write your worst subject lines.
 
-[Install EmailSubjectScore Pro (Free — 50 scores/month)](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm) — scores appear as you type in Gmail, no tab switching needed.
+[Get EmailSubjectScore Pro (Free — 50 scores/month)](https://amrita-labs.com/gmail-subject-score/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=gmail-subject-score_blog&utm_content=best-email-subject-line-extensions) — scores appear as you type in Gmail, no tab switching needed.

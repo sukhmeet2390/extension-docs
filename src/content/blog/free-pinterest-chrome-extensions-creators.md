@@ -93,4 +93,4 @@ The highest-ROI optimization for Pinterest is pre-publish scoring. A single pin 
 
 Most creators spend hours on design but seconds on the title and description. That's backwards. Pinterest's search algorithm weights text just as heavily as the image.
 
-Score your next pin before you publish → [Install Pinello (Free)](https://chromewebstore.google.com/detail/pinello/kmelegdnljikegoemigfgnpcbllmkije)
+Score your next pin before you publish → [Get Pinello (Free)](https://amrita-labs.com/pinello/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=pinello_blog&utm_content=free-pinterest-chrome-extensions-creators)

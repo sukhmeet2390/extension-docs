@@ -15,7 +15,7 @@ That is such a bad trade.
 
 The subject line is the first decision point. Before someone reads your opener, before they notice your CTA, before they appreciate how thoughtful your email is, they make a snap call about whether this message deserves attention at all.
 
-If you write outreach from Gmail, [EmailSubjectScore Pro](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm) is a free Chrome extension that scores your subject lines for spam risk, clarity, and urgency in real time — right inside the compose window.
+If you write outreach from Gmail, [EmailSubjectScore Pro](https://amrita-labs.com/gmail-subject-score/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=gmail-subject-score_blog&utm_content=how-to-write-subject-lines-that-get-opened) is a free Chrome extension that scores your subject lines for spam risk, clarity, and urgency in real time — right inside the compose window.
 
 ![Subject line formulas and examples for cold email outreach](/assets/blog/best-email-subject-line-extensions-hero.png)
 
@@ -163,7 +163,7 @@ That one minute is usually worth more than another ten minutes polishing the bod
 
 ## Score your next subject line
 
-Before your next important email, give the subject line a quick score. [Install EmailSubjectScore Pro](https://chromewebstore.google.com/detail/dleffnbdjohkmmkbojehdpkgkmpofmgm) — it's free, works inside Gmail, and shows you exactly what feels weak before you hit send. No signup, no copy-pasting to external tools.
+Before your next important email, give the subject line a quick score. [Get EmailSubjectScore Pro](https://amrita-labs.com/gmail-subject-score/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=gmail-subject-score_blog&utm_content=how-to-write-subject-lines-that-get-opened) — it's free, works inside Gmail, and shows you exactly what feels weak before you hit send. No signup, no copy-pasting to external tools.
 
 ---
 
