@@ -30,7 +30,7 @@ const schema = {
       "mainEntity": [
         { "@type": "Question", "name": "Is Privacy Blur for Slack free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Basic blur (all 9 zones, hover-to-reveal, keyboard shortcut) is free forever. Pro adds persistence across reloads, custom keyword rules, and sender rules for $3/month." }},
         { "@type": "Question", "name": "Can the extension read my Slack messages?", "acceptedAnswer": { "@type": "Answer", "text": "No. Privacy Blur applies CSS blur effects to the page DOM. It cannot read, store, or transmit your message content. Everything runs 100% client-side in your browser." }},
-        { "@type": "Question", "name": "Does it work during Zoom and Google Meet calls?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. When you share your screen or a Slack tab during any video call, blurred content stays blurred for everyone on the call. Only you can hover to reveal." }},
+        { "@type": "Question", "name": "Does it work during Zoom and Google Meet calls?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Hover to reveal content temporarily. Anyone viewing your shared screen can see it while it is revealed." }},
         { "@type": "Question", "name": "Will it slow down Slack?", "acceptedAnswer": { "@type": "Answer", "text": "No. The extension is under 130KB and uses CSS blur with a lightweight MutationObserver. Zero impact on Slack's performance or load time." }},
         { "@type": "Question", "name": "Does it work with Slack Desktop app?", "acceptedAnswer": { "@type": "Answer", "text": "Privacy Blur works on Slack Web (app.slack.com) in Chrome. The Slack desktop app uses its own renderer and does not support Chrome extensions." }}
       ]
@@ -61,7 +61,7 @@ const schema = {
           Share your screen,<br />not your secrets.
         </h1>
         <p class="text-lg text-gray-400 mt-6 leading-relaxed">
-          Privacy Blur for Slack hides sensitive messages, names, and channels during screen sharing or video calls. One click to blur — hover to reveal only for your eyes.
+          Privacy Blur for Slack hides sensitive messages, names, and channels during screen sharing or video calls. One click to blur — hover to reveal temporarily.
         </p>
         <div class="flex flex-wrap gap-3 mt-8">
           <a href={cwsLink} class="inline-flex items-center gap-2 bg-violet-600 text-white px-6 py-3 rounded-full font-semibold text-sm hover:bg-violet-500 transition-colors shadow-lg shadow-violet-600/25">
@@ -102,7 +102,7 @@ const schema = {
         <span class="flex-shrink-0 w-8 h-8 bg-violet-600 text-white font-bold rounded-full flex items-center justify-center text-sm">3</span>
         <div>
           <h3 class="font-semibold text-white">Hover to reveal</h3>
-          <p class="text-sm text-gray-400 mt-1">Hover over any blurred content to read it yourself — but the blur stays on for everyone watching your screen share.</p>
+          <p class="text-sm text-gray-400 mt-1">Hover to reveal content temporarily. Anyone viewing your shared screen can see it while it is revealed.</p>
         </div>
       </div>
     </div>
@@ -145,7 +145,7 @@ const schema = {
       <div class="max-w-2xl">
         <FaqItem question="Is Privacy Blur for Slack free?" answer="Yes. Basic blur (all 9 zones, hover-to-reveal, keyboard shortcut) is free forever. Pro adds persistence across reloads, custom keyword rules, and sender rules for $3/month." />
         <FaqItem question="Can the extension read my Slack messages?" answer="No. Privacy Blur applies CSS blur effects to the page DOM. It cannot read, store, or transmit your message content. Everything runs 100% client-side in your browser." />
-        <FaqItem question="Does it work during Zoom and Google Meet calls?" answer="Yes. When you share your screen or a Slack tab during any video call, blurred content stays blurred for everyone on the call. Only you can hover to reveal." />
+        <FaqItem question="Does it work during Zoom and Google Meet calls?" answer="Yes. Hover to reveal content temporarily. Anyone viewing your shared screen can see it while it is revealed." />
         <FaqItem question="Will it slow down Slack?" answer="No. The extension is under 130KB and uses CSS blur with a lightweight MutationObserver. Zero impact on Slack's performance or load time." />
         <FaqItem question="Does it work with Slack Desktop app?" answer="Privacy Blur works on Slack Web (app.slack.com) in Chrome. The Slack desktop app uses its own renderer and does not support Chrome extensions." />
       </div>
@@ -176,7 +176,7 @@ const schema = {
   </section>
 
   <!-- Legal -->
-  <WhatIsBlock productName="Privacy Blur for Slack" definition="Privacy Blur for Slack is a free Chrome extension that blurs sensitive Slack content — messages, channel names, DMs, avatars, and media — before or during screen sharing. It has nine independent blur zones, hover-to-reveal for private viewing, and an Alt+Shift+B keyboard shortcut. Runs 100% client-side; Slack data never leaves the browser." />
+  <WhatIsBlock productName="Privacy Blur for Slack" definition="Privacy Blur for Slack is a free Chrome extension that blurs sensitive Slack content — messages, channel names, DMs, avatars, and media — before or during screen sharing. It has nine independent blur zones, hover-to-reveal, and an Alt+Shift+B keyboard shortcut. Runs 100% client-side; Slack data never leaves the browser." />
   <!-- RelatedContentBlock reverse-index -->
   <RelatedContentBlock productSlug="privacy-blur-slack" productSlugs={['privacy-blur-discord', 'privacy-blur-teams', 'privacy-blur-whatsapp']} theme="dark" />
 
