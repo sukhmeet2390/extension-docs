@@ -34,18 +34,18 @@ import Base from '../../../layouts/Base.astro';
 
     <h2 class="text-xl font-semibold text-white mt-10">4. What Leaves Your Browser</h2>
     <p class="text-gray-300"><strong>While you browse Pinterest and while the Pin Doctor scores your draft locally, no Pin content leaves your browser.</strong></p>
-    <p class="text-gray-300">Data is sent to our backend only when you click one of the following actions:</p>
+    <p class="text-gray-300">Data sent to our backend includes:</p>
     <div class="overflow-x-auto">
       <table class="text-sm text-gray-300 w-full">
         <thead><tr class="border-b border-white/10"><th class="text-left py-2 pr-4">Action</th><th class="text-left py-2 pr-4">What is sent</th><th class="text-left py-2">Where it goes</th></tr></thead>
         <tbody>
-          <tr class="border-b border-white/5"><td class="py-2 pr-4">Suggest a stronger title / description / topics</td><td class="py-2 pr-4">Anonymous device ID, the draft title / description / topics, the selected board name (for context), extension version</td><td class="py-2">Service providers used to provide the requested AI-assisted suggestion</td></tr>
-          <tr class="border-b border-white/5"><td class="py-2 pr-4">Check board match</td><td class="py-2 pr-4">Anonymous device ID, the draft Pin text, the selected board name, extension version</td><td class="py-2">Service providers used to provide the requested board-match analysis</td></tr>
+          <tr class="border-b border-white/5"><td class="py-2 pr-4">Suggest a stronger title / description / topics</td><td class="py-2 pr-4">Anonymous device ID and AI request details described below</td><td class="py-2">Service providers used to provide the requested AI-assisted suggestion</td></tr>
+          <tr class="border-b border-white/5"><td class="py-2 pr-4">Check board match</td><td class="py-2 pr-4">Anonymous device ID and AI request details described below</td><td class="py-2">Service providers used to provide the requested board-match analysis</td></tr>
           <tr><td class="py-2 pr-4">Anonymous analytics events</td><td class="py-2 pr-4">Anonymous device ID, event name, extension version, browser locale. No Pin content.</td><td class="py-2">Analytics service providers</td></tr>
         </tbody>
       </table>
     </div>
-    <p class="text-gray-300 mt-4"><strong>Image analysis is local.</strong> Pixel data used for local checks is discarded after analysis and is not uploaded.</p>
+    <p class="text-gray-300 mt-4">When you request AI help, we send the relevant Pin text and board name to our service. Requests may also include the Pin link, image URL, limited image details such as alt text and dimensions, and any context you provide. Image pixels are processed in your browser and are not uploaded. Relevant text and image details may be sent to an AI provider to provide the requested feature.</p>
     <p class="text-gray-300"><strong>Pinello never types into Pinterest for you.</strong> AI suggestions are copy-only: they land on your clipboard for you to paste.</p>
     <p class="text-gray-300">Information sent for requested features is protected with reasonable safeguards during transmission.</p>
 
@@ -61,9 +61,8 @@ import Base from '../../../layouts/Base.astro';
     <h2 class="text-xl font-semibold text-white mt-10">6. What We Do NOT Collect</h2>
     <ul class="text-gray-300">
       <li>Your Pinterest account credentials, session tokens, or login information</li>
-      <li>Pin images (all image analysis is local and pixel data is discarded)</li>
+      <li>Pin image pixels (processed locally and not uploaded)</li>
       <li>Browsing history or activity outside of pinterest.com and pinimg.com</li>
-      <li>Your name, email, or other personally identifiable information &mdash; unless you email us for support</li>
       <li>Payment card details (handled by the payment provider; we do not see card data)</li>
     </ul>
 
@@ -72,7 +71,7 @@ import Base from '../../../layouts/Base.astro';
       <table class="text-sm text-gray-300 w-full">
         <thead><tr class="border-b border-white/10"><th class="text-left py-2 pr-4">Service</th><th class="text-left py-2 pr-4">Data shared</th><th class="text-left py-2">Purpose</th></tr></thead>
         <tbody>
-          <tr class="border-b border-white/5"><td class="py-2 pr-4">AI processing providers</td><td class="py-2 pr-4">Draft Pin text when you request a suggestion or Board Match</td><td class="py-2">Provide the requested AI-assisted feature</td></tr>
+          <tr class="border-b border-white/5"><td class="py-2 pr-4">AI processing providers</td><td class="py-2 pr-4">Relevant Pin text, board name, and image context such as alt text and dimensions. Pin links and image URLs are not sent to the AI provider.</td><td class="py-2">Provide the requested AI-assisted feature</td></tr>
           <tr class="border-b border-white/5"><td class="py-2 pr-4">Hosting and service providers</td><td class="py-2 pr-4">Encrypted requests, limited service records, and technical data</td><td class="py-2">Operate, secure, and support the service</td></tr>
           <tr class="border-b border-white/5"><td class="py-2 pr-4">Analytics and error-reporting providers</td><td class="py-2 pr-4">Anonymous usage events and limited diagnostics</td><td class="py-2">Improve reliability and fix issues</td></tr>
           <tr><td class="py-2 pr-4">Payment providers</td><td class="py-2 pr-4">Billing information when you subscribe</td><td class="py-2">Subscription billing</td></tr>

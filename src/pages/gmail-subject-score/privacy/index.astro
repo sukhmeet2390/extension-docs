@@ -18,14 +18,14 @@ import Base from '../../../layouts/Base.astro';
     <p class="text-gray-300">EmailSubjectScore Pro scores email subject lines as you type in Gmail compose, providing spam, clarity, and urgency ratings with AI-powered rewrite suggestions.</p>
 
     <h2 class="text-xl font-semibold text-white mt-10">3. Data We Collect</h2>
-    <p class="text-gray-300">We collect <strong>only</strong> the following:</p>
+    <p class="text-gray-300">Information we collect includes:</p>
     <div class="overflow-x-auto">
       <table class="text-sm text-gray-300 w-full">
         <thead><tr class="border-b border-white/10"><th class="text-left py-2 pr-4">Category</th><th class="text-left py-2 pr-4">What</th><th class="text-left py-2 pr-4">Why</th><th class="text-left py-2">Retention</th></tr></thead>
         <tbody>
           <tr class="border-b border-white/5"><td class="py-2 pr-4">Anonymous device ID</td><td class="py-2 pr-4">Random UUID generated on install</td><td class="py-2 pr-4">Rate limiting &amp; free-tier cap</td><td class="py-2">Until deletion request</td></tr>
-          <tr class="border-b border-white/5"><td class="py-2 pr-4">Aggregated usage events</td><td class="py-2 pr-4">Counts of feature uses</td><td class="py-2 pr-4">Product improvement</td><td class="py-2">Up to 24 months</td></tr>
-          <tr><td class="py-2 pr-4">Error logs</td><td class="py-2 pr-4">Stack traces (no user content)</td><td class="py-2 pr-4">Bug fixing</td><td class="py-2">Up to 90 days</td></tr>
+          <tr class="border-b border-white/5"><td class="py-2 pr-4">Usage events</td><td class="py-2 pr-4">Event names and limited event details</td><td class="py-2 pr-4">Product improvement</td><td class="py-2">Up to 24 months</td></tr>
+          <tr><td class="py-2 pr-4">Error logs</td><td class="py-2 pr-4">Stack traces and error diagnostics</td><td class="py-2 pr-4">Bug fixing</td><td class="py-2">Up to 90 days</td></tr>
         </tbody>
       </table>
     </div>
@@ -34,7 +34,6 @@ import Base from '../../../layouts/Base.astro';
       <li>Email message bodies or recipients</li>
       <li>Page contents beyond the subject line you choose to score</li>
       <li>Browsing history</li>
-      <li>Any personally identifiable information without explicit account creation</li>
     </ul>
 
     <h2 class="text-xl font-semibold text-white mt-10">4. What Leaves Your Browser</h2>
@@ -44,7 +43,7 @@ import Base from '../../../layouts/Base.astro';
       <li>The subject line text you choose to process</li>
       <li>Limited diagnostic metadata, such as extension version</li>
     </ul>
-    <p class="text-gray-300">Subject line text is used only to provide the requested scoring or rewrite feature and is not intentionally retained after processing. We may use service providers to process requests on our behalf under appropriate safeguards.</p>
+    <p class="text-gray-300">When you request a score or rewrite, your subject line is sent to our service and AI provider for evaluation. We may cache a score for up to 24 hours. Server logs may include part of a submitted subject line. We do not receive email bodies, recipients, or attachments.</p>
 
     <h2 class="text-xl font-semibold text-white mt-10">5. Third-Party Services</h2>
     <div class="overflow-x-auto">
@@ -86,7 +85,7 @@ import Base from '../../../layouts/Base.astro';
     <ul class="text-gray-300">
       <li>Anonymous identifiers and usage information: retained only as reasonably necessary for service operation, abuse prevention, and product improvement</li>
       <li>Error diagnostics: retained for a limited period appropriate to troubleshooting</li>
-      <li>Subject text: not intentionally retained after the requested processing is complete</li>
+      <li>Subject text and scores: see section 4 for caching and server log details</li>
     </ul>
 
     <h2 class="text-xl font-semibold text-white mt-10">8. Children's Privacy</h2>
