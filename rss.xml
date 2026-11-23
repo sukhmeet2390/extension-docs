@@ -1,4 +1,387 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Amrita Labs Blog</title><description>Chrome extensions, Shopify apps, and indie maker insights from Amrita Labs.</description><link>https://amrita-labs.com/</link><language>en-us</language><item><title>How to Hide WhatsApp Chats and Contact Names in Meetings</title><link>https://amrita-labs.com/blog/03-hide-whatsapp-chats-contact-names-meetings/</link><guid isPermaLink="true">https://amrita-labs.com/blog/03-hide-whatsapp-chats-contact-names-meetings/</guid><description>Learn how to hide WhatsApp chats, contact names, previews, and profile photos before sharing WhatsApp Web in meetings and demos.</description><pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate><content:encoded>Meetings create a funny kind of privacy problem. You can be careful about the document you intend to present and still expose a private WhatsApp chat in the sidebar. A contact name, profile photo, or last-message preview may be enough for someone to work out what they are looking at.
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Amrita Labs Blog</title><description>Chrome extensions, Shopify apps, and indie maker insights from Amrita Labs.</description><link>https://amrita-labs.com/</link><language>en-us</language><item><title>How to Read Pinterest Pin Stats Without Guessing What They Mean</title><link>https://amrita-labs.com/blog/how-to-read-pinterest-pin-stats/</link><guid isPermaLink="true">https://amrita-labs.com/blog/how-to-read-pinterest-pin-stats/</guid><description>Pinterest Pin stats are clues, not verdicts. Learn how to read saves, age and engagement per day, and what missing data means, before you copy what worked.</description><pubDate>Mon, 23 Nov 2026 00:00:00 GMT</pubDate><content:encoded>A Pin with 2,000 saves looks impressive.
+
+It might be. It might also be three years old, posted by a huge account, or from a topic that had a very different audience back then. The number is real. The conclusion you draw from it might not be.
+
+[Pinello](https://amrita-labs.com/pinello/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=pinello_blog&amp;utm_content=how-to-read-pinterest-pin-stats) is a free Chrome extension that scores Pinterest pins across 5 dimensions — image, board fit, title, description, and hashtags — in real time. It also shows the stats behind any Pin you open, which is what this post is about.
+
+I&apos;ll walk through a real panel, say what each number can and can&apos;t tell you, and give you a calm way to read them so you don&apos;t chase the wrong lesson.
+
+## Which stats can you see?
+
+Depending on the Pin and the Pinterest page you&apos;re on, you might see saves, comments, shares, the Pin&apos;s age, and an engagement-per-day figure when there&apos;s enough to work it out.
+
+Pinello shows what it can read in a side panel when you open a Pin.
+
+![Pinello Pin Detail panel showing a Pin Detail Score of 61 out of 100, with saves, engagement per day, age, shares, comments and an unknown category](https://amrita-labs.com/assets/blog/pinello/pin-details/pin-detail-stats-panel.png)
+
+At the top is a Pin Detail Score, here 61 out of 100, labelled &quot;Okay.&quot; Under it are four sub-scores for title, description, image ratio and engagement. Below that are the quick stats (saves, engagement per day, age), and a &quot;More stats&quot; section with shares, comments and category.
+
+Not every Pin shows every stat. Pinterest data can be partial, and fields change from time to time. Look at the Category row in the screenshot. It says Unknown, which means Pinello couldn&apos;t verify it. It doesn&apos;t mean the Pin has no category.
+
+## Check the age before the number
+
+Totals reward older Pins. A Pin from last week hasn&apos;t had much time to collect saves. One from three years ago has had plenty. If you compare them as if they started together, you&apos;ll learn the wrong thing.
+
+Age doesn&apos;t make a Pin less useful. It just changes the question. Is this a long-lived reference Pin? Is the topic seasonal? Did it pick up attention slowly? Is there enough context to compare it with a newer Pin?
+
+In the panel above, the age is six months. So 369 saves over six months is a different story than 369 saves over six years. When Pinello shows an age, read that first. When it doesn&apos;t, call the comparison limited instead of guessing.
+
+## A save isn&apos;t a click
+
+This sounds obvious, but it gets lost in a lot of Pinterest advice.
+
+A save tells you someone wanted to keep the idea for later. It doesn&apos;t prove they visited the link, bought anything, or even read the description. A comment might be a question or a disagreement. A share might mean it was useful to someone else.
+
+None of these tell you what your own listing or blog post will get. Pinello doesn&apos;t turn stats into sales estimates or reach forecasts. It shows you what Pinterest makes available, so you can look at a Pin with fewer assumptions.
+
+## Read the numbers beside the Pin
+
+A number gets more useful when you put it next to the actual Pin. Look at:
+
+1. **The image.** Can you tell what it is at thumbnail size?
+2. **The title.** Does it explain the Pin early and plainly?
+3. **The description.** Does it add context, or just filler?
+4. **The board.** Does it fit the subject?
+5. **The creator.** Is it a big account or a small one?
+6. **The destination.** Does it seem to lead somewhere relevant?
+
+This is why a Pin Detail view helps more than a count copied into a spreadsheet. A high-save Pin might teach you something about composition, topic framing, board choice, or timing. You need the surrounding details to guess which one is plausible.
+
+## Feed Score and Pin Detail Score aren&apos;t the same thing
+
+While you scroll, Pinello can show an estimated Feed Score as a small badge on each Pin. Hover over it and you get the signals behind it.
+
+![A Pinterest feed with Pinello score badges on each Pin and a hover card showing an Estimated Feed Score of 63 out of 100, with title, description and image ratio signals](https://amrita-labs.com/assets/blog/pinello/feed/feed-score-with-hover.png)
+
+In this capture, the hover card shows a 63 out of 100 estimate based on three signals: title, description and image ratio. It&apos;s a quick comparison built from what&apos;s visible on the feed card.
+
+When you open the Pin, Pinello can build a fuller Pin Detail Score from the closeup data. That includes engagement, which the feed card didn&apos;t show here. So the same Pin can score differently in the two places. That&apos;s expected. More data can give a different signal.
+
+Neither score is Pinterest&apos;s official ranking. Neither one predicts reach, clicks or saves. A higher score means the Pin matches more of Pinello&apos;s checks, based on what it can see. That&apos;s all it means.
+
+## Reading a real panel
+
+Here&apos;s how I&apos;d read the panel from earlier.
+
+The Pin Detail Score is 61. Underneath, the title scored 17 out of 25, the description 10 out of 25, the image ratio 12 out of 25, and engagement 22 out of 25. So engagement is the strongest part and the description is the weakest. That&apos;s more useful than the headline number.
+
+Then the stats. 369 saves, 38 shares and 0 comments over about six months, with 1.95 engagement per day. People kept it and passed it along, but nobody started a conversation. Is that a pattern worth noting? Maybe. Is it proof of why the Pin works? No.
+
+It&apos;s one observation to take into your own next Pin. Something like &quot;the image is clear and the description is thin, and it still got saved.&quot; That&apos;s a useful, small thing to know.
+
+## Engagement per day is an estimate
+
+Dividing by age makes comparisons a bit fairer, but it doesn&apos;t make them perfect. The exact age might not be available. A count might be missing or delayed. Pinterest can show different fields on different pages. And attention often comes in bursts, not evenly across time.
+
+I&apos;d use the number to find Pins worth a closer look, not to rank creators with false precision. &quot;This Pin deserves a look&quot; is a safer thing to say than &quot;this format guarantees growth.&quot;
+
+## What visible stats can&apos;t tell you
+
+Stats on someone else&apos;s Pin aren&apos;t the same as Pinterest Analytics for your own account. They usually don&apos;t give you a full view of impressions, outbound clicks, conversion, revenue, audience details or a Pin&apos;s whole history.
+
+Pinello is built for pre-publish checks and for inspecting Pins. It isn&apos;t an analytics dashboard, and it doesn&apos;t link a count on a Pin to a business result.
+
+That&apos;s actually helpful if you sell on Etsy or run a blog. Use stats to study examples. Then use your own shop and Pinterest reports to see what happened after you published.
+
+## When a stat is missing
+
+Don&apos;t read a blank as zero unless Pinterest actually shows zero. Pinello uses a dash or an &quot;unavailable&quot; state when it can&apos;t verify a value. A missing count might just mean the page didn&apos;t expose it.
+
+If the feed card is missing something, open the Pin and look again. If it&apos;s still partial, work with what you can verify. You can still learn something from a Pin with no engagement count if its image, board, title and description teach you something.
+
+## Why this matters if you sell or blog
+
+If you&apos;re an Etsy seller, a blogger or a creator, you&apos;ll often look at other people&apos;s Pins to work out what&apos;s worth copying. That&apos;s a smart habit, and it&apos;s also where stats mislead people most. A big number on a Pin from a huge account tells you very little about what your own small account can expect.
+
+So I&apos;d use the stats to ask better questions, like &quot;why is this image so clear?&quot; or &quot;why does this board feel so focused?&quot;, and keep your own results as the real test.
+
+## A simple routine for reading stats
+
+Here&apos;s a calm way to go through a Pin:
+
+1. **Identify it.** Note the topic, creator, board and destination.
+2. **Check the age.** A total means more when you know how long it&apos;s had.
+3. **Compare the visible stats.** Saves, comments, shares and any rate figure.
+4. **Read the details.** Do the title, description, topics and board all point at the same subject?
+5. **Write down one observation.** Maybe the image is unusually clear. Maybe the board is tightly focused.
+
+One grounded observation beats a big theory every time.
+
+If you want to keep Pins to come back to, Pinello has Favorites. Save a Pin, keep the saved date, and sort or filter your list by score later. Pro users can export the list to CSV for their own analysis.
+
+## Use stats as evidence, not a promise
+
+The safest way to work is in two stages. First, look at public signals and the context around a Pin. Then, after you publish, measure your own results. You need both, and no single score replaces them.
+
+If you want to try it, [Pinello](https://amrita-labs.com/pinello/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=pinello_blog&amp;utm_content=how-to-read-pinterest-pin-stats-cta) shows Pin stats alongside creator and board context, and checks your own draft with Pin Doctor before you publish. It&apos;s free to install, and it only reads the page and shows you what it finds.
+
+It won&apos;t tell you a Pin is destined to win. But it can help you stop pretending that one number tells the whole story.</content:encoded></item><item><title>Pinterest Topics and Hashtags: What Should You Add to a Pin?</title><link>https://amrita-labs.com/blog/pinterest-topics-and-hashtags/</link><guid isPermaLink="true">https://amrita-labs.com/blog/pinterest-topics-and-hashtags/</guid><description>Not sure what to put in the Pinterest topics and hashtags field? Here is what each does, how many to add, and how to check the metadata before you publish.</description><pubDate>Mon, 23 Nov 2026 00:00:00 GMT</pubDate><content:encoded>The topics and hashtags field is easy to overthink.
+
+You open Create Pin, see an empty box, and every phrase suddenly feels too broad, too narrow, or just wrong. So you throw in a long string of hashtags because leaving it blank feels risky. That usually isn&apos;t a better plan.
+
+[Pinello](https://amrita-labs.com/pinello/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=pinello_blog&amp;utm_content=pinterest-topics-and-hashtags) is a free Chrome extension that scores Pinterest pins across 5 dimensions — image, board fit, title, description, and hashtags — in real time. The screenshots below come from it, so you can see what a topics check does and what it doesn&apos;t.
+
+My short answer: use a few labels that clearly describe the Pin, and make sure the image, title, description and board all agree with them. Here&apos;s how to do that without overthinking it.
+
+## Topics and hashtags are two different things
+
+People talk about them together, but they do different jobs.
+
+**Topics** are tags you pick in Create Pin to say what the Pin is about. Pinterest&apos;s own note on the form says people won&apos;t see your tagged topics. They&apos;re there to help Pinterest understand the Pin.
+
+**Hashtags** are words with a `#` in front, like `#handmadeceramics`, and you add them to the description. Anyone reading the description can see them.
+
+The useful question isn&apos;t &quot;how many can I add?&quot; It&apos;s &quot;which labels help someone, and Pinterest, understand this Pin faster?&quot;
+
+![Pinterest Create Pin screen with three tagged topics and three hashtags in the description, next to Pinello&apos;s Pin Doctor showing a 100 out of 100 Topics and hashtags check](https://amrita-labs.com/assets/blog/pinello/pin-doctor/room-ideas-after-with-topics.png)
+
+This is a real draft. The Pin is a cozy room idea (not a product, but the idea is the same). It has three tagged topics (Home Renovation, Home Interior Design and Cozy Living) and three hashtags in the description. Pin Doctor calls that &quot;a balanced mix&quot; and gives it 100 out of 100.
+
+## Start with what the Pin is really about
+
+Before you add anything, describe the Pin in one sentence.
+
+&gt; A vertical photo of a blue ceramic coffee mug with a hand-painted sun design, for people shopping for a small handmade gift.
+
+That sentence tells you where to look. Topics around handmade ceramics, coffee mugs or gift ideas could fit. Home renovation, wedding décor and minimalist offices probably don&apos;t, unless the Pin really shows those things.
+
+This matters because it&apos;s so easy to let tags drift. You add every related phrase you can think of, and the Pin ends up describing five different audiences. More words don&apos;t mean more clarity.
+
+## A quick way to choose topics
+
+Ask yourself three things:
+
+1. What can someone actually see in the image?
+2. What will they expect after they click?
+3. Which board is this going on?
+
+If the image shows a printable wall calendar, &quot;printable planner&quot; might fit. If the link goes to a ceramic mug listing, it clearly doesn&apos;t, even if you also sell stationery.
+
+The board matters too. The same mug Pin on &quot;Etsy Gift Ideas&quot; says something different than it does on &quot;Pottery Studio Inspiration.&quot; Both could be fine. Just make sure the board backs up the idea you want the Pin to get across.
+
+## How many hashtags should you add?
+
+There&apos;s no magic number that makes a Pin rank. A small, relevant set is usually better than every variation of the topic.
+
+For a handmade mug Pin, something like this would be reasonable:
+
+- `#handmadeceramics`
+- `#coffeecup`
+- `#handmadegift`
+
+That tells you what the product is and who it&apos;s for. A list like `#love #beautiful #viral #trending #shopnow #home #gift #etsy #decor` is a lot less useful. Some of those words may be true, but together they say nothing about this particular Pin. It also looks like it was written for a machine.
+
+Write a clear title and description first. Then add hashtags only if they sharpen the topic.
+
+## What Pin Doctor actually checks
+
+Here&apos;s the expanded topics check from Pin Doctor.
+
+![Pin Doctor&apos;s expanded Topics and hashtags check showing the topics and hashtags Pinterest holds for the draft, Pinello&apos;s result, and a Refine topics button](https://amrita-labs.com/assets/blog/pinello/pin-doctor/pin-doctor-topics-expanded.png)
+
+It has three parts. &quot;From Pinterest&quot; shows what&apos;s on the draft in this capture: one tagged topic and three hashtags in the description. (It&apos;s a different capture from the one above, so the topic count differs.) &quot;Pinello check&quot; gives a plain result (100 out of 100, &quot;Topics &amp; hashtags look good&quot;) with short reasons, such as a balanced mix and clean tag lengths. And the AI suggestion section has a button called Refine topics.
+
+That&apos;s what it does. It looks at the setup of the metadata on your draft. It isn&apos;t predicting anything.
+
+## It isn&apos;t keyword research
+
+A lot of Pinterest SEO tools promise more than they deliver, so let me be straight about this.
+
+Pinello checks the metadata on your Pin and gives a signal about quality and completeness. It doesn&apos;t do keyword-volume research, scrape other accounts, or tell you how many people search for a topic. There&apos;s no hidden volume score behind the check.
+
+You can still do your own research. Use Pinterest&apos;s search suggestions, what you know about your product, and the words customers use in your reviews and messages. Then use the topics and hashtags fields to make your finished Pin consistent with what you learned.
+
+And please don&apos;t treat the Pinello score as Pinterest&apos;s ranking score. It isn&apos;t. It&apos;s a pre-publish quality signal, not a prediction of reach, saves or clicks.
+
+## What if the check says unavailable?
+
+Pinterest data can be partial. The page might still be loading, a field might not have settled, or a different kind of Pin might expose different fields. When Pinello can&apos;t verify something, it says so instead of making up a result.
+
+If that happens, here&apos;s the manual version:
+
+1. Re-read the title.
+2. Check that the description names the actual subject.
+3. Confirm the board fits.
+4. Add only labels that clearly match.
+5. Open Pin Doctor again once the field has settled.
+
+If the result changes after you edit, that tells you something about your current draft. It isn&apos;t a promise about what Pinterest will do with it.
+
+## Using the copy-only suggestions
+
+When you click Refine topics, Pinello makes a suggestion and copies it to your clipboard. You review it and paste it in yourself. It doesn&apos;t type into Pinterest or publish for you.
+
+![Pin Doctor&apos;s Title check with an AI suggestion button showing Copied, paste into Pinterest, and a note to review before publishing](https://amrita-labs.com/assets/blog/pinello/pin-doctor/pin-doctor-copied-ai.png)
+
+That screenshot shows the title check, but every suggestion works the same way. It&apos;s copied, and the panel reminds you to review it first. It also says Pinello doesn&apos;t verify factual accuracy, which is fair. You know your product better than any generic rewrite does.
+
+So treat a suggestion as a way to get unstuck. Remove anything that doesn&apos;t describe the image or the link accurately.
+
+## Putting it together: one Pin, start to finish
+
+Say you&apos;re posting that handmade mug. Here&apos;s how the pieces could line up.
+
+The **title** says what it is: &quot;Hand-painted blue ceramic coffee mug.&quot; The **description** adds a sentence or two about who it&apos;s for and a couple of hashtags. The **topics** are things like pottery and coffee mugs. The **board** is &quot;Coffee Lover Gifts.&quot; And the **image** shows the mug clearly, not a cluttered shelf.
+
+Every piece points at the same thing. That&apos;s all consistency means here. Nobody has to guess what the Pin is about, and that includes Pinterest.
+
+## Common mistakes
+
+Most metadata problems are boring. They&apos;re also easy to catch:
+
+- **Reusing the same set on every Pin.** A mug Pin and a wall calendar Pin shouldn&apos;t share hashtags just because they&apos;re from the same shop.
+- **Adding labels the image can&apos;t support.** If a viewer wouldn&apos;t see the connection, it&apos;s noise.
+- **Treating the field as a keyword dump.** A long run of near-duplicate phrases reads like it was written for a machine.
+- **Skipping the check when the field looks empty.** An empty or unavailable field deserves a second look.
+
+None of this is dramatic. Pinterest rewards clear Pins, and clear metadata is part of that.
+
+One habit that helps: change one thing, then check again. If you swap a topic and the result moves, you&apos;ve learned what that field was doing. If you rewrite everything at once, you won&apos;t know which edit mattered. It takes an extra minute and saves you from guessing.
+
+## A quick pre-publish check
+
+Before you hit Publish, ask:
+
+- Does the title say what the Pin is about?
+- Does the description add something useful?
+- Do the topics match the image and where it links?
+- Are the hashtags specific enough to mean something?
+- Does the board back up the same subject?
+- Are any checks marked unavailable or partial?
+
+If those line up, you probably don&apos;t need more metadata. Clean and consistent beats crowded.
+
+## Check your next Pin before you publish
+
+Topics and hashtags are just one part of a Pin. The image, title, description and board all need to work together. [Pinello](https://amrita-labs.com/pinello/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=pinello_blog&amp;utm_content=pinterest-topics-and-hashtags-cta) gives you a Pin Detail Score when you inspect Pins and a Pin Doctor with SEO checks while you prepare your own.
+
+It&apos;s free to install, and it never publishes anything for you. Try it on your next Pin and see whether it catches a weak field you&apos;d have missed.
+
+Use the result as a second opinion. Not an official Pinterest score. Not a reach forecast. Just a clearer way to catch the weak spot before you publish.</content:encoded></item><item><title>Pinterest Workflow for Etsy Sellers: Check Your Pin Before You Publish</title><link>https://amrita-labs.com/blog/pinterest-workflow-etsy-sellers/</link><guid isPermaLink="true">https://amrita-labs.com/blog/pinterest-workflow-etsy-sellers/</guid><description>A simple pre-publish routine for Etsy sellers on Pinterest: check the image, title, description, topics and board in a couple of minutes with Pin Doctor.</description><pubDate>Mon, 23 Nov 2026 00:00:00 GMT</pubDate><content:encoded>You&apos;ve spent an hour on your listing photos. The title is tuned, the description is done, the tags are in. Then you open Pinterest and the Pin gets about ninety seconds of attention. You paste in the Etsy title, paste the listing description, pick whichever board shows up first in the dropdown, and publish. Next product.
+
+I get it. When you&apos;re listing a batch of items, Pinterest feels like the afterthought. But a Pin is its own little page that people judge in a second, and it&apos;s worth a quick look before it goes live.
+
+[Pinello](https://amrita-labs.com/pinello/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=pinello_blog&amp;utm_content=pinterest-workflow-etsy-sellers) is a free Chrome extension that scores Pinterest pins across 5 dimensions — image, board fit, title, description, and hashtags — in real time. Below is the routine I&apos;d use with it, step by step. The same order works with a plain checklist too, so you can use it either way.
+
+## What you&apos;ll see in the examples
+
+The screenshots in this post come from a real Create Pin draft for an Etsy-themed Pin: a &quot;How to Sell on Etsy for Beginners&quot; guide graphic, posted to a board called Etsy Ideas. That&apos;s the kind of Pin an Etsy seller might make to share tips or send people to a blog post.
+
+If you pin products, the checks are the same: image, title, description, topics, board. I&apos;ll point out where product Pins differ as we go. I&apos;m not showing a product Pin here because I&apos;d rather show you a real draft than make one up.
+
+## Start with the image
+
+Look at the image first, because that&apos;s what people judge first.
+
+![Pinterest Create Pin screen with an Etsy guide Pin and Pinello&apos;s Pin Doctor panel showing scores for image, title, description, topics and board match](https://amrita-labs.com/assets/blog/pinello/pin-doctor/etsy-pin-doctor.png)
+
+In this draft, Pin Doctor scores the image 81 out of 100 and says it looks text-heavy, with a hint to balance the picture with lighter text. Everything else on the panel is 100. So if I were publishing this Pin, the image is the only thing I&apos;d think about changing.
+
+That&apos;s the useful part. You don&apos;t get a wall of warnings. You see which one area is the weakest and you fix that.
+
+For a product Pin, ask yourself a few plain questions:
+
+- Can you tell what the product is at thumbnail size?
+- Is there one clear focal point?
+- If there&apos;s text on the image, can you read it on a phone?
+- Does it match what&apos;s really in your listing?
+
+Skip big claims on the graphic that your listing can&apos;t back up. &quot;Hand-painted ceramic mug&quot; is honest. &quot;The perfect gift for everyone&quot; isn&apos;t.
+
+## Write a title that says what it is
+
+Your Etsy title and your Pinterest title don&apos;t have to match. Etsy titles are often long strings of search terms. A Pin title reads better when it sounds like something a person would stop on.
+
+The title in our example is &quot;Etsy Ideas Guide: Creative Tips for Your Shop Success.&quot; That&apos;s 53 characters, and Pin Doctor says it falls in its 40 to 100 character range for a good length. It also leads with the subject.
+
+For a product, the same idea applies. Put what the thing is up front. &quot;Hand-painted blue ceramic coffee mug&quot; tells someone more than &quot;A little something special for you.&quot;
+
+If you&apos;re stuck, Pin Doctor has a button that suggests another version. It copies the text to your clipboard, and you paste it in yourself if you like it. It never types into Pinterest for you, and it reminds you to review the suggestion before you use it.
+
+## Add a description with some substance
+
+The description in this draft is 267 characters, which sits in Pin Doctor&apos;s 150 to 280 range. That&apos;s a few sentences. It says who the guide is for and what they&apos;ll get, and it ends with a couple of hashtags.
+
+Don&apos;t paste in your whole Etsy listing description. A couple of natural sentences work better. For a product, try to answer three things: what is it, who&apos;s it for, and why would they care?
+
+And don&apos;t claim things your product can&apos;t back up. If the mug isn&apos;t dishwasher safe, don&apos;t hint that it is.
+
+One thing worth noticing in the screenshot: the Link field is still empty. For a product Pin, that&apos;s where shoppers go next, so don&apos;t forget it. I&apos;m pointing it out because it&apos;s easy to miss when you&apos;re moving fast.
+
+## Check topics and hashtags
+
+This Pin has two tagged topics, Selling on Etsy and Business Ideas, plus three hashtags in the description. Pin Doctor calls that &quot;a balanced mix&quot; and gives it 100.
+
+Pinterest&apos;s own note on the form says people won&apos;t see your tagged topics. They&apos;re there to help Pinterest understand the Pin. Hashtags in the description, on the other hand, are visible.
+
+Keep both focused on the actual Pin. A few specific tags are better than a long list of broad ones like #love or #shop. If your mug Pin has hashtags about wedding décor, that&apos;s a mismatch, even if you sell wedding items elsewhere in your shop.
+
+## Pick the board on purpose
+
+Board choice is easy to rush, so slow down for a second.
+
+The Pin in our example goes to a board called Etsy Ideas. Pin Doctor&apos;s board check says &quot;Strong semantic match&quot; and scores it 100.
+
+![Pin Doctor&apos;s Board match check showing the selected board from Pinterest, Pinello&apos;s own check result and a board-match suggestion](https://amrita-labs.com/assets/blog/pinello/pin-doctor/pin-doctor-board-match.png)
+
+Notice how the panel separates two things. &quot;From Pinterest&quot; shows the board you picked. &quot;Pinello check&quot; is Pinello&apos;s own opinion. That&apos;s handy, because you can see which part came from Pinterest and which part is a signal from the tool.
+
+For your own shop, think about what someone would expect to find on that board. A mug Pin belongs on &quot;Coffee Lover Gifts&quot; or &quot;Handmade Ceramics.&quot; It doesn&apos;t belong on a board full of printable wedding templates, even if you sell both.
+
+## Read the overall result
+
+At the top of the panel, this draft shows 96 out of 100 with a &quot;Ready to review&quot; status. The note underneath says no major blockers were found and suggests reviewing the expanded checks before you publish.
+
+I like that wording. It doesn&apos;t say &quot;go ahead, this will do great.&quot; It says: here&apos;s what we checked, now it&apos;s your call.
+
+That&apos;s how I&apos;d treat the score. It&apos;s a quick way to catch the weak spot, not a verdict on how your Pin will do on Pinterest. It&apos;s Pinello&apos;s own signal, not an official Pinterest score, and it can&apos;t promise saves, clicks or sales.
+
+## If you pin blog posts instead of products
+
+Plenty of Etsy sellers also write: a how-to for their craft, a gift guide, a behind-the-scenes post. The Pin in our example is that kind of Pin. The routine is the same, but a couple of things shift.
+
+The image matters even more, because a guide Pin often has text on it, and that&apos;s exactly what got flagged here. The title should promise the useful thing inside the post. And the board should be one a reader would actually browse. A tip Pin on a board called &quot;Etsy Ideas&quot; makes sense. The same Pin on a board of finished products is a bit odd.
+
+## The routine, start to finish
+
+For each new Pin:
+
+1. Open Create Pin and add your image.
+2. Check the image result and fix it if it&apos;s flagged.
+3. Write a clear title that says what the thing is.
+4. Add a short, honest description, and add the link.
+5. Add a few topics and hashtags that fit.
+6. Choose the board that matches.
+7. Open Pin Doctor and look at the weakest check.
+8. Fix that one thing, then check again.
+9. Read it over yourself, then click Publish in Pinterest.
+
+That&apos;s about two minutes once you&apos;ve done it a few times. If you&apos;re listing several products in one sitting, it&apos;s a nice way to catch the careless slip before it goes out.
+
+## Common slip-ups on Etsy Pins
+
+A few mistakes come up again and again:
+
+- **Using the Etsy title word for word.** It&apos;s usually built for Etsy search and reads oddly as a Pin.
+- **A product that gets lost in the photo.** A small item on a plain background can disappear in a busy feed.
+- **Boards named after your shop.** &quot;My Shop Favorites&quot; tells nobody anything. &quot;Coffee Lover Gifts&quot; does.
+- **Copying one description across several products.** It&apos;s the fastest way to end up with copy that doesn&apos;t match the image.
+
+None of these are hard to fix. They&apos;re just easy to miss when you&apos;re moving fast.
+
+## What a Pin check can&apos;t do
+
+It&apos;s worth being clear about this. A check like this can help you publish a cleaner Pin. It can&apos;t promise Etsy visits, sales, saves or ranking. Those depend on your audience, your product, the season, how much competition there is, and Pinterest&apos;s own systems.
+
+Pinello also only sees what&apos;s on the page at that moment. If a check shows as unavailable or partial, that&apos;s the tool being honest about what it can verify. In that case, check the field yourself and carry on.
+
+After you publish, look at your own results in Pinterest and in your shop. That&apos;s where you find out what actually worked.
+
+## Try it on your next Pin
+
+If you list products regularly, the next Pin is a good one to try this on. [Pinello](https://amrita-labs.com/pinello/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=pinello_blog&amp;utm_content=pinterest-workflow-etsy-sellers-cta) is free to install, it sits beside the Create Pin form, and it never publishes anything for you. You stay in charge of what goes live.
+
+Start with one Pin. See whether the check catches something you&apos;d have missed. If it does, you&apos;ve got a useful habit. If it doesn&apos;t, you&apos;ve lost about two minutes.</content:encoded></item><item><title>How to Hide WhatsApp Chats and Contact Names in Meetings</title><link>https://amrita-labs.com/blog/03-hide-whatsapp-chats-contact-names-meetings/</link><guid isPermaLink="true">https://amrita-labs.com/blog/03-hide-whatsapp-chats-contact-names-meetings/</guid><description>Learn how to hide WhatsApp chats, contact names, previews, and profile photos before sharing WhatsApp Web in meetings and demos.</description><pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate><content:encoded>Meetings create a funny kind of privacy problem. You can be careful about the document you intend to present and still expose a private WhatsApp chat in the sidebar. A contact name, profile photo, or last-message preview may be enough for someone to work out what they are looking at.
 
 The fix is to prepare WhatsApp Web before you start sharing, rather than trying to hide things after somebody is already watching. You can blur the chat list, contact names, message previews, and the active conversation separately, then check the whole browser surface like a meeting attendee would.
 

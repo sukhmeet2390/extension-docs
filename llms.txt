@@ -31,6 +31,9 @@
 
 ## Blog
 
+- [How to Read Pinterest Pin Stats Without Guessing What They Mean](https://amrita-labs.com/blog/how-to-read-pinterest-pin-stats/): Pinterest Pin stats are clues, not verdicts. Learn how to read saves, age and engagement per day, and what missing data means, before you copy what worked.
+- [Pinterest Topics and Hashtags: What Should You Add to a Pin?](https://amrita-labs.com/blog/pinterest-topics-and-hashtags/): Not sure what to put in the Pinterest topics and hashtags field? Here is what each does, how many to add, and how to check the metadata before you publish.
+- [Pinterest Workflow for Etsy Sellers: Check Your Pin Before You Publish](https://amrita-labs.com/blog/pinterest-workflow-etsy-sellers/): A simple pre-publish routine for Etsy sellers on Pinterest: check the image, title, description, topics and board in a couple of minutes with Pin Doctor.
 - [How to Hide WhatsApp Chats and Contact Names in Meetings](https://amrita-labs.com/blog/03-hide-whatsapp-chats-contact-names-meetings/): Learn how to hide WhatsApp chats, contact names, previews, and profile photos before sharing WhatsApp Web in meetings and demos.
 - [WhatsApp Web Privacy Checklist for Screen Sharing](https://amrita-labs.com/blog/04-whatsapp-web-privacy-checklist-screen-sharing/): Use this WhatsApp Web privacy checklist before screen sharing in meetings, demos, support calls, and recorded tutorials.
 - [How to Blur WhatsApp Media and Profile Photos on Screen](https://amrita-labs.com/blog/05-blur-whatsapp-media-profile-photos/): Learn how to blur WhatsApp photos, videos, media previews, avatars, and profile pictures before screen sharing in Chrome.
