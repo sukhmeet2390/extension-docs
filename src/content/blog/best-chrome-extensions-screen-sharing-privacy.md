@@ -48,7 +48,7 @@ Before you install the first blur tool you see, focus on five practical criteria
 
 - **App-specific vs. generic** — A Slack-specific tool can feel much faster inside Slack, while a generic tool is better if you present from many different sites.
 - **Ease of use** — In a real meeting, you want one click or one shortcut, not a complicated setup flow.
-- **Hover-to-reveal** — This is underrated. It lets you keep information hidden from your audience while still quickly checking something yourself.
+- **Hover-to-reveal** — Hover to reveal content temporarily. Anyone viewing your shared screen can see it while it is revealed.
 - **Persistence** — If you share the same tools repeatedly, saved blur rules can save a lot of time.
 - **Price** — Free is great, but paid can still be worth it if you screen share constantly and need repeatable protection.
 

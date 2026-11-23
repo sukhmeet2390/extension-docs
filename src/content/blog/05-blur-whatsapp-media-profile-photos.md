@@ -119,7 +119,7 @@ You may only need to cover personal photos and avatars. Keep the general WhatsAp
 
 ### Support or troubleshooting call
 
-Support work often requires opening several conversations. Start with the global toggle, then keep media and profile-photo blur enabled while navigating. If you need to inspect a particular image, use hover reveal or stop sharing before changing the privacy settings.
+Support work often requires opening several conversations. Start with the global toggle, then keep media and profile-photo blur enabled while navigating. Stop sharing before using hover reveal or changing privacy settings to inspect a private image.
 
 ### Tutorial or webinar
 

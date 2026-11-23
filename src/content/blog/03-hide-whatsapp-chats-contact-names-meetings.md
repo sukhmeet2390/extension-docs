@@ -101,7 +101,7 @@ WhatsApp Web updates dynamically, so a page that looked safe ten minutes ago is 
 
 Sometimes you need to read a detail yourself. You might be checking the exact wording of a test message or confirming which conversation is open. If hover-to-reveal is enabled, move over the blurred area locally instead of switching the whole privacy layer off.
 
-Use this carefully during a live call. Keep the pointer over only the item you need, read it, and move away. Before continuing, confirm that the page returned to its blurred state. Hover reveal is a convenience for your screen; it is not a way to make the underlying WhatsApp data private from someone who already has access to the account.
+Anyone viewing your shared screen can see an item while it is revealed, so stop sharing before revealing private content. After moving the pointer away, confirm that the page returned to its blurred state. Hover reveal does not make the underlying WhatsApp data private from someone who already has access to the account.
 
 ## Meeting examples
 

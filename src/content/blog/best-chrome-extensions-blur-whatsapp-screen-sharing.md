@@ -97,7 +97,7 @@ A broad blur toggle is useful immediately before a meeting or recording. Test it
 
 ### You need to inspect one message privately
 
-Look for hover reveal and test it with the cursor. The desired behavior is local: you reveal one area on your screen while other viewers continue to see the rest blurred. Do not assume every extension uses the same reveal behavior.
+Look for hover reveal and test it with the cursor. Anyone viewing your shared screen can see the revealed area, so stop sharing before revealing private content. Do not assume every extension uses the same reveal behavior.
 
 ### You leave WhatsApp open in shared spaces
 

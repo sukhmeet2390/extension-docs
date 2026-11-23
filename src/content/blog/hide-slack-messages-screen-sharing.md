@@ -42,7 +42,7 @@ It runs **100% client-side with no data collection**, so your Slack data stays i
 1. Install the extension from the Chrome Web Store.
 2. Open Slack Web in Chrome.
 3. Turn on the blur zones you want before your meeting starts.
-4. Hover to reveal only what you need while sharing.
+4. Stop sharing before using hover reveal on private content; viewers can see it while it is revealed.
 
 This is the most complete choice for managers, recruiters, founders, support teams, and anyone who has to keep Slack open during live calls.
 
