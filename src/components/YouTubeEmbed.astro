@@ -1,0 +1,86 @@
+---
+import { existsSync } from 'node:fs';
+
+interface Props {
+  videoId: string;
+  title: string;
+}
+
+const { videoId, title } = Astro.props;
+if (!/^[A-Za-z0-9_-]{11}$/.test(videoId) || !title.trim()) {
+  throw new Error('YouTubeEmbed requires a valid video ID and a non-empty title.');
+}
+if (!existsSync(`public/assets/youtube/${videoId}.jpg`)) {
+  throw new Error(`Missing local YouTube thumbnail for ${videoId}.`);
+}
+---
+
+<figure class="my-8" data-youtube-embed data-video-id={videoId} data-video-title={title}>
+  <div class="youtube-frame">
+    <button class="youtube-facade" type="button" aria-label={`Play video: ${title}`}>
+      <img src={`/assets/youtube/${videoId}.jpg`} alt="" width="1280" height="720" loading="lazy" />
+      <span class="youtube-play" aria-hidden="true">▶</span>
+    </button>
+  </div>
+  <figcaption class="mt-2 text-sm text-gray-600">
+    {title}. Playing this video connects to YouTube, which may use cookies.
+  </figcaption>
+  <noscript><a href={`https://www.youtube.com/watch?v=${videoId}`}>Watch on YouTube</a></noscript>
+</figure>
+
+<style>
+  .youtube-frame {
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border-radius: 0.75rem;
+    background: #111827;
+  }
+
+  .youtube-facade {
+    position: relative;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    place-items: center;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  .youtube-facade img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .youtube-facade:focus-visible .youtube-play {
+    outline: 3px solid #fff;
+    outline-offset: 3px;
+    box-shadow: 0 0 0 6px #111827;
+  }
+
+  .youtube-play {
+    position: relative;
+    display: grid;
+    width: 4rem;
+    height: 4rem;
+    place-items: center;
+    border-radius: 50%;
+    background: #111827;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+
+  .youtube-facade:hover .youtube-play {
+    background: #374151;
+  }
+
+  .youtube-frame :global(iframe) {
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+</style>
+
+<script is:inline type="module" src="/scripts/youtube-embed.js"></script>

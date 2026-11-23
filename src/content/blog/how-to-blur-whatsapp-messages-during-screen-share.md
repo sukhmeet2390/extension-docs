@@ -4,6 +4,9 @@ description: "Learn how to blur WhatsApp messages, chats, names, and media befor
 date: "2026-11-16"
 tags: ["whatsapp", "whatsapp web", "screen sharing", "privacy", "meetings"]
 image: "https://amrita-labs.com/assets/blog/whatsapp-blur/whatsapp-before.png"
+youtube:
+  videoId: "jSbM7q5BBQE"
+  title: "How to blur WhatsApp messages during a screen share"
 relatedProducts: ['privacy-blur-whatsapp']
 ---
 

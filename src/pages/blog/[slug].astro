@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import BlogProductCta from '../../components/BlogProductCta.astro';
 import ProductFooter from '../../components/ProductFooter.astro';
 import RelatedContentBlock from '../../components/RelatedContentBlock.astro';
+import YouTubeEmbed from '../../components/YouTubeEmbed.astro';
 import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -59,6 +60,8 @@ const schema = {
         )}
       </div>
     </div>
+
+    {post.data.youtube && <YouTubeEmbed {...post.data.youtube} />}
 
     <!-- Article content (rendered from markdown) -->
     <div class="prose prose-gray max-w-none

@@ -11,6 +11,10 @@ const blog = defineCollection({
     tags: z.array(z.string()).optional(),
     canonical: z.string().optional(),
     image: z.string().optional(),
+    youtube: z.object({
+      videoId: z.string().regex(/^[A-Za-z0-9_-]{11}$/),
+      title: z.string().trim().min(1),
+    }).optional(),
     draft: z.boolean().optional(),
     relatedProducts: z.array(z.string()).optional(),
     relatedPosts: z.array(z.string()).optional(),

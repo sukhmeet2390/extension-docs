@@ -82,6 +82,8 @@ missing image alt text, and internal editorial markers such as `Assets used`.
 
 Adding a new collection? Update `src/content.config.ts` schema + create a `[slug].astro` router + update `AGENTS.md`'s "What lives here" table + update `rss.xml.ts` and `llms.txt.ts` to include the new collection.
 
+Blog posts can optionally set `youtube: { videoId: "...", title: "..." }` in Markdown frontmatter. Save a 1280×720 thumbnail as `public/assets/youtube/<videoId>.jpg`; the build requires it. The blog layout renders the reusable facade above the article. Its thumbnail is local, and YouTube loads only after the visitor clicks play.
+
 ---
 
 ## Blog CSS gotcha (fixed 2026-07-27)
