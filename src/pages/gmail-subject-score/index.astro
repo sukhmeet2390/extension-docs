@@ -17,7 +17,11 @@ const schema = {
       "description": "EmailSubjectScore Pro is a free Chrome extension that scores Gmail subject lines for spam risk, clarity, and urgency in real time.",
       "applicationCategory": "BrowserExtension",
       "operatingSystem": "Chrome",
-      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "offers": [
+        { "@type": "Offer", "name": "Free", "price": "0", "priceCurrency": "USD", "description": "10 AI scores per day, 50 per month, with rewrite suggestions. No signup." },
+        { "@type": "Offer", "name": "Pro (monthly)", "price": "5", "priceCurrency": "USD", "billingDuration": "P1M", "description": "Unlimited scores and rewrites within fair use (1,000 AI calls per month). Every install starts with a 14-day Pro trial, no card needed." },
+        { "@type": "Offer", "name": "Pro (annual)", "price": "49", "priceCurrency": "USD", "billingDuration": "P1Y", "description": "All Pro features on annual billing. 14-day Pro trial on install, no card needed." }
+      ],
       "url": "https://amrita-labs.com/gmail-subject-score/",
       "installUrl": cwsLink,
       "author": { "@type": "Organization", "name": "Amrita Labs", "url": "https://amrita-labs.com" }
@@ -25,7 +29,7 @@ const schema = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Is EmailSubjectScore Pro free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. 50 AI scores per month, no signup, no credit card. Structural scoring (spam trigger detection) is always unlimited." }},
+        { "@type": "Question", "name": "Is EmailSubjectScore Pro free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The free plan includes 10 AI scores per day (50 per month) with rewrite suggestions, no signup, no credit card. Every install also starts with a 14-day Pro trial, no card needed. Pro is $5/month or $49/year for unlimited scores within fair use." }},
         { "@type": "Question", "name": "What data does it collect?", "acceptedAnswer": { "@type": "Answer", "text": "Only anonymous device ID for rate limiting. Subject line text is sent to Azure OpenAI for scoring but processed ephemerally — never stored. Image and page content never leave your browser." }},
         { "@type": "Question", "name": "Does it work with Google Workspace?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Works with personal Gmail and Google Workspace accounts. The extension activates in any Gmail compose window." }},
         { "@type": "Question", "name": "Does it auto-modify my emails?", "acceptedAnswer": { "@type": "Answer", "text": "Never. AI rewrite suggestions are copy-to-clipboard only. You paste what you want. The extension never changes your email content." }},
@@ -68,7 +72,7 @@ const schema = {
             Install Free — Chrome Web Store
           </a>
         </div>
-        <p class="text-xs text-gray-500 mt-3">Free · 50 scores/month · No signup</p>
+        <p class="text-xs text-gray-500 mt-3">Free · 50 scores/month · No signup · 14-day Pro trial included</p>
       </div>
     </div>
   </section>
@@ -143,7 +147,7 @@ const schema = {
     <div class="max-w-2xl">
       <FaqItem
         question="Is EmailSubjectScore Pro free?"
-        answer="Yes. 50 AI scores per month, no signup, no credit card. Structural scoring (spam trigger detection) is always unlimited."
+        answer="Yes. The free plan includes 10 AI scores per day (50 per month) with rewrite suggestions, no signup, no credit card. Every install also starts with a 14-day Pro trial, no card needed. Pro is $5/month or $49/year for unlimited scores within fair use."
       />
       <FaqItem
         question="What data does it collect?"
@@ -190,7 +194,7 @@ const schema = {
   </section>
 
   <!-- Legal links (hidden from nav, accessible via direct URL) -->
-  <WhatIsBlock productName="EmailSubjectScore Pro" definition="EmailSubjectScore Pro is a free Chrome extension that scores Gmail subject lines for spam risk, clarity, and urgency in real time. It runs inside the Gmail compose window and offers AI-powered rewrite suggestions when a subject line scores weak. Free tier includes 50 AI scores per month, no signup, no credit card." />
+  <WhatIsBlock productName="EmailSubjectScore Pro" definition="EmailSubjectScore Pro is a free Chrome extension that scores Gmail subject lines for spam risk, clarity, and urgency in real time. It runs inside the Gmail compose window and offers AI-powered rewrite suggestions when a subject line scores weak. Free tier includes 50 AI scores per month, no signup, no credit card. Every install starts with a 14-day Pro trial; Pro is $5/month or $49/year." />
   <!-- RelatedContentBlock reverse-index -->
   <RelatedContentBlock productSlug="gmail-subject-score" theme="dark" />
 

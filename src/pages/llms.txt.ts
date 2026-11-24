@@ -8,7 +8,7 @@ const CHROME_EXTENSIONS = [
     slug: 'gmail-subject-score',
     name: 'EmailSubjectScore Pro',
     description:
-      'Free Chrome extension that scores Gmail subject lines for spam risk, clarity, and urgency in real time. AI-powered rewrite suggestions. 50 free scores/month.',
+      'Free Chrome extension that scores Gmail subject lines for spam risk, clarity, and urgency in real time. AI-powered rewrite suggestions. 50 free scores/month; 14-day Pro trial on install; Pro $5/month or $49/year (fair use).',
     cwsUrl: 'https://chromewebstore.google.com/detail/emailsubjectscore-pro-sub/dleffnbdjohkmmkbojehdpkgkmpofmgm',
     cwsBlurb: 'Score email subject lines as you type in Gmail.',
     hasPrivacy: true,

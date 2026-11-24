@@ -9,7 +9,7 @@ import Base from '../../../layouts/Base.astro';
 >
   <article class="max-w-3xl mx-auto px-6 py-24 prose prose-invert prose-sm">
     <h1 class="text-3xl font-bold text-white">Privacy Policy — EmailSubjectScore Pro</h1>
-    <p class="text-sm text-gray-400"><strong>Effective Date</strong>: 2026-05-18 · <strong>Last Updated</strong>: 2026-08-15</p>
+    <p class="text-sm text-gray-400"><strong>Effective Date</strong>: 2026-05-18 · <strong>Last Updated</strong>: 2026-11-24</p>
 
     <h2 class="text-xl font-semibold text-white mt-10">1. Who We Are</h2>
     <p class="text-gray-300">EmailSubjectScore Pro is operated by Amrita Labs.<br />Contact: <a href="mailto:hello@amrita-labs.com" class="text-brand-400 hover:underline">hello@amrita-labs.com</a></p>
@@ -24,6 +24,10 @@ import Base from '../../../layouts/Base.astro';
         <thead><tr class="border-b border-white/10"><th class="text-left py-2 pr-4">Category</th><th class="text-left py-2 pr-4">What</th><th class="text-left py-2 pr-4">Why</th><th class="text-left py-2">Retention</th></tr></thead>
         <tbody>
           <tr class="border-b border-white/5"><td class="py-2 pr-4">Anonymous device ID</td><td class="py-2 pr-4">Random UUID generated on install</td><td class="py-2 pr-4">Rate limiting &amp; free-tier cap</td><td class="py-2">Until deletion request</td></tr>
+          <tr class="border-b border-white/5"><td class="py-2 pr-4">Trial start date</td><td class="py-2 pr-4">Date your device ID first contacted our service</td><td class="py-2 pr-4">Provide the 14-day Pro trial once per installation</td><td class="py-2">90 days, extended to 24 months from last use for active installs</td></tr>
+          <tr class="border-b border-white/5"><td class="py-2 pr-4">Usage counters</td><td class="py-2 pr-4">Number of scores and rewrites per day and month</td><td class="py-2 pr-4">Free-tier cap, Pro fair-use limit, abuse prevention</td><td class="py-2">Up to 31 days</td></tr>
+          <tr class="border-b border-white/5"><td class="py-2 pr-4">Subscription status (Pro only)</td><td class="py-2 pr-4">Whether your ExtensionPay account has paid, keyed by a one-way hash of your ExtensionPay key</td><td class="py-2 pr-4">Unlock Pro without asking the payment provider on every request</td><td class="py-2">Up to 7 days</td></tr>
+          <tr class="border-b border-white/5"><td class="py-2 pr-4">Hashed IP address</td><td class="py-2 pr-4">One-way hash of your IP address (the IP itself is not stored)</td><td class="py-2 pr-4">Limit how many new trials and payment checks one network can start</td><td class="py-2">Up to 24 hours</td></tr>
           <tr class="border-b border-white/5"><td class="py-2 pr-4">Usage events</td><td class="py-2 pr-4">Event names and limited event details</td><td class="py-2 pr-4">Product improvement</td><td class="py-2">Up to 24 months</td></tr>
           <tr><td class="py-2 pr-4">Error logs</td><td class="py-2 pr-4">Stack traces and error diagnostics</td><td class="py-2 pr-4">Bug fixing</td><td class="py-2">Up to 90 days</td></tr>
         </tbody>
@@ -40,6 +44,7 @@ import Base from '../../../layouts/Base.astro';
     <p class="text-gray-300">When you request a score or rewrite, the extension sends only what is needed to provide that requested feature:</p>
     <ul class="text-gray-300">
       <li>Anonymous device ID (no name, no email)</li>
+      <li>If you have Pro or have used checkout: your ExtensionPay key, so our service can confirm your subscription with ExtensionPay</li>
       <li>The subject line text you choose to process</li>
       <li>Limited diagnostic metadata, such as extension version</li>
     </ul>
@@ -53,6 +58,7 @@ import Base from '../../../layouts/Base.astro';
           <tr class="border-b border-white/5"><td class="py-2 pr-4">AI processing providers</td><td class="py-2 pr-4">Subject line text when you request scoring or rewriting</td><td class="py-2 pr-4">Provide requested scoring and rewrite features</td></tr>
           <tr class="border-b border-white/5"><td class="py-2 pr-4">Hosting and service providers</td><td class="py-2 pr-4">Encrypted service requests and limited technical data</td><td class="py-2 pr-4">Operate and secure the service</td></tr>
           <tr class="border-b border-white/5"><td class="py-2 pr-4">Analytics providers</td><td class="py-2 pr-4">Anonymous usage events</td><td class="py-2 pr-4">Understand feature use and improve reliability</td></tr>
+          <tr class="border-b border-white/5"><td class="py-2 pr-4">ExtensionPay and Stripe (payments)</td><td class="py-2 pr-4">Only if you open checkout or subscribe: your email and payment details, entered on their pages. We receive your subscription status, never your card details.</td><td class="py-2 pr-4">Process Pro subscriptions, cancellations, and login to restore Pro</td></tr>
           <tr><td class="py-2 pr-4">Error-reporting providers</td><td class="py-2 pr-4">Limited error diagnostics</td><td class="py-2 pr-4">Identify and fix technical issues</td></tr>
         </tbody>
       </table>
