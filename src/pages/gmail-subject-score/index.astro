@@ -49,8 +49,8 @@ const schema = {
       "operatingSystem": "Chrome",
       "offers": [
         { "@type": "Offer", "name": "Free", "price": "0", "priceCurrency": "USD", "description": "10 AI scores per day, 50 per month, with rewrite suggestions. No signup." },
-        { "@type": "Offer", "name": "Pro (monthly)", "price": "5", "priceCurrency": "USD", "billingDuration": "P1M", "description": "Unlimited scores and rewrites within fair use (1,000 AI calls per month). Every install starts with a 14-day Pro trial, no card needed." },
-        { "@type": "Offer", "name": "Pro (annual)", "price": "49", "priceCurrency": "USD", "billingDuration": "P1Y", "description": "All Pro features on annual billing. 14-day Pro trial on install, no card needed." }
+        { "@type": "Offer", "name": "Pro (monthly)", "price": "5", "priceCurrency": "USD", "priceSpecification": { "@type": "UnitPriceSpecification", "price": "5", "priceCurrency": "USD", "billingDuration": "P1M" }, "description": "Unlimited scores and rewrites within fair use (1,000 AI calls per month). Every install starts with a 14-day Pro trial, no card needed." },
+        { "@type": "Offer", "name": "Pro (annual)", "price": "49", "priceCurrency": "USD", "priceSpecification": { "@type": "UnitPriceSpecification", "price": "49", "priceCurrency": "USD", "billingDuration": "P1Y" }, "description": "All Pro features on annual billing. 14-day Pro trial on install, no card needed." }
       ],
       "url": "https://amrita-labs.com/gmail-subject-score/",
       "installUrl": cwsLink,
@@ -222,7 +222,7 @@ const schema = {
       ))}
     </div>
 
-    <p class="mt-6 text-xs text-gray-500">
+    <p class="mt-6 text-xs text-gray-400">
       Subscriptions billed via ExtensionPay / Stripe. Full refund within 30 days of a payment — email <a href="mailto:hello@amrita-labs.com" class="underline hover:text-gray-300">hello@amrita-labs.com</a>. See the <a href="/gmail-subject-score/terms/" class="underline hover:text-gray-300">terms</a> for fair use and cancellation.
     </p>
   </section>
