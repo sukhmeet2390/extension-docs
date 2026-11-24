@@ -4,7 +4,7 @@
 
 ## Chrome Extensions
 
-- [EmailSubjectScore Pro](https://amrita-labs.com/gmail-subject-score/): Free Chrome extension that scores Gmail subject lines for spam risk, clarity, and urgency in real time. AI-powered rewrite suggestions. 50 free scores/month.
+- [EmailSubjectScore Pro](https://amrita-labs.com/gmail-subject-score/): Free Chrome extension that scores Gmail subject lines for spam risk, clarity, and urgency in real time. AI-powered rewrite suggestions. 50 free scores/month; 14-day Pro trial on install; Pro $5/month or $49/year (fair use).
 - [Pinello](https://amrita-labs.com/pinello/): Chrome extension that helps Pinterest creators prepare stronger Pins before publishing. Feed Score on Pin cards, Pin Detail Score inside the closeup, and a Pin Doctor pre-publish check with Board Match and copy-only AI suggestions inside Create Pin.
 - [Privacy Blur for Slack](https://amrita-labs.com/privacy-blur-slack/): Free Chrome extension that blurs sensitive Slack content (messages, channel names, avatars, files) during screen sharing so you can present without leaking private conversations.
 - [Privacy Blur for Discord](https://amrita-labs.com/privacy-blur-discord/): Free Chrome extension that blurs sensitive Discord content (server list, channels, DMs, avatars) during screen sharing.
