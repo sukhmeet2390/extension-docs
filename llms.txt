@@ -31,6 +31,7 @@
 
 ## Blog
 
+- [How to Stop WhatsApp Notifications Showing During a Screen Share](https://amrita-labs.com/blog/hide-whatsapp-notifications-during-screen-share/): Notifications can expose private chats on a call. Silence WhatsApp alerts, share a single tab, and blur what remains visible in Zoom, Google Meet and Teams.
 - [How to Read Pinterest Pin Stats Without Guessing What They Mean](https://amrita-labs.com/blog/how-to-read-pinterest-pin-stats/): Pinterest Pin stats are clues, not verdicts. Learn how to read saves, age and engagement per day, and what missing data means, before you copy what worked.
 - [Pinterest Topics and Hashtags: What Should You Add to a Pin?](https://amrita-labs.com/blog/pinterest-topics-and-hashtags/): Not sure what to put in the Pinterest topics and hashtags field? Here is what each does, how many to add, and how to check the metadata before you publish.
 - [Pinterest Workflow for Etsy Sellers: Check Your Pin Before You Publish](https://amrita-labs.com/blog/pinterest-workflow-etsy-sellers/): A simple pre-publish routine for Etsy sellers on Pinterest: check the image, title, description, topics and board in a couple of minutes with Pin Doctor.
