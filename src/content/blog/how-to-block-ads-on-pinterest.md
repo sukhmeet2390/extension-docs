@@ -92,7 +92,7 @@ If you've turned on a Pinterest ad blocker and still see promoted Pins, work thr
 
 1. **Reload the tab.** If you installed the extension with Pinterest already open, refresh the page so it can start working.
 2. **Check the switch is actually on.** In Pinello it's *Hide ads* under Browse Controls in the side panel. It starts off, so nothing is hidden until you turn it on.
-3. **Make sure the extension is allowed on Pinterest.** Open Chrome's extensions menu (the puzzle-piece icon) and check Pinello is switched on for pinterest.com.
+3. **Make sure the extension can run on Pinterest.** Click the puzzle-piece icon in Chrome, then the three dots next to Pinello, and set it to run on pinterest.com (not only when you click it).
 4. **Look at what's slipping through.** Is it labelled *Promoted* or *Sponsored*? If not, it's probably a regular Pin from a brand (a shop's own Pin isn't an ad unless someone paid to promote it). Shopping modules and "shop the look" cards aren't always marked as ads either.
 5. **Turn off other Pinterest extensions for a minute.** Two extensions rewriting the same feed can trip each other up.
 
