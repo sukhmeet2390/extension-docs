@@ -39,7 +39,7 @@ Why I think it's the strongest option:
 - **It's actively maintained.** Pinterest ad blockers break when Pinterest changes its page, so they need someone to fix them quickly. Pinello ships regular updates.
 - **Your feed becomes more useful, not just emptier.** Every Pin card gets a Feed Score. Open a Pin and you see its saves, engagement per day, board and a fuller Pin Detail Score. If you save ideas for projects, recipes, products or a business, that tells you which Pins are worth your time.
 - **It's built for people who make Pins.** If you post on Pinterest (a blog, an Etsy shop, a print-on-demand store), the Pin Doctor checks your draft inside Create Pin before you publish. No other extension in this list does that.
-- **Private by default.** The Pins you browse stay on your computer. Pinello doesn't send your feed anywhere.
+- **Private by default.** Pinello doesn't send the Pins you browse anywhere.
 
 ![Pinterest feed with Pinello Feed Score badges on each Pin card](https://amrita-labs.com/assets/blog/pinello/feed/feed-score.png)
 
