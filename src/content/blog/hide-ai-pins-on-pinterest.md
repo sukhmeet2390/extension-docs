@@ -47,15 +47,15 @@ For a lot of people that's enough. Try it for a week before installing anything.
 
 If you want AI Pins *gone* rather than reduced, a Chrome extension can hide every Pin that carries Pinterest's AI label (Pinterest shows labels like "AI modified" on Pins it identifies as AI-made or AI-edited).
 
-Here's the honest list from the Chrome Web Store, as of 25 November 2026:
+Here's the list from the Chrome Web Store, as of 25 November 2026:
 
-| Extension | Users | Rating | Price | What it hides |
-|---|---|---|---|---|
-| Pinterest AI Content Filter | 2,000 | 3.1 (9 ratings) | Free | Pins labelled "AI-generated" / "Created with AI"; on by default |
-| PinSight – Pinterest AI Control | 1,000 | 3.2 (11) | Free | AI Pins, hidden, blurred or labelled (labels by default) |
-| No AI Pinterest | 647 | 3.7 (3) | $9 once (unlocks a family of "No AI" extensions) | Pins Pinterest flags as AI generated or AI modified |
-| Feed Cleaner for Pinterest | 961 | 3.8 (6) | Ads free; Pro $2.99/mo, $19.99/yr or $39 lifetime for AI Pins and more | Ads, promoted and shopping Pins; AI Pins in Pro |
-| Pinello | small and new | — | Hide ads free; Hide AI pins in Pro ($8.99/mo or $79/yr) | Ads (Free); AI-labelled Pins (Pro); plus Pin scoring |
+| Extension | Price | What it hides |
+|---|---|---|
+| Pinterest AI Content Filter | Free | Pins labelled "AI-generated" / "Created with AI"; on by default |
+| PinSight – Pinterest AI Control | Free | AI Pins, hidden, blurred or labelled (labels by default) |
+| No AI Pinterest | $9 once (unlocks a family of "No AI" extensions) | Pins Pinterest flags as AI generated or AI modified |
+| Feed Cleaner for Pinterest | Ads free; Pro $2.99/mo, $19.99/yr or $39 lifetime for AI Pins and more | Ads, promoted and shopping Pins; AI Pins in Pro |
+| Pinello | Hide ads free; Hide AI pins in Pro ($8.99/mo or $79/yr) | Ads (Free); AI-labelled Pins (Pro); plus Pin scoring |
 
 All of them work the same basic way: they read the AI label Pinterest puts on a Pin and hide that Pin. None of them can see whether an image is AI-made. If Pinterest hasn't labelled it, it stays.
 
@@ -125,4 +125,4 @@ Hiding Pins in your browser with Pinello doesn't send anything to Pinterest. The
 
 If you make Pins and want ad hiding, AI hiding and Pin checks in one side panel, [try Pinello](https://amrita-labs.com/pinello/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=pinello_ad-blocker_2026-11&utm_content=hide-ai-pins-on-pinterest#hide-pinterest-ads). Hide ads is free, and Hide AI pins is part of Pro.
 
-*User counts and ratings are from each Chrome Web Store listing on 25 November 2026. Pinterest is a trademark of Pinterest, Inc. Pinello is independent and not affiliated with Pinterest.*
+*Prices are from each Chrome Web Store listing on 25 November 2026. Pinterest is a trademark of Pinterest, Inc. Pinello is independent and not affiliated with Pinterest.*
