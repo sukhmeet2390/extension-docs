@@ -68,7 +68,7 @@ All of them work the same basic way: they read the AI label Pinterest puts on a 
 
 I'd rather you pick the right tool than install mine for the wrong reason.
 
-## How Hide AI pins works in Pinello
+## How Pinello's Hide AI pins switch works
 
 Pinello is mainly a Pin checker for creators. It shows a Feed Score on Pin cards, a fuller score when you open a Pin, and a Pin Doctor beside the Create Pin form.
 
