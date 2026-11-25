@@ -246,7 +246,111 @@ Hiding content in your own browser is a personal display choice. You&apos;re not
 
 If you also make Pins, it&apos;s nice when that blocker is in the same place as your Pin checks.
 
-[Get Pinello and hide Pinterest ads free](https://amrita-labs.com/pinello/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=pinello_ad-blocker_2026-11&amp;utm_content=how-to-block-ads-on-pinterest#hide-pinterest-ads). Hide ads is on the Free plan, with no account and no card. Pinterest is a trademark of Pinterest, Inc. Pinello is independent and not affiliated with Pinterest.</content:encoded></item><item><title>How to Stop WhatsApp Notifications Showing During a Screen Share</title><link>https://amrita-labs.com/blog/hide-whatsapp-notifications-during-screen-share/</link><guid isPermaLink="true">https://amrita-labs.com/blog/hide-whatsapp-notifications-during-screen-share/</guid><description>Notifications can expose private chats on a call. Silence WhatsApp alerts, share a single tab, and blur what remains visible in Zoom, Google Meet and Teams.</description><pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate><content:encoded>During a screen share, a WhatsApp notification can appear in front of everyone on the call: a contact&apos;s name, the first line of a message, sometimes a profile photo. It happens because WhatsApp has no way of knowing you are presenting.
+[Get Pinello and hide Pinterest ads free](https://amrita-labs.com/pinello/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=pinello_ad-blocker_2026-11&amp;utm_content=how-to-block-ads-on-pinterest#hide-pinterest-ads). Hide ads is on the Free plan, with no account and no card. Pinterest is a trademark of Pinterest, Inc. Pinello is independent and not affiliated with Pinterest.</content:encoded></item><item><title>Pinterest Ad Blocker Extensions Compared (2026): Free vs Paid</title><link>https://amrita-labs.com/blog/pinterest-ad-blocker-extensions-compared/</link><guid isPermaLink="true">https://amrita-labs.com/blog/pinterest-ad-blocker-extensions-compared/</guid><description>Five Chrome extensions that hide Pinterest ads, compared on price, users, ratings and updates. Most of the job is free, so here&apos;s when paying makes sense.</description><pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate><content:encoded>Type &quot;pinterest ad blocker&quot; into the Chrome Web Store and you&apos;ll get a page of extensions that all promise the same thing: no more promoted Pins. They&apos;re not the same, though. One charges $1 a month. A couple are free. One hasn&apos;t been updated in almost two years, which matters on a site that keeps changing its layout.
+
+I went through each of them on 25 November 2026 and wrote down what the store says: users, rating, price and last update. One of them is mine. Pinello is a free Chrome extension that scores Pinterest pins across 5 dimensions — image, board fit, title, description, and hashtags — in real time, and it includes a free Hide ads switch. I&apos;ll mark clearly where that biases me, and I&apos;ll tell you when another tool is the better pick.
+
+First, why you need an extension at all: Pinterest&apos;s help page says you can hide individual ads and block advertisers, but [&quot;you can&apos;t turn off ads completely&quot;](https://help.pinterest.com/en/article/promoted-pins). There&apos;s no ad-free plan to buy.
+
+## The comparison table
+
+| Extension | Users | Rating | Price | Last updated | Hides |
+|---|---|---|---|---|---|
+| Pinterest Ads &amp; Promo Remover | 10,000 | 3.8 (169 ratings) | 3-day trial, then $1/month | 7 Nov 2026 | Ads, promoted Pins, video Pins, shoppable Pins, suggestions, your keywords |
+| Pinterest Without Ads | 3,000 | 4.6 (25) | Free | 6 Jan 2025 | Ads and promotional content |
+| Feed Cleaner for Pinterest | 961 | 3.8 (6) | Ad blocking free; Pro $2.99/mo, $19.99/yr or $39 lifetime | 13 Oct 2026 | Ads, promoted and shopping Pins (free); AI Pins, keywords and more (Pro) |
+| Pinterest Ad Blocker | 698 | 4.1 (9) | Free | 22 Jun 2026 | Promoted Pins |
+| Pinello | small and new | — | Hide ads free; Pro $8.99/mo or $79/yr | Nov 2026 | Promoted and sponsored Pins (free); AI-labelled Pins (Pro); plus Pin scoring |
+
+*Users, ratings and update dates come from each Chrome Web Store listing on 25 November 2026. Store user counts are rounded buckets.*
+
+There&apos;s also a long tail of very new or tiny ones (Clean Pinterest, PinClean, Pinterest Cleaner and others with under 50 users each). I&apos;ve left them out: there&apos;s not enough there yet to judge.
+
+## Pinterest Ads &amp; Promo Remover: the popular paid one
+
+This is the one most people find first. It has the most users by far and a &quot;Featured&quot; badge in the store. It does more than ads: it can also hide video Pins, shoppable Pins and suggestion blocks, and you can add your own keywords to filter out.
+
+**The catch:** after a 3-day trial it&apos;s $1 a month. That&apos;s cheap, and 10,000 people evidently think it&apos;s worth it. But you&apos;d be paying a subscription for something several free extensions also do. Its 3.8 rating across 169 reviews suggests a mixed experience.
+
+**Pick it if:** you want the most filters in one place and a dollar a month doesn&apos;t bother you.
+
+## Pinterest Without Ads: free, well rated, not recently updated
+
+A simple, free extension with the best rating in the group (4.6). It removes ads and promotional content across Pinterest&apos;s regional sites.
+
+**The catch:** the listing shows it was last updated in January 2025. Pinterest changes its page structure every so often, and any ad blocker that reads the page needs updating when that happens. It may still work fine for you, but check your feed after installing.
+
+**Pick it if:** you want free and simple, and you&apos;re happy to switch if it stops catching ads.
+
+## Feed Cleaner for Pinterest: free ad blocking, cheap Pro extras
+
+Feed Cleaner blocks ads, promoted Pins and shopping Pins **for free**, with no account. It closes the gaps where ads were, so the grid doesn&apos;t look patchy. Pro adds hiding AI-generated Pins, keyword filters, blocking sites and accounts, HQ downloads and layout tweaks: $2.99 a month, $19.99 a year, or $39 once.
+
+**The catch:** it&apos;s small (961 users, 6 ratings) and fairly new, so there&apos;s less of a track record.
+
+**Pick it if:** you want ads gone for free *and* might pay a little to hide AI Pins too. Honestly, for a pure &quot;clean up my feed&quot; tool, this is the one I&apos;d look at first.
+
+## Pinterest Ad Blocker: the minimal one
+
+Exactly what the name says: a small, free extension (48 KB) that removes promoted Pins as the page loads. No settings to speak of. The developer declares it doesn&apos;t collect data.
+
+**The catch:** it&apos;s a 1.0 with a single job, so there&apos;s nothing beyond promoted Pins.
+
+**Pick it if:** you want the lightest possible tool and nothing else.
+
+## Pinello: free ad hiding inside a creator tool (mine)
+
+Here&apos;s my bias. Pinello isn&apos;t an ad blocker first. It&apos;s a Pin checker for people who *make* Pins: a Feed Score on each Pin card, a fuller score when you open a Pin, and a Pin Doctor beside the Create Pin form that tells you what to fix before publishing. **Hide ads** is a switch in its side panel, and it&apos;s on the Free plan.
+
+![Pinello side panel Browse Controls with the free Hide ads switch and the Pro Hide AI pins switch](https://amrita-labs.com/assets/blog/pinello/sidepanel/browse-controls.png)
+
+- **Free:** Hide ads (promoted and sponsored Pins), Feed Score, Pin Detail Score, 20 Pin Doctor checks and 5 AI actions a month.
+- **Pro ($8.99/month or $79/year, 7-day trial):** adds Hide AI pins (hides Pins carrying Pinterest&apos;s AI label), unlimited Doctor checks, more AI actions and CSV export.
+
+**The catch:** if you only want ads gone, Pinello is more than you need. You&apos;ll see score badges on Pins, which is great if you create content and pointless if you don&apos;t. Also, it&apos;s new and has very few users so far.
+
+![Pinterest feed with Pinello Feed Score badges on each Pin card](https://amrita-labs.com/assets/blog/pinello/feed/feed-score.png)
+
+**Pick it if:** you&apos;re a blogger, Etsy seller or anyone else who makes Pins, and you&apos;d like the ad hiding and the Pin checks in one place.
+
+## How these extensions actually work (and why they sometimes miss)
+
+All five work the same basic way. Pinterest marks paid Pins with a label and some page markers. The extension spots those as you scroll and hides the Pin in your browser. Nothing changes on Pinterest&apos;s side or in your account.
+
+That has two consequences worth knowing:
+
+1. **They can break when Pinterest changes its markup.** An actively maintained extension gets fixed quickly. An abandoned one quietly stops working. The &quot;last updated&quot; column matters more than the rating.
+2. **They only work on desktop Chrome** (and usually other Chromium browsers such as Edge and Brave). None of them work in the Pinterest app on iPhone or Android. On mobile, you&apos;re limited to Pinterest&apos;s own *Hide Pin* and *Block* options.
+
+## What to check before installing any Pinterest extension
+
+Whichever one you pick, spend thirty seconds on its store page first:
+
+- **Site access.** A Pinterest ad blocker should only ask to run on Pinterest (and maybe Pinterest&apos;s image domain). If it wants &quot;read and change all your data on all websites&quot;, ask yourself why.
+- **Privacy section.** Scroll to *Privacy* on the listing. Every extension above declares what it collects, and several say they collect nothing. Pinello collects anonymous usage analytics and sends Pin text only when you click an AI action. That&apos;s spelled out on its listing.
+- **Last updated.** More than a year without an update on a Pinterest tool is a yellow flag.
+- **Recent reviews.** Sort by newest. &quot;Stopped working&quot; reviews from last month tell you more than a 5-star review from 2024.
+- **A way to reach the developer.** A website or support email means someone is likely to fix it when Pinterest changes.
+
+## Do you need to pay for a Pinterest ad blocker?
+
+For most people, no. Free extensions hide promoted Pins fine, and Pinello, Feed Cleaner, Pinterest Without Ads and Pinterest Ad Blocker all do it at no cost.
+
+Paying makes sense when you want something *beyond* ads:
+
+- **More filters** (videos, shopping, keywords): Pinterest Ads &amp; Promo Remover, or Feed Cleaner Pro.
+- **Hiding AI Pins:** Feed Cleaner Pro or Pinello Pro. Free AI-only filters exist too, and Pinterest has its own *Show AI content* setting that reduces them.
+- **Pin scoring and pre-publish checks if you create content:** Pinello Pro.
+
+## My recommendation
+
+- **Just want ads gone, free:** Feed Cleaner or Pinterest Ad Blocker (both recently updated), or Pinterest Without Ads if it still works on your feed.
+- **Want every filter and don&apos;t mind $1/month:** Pinterest Ads &amp; Promo Remover.
+- **You make Pins:** Pinello. Turn on the free Hide ads switch and use the scores while you research.
+
+If that last one is you, [try Pinello free](https://amrita-labs.com/pinello/?utm_source=amrita-labs&amp;utm_medium=owned-content&amp;utm_campaign=pinello_ad-blocker_2026-11&amp;utm_content=pinterest-ad-blocker-extensions-compared#hide-pinterest-ads). Hide ads costs nothing, and you&apos;ll see within a minute whether the scores are useful to you.
+
+*Pinterest is a trademark of Pinterest, Inc. None of these extensions, including Pinello, are affiliated with Pinterest. Prices and stats can change; check each listing before you install.*</content:encoded></item><item><title>How to Stop WhatsApp Notifications Showing During a Screen Share</title><link>https://amrita-labs.com/blog/hide-whatsapp-notifications-during-screen-share/</link><guid isPermaLink="true">https://amrita-labs.com/blog/hide-whatsapp-notifications-during-screen-share/</guid><description>Notifications can expose private chats on a call. Silence WhatsApp alerts, share a single tab, and blur what remains visible in Zoom, Google Meet and Teams.</description><pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate><content:encoded>During a screen share, a WhatsApp notification can appear in front of everyone on the call: a contact&apos;s name, the first line of a message, sometimes a profile photo. It happens because WhatsApp has no way of knowing you are presenting.
 
 Preventing it takes more than one setting. A notification can come from your operating system, from your browser, or from WhatsApp Web itself, and each has its own control. A fourth source sits inside the page you are sharing.
 
