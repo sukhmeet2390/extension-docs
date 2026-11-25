@@ -54,7 +54,7 @@ const features = [
     icon: '🚫',
     title: 'Hide Ads',
     tier: 'FREE',
-    description: 'Hide promoted and sponsored Pins on the Pinterest feed while you research.',
+    description: 'A free Pinterest ad blocker: hide promoted and sponsored Pins on the feed while you research.',
   },
   {
     icon: '✍️',
@@ -144,6 +144,14 @@ const faqs = [
     answer: 'No. Pinello does not guarantee saves, clicks, reach, or ranking on Pinterest. It helps you prepare stronger drafts — what Pinterest does with them is outside our control.',
   },
   {
+    question: 'Can Pinello hide ads on Pinterest?',
+    answer: 'Yes, for free. Turn on Hide ads in the Pinello side panel and promoted and sponsored Pins drop out of your Pinterest feed. Pinterest itself has no setting to turn ads off. Pinello hides ads on Pinterest only, not on other websites.',
+  },
+  {
+    question: 'How is Hide AI pins different from Pinterest\u2019s own AI setting?',
+    answer: 'Pinterest\u2019s Show AI content setting reduces AI Pins in your feed. Hide AI pins (Pro) hides every Pin that carries Pinterest\u2019s AI label. Pins that Pinterest has not labelled can still appear.',
+  },
+  {
     question: 'What does Pro cost?',
     answer: '$8.99 per month or $79 per year, with a 7-day free trial. There is no lifetime plan. Cancel any time through the checkout portal.',
   },
@@ -200,7 +208,7 @@ const schema = {
           description: 'All Pro features on annual billing. 7-day free trial.',
         },
       ],
-      keywords: 'Pinterest pin scorer, Pinterest pin quality check, Pin Doctor, board match, Pinterest creator tool',
+      keywords: 'Pinterest pin scorer, Pinterest pin quality check, Pin Doctor, board match, Pinterest creator tool, Pinterest ad blocker, hide AI pins',
       url: 'https://amrita-labs.com/pinello/',
       installUrl: cwsLink,
       author: { '@type': 'Organization', name: 'Amrita Labs', url: 'https://amrita-labs.com' },
@@ -328,6 +336,41 @@ const schema = {
             <p class="mt-2 text-sm leading-relaxed text-gray-400">{feature.description}</p>
           </div>
         ))}
+      </div>
+    </div>
+  </section>
+
+  <section id="hide-pinterest-ads" class="border-y border-white/5 bg-surface-900">
+    <div class="max-w-6xl mx-auto px-6 py-20">
+      <div class="grid gap-12 lg:grid-cols-[1fr,1fr] lg:items-center">
+        <div>
+          <h2 class="text-xs font-semibold uppercase tracking-widest text-gray-400">A cleaner feed for research</h2>
+          <h3 class="mt-4 text-3xl font-bold tracking-tight text-white sm:text-4xl">Hide Pinterest ads (free) · Hide AI pins (Pro)</h3>
+          <p class="mt-4 text-lg leading-relaxed text-gray-400">
+            Pinterest has no setting to turn ads off. You can only hide them one at a time. Pinello's <strong class="text-white">Hide ads</strong> switch keeps promoted and sponsored Pins out of your feed, and it is free.
+          </p>
+          <p class="mt-4 text-lg leading-relaxed text-gray-400">
+            Pinterest's own AI setting shows you <em>fewer</em> AI Pins. <strong class="text-white">Hide AI pins</strong> (Pro) hides every Pin that Pinterest labels as AI-modified.
+          </p>
+          <ul class="mt-6 space-y-3 text-sm text-gray-300">
+            <li class="flex gap-3"><span class="rounded-full border border-emerald-400/20 bg-emerald-950/70 px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-[0.18em] text-emerald-200">Free</span><span>Hide ads: promoted and sponsored Pins drop out of the feed. No account, no card.</span></li>
+            <li class="flex gap-3"><span class="rounded-full border border-sky-400/20 bg-sky-950/70 px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-[0.18em] text-sky-200">Pro</span><span>Hide AI pins: hides Pins that carry Pinterest's AI label. Pins Pinterest hasn't labelled can still appear.</span></li>
+          </ul>
+          <p class="mt-6 text-sm text-gray-400">
+            Both are switches in the Pinello side panel, under Browse Controls. Turn them off at any time. Pinello hides ads on Pinterest only, not on other websites.
+          </p>
+          <div class="mt-8 flex flex-wrap gap-3">
+            <a href={cwsLink} class="inline-flex items-center gap-2 rounded-full bg-emerald-400 px-6 py-3 text-sm font-semibold text-surface-950 shadow-lg shadow-emerald-400/20 transition-colors hover:bg-emerald-300">
+              Hide Pinterest ads free
+            </a>
+            <a href="#pricing" class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-6 py-3 text-sm font-semibold text-white transition-colors hover:border-emerald-300/30 hover:text-emerald-200">
+              Compare Free and Pro
+            </a>
+          </div>
+        </div>
+        <div class="overflow-hidden rounded-[22px] border border-white/10 bg-white p-2 shadow-2xl shadow-black/30">
+          <img src="/assets/screenshots/pinello/browse-controls.png" alt="Pinello side panel Browse Controls with the free Hide ads switch, Sort by score, and the Pro Hide AI pins switch" class="w-full h-auto rounded-2xl" loading="lazy" width="819" height="284" />
+        </div>
       </div>
     </div>
   </section>
