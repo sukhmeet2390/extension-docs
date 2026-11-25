@@ -37,10 +37,9 @@ Why I think it's the strongest option:
 
 - **Hiding ads is genuinely free.** There's no 3-day trial that turns into a subscription, no account and no card. The most popular alternative charges $1 a month for the same core job.
 - **It's actively maintained.** Pinterest ad blockers break when Pinterest changes its page, so they need someone to fix them quickly. Pinello ships regular updates.
-- **It doesn't rely only on the word "Promoted".** Pinello looks for Pinterest's own structural markers for promoted Pins as well as the "Promoted"/"Sponsored" badge. That makes it less fragile when Pinterest changes its wording.
 - **Your feed becomes more useful, not just emptier.** Every Pin card gets a Feed Score. Open a Pin and you see its saves, engagement per day, board and a fuller Pin Detail Score. If you save ideas for projects, recipes, products or a business, that tells you which Pins are worth your time.
 - **It's built for people who make Pins.** If you post on Pinterest (a blog, an Etsy shop, a print-on-demand store), the Pin Doctor checks your draft inside Create Pin before you publish. No other extension in this list does that.
-- **Privacy by default.** While you browse, Pinello doesn't send Pin content to a server. Pin images are analysed locally in your browser.
+- **Private by default.** The Pins you browse stay on your computer. Pinello doesn't send your feed anywhere.
 
 ![Pinterest feed with Pinello Feed Score badges on each Pin card](https://amrita-labs.com/assets/blog/pinello/feed/feed-score.png)
 
@@ -89,19 +88,19 @@ Exactly what the name says: a small, free extension (48 KB) that removes promote
 
 ## How these extensions work (and why maintenance matters)
 
-All five work the same basic way. Pinterest marks paid Pins with a label and page markers. The extension spots those as you scroll and hides the Pin in your browser. Nothing changes on Pinterest's side or in your account.
+All five work in a similar way: they recognise Pinterest's ad labels as you scroll and hide those Pins on your screen. Nothing changes in your Pinterest account.
 
 Two things follow from that:
 
-1. **They can break when Pinterest changes its markup.** An actively maintained extension gets fixed quickly. An abandoned one quietly stops working.
-2. **They only work on desktop Chrome** (and usually other Chromium browsers such as Edge and Brave). None of them work in the Pinterest app on iPhone or Android. On mobile, you're limited to Pinterest's own *Hide Pin* and *Block* options.
+1. **They can stop working when Pinterest redesigns.** An actively maintained extension gets fixed quickly. An abandoned one quietly stops working.
+2. **They only work on a computer**, in Chrome (and usually Edge and Brave too). None of them work in the Pinterest app on iPhone or Android. On mobile, you're limited to Pinterest's own *Hide Pin* and *Block* options.
 
 ## What to check before installing any Pinterest extension
 
 Whichever one you choose, spend thirty seconds on its store page first:
 
-- **Site access.** A Pinterest ad blocker should only ask to run on Pinterest (and maybe Pinterest's image domain). If it wants "read and change all your data on all websites", ask yourself why.
-- **Privacy section.** Scroll to *Privacy* on the listing. Pinello collects anonymous usage analytics and sends Pin text only when you click an AI action, and it says so on its listing.
+- **Permissions.** A Pinterest ad blocker should only need access to Pinterest. If it asks to "read and change all your data on all websites", ask yourself why.
+- **Privacy section.** Scroll to *Privacy* on the listing and check what the developer says it collects. Pinello spells it out there.
 - **Recent reviews.** Sort by newest. "Stopped working" reviews from last month tell you more than a 5-star review from 2024.
 - **A way to reach the developer.** A website or support email means someone is likely to fix it when Pinterest changes.
 

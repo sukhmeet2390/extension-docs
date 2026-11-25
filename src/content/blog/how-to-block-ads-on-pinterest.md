@@ -67,12 +67,12 @@ From then on, Pins that Pinterest marks as promoted or sponsored drop out of you
 A few things to know before you rely on it:
 
 - **It's Pinterest-only.** Pinello doesn't block ads on other websites. If you want that, a general ad blocker is the right tool.
-- **It relies on Pinterest's labels and page structure.** Pinello looks for Pinterest's promoted markers and the "Promoted"/"Sponsored" badge. If Pinterest changes how it marks ads, there can be a short gap until the extension is updated. That's true of every Pinterest ad blocker, not just this one.
+- **It follows Pinterest's own ad labels.** If Pinterest redesigns how it shows ads, there can be a short gap before an update catches up. That's true of every Pinterest ad blocker, not just this one.
 - **It's free.** Hide ads is on the Free plan. The Pro plan ($8.99/month or $79/year, 7-day trial) is about scoring limits, CSV export and hiding AI-labelled Pins. You don't need it to hide ads.
 
 ## Method 3: A general ad blocker
 
-General ad blockers mostly target third-party ad networks: banners, trackers, video pre-rolls. Pinterest's promoted Pins aren't really banners. They're regular Pins served by Pinterest itself, with a label. Some blocker filter lists include rules for them and some don't, and those rules can break when Pinterest changes its layout.
+General ad blockers are built for banner ads and video ads around the web. Pinterest's promoted Pins aren't banners: they look like normal Pins, with a small label. Some general blockers catch them and some don't, and that can change whenever Pinterest updates its site.
 
 If you already run a general blocker, check your feed first. If promoted Pins are still showing up, a Pinterest-specific extension is the simpler fix.
 
@@ -90,13 +90,13 @@ If ads on mobile drive you mad, the most practical answer is to do your heavy br
 
 If you've turned on a Pinterest ad blocker and still see promoted Pins, work through this list before giving up on it:
 
-1. **Reload the tab.** Extensions attach when the page loads. If you installed it with Pinterest already open, the current tab won't have it yet.
+1. **Reload the tab.** If you installed the extension with Pinterest already open, refresh the page so it can start working.
 2. **Check the switch is actually on.** In Pinello it's *Hide ads* under Browse Controls in the side panel. It starts off, so nothing is hidden until you turn it on.
-3. **Make sure the extension has access to Pinterest.** In Chrome, right-click the extension icon → *This can read and change site data* → make sure pinterest.com is allowed. If you set Chrome to "on click", the extension only runs after you click it.
+3. **Make sure the extension is allowed on Pinterest.** Open Chrome's extensions menu (the puzzle-piece icon) and check Pinello is switched on for pinterest.com.
 4. **Look at what's slipping through.** Is it labelled *Promoted* or *Sponsored*? If not, it's probably a regular Pin from a brand (a shop's own Pin isn't an ad unless someone paid to promote it). Shopping modules and "shop the look" cards aren't always marked as ads either.
 5. **Turn off other Pinterest extensions for a minute.** Two extensions rewriting the same feed can trip each other up.
 
-If labelled ads are still getting through after all that, Pinterest has probably changed its page again. Report it to the developer. For Pinello, that's hello@amrita-labs.com, and a screenshot of the Pin helps a lot.
+If labelled ads are still getting through after all that, Pinterest has probably changed its design again. Report it to the developer. For Pinello, that's hello@amrita-labs.com, and a screenshot of the Pin helps a lot.
 
 ## What about AI Pins?
 

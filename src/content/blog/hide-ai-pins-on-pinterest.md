@@ -38,7 +38,7 @@ Pinterest's help page calls it a way to "see fewer Gen AI Pins" and "reduce AI c
 
 - **It's per category.** It covers the topics Pinterest lists, such as home decor, beauty, fashion, food and drink and art. Outside those, you get the usual mix.
 - **It's "fewer", not "none".** AI Pins still show up, especially in search results.
-- **It only acts on what Pinterest detects.** An AI image with no label and no metadata looks like any other Pin to Pinterest.
+- **It only acts on what Pinterest recognises as AI.** An AI image Pinterest hasn't spotted looks like any other Pin.
 - **It doesn't touch ads.** Pinterest notes that changing recommendations won't affect the ads in your home feed.
 
 For a lot of people that's enough. Try it for a week before installing anything.
@@ -57,7 +57,7 @@ Here's the list from the Chrome Web Store, as of 25 November 2026:
 | Feed Cleaner for Pinterest | Ads free; Pro $2.99/mo, $19.99/yr or $39 lifetime for AI Pins and more | Ads, promoted and shopping Pins; AI Pins in Pro |
 | Pinello | Hide ads free; Hide AI pins in Pro ($8.99/mo or $79/yr) | Ads (Free); AI-labelled Pins (Pro); plus Pin scoring |
 
-All of them work the same basic way: they read the AI label Pinterest puts on a Pin and hide that Pin. None of them can see whether an image is AI-made. If Pinterest hasn't labelled it, it stays.
+All of them work the same basic way: they look for Pinterest's AI label and hide that Pin. None of them can see whether an image is AI-made. If Pinterest hasn't labelled it, it stays.
 
 ### Which one should you pick?
 
@@ -82,7 +82,7 @@ The feed controls live in the side panel:
 2. Click the Pinello toolbar icon to open the side panel.
 3. Under **Browse Controls**, turn on **Hide AI pins** (Pro, with a 7-day free trial).
 
-It hides Pins that carry Pinterest's AI label: "AI modified", "AI generated", "Created with AI" and similar. Right now that's the English wording. Like every tool in the table, it won't catch AI images that Pinterest hasn't labelled.
+It hides Pins that Pinterest labels as AI, such as "AI modified". Like every tool in the table, it won't catch AI images that Pinterest hasn't labelled.
 
 The **Hide ads** switch right above it is free. If promoted Pins bother you as much as AI ones, turn that on too.
 
@@ -121,7 +121,7 @@ Hiding Pins in your browser with Pinello doesn't send anything to Pinterest. The
 ## The short version
 
 - Turn off **Show AI content** in Pinterest first. It's free and works on the app.
-- On desktop, add a label-based extension if "fewer" isn't enough. Free ones exist.
+- On a computer, add an extension if "fewer" isn't enough. Free ones exist.
 
 If you make Pins and want ad hiding, AI hiding and Pin checks in one side panel, [try Pinello](https://amrita-labs.com/pinello/?utm_source=amrita-labs&utm_medium=owned-content&utm_campaign=pinello_ad-blocker_2026-11&utm_content=hide-ai-pins-on-pinterest#hide-pinterest-ads). Hide ads is free, and Hide AI pins is part of Pro.
 
