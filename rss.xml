@@ -201,7 +201,7 @@ If you&apos;ve turned on a Pinterest ad blocker and still see promoted Pins, wor
 
 1. **Reload the tab.** If you installed the extension with Pinterest already open, refresh the page so it can start working.
 2. **Check the switch is actually on.** In Pinello it&apos;s *Hide ads* under Browse Controls in the side panel. It starts off, so nothing is hidden until you turn it on.
-3. **Make sure the extension is allowed on Pinterest.** Open Chrome&apos;s extensions menu (the puzzle-piece icon) and check Pinello is switched on for pinterest.com.
+3. **Make sure the extension can run on Pinterest.** Click the puzzle-piece icon in Chrome, then the three dots next to Pinello, and set it to run on pinterest.com (not only when you click it).
 4. **Look at what&apos;s slipping through.** Is it labelled *Promoted* or *Sponsored*? If not, it&apos;s probably a regular Pin from a brand (a shop&apos;s own Pin isn&apos;t an ad unless someone paid to promote it). Shopping modules and &quot;shop the look&quot; cards aren&apos;t always marked as ads either.
 5. **Turn off other Pinterest extensions for a minute.** Two extensions rewriting the same feed can trip each other up.
 
@@ -278,7 +278,7 @@ Why I think it&apos;s the strongest option:
 - **It&apos;s actively maintained.** Pinterest ad blockers break when Pinterest changes its page, so they need someone to fix them quickly. Pinello ships regular updates.
 - **Your feed becomes more useful, not just emptier.** Every Pin card gets a Feed Score. Open a Pin and you see its saves, engagement per day, board and a fuller Pin Detail Score. If you save ideas for projects, recipes, products or a business, that tells you which Pins are worth your time.
 - **It&apos;s built for people who make Pins.** If you post on Pinterest (a blog, an Etsy shop, a print-on-demand store), the Pin Doctor checks your draft inside Create Pin before you publish. No other extension in this list does that.
-- **Private by default.** The Pins you browse stay on your computer. Pinello doesn&apos;t send your feed anywhere.
+- **Private by default.** Pinello doesn&apos;t send the Pins you browse anywhere.
 
 ![Pinterest feed with Pinello Feed Score badges on each Pin card](https://amrita-labs.com/assets/blog/pinello/feed/feed-score.png)
 
