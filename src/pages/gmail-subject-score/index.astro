@@ -18,7 +18,7 @@ const pricingTiers = [
     items: [
       '10 AI scores per day, 50 per month',
       'Spam risk, clarity, and urgency as you type',
-      'AI rewrite suggestions after each score',
+      'AI rewrite suggestions after each score (Professional tone)',
       'Re-scoring a subject from the last 24 hours is free',
     ],
   },
@@ -32,6 +32,7 @@ const pricingTiers = [
     featured: true,
     items: [
       'Unlimited scores and AI rewrites (fair use: 1,000 AI requests per month)',
+      'Rewrite tones: Professional, Friendly, Urgent or Casual',
       'Every install starts with 14 days of Pro — no card needed',
       'Cancel any time from the extension popup',
     ],
@@ -48,8 +49,8 @@ const schema = {
       "applicationCategory": "BrowserExtension",
       "operatingSystem": "Chrome",
       "offers": [
-        { "@type": "Offer", "name": "Free", "price": "0", "priceCurrency": "USD", "description": "10 AI scores per day, 50 per month, with rewrite suggestions. No signup." },
-        { "@type": "Offer", "name": "Pro (monthly)", "price": "5", "priceCurrency": "USD", "priceSpecification": { "@type": "UnitPriceSpecification", "price": "5", "priceCurrency": "USD", "billingDuration": "P1M" }, "description": "Unlimited scores and rewrites within fair use (1,000 AI calls per month). Every install starts with a 14-day Pro trial, no card needed." },
+        { "@type": "Offer", "name": "Free", "price": "0", "priceCurrency": "USD", "description": "10 AI scores per day, 50 per month, with Professional-tone rewrite suggestions. No signup." },
+        { "@type": "Offer", "name": "Pro (monthly)", "price": "5", "priceCurrency": "USD", "priceSpecification": { "@type": "UnitPriceSpecification", "price": "5", "priceCurrency": "USD", "billingDuration": "P1M" }, "description": "Unlimited scores and rewrites in four tones (Professional, Friendly, Urgent, Casual) within fair use (1,000 AI calls per month). Every install starts with a 14-day Pro trial, no card needed." },
         { "@type": "Offer", "name": "Pro (annual)", "price": "49", "priceCurrency": "USD", "priceSpecification": { "@type": "UnitPriceSpecification", "price": "49", "priceCurrency": "USD", "billingDuration": "P1Y" }, "description": "All Pro features on annual billing. 14-day Pro trial on install, no card needed." }
       ],
       "url": "https://amrita-labs.com/gmail-subject-score/",
