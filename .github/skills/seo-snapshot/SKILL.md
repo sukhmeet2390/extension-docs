@@ -124,6 +124,9 @@ qualifies.
    - Baseline: the live previous window. If Google returns no previous-window
      query rows, compare with the previous report's *Query table* only when its
      window is exactly the previous window, and label it as the baseline.
+     That table omits queries under 3 impressions and beyond 100 rows, so a
+     query missing from it is unknown, not zero: classify only queries it
+     lists as `rising` or `falling`, and report no `new` queries from it.
      Otherwise write `Not available` and say why.
 2. **Content gaps** (signals window, `query` + `page` rows): a query's ranking
    page is the page with the most impressions for it (better position breaks
