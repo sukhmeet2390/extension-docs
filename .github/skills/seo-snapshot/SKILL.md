@@ -64,6 +64,11 @@ fails for Bing.
   the latest returned Google date (the *signals window*) with `query` + `page`
   and with `page`. In monthly mode, the current window is already 28 days, so
   reuse it.
+- If any of these responses returns exactly 1,000 rows, treat it as truncated:
+  a missing query or page is unknown, not zero. Before classifying a query as
+  `new` or `falling`, or reporting a post's top queries, confirm it with an
+  exact `query` or `page` filter for the affected window. If you can't confirm
+  it, omit that classification and state the truncation in *Content signals*.
 
 ### Bing
 
